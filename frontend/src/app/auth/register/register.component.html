@@ -1,1 +1,53 @@
-<p>register works!</p>
+<div class='wrapper'>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">Crypto Merchandise</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+           <li class="nav-item">
+             <a class="nav-link" [routerLink]="['../','login']">Login </a>
+           </li>
+           <li class="nav-item disabled">
+             <a class="nav-link">Register</a>
+           </li>
+         </ul>
+
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <div class="card card-login">
+          <h3 class="card-title">Register</h3>
+          <form action="">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="mail" class="form-control" placeholder="example@123.com">
+            </div>
+             <div class="form-group">
+               <label for="name">Full Name</label>
+               <input type="text" class="form-control" placeholder="example@123.com">
+             </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+            <div class="form-group">
+              <label for="password">Confirm Password</label>
+              <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+            <button class="btn btn-danger btn-block btn-round">Register</button>
+          </form>
+          <!-- <div class="forgot">
+            <a class="btn btn-link btn-danger" href="">Forgot password?</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

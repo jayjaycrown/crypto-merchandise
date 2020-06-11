@@ -1,30 +1,45 @@
-<header>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-        aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu" aria-labelledby="dropdownId">
-            <a class="dropdown-item" href="#">Action 1</a>
-            <a class="dropdown-item" href="#">Action 2</a>
+<div class='wrapper'>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">Crypto Merchandise</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link">Login </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['register']">Register</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+ <div class="container">
+   <div class="row">
+     <div class="col-md-4 offset-md-4">
+       <div class="card card-login">
+         <h3 class="card-title">Login</h3>
+         <form action="">
+           <div class="form-group">
+             <label for="email">Email</label>
+             <input type="mail" class="form-control" placeholder="example@123.com">
+           </div>
+           <div class="form-group">
+             <label for="password">Password</label>
+             <input type="password" class="form-control" placeholder="Enter Password">
+           </div>
+           <button class="btn btn-danger btn-block btn-round">Login</button>
+         </form>
+          <div class="forgot">
+            <a class="btn btn-link btn-danger" href="">Forgot password?</a>
           </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-</header>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>

@@ -1,0 +1,82 @@
+.wrapper {
+  background: url('../../../assets/img/background.jpg') center center;
+  min-height: 100vh;
+}
+header{
+  display: block;
+  padding: 30px 100px;
+}
+header a {
+  color: rgb(221, 221, 221) !important;
+  font-weight: bold;
+}
+header a:hover {
+  color: #fff !important;
+}
+.nav-item.active a {
+  color: #eee !important;
+}
+
+.bg-light {
+  background: transparent !important;
+}
+
+/* section {
+  margin: 20px auto !important;
+} */
+.card-login {
+  background-color: #ff8f5e;
+  border-radius: 8px;
+  color: #fff;
+  max-width: 350px;
+  margin: 20px 0 70px;
+  min-height: 400px;
+  padding: 30px;
+
+}
+.card-login .card-title{
+  color: #b33c12;
+  text-align: center;
+}
+
+.card-login .btn {
+  margin-top: 30px;
+}
+.card-login .forgot {
+  text-align: center;
+}
+.btn-danger.btn-link {
+  color:#f5593d;
+}
+.btn.btn-border,
+.btn.btn-link {
+  background-color:transparent;
+}
+.btn-link {
+  border-color: transparent !important;
+  padding: 7px 18px;
+}
+.container {
+  margin-top: 4%;
+  position: relative;
+  z-index: 3;
+}
+
+
+.h3,
+h3 {
+  font-size: 1.825em;
+  line-height: 1.4;
+  margin: 20px 0 0;
+}
+
+.btn-round {
+  border-radius: 30px;
+}
+.btn-danger {
+  background-color:#f5593d;
+  border-color:#f5593d;
+  color:#fff;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
