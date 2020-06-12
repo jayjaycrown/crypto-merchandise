@@ -1,45 +1,54 @@
-<div class='wrapper'>
-  <header>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <a class="navbar-brand" href="#">Crypto Merchandise</a>
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link">Login </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" [routerLink]="['register']">Register</a>
-          </li>
-        </ul>
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-6 left">
+              <!-- <div class="left-text">
+                <h3>Get Started</h3>
+                <br>
+                <button class="btn btn-lg btn-block btn-outline-light">Sign In with Google</button>
+                <button class="btn btn-lg btn-block btn-outline-light">Sign In with Facebook</button>
+              </div> -->
+            </div>
+            <div class="col-md-6  right">
+              <div class="header">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-light disabled">Log In</button>
+                  <button type="button" class="btn btn-primary" [routerLink]="['register']">Register</button>
+                </div>
+              </div>
+              <div class="form-div">
+                <h3>Login</h3>
+                <br>
+                <form action="">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fa fa-envelope"></i></div>
+                    </div>
+                    <input type="email" class="form-control" id="inlineFormInputGroup"
+                      placeholder="Enter your E-mail">
+                  </div>
 
-      </div>
-    </nav>
-  </header>
- <div class="container">
-   <div class="row">
-     <div class="col-md-4 offset-md-4">
-       <div class="card card-login">
-         <h3 class="card-title">Login</h3>
-         <form action="">
-           <div class="form-group">
-             <label for="email">Email</label>
-             <input type="mail" class="form-control" placeholder="example@123.com">
-           </div>
-           <div class="form-group">
-             <label for="password">Password</label>
-             <input type="password" class="form-control" placeholder="Enter Password">
-           </div>
-           <button class="btn btn-danger btn-block btn-round">Login</button>
-         </form>
-          <div class="forgot">
-            <a class="btn btn-link btn-danger" href="">Forgot password?</a>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fa fa-unlock" aria-hidden="true"></i></div>
+                    </div>
+                    <input type="password" class="form-control" id="inlineFormInputGroup"
+                      placeholder="Enter your Password">
+                  </div>
+                  <button class="btn btn-primary btn-lg btn-block btn-round">Sign In</button>
+                </form>
+                <div class="forgot">
+                  <a class="btn btn-link btn-danger" href="">Forgot password?</a>
+                </div>
+              </div>
+            </div>
           </div>
-       </div>
-     </div>
-   </div>
- </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
