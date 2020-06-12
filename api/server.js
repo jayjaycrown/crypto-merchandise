@@ -1,7 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import bodyparser from 'body-parser';
-import userAuthRoute from './routes/users/auth';
+import userAuthRoute from './routes/auth';
+import membersRoute from './routes/admin/members';
 var dotenv = require('dotenv').config();
 var app = express();
 var port = process.env.LOCAL_PORT || process.env.port
@@ -19,6 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(bodyparser.urlencoded({extended: false}));
 
 app.use('/auth', userAuthRoute)
+app.use('/api', membersRoute)
 app.use(cors(corsOptions));
 
 app.listen(port, process.env.IP, () => {

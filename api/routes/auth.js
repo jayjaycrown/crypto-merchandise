@@ -91,7 +91,8 @@ router.get('/verify_email/:token', (req, res) => {
 //route for users to login their account
 router.post('/login', (req, res) => {
 	knex('users').where({
-		email: req.body.email
+		email: req.body.email,
+		status: 'member'
 	})
 	.then((result) => {
 		if (result <= 0) {
@@ -121,6 +122,44 @@ router.post('/login', (req, res) => {
 	})
 	.catch((err) => console.log('error'))
 })
+
+
+//route for admin to login their account
+router.post('/login_admin', (req, res) => {
+	knex('users').where({
+		email: req.body.email,
+		status: 'admin'
+	})
+	.then((result) => {
+		if (result <= 0) {
+			res.json("User details doesn't exist")
+		} else {
+			const __userId = result[0].id
+			const __status = result[0].status
+			const __password = result[0].password
+			const user = {
+				id: __userId,
+				status: __status
+			}
+			bcrypt.compare(req.body.password, __password, (err, result) => {
+				if (result ===  false) {
+					res.json('Invalid login credentials')
+				} else {
+					jwt.sign({user}, 'secretKey', {expiresIn: '1h'}, (err, token) => {
+						res.status(200).json({
+							token,
+							status: __status,
+							userId: __userId
+						})
+					})
+				}
+			})
+		}
+	})
+	.catch((err) => console.log('error'))
+})
+
+
 
 router.get('/dashboard', isValidUser, (req, res) => {
 
