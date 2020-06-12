@@ -1,0 +1,42 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API/Backend codes for crypto-merchantile platform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjaycrown/crypto-merchandise.git"
+  },
+  "keywords": [
+    "crypto",
+    "merchantile"
+  ],
+  "author": "Kizito917",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayjaycrown/crypto-merchandise/issues"
+  },
+  "homepage": "https://github.com/jayjaycrown/crypto-merchandise#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
