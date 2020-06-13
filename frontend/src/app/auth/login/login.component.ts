@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
+import { LoadingBarService } from '@ngx-loading-bar/core';
+
+import { AuthService } from '../../services/auth.service';
+import { UserModel } from 'src/app/helpers/user.model';
 
 @Component({
   selector: 'app-login',
@@ -7,7 +13,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  userDetail: UserModel[] = [];
+
+  model = {
+    email: '',
+    password: ''
+  };
+  successMessage: string;
+  serverErrorMessages: string;
+  constructor(private userService: AuthService, private router: Router, public loader: LoadingBarService) { }
+
+  onSubmit(form: NgForm) {
+    this.loader.start(10);
+    this.userService.login(form.value).subscribe(
+      res => {
+        this.successMessage = res.message;
+        // this.userService.setToken(res.token);
+        // this.userService.expiresIn(res.expiresIn);
+        this.userService.setUser(res.user._id);
+        this.userDetail = res.user;
+        // console.log(this.userDetail);
+        alert(this.successMessage);
+        this.loader.stop();
+        this.router.navigateByUrl('/event');
+      },
+      err => {
+        this.serverErrorMessages = err.error.message;
+        alert(this.serverErrorMessages);
+        console.log(err);
+        this.loader.stop();
+      }
+    );
+  }
 
   ngOnInit(): void {
   }

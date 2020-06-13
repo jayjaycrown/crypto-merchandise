@@ -22,13 +22,23 @@
               <div class="form-div">
                 <h3>Login</h3>
                 <br>
-                <form action="">
+                <form #signInForm="ngForm" (ngSubmit)="signInForm.valid && onSubmit(signInForm)">
+                  <ngx-loading-bar [color]="'red'"></ngx-loading-bar>
+                  <div class="alert alert-danger" *ngIf="serverErrorMessages">
+                    {{serverErrorMessages}}
+                  </div>
+                  <div class="alert alert-success" *ngIf="successMessage">
+                    {{successMessage}}
+                  </div>
                   <div class="input-group mb-3">
                     <div class="input-group-prepend">
                       <div class="input-group-text"><i class="fa fa-envelope"></i></div>
                     </div>
-                    <input type="email" class="form-control" id="inlineFormInputGroup"
-                      placeholder="Enter your E-mail">
+                    <input type="email" name="email" class="form-control" id="inlineFormInputGroup"
+                      placeholder="Enter your E-mail"
+                      required #email="ngModel"
+                      [(ngModel)]="model.email"
+                      [ngClass]="{'invalid-textbox' :signInForm.submitted && !email.valid }">
                   </div>
 
                   <div class="input-group mb-3">
@@ -36,9 +46,12 @@
                       <div class="input-group-text"><i class="fa fa-unlock" aria-hidden="true"></i></div>
                     </div>
                     <input type="password" class="form-control" id="inlineFormInputGroup"
-                      placeholder="Enter your Password">
+                      placeholder="Enter your Password"
+                       name="password" #password="ngModel"
+                       [(ngModel)]="model.password" required minlength="4"
+                       [ngClass]="{'invalid-textbox' :signInForm.submitted && !password.valid }">
                   </div>
-                  <button class="btn btn-primary btn-lg btn-block btn-round">Sign In</button>
+                  <button class="btn btn-primary btn-lg btn-block btn-round" type="submit">Sign In</button>
                 </form>
                 <div class="forgot">
                   <a class="btn btn-link btn-danger" href="">Forgot password?</a>
@@ -46,7 +59,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

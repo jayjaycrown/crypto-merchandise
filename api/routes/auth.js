@@ -1,6 +1,6 @@
 import express from 'express';
 import sgMail from '@sendgrid/mail';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 var router = express.Router();
@@ -23,8 +23,8 @@ router.post('/signup', (req, res) => {
 	const gottenEmail = req.body.email
 	const tokenToSave = crypto.randomBytes(20).toString('hex');
 	const link = `https://${req.headers.host}/auth/verify_email/${tokenToSave}`
-	knex('users').where({
-	  email: gottenEmail
+	knex .from('users').where({
+	  email: req.body.email
 	}).select('email')
 	.then((result) => {
 		if (result.length <= 0) {
@@ -65,7 +65,7 @@ router.post('/signup', (req, res) => {
 	.catch((err) => console.log(err))
 })
 
-//route for user to verify link sent to mail 
+//route for user to verify link sent to mail
 router.get('/verify_email/:token', (req, res) => {
 	const mailLink = req.params.token
 	knex('users').where({
@@ -74,7 +74,7 @@ router.get('/verify_email/:token', (req, res) => {
 	.then(() => {
 		knex('users')
 		.where({ token: mailLink })
-		.update({ 
+		.update({
 			verified: "Yes",
 			token: ''
 		})
@@ -167,7 +167,7 @@ router.get('/dashboard', isValidUser, (req, res) => {
 
 
 
-//middleware function 
+//middleware function
 function isValidUser(req, res, next) {
 	const bearerHeader = req.headers['authorization'];
 	if (typeof bearerHeader !== 'undefined') {

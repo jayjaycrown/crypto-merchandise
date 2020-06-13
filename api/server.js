@@ -1,12 +1,21 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
 import bodyparser from 'body-parser';
+
 import userAuthRoute from './routes/auth';
 import membersRoute from './routes/admin/members';
 var dotenv = require('dotenv').config();
 var app = express();
 var port = process.env.LOCAL_PORT || process.env.port
 
+// view engine setup
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyparser.json());
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/index.html'));
+});
 
 var corsOptions = {
   origin: "*",
@@ -26,4 +35,3 @@ app.use(cors(corsOptions));
 app.listen(port, process.env.IP, () => {
 	console.log(`Crypto-merchantile currently listening to port ${port}`);
 })
-
