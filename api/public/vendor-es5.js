@@ -52,15 +52,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendor"], {
   /***/
-  "./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js":
-  /*!******************************************************************************!*\
-    !*** ./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js ***!
-    \******************************************************************************/
+  "./node_modules/@angular/animations/fesm2015/animations.js":
+  /*!*****************************************************************!*\
+    !*** ./node_modules/@angular/animations/fesm2015/animations.js ***!
+    \*****************************************************************/
 
   /*! exports provided: AUTO_STYLE, AnimationBuilder, AnimationFactory, NoopAnimationPlayer, animate, animateChild, animation, group, keyframes, query, sequence, stagger, state, style, transition, trigger, useAnimation, ɵAnimationGroupPlayer, ɵPRE_STYLE */
 
   /***/
-  function node_modulesAngularAnimations__ivy_ngcc__Fesm2015AnimationsJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularAnimationsFesm2015AnimationsJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -2245,15 +2245,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js":
-  /*!***************************************************************************!*\
-    !*** ./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js ***!
-    \***************************************************************************/
+  "./node_modules/@angular/animations/fesm2015/browser.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/animations/fesm2015/browser.js ***!
+    \**************************************************************/
 
   /*! exports provided: AnimationDriver, ɵAnimation, ɵAnimationEngine, ɵAnimationStyleNormalizer, ɵCssKeyframesDriver, ɵCssKeyframesPlayer, ɵNoopAnimationDriver, ɵNoopAnimationStyleNormalizer, ɵWebAnimationsDriver, ɵWebAnimationsPlayer, ɵWebAnimationsStyleNormalizer, ɵallowPreviousPlayerStylesMerge, ɵangular_packages_animations_browser_browser_a, ɵcontainsElement, ɵinvokeQuery, ɵmatchesElement, ɵsupportsWebAnimations, ɵvalidateStyleProperty */
 
   /***/
-  function node_modulesAngularAnimations__ivy_ngcc__Fesm2015BrowserJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularAnimationsFesm2015BrowserJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -2370,13 +2370,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/animations */
-    "./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js");
+    "./node_modules/@angular/animations/fesm2015/animations.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /**
      * @license Angular v9.1.11
      * (c) 2010-2020 Google LLC. https://angular.io/
@@ -2985,26 +2985,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NoopAnimationDriver;
     }();
 
-    NoopAnimationDriver.ɵfac = function NoopAnimationDriver_Factory(t) {
-      return new (t || NoopAnimationDriver)();
-    };
-
-    NoopAnimationDriver.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: NoopAnimationDriver,
-      factory: NoopAnimationDriver.ɵfac
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](NoopAnimationDriver, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], null, null);
-    })();
+    NoopAnimationDriver.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /**
      * \@publicApi
      * @abstract
      */
-
 
     var AnimationDriver = function AnimationDriver() {
       _classCallCheck(this, AnimationDriver);
@@ -13417,15 +13404,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js":
-  /*!**********************************************************************!*\
-    !*** ./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js ***!
-    \**********************************************************************/
+  "./node_modules/@angular/common/fesm2015/common.js":
+  /*!*********************************************************!*\
+    !*** ./node_modules/@angular/common/fesm2015/common.js ***!
+    \*********************************************************/
 
   /*! exports provided: APP_BASE_HREF, AsyncPipe, CommonModule, CurrencyPipe, DOCUMENT, DatePipe, DecimalPipe, FormStyle, FormatWidth, HashLocationStrategy, I18nPluralPipe, I18nSelectPipe, JsonPipe, KeyValuePipe, LOCATION_INITIALIZED, Location, LocationStrategy, LowerCasePipe, NgClass, NgComponentOutlet, NgForOf, NgForOfContext, NgIf, NgIfContext, NgLocaleLocalization, NgLocalization, NgPlural, NgPluralCase, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgTemplateOutlet, NumberFormatStyle, NumberSymbol, PathLocationStrategy, PercentPipe, PlatformLocation, Plural, SlicePipe, TitleCasePipe, TranslationWidth, UpperCasePipe, VERSION, ViewportScroller, WeekDay, formatCurrency, formatDate, formatNumber, formatPercent, getCurrencySymbol, getLocaleCurrencyCode, getLocaleCurrencyName, getLocaleCurrencySymbol, getLocaleDateFormat, getLocaleDateTimeFormat, getLocaleDayNames, getLocaleDayPeriods, getLocaleDirection, getLocaleEraNames, getLocaleExtraDayPeriodRules, getLocaleExtraDayPeriods, getLocaleFirstDayOfWeek, getLocaleId, getLocaleMonthNames, getLocaleNumberFormat, getLocaleNumberSymbol, getLocalePluralCase, getLocaleTimeFormat, getLocaleWeekEndRange, getNumberOfCurrencyDigits, isPlatformBrowser, isPlatformServer, isPlatformWorkerApp, isPlatformWorkerUi, registerLocaleData, ɵBrowserPlatformLocation, ɵDomAdapter, ɵNullViewportScroller, ɵPLATFORM_BROWSER_ID, ɵPLATFORM_SERVER_ID, ɵPLATFORM_WORKER_APP_ID, ɵPLATFORM_WORKER_UI_ID, ɵangular_packages_common_common_a, ɵangular_packages_common_common_b, ɵangular_packages_common_common_c, ɵangular_packages_common_common_d, ɵangular_packages_common_common_e, ɵangular_packages_common_common_f, ɵgetDOM, ɵparseCookieValue, ɵsetRootDomAdapter */
 
   /***/
-  function node_modulesAngularCommon__ivy_ngcc__Fesm2015CommonJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularCommonFesm2015CommonJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -13986,7 +13973,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /**
      * @license Angular v9.1.11
      * (c) 2010-2020 Google LLC. https://angular.io/
@@ -14108,29 +14095,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, PlatformLocation);
     };
 
-    PlatformLocation.ɵfac = function PlatformLocation_Factory(t) {
-      return new (t || PlatformLocation)();
-    };
+    PlatformLocation.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+      args: [{
+        providedIn: 'platform',
+        // See #23917
+        useFactory: useBrowserPlatformLocation
+      }]
+    }];
     /** @nocollapse */
-
 
     PlatformLocation.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({
       factory: useBrowserPlatformLocation,
       token: PlatformLocation,
       providedIn: "platform"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PlatformLocation, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
-        args: [{
-          providedIn: 'platform',
-          // See #23917
-          useFactory: useBrowserPlatformLocation
-        }]
-      }], null, null);
-    })();
 
     if (false) {}
     /**
@@ -14377,11 +14356,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BrowserPlatformLocation;
     }(PlatformLocation);
 
-    BrowserPlatformLocation.ɵfac = function BrowserPlatformLocation_Factory(t) {
-      return new (t || BrowserPlatformLocation)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](DOCUMENT));
-    };
+    BrowserPlatformLocation.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+      args: [{
+        providedIn: 'platform',
+        // See #23917
+        useFactory: createBrowserPlatformLocation
+      }]
+    }];
     /** @nocollapse */
-
 
     BrowserPlatformLocation.ctorParameters = function () {
       return [{
@@ -14400,26 +14383,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       token: BrowserPlatformLocation,
       providedIn: "platform"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BrowserPlatformLocation, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
-        args: [{
-          providedIn: 'platform',
-          // See #23917
-          useFactory: createBrowserPlatformLocation
-        }]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [DOCUMENT]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -14564,28 +14527,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, LocationStrategy);
     };
 
-    LocationStrategy.ɵfac = function LocationStrategy_Factory(t) {
-      return new (t || LocationStrategy)();
-    };
+    LocationStrategy.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+      args: [{
+        providedIn: 'root',
+        useFactory: provideLocationStrategy
+      }]
+    }];
     /** @nocollapse */
-
 
     LocationStrategy.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"])({
       factory: provideLocationStrategy,
       token: LocationStrategy,
       providedIn: "root"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LocationStrategy, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
-        args: [{
-          providedIn: 'root',
-          useFactory: provideLocationStrategy
-        }]
-      }], null, null);
-    })();
 
     if (false) {}
     /**
@@ -14790,14 +14745,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return PathLocationStrategy;
     }(LocationStrategy);
 
-    PathLocationStrategy.ɵfac = function PathLocationStrategy_Factory(t) {
-      return new (t || PathLocationStrategy)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](PlatformLocation), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](APP_BASE_HREF, 8));
-    };
-
-    PathLocationStrategy.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: PathLocationStrategy,
-      factory: PathLocationStrategy.ɵfac
-    });
+    PathLocationStrategy.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
     /** @nocollapse */
 
     PathLocationStrategy.ctorParameters = function () {
@@ -14813,26 +14763,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PathLocationStrategy, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], function () {
-        return [{
-          type: PlatformLocation
-        }, {
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
-          }, {
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [APP_BASE_HREF]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -14999,14 +14929,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return HashLocationStrategy;
     }(LocationStrategy);
 
-    HashLocationStrategy.ɵfac = function HashLocationStrategy_Factory(t) {
-      return new (t || HashLocationStrategy)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](PlatformLocation), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](APP_BASE_HREF, 8));
-    };
-
-    HashLocationStrategy.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: HashLocationStrategy,
-      factory: HashLocationStrategy.ɵfac
-    });
+    HashLocationStrategy.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
     /** @nocollapse */
 
     HashLocationStrategy.ctorParameters = function () {
@@ -15022,26 +14947,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HashLocationStrategy, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], function () {
-        return [{
-          type: PlatformLocation
-        }, {
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Optional"]
-          }, {
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [APP_BASE_HREF]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -15336,10 +15241,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       return Location;
     }();
-
-    Location.ɵfac = function Location_Factory(t) {
-      return new (t || Location)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](LocationStrategy), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](PlatformLocation));
-    };
     /**
      * Normalizes URL parameters by prepending with `?` if needed.
      *
@@ -15372,6 +15273,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
     Location.stripTrailingSlash = stripTrailingSlash;
+    Location.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+      args: [{
+        providedIn: 'root',
+        // See #23917
+        useFactory: createLocation
+      }]
+    }];
     /** @nocollapse */
 
     Location.ctorParameters = function () {
@@ -15389,24 +15298,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       token: Location,
       providedIn: "root"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](Location, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
-        args: [{
-          providedIn: 'root',
-          // See #23917
-          useFactory: createLocation
-        }]
-      }], function () {
-        return [{
-          type: LocationStrategy
-        }, {
-          type: PlatformLocation
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -18184,14 +18075,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgLocaleLocalization;
     }(NgLocalization);
 
-    NgLocaleLocalization.ɵfac = function NgLocaleLocalization_Factory(t) {
-      return new (t || NgLocaleLocalization)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]));
-    };
-
-    NgLocaleLocalization.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: NgLocaleLocalization,
-      factory: NgLocaleLocalization.ɵfac
-    });
+    NgLocaleLocalization.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
     /** @nocollapse */
 
     NgLocaleLocalization.ctorParameters = function () {
@@ -18203,22 +18089,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgLocaleLocalization, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], function () {
-        return [{
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -18598,18 +18468,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgClass;
     }();
 
-    NgClass.ɵfac = function NgClass_Factory(t) {
-      return new (t || NgClass)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["IterableDiffers"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]));
-    };
-
-    NgClass.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgClass,
-      selectors: [["", "ngClass", ""]],
-      inputs: {
-        klass: ["class", "klass"],
-        ngClass: "ngClass"
-      }
-    });
+    NgClass.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngClass]'
+      }]
+    }];
     /** @nocollapse */
 
     NgClass.ctorParameters = function () {
@@ -18634,35 +18498,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         args: ['ngClass']
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgClass, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngClass]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["IterableDiffers"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]
-        }];
-      }, {
-        klass: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
-          args: ['class']
-        }],
-        ngClass: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
-          args: ['ngClass']
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -18791,21 +18626,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgComponentOutlet;
     }();
 
-    NgComponentOutlet.ɵfac = function NgComponentOutlet_Factory(t) {
-      return new (t || NgComponentOutlet)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]));
-    };
-
-    NgComponentOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgComponentOutlet,
-      selectors: [["", "ngComponentOutlet", ""]],
-      inputs: {
-        ngComponentOutlet: "ngComponentOutlet",
-        ngComponentOutletInjector: "ngComponentOutletInjector",
-        ngComponentOutletContent: "ngComponentOutletContent",
-        ngComponentOutletNgModuleFactory: "ngComponentOutletNgModuleFactory"
-      },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]]
-    });
+    NgComponentOutlet.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngComponentOutlet]'
+      }]
+    }];
     /** @nocollapse */
 
     NgComponentOutlet.ctorParameters = function () {
@@ -18828,33 +18654,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgComponentOutlet, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngComponentOutlet]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }];
-      }, {
-        ngComponentOutlet: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngComponentOutletInjector: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngComponentOutletContent: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngComponentOutletNgModuleFactory: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -19270,19 +19069,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgForOf;
     }();
 
-    NgForOf.ɵfac = function NgForOf_Factory(t) {
-      return new (t || NgForOf)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["IterableDiffers"]));
-    };
-
-    NgForOf.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgForOf,
-      selectors: [["", "ngFor", "", "ngForOf", ""]],
-      inputs: {
-        ngForOf: "ngForOf",
-        ngForTrackBy: "ngForTrackBy",
-        ngForTemplate: "ngForTemplate"
-      }
-    });
+    NgForOf.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngFor][ngForOf]'
+      }]
+    }];
     /** @nocollapse */
 
     NgForOf.ctorParameters = function () {
@@ -19306,34 +19098,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgForOf, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngFor][ngForOf]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["IterableDiffers"]
-        }];
-      }, {
-        ngForOf: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngForTrackBy: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngForTemplate: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -19622,19 +19386,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgIf;
     }();
 
-    NgIf.ɵfac = function NgIf_Factory(t) {
-      return new (t || NgIf)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]));
-    };
-
-    NgIf.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgIf,
-      selectors: [["", "ngIf", ""]],
-      inputs: {
-        ngIf: "ngIf",
-        ngIfThen: "ngIfThen",
-        ngIfElse: "ngIfElse"
-      }
-    });
+    NgIf.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngIf]'
+      }]
+    }];
     /** @nocollapse */
 
     NgIf.ctorParameters = function () {
@@ -19656,32 +19413,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgIf, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngIf]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]
-        }];
-      }, {
-        ngIf: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngIfThen: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngIfElse: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -19943,38 +19674,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgSwitch;
     }();
 
-    NgSwitch.ɵfac = function NgSwitch_Factory(t) {
-      return new (t || NgSwitch)();
-    };
-
-    NgSwitch.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgSwitch,
-      selectors: [["", "ngSwitch", ""]],
-      inputs: {
-        ngSwitch: "ngSwitch"
-      }
-    });
+    NgSwitch.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngSwitch]'
+      }]
+    }];
     NgSwitch.propDecorators = {
       ngSwitch: [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgSwitch, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngSwitch]'
-        }]
-      }], function () {
-        return [];
-      }, {
-        ngSwitch: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -20043,17 +19753,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgSwitchCase;
     }();
 
-    NgSwitchCase.ɵfac = function NgSwitchCase_Factory(t) {
-      return new (t || NgSwitchCase)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgSwitch, 1));
-    };
-
-    NgSwitchCase.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgSwitchCase,
-      selectors: [["", "ngSwitchCase", ""]],
-      inputs: {
-        ngSwitchCase: "ngSwitchCase"
-      }
-    });
+    NgSwitchCase.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngSwitchCase]'
+      }]
+    }];
     /** @nocollapse */
 
     NgSwitchCase.ctorParameters = function () {
@@ -20074,31 +19779,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgSwitchCase, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngSwitchCase]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]
-        }, {
-          type: NgSwitch,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"]
-          }]
-        }];
-      }, {
-        ngSwitchCase: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -20129,14 +19809,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       ngSwitch._addDefault(new SwitchView(viewContainer, templateRef));
     };
 
-    NgSwitchDefault.ɵfac = function NgSwitchDefault_Factory(t) {
-      return new (t || NgSwitchDefault)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgSwitch, 1));
-    };
-
-    NgSwitchDefault.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgSwitchDefault,
-      selectors: [["", "ngSwitchDefault", ""]]
-    });
+    NgSwitchDefault.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngSwitchDefault]'
+      }]
+    }];
     /** @nocollapse */
 
     NgSwitchDefault.ctorParameters = function () {
@@ -20151,28 +19829,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgSwitchDefault, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngSwitchDefault]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]
-        }, {
-          type: NgSwitch,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"]
-          }]
-        }];
-      }, null);
-    })();
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/directives/ng_plural.ts
@@ -20295,17 +19951,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgPlural;
     }();
 
-    NgPlural.ɵfac = function NgPlural_Factory(t) {
-      return new (t || NgPlural)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgLocalization));
-    };
-
-    NgPlural.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgPlural,
-      selectors: [["", "ngPlural", ""]],
-      inputs: {
-        ngPlural: "ngPlural"
-      }
-    });
+    NgPlural.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngPlural]'
+      }]
+    }];
     /** @nocollapse */
 
     NgPlural.ctorParameters = function () {
@@ -20319,24 +19970,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgPlural, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngPlural]'
-        }]
-      }], function () {
-        return [{
-          type: NgLocalization
-        }];
-      }, {
-        ngPlural: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -20378,14 +20011,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       ngPlural.addCase(isANumber ? "=".concat(value) : value, new SwitchView(viewContainer, template));
     };
 
-    NgPluralCase.ɵfac = function NgPluralCase_Factory(t) {
-      return new (t || NgPluralCase)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinjectAttribute"]('ngPluralCase'), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgPlural, 1));
-    };
-
-    NgPluralCase.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgPluralCase,
-      selectors: [["", "ngPluralCase", ""]]
-    });
+    NgPluralCase.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngPluralCase]'
+      }]
+    }];
     /** @nocollapse */
 
     NgPluralCase.ctorParameters = function () {
@@ -20406,34 +20037,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgPluralCase, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngPluralCase]'
-        }]
-      }], function () {
-        return [{
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Attribute"],
-            args: ['ngPluralCase']
-          }]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }, {
-          type: NgPlural,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Host"]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -20594,17 +20197,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgStyle;
     }();
 
-    NgStyle.ɵfac = function NgStyle_Factory(t) {
-      return new (t || NgStyle)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]));
-    };
-
-    NgStyle.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgStyle,
-      selectors: [["", "ngStyle", ""]],
-      inputs: {
-        ngStyle: "ngStyle"
-      }
-    });
+    NgStyle.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngStyle]'
+      }]
+    }];
     /** @nocollapse */
 
     NgStyle.ctorParameters = function () {
@@ -20623,29 +20221,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         args: ['ngStyle']
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgStyle, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngStyle]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Renderer2"]
-        }];
-      }, {
-        ngStyle: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"],
-          args: ['ngStyle']
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -20812,19 +20387,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return NgTemplateOutlet;
     }();
 
-    NgTemplateOutlet.ɵfac = function NgTemplateOutlet_Factory(t) {
-      return new (t || NgTemplateOutlet)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]));
-    };
-
-    NgTemplateOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
-      type: NgTemplateOutlet,
-      selectors: [["", "ngTemplateOutlet", ""]],
-      inputs: {
-        ngTemplateOutletContext: "ngTemplateOutletContext",
-        ngTemplateOutlet: "ngTemplateOutlet"
-      },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]]
-    });
+    NgTemplateOutlet.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
+      args: [{
+        selector: '[ngTemplateOutlet]'
+      }]
+    }];
     /** @nocollapse */
 
     NgTemplateOutlet.ctorParameters = function () {
@@ -20841,27 +20409,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgTemplateOutlet, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Directive"],
-        args: [{
-          selector: '[ngTemplateOutlet]'
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]
-        }];
-      }, {
-        ngTemplateOutletContext: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }],
-        ngTemplateOutlet: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -21178,15 +20725,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return AsyncPipe;
     }();
 
-    AsyncPipe.ɵfac = function AsyncPipe_Factory(t) {
-      return new (t || AsyncPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinjectPipeChangeDetectorRef"]());
-    };
-
-    AsyncPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "async",
-      type: AsyncPipe,
-      pure: false
-    });
+    AsyncPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'async',
+        pure: false
+      }]
+    }];
     /** @nocollapse */
 
     AsyncPipe.ctorParameters = function () {
@@ -21194,22 +20739,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AsyncPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'async',
-          pure: false
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -21261,25 +20790,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return LowerCasePipe;
     }();
 
-    LowerCasePipe.ɵfac = function LowerCasePipe_Factory(t) {
-      return new (t || LowerCasePipe)();
-    };
-
-    LowerCasePipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "lowercase",
-      type: LowerCasePipe,
-      pure: true
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LowerCasePipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'lowercase'
-        }]
-      }], null, null);
-    })(); //
+    LowerCasePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'lowercase'
+      }]
+    }]; //
     // Regex below matches any Unicode word and compatible with ES5. In ES2018 the same result
     // can be achieved by using /\p{L}\S*/gu and also known as Unicode Property Escapes
     // (http://2ality.com/2017/07/regexp-unicode-property-escapes.html). Since there is no
@@ -21289,7 +20805,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     //
 
     /** @type {?} */
-
 
     var unicodeWordMatch = /(?:[A-Za-z\xAA\xB5\xBA\xC0-\xD6\xD8-\xF6\xF8-\u02C1\u02C6-\u02D1\u02E0-\u02E4\u02EC\u02EE\u0370-\u0374\u0376\u0377\u037A-\u037D\u037F\u0386\u0388-\u038A\u038C\u038E-\u03A1\u03A3-\u03F5\u03F7-\u0481\u048A-\u052F\u0531-\u0556\u0559\u0561-\u0587\u05D0-\u05EA\u05F0-\u05F2\u0620-\u064A\u066E\u066F\u0671-\u06D3\u06D5\u06E5\u06E6\u06EE\u06EF\u06FA-\u06FC\u06FF\u0710\u0712-\u072F\u074D-\u07A5\u07B1\u07CA-\u07EA\u07F4\u07F5\u07FA\u0800-\u0815\u081A\u0824\u0828\u0840-\u0858\u0860-\u086A\u08A0-\u08B4\u08B6-\u08BD\u0904-\u0939\u093D\u0950\u0958-\u0961\u0971-\u0980\u0985-\u098C\u098F\u0990\u0993-\u09A8\u09AA-\u09B0\u09B2\u09B6-\u09B9\u09BD\u09CE\u09DC\u09DD\u09DF-\u09E1\u09F0\u09F1\u09FC\u0A05-\u0A0A\u0A0F\u0A10\u0A13-\u0A28\u0A2A-\u0A30\u0A32\u0A33\u0A35\u0A36\u0A38\u0A39\u0A59-\u0A5C\u0A5E\u0A72-\u0A74\u0A85-\u0A8D\u0A8F-\u0A91\u0A93-\u0AA8\u0AAA-\u0AB0\u0AB2\u0AB3\u0AB5-\u0AB9\u0ABD\u0AD0\u0AE0\u0AE1\u0AF9\u0B05-\u0B0C\u0B0F\u0B10\u0B13-\u0B28\u0B2A-\u0B30\u0B32\u0B33\u0B35-\u0B39\u0B3D\u0B5C\u0B5D\u0B5F-\u0B61\u0B71\u0B83\u0B85-\u0B8A\u0B8E-\u0B90\u0B92-\u0B95\u0B99\u0B9A\u0B9C\u0B9E\u0B9F\u0BA3\u0BA4\u0BA8-\u0BAA\u0BAE-\u0BB9\u0BD0\u0C05-\u0C0C\u0C0E-\u0C10\u0C12-\u0C28\u0C2A-\u0C39\u0C3D\u0C58-\u0C5A\u0C60\u0C61\u0C80\u0C85-\u0C8C\u0C8E-\u0C90\u0C92-\u0CA8\u0CAA-\u0CB3\u0CB5-\u0CB9\u0CBD\u0CDE\u0CE0\u0CE1\u0CF1\u0CF2\u0D05-\u0D0C\u0D0E-\u0D10\u0D12-\u0D3A\u0D3D\u0D4E\u0D54-\u0D56\u0D5F-\u0D61\u0D7A-\u0D7F\u0D85-\u0D96\u0D9A-\u0DB1\u0DB3-\u0DBB\u0DBD\u0DC0-\u0DC6\u0E01-\u0E30\u0E32\u0E33\u0E40-\u0E46\u0E81\u0E82\u0E84\u0E87\u0E88\u0E8A\u0E8D\u0E94-\u0E97\u0E99-\u0E9F\u0EA1-\u0EA3\u0EA5\u0EA7\u0EAA\u0EAB\u0EAD-\u0EB0\u0EB2\u0EB3\u0EBD\u0EC0-\u0EC4\u0EC6\u0EDC-\u0EDF\u0F00\u0F40-\u0F47\u0F49-\u0F6C\u0F88-\u0F8C\u1000-\u102A\u103F\u1050-\u1055\u105A-\u105D\u1061\u1065\u1066\u106E-\u1070\u1075-\u1081\u108E\u10A0-\u10C5\u10C7\u10CD\u10D0-\u10FA\u10FC-\u1248\u124A-\u124D\u1250-\u1256\u1258\u125A-\u125D\u1260-\u1288\u128A-\u128D\u1290-\u12B0\u12B2-\u12B5\u12B8-\u12BE\u12C0\u12C2-\u12C5\u12C8-\u12D6\u12D8-\u1310\u1312-\u1315\u1318-\u135A\u1380-\u138F\u13A0-\u13F5\u13F8-\u13FD\u1401-\u166C\u166F-\u167F\u1681-\u169A\u16A0-\u16EA\u16F1-\u16F8\u1700-\u170C\u170E-\u1711\u1720-\u1731\u1740-\u1751\u1760-\u176C\u176E-\u1770\u1780-\u17B3\u17D7\u17DC\u1820-\u1877\u1880-\u1884\u1887-\u18A8\u18AA\u18B0-\u18F5\u1900-\u191E\u1950-\u196D\u1970-\u1974\u1980-\u19AB\u19B0-\u19C9\u1A00-\u1A16\u1A20-\u1A54\u1AA7\u1B05-\u1B33\u1B45-\u1B4B\u1B83-\u1BA0\u1BAE\u1BAF\u1BBA-\u1BE5\u1C00-\u1C23\u1C4D-\u1C4F\u1C5A-\u1C7D\u1C80-\u1C88\u1CE9-\u1CEC\u1CEE-\u1CF1\u1CF5\u1CF6\u1D00-\u1DBF\u1E00-\u1F15\u1F18-\u1F1D\u1F20-\u1F45\u1F48-\u1F4D\u1F50-\u1F57\u1F59\u1F5B\u1F5D\u1F5F-\u1F7D\u1F80-\u1FB4\u1FB6-\u1FBC\u1FBE\u1FC2-\u1FC4\u1FC6-\u1FCC\u1FD0-\u1FD3\u1FD6-\u1FDB\u1FE0-\u1FEC\u1FF2-\u1FF4\u1FF6-\u1FFC\u2071\u207F\u2090-\u209C\u2102\u2107\u210A-\u2113\u2115\u2119-\u211D\u2124\u2126\u2128\u212A-\u212D\u212F-\u2139\u213C-\u213F\u2145-\u2149\u214E\u2183\u2184\u2C00-\u2C2E\u2C30-\u2C5E\u2C60-\u2CE4\u2CEB-\u2CEE\u2CF2\u2CF3\u2D00-\u2D25\u2D27\u2D2D\u2D30-\u2D67\u2D6F\u2D80-\u2D96\u2DA0-\u2DA6\u2DA8-\u2DAE\u2DB0-\u2DB6\u2DB8-\u2DBE\u2DC0-\u2DC6\u2DC8-\u2DCE\u2DD0-\u2DD6\u2DD8-\u2DDE\u2E2F\u3005\u3006\u3031-\u3035\u303B\u303C\u3041-\u3096\u309D-\u309F\u30A1-\u30FA\u30FC-\u30FF\u3105-\u312E\u3131-\u318E\u31A0-\u31BA\u31F0-\u31FF\u3400-\u4DB5\u4E00-\u9FEA\uA000-\uA48C\uA4D0-\uA4FD\uA500-\uA60C\uA610-\uA61F\uA62A\uA62B\uA640-\uA66E\uA67F-\uA69D\uA6A0-\uA6E5\uA717-\uA71F\uA722-\uA788\uA78B-\uA7AE\uA7B0-\uA7B7\uA7F7-\uA801\uA803-\uA805\uA807-\uA80A\uA80C-\uA822\uA840-\uA873\uA882-\uA8B3\uA8F2-\uA8F7\uA8FB\uA8FD\uA90A-\uA925\uA930-\uA946\uA960-\uA97C\uA984-\uA9B2\uA9CF\uA9E0-\uA9E4\uA9E6-\uA9EF\uA9FA-\uA9FE\uAA00-\uAA28\uAA40-\uAA42\uAA44-\uAA4B\uAA60-\uAA76\uAA7A\uAA7E-\uAAAF\uAAB1\uAAB5\uAAB6\uAAB9-\uAABD\uAAC0\uAAC2\uAADB-\uAADD\uAAE0-\uAAEA\uAAF2-\uAAF4\uAB01-\uAB06\uAB09-\uAB0E\uAB11-\uAB16\uAB20-\uAB26\uAB28-\uAB2E\uAB30-\uAB5A\uAB5C-\uAB65\uAB70-\uABE2\uAC00-\uD7A3\uD7B0-\uD7C6\uD7CB-\uD7FB\uF900-\uFA6D\uFA70-\uFAD9\uFB00-\uFB06\uFB13-\uFB17\uFB1D\uFB1F-\uFB28\uFB2A-\uFB36\uFB38-\uFB3C\uFB3E\uFB40\uFB41\uFB43\uFB44\uFB46-\uFBB1\uFBD3-\uFD3D\uFD50-\uFD8F\uFD92-\uFDC7\uFDF0-\uFDFB\uFE70-\uFE74\uFE76-\uFEFC\uFF21-\uFF3A\uFF41-\uFF5A\uFF66-\uFFBE\uFFC2-\uFFC7\uFFCA-\uFFCF\uFFD2-\uFFD7\uFFDA-\uFFDC]|\uD800[\uDC00-\uDC0B\uDC0D-\uDC26\uDC28-\uDC3A\uDC3C\uDC3D\uDC3F-\uDC4D\uDC50-\uDC5D\uDC80-\uDCFA\uDE80-\uDE9C\uDEA0-\uDED0\uDF00-\uDF1F\uDF2D-\uDF40\uDF42-\uDF49\uDF50-\uDF75\uDF80-\uDF9D\uDFA0-\uDFC3\uDFC8-\uDFCF]|\uD801[\uDC00-\uDC9D\uDCB0-\uDCD3\uDCD8-\uDCFB\uDD00-\uDD27\uDD30-\uDD63\uDE00-\uDF36\uDF40-\uDF55\uDF60-\uDF67]|\uD802[\uDC00-\uDC05\uDC08\uDC0A-\uDC35\uDC37\uDC38\uDC3C\uDC3F-\uDC55\uDC60-\uDC76\uDC80-\uDC9E\uDCE0-\uDCF2\uDCF4\uDCF5\uDD00-\uDD15\uDD20-\uDD39\uDD80-\uDDB7\uDDBE\uDDBF\uDE00\uDE10-\uDE13\uDE15-\uDE17\uDE19-\uDE33\uDE60-\uDE7C\uDE80-\uDE9C\uDEC0-\uDEC7\uDEC9-\uDEE4\uDF00-\uDF35\uDF40-\uDF55\uDF60-\uDF72\uDF80-\uDF91]|\uD803[\uDC00-\uDC48\uDC80-\uDCB2\uDCC0-\uDCF2]|\uD804[\uDC03-\uDC37\uDC83-\uDCAF\uDCD0-\uDCE8\uDD03-\uDD26\uDD50-\uDD72\uDD76\uDD83-\uDDB2\uDDC1-\uDDC4\uDDDA\uDDDC\uDE00-\uDE11\uDE13-\uDE2B\uDE80-\uDE86\uDE88\uDE8A-\uDE8D\uDE8F-\uDE9D\uDE9F-\uDEA8\uDEB0-\uDEDE\uDF05-\uDF0C\uDF0F\uDF10\uDF13-\uDF28\uDF2A-\uDF30\uDF32\uDF33\uDF35-\uDF39\uDF3D\uDF50\uDF5D-\uDF61]|\uD805[\uDC00-\uDC34\uDC47-\uDC4A\uDC80-\uDCAF\uDCC4\uDCC5\uDCC7\uDD80-\uDDAE\uDDD8-\uDDDB\uDE00-\uDE2F\uDE44\uDE80-\uDEAA\uDF00-\uDF19]|\uD806[\uDCA0-\uDCDF\uDCFF\uDE00\uDE0B-\uDE32\uDE3A\uDE50\uDE5C-\uDE83\uDE86-\uDE89\uDEC0-\uDEF8]|\uD807[\uDC00-\uDC08\uDC0A-\uDC2E\uDC40\uDC72-\uDC8F\uDD00-\uDD06\uDD08\uDD09\uDD0B-\uDD30\uDD46]|\uD808[\uDC00-\uDF99]|\uD809[\uDC80-\uDD43]|[\uD80C\uD81C-\uD820\uD840-\uD868\uD86A-\uD86C\uD86F-\uD872\uD874-\uD879][\uDC00-\uDFFF]|\uD80D[\uDC00-\uDC2E]|\uD811[\uDC00-\uDE46]|\uD81A[\uDC00-\uDE38\uDE40-\uDE5E\uDED0-\uDEED\uDF00-\uDF2F\uDF40-\uDF43\uDF63-\uDF77\uDF7D-\uDF8F]|\uD81B[\uDF00-\uDF44\uDF50\uDF93-\uDF9F\uDFE0\uDFE1]|\uD821[\uDC00-\uDFEC]|\uD822[\uDC00-\uDEF2]|\uD82C[\uDC00-\uDD1E\uDD70-\uDEFB]|\uD82F[\uDC00-\uDC6A\uDC70-\uDC7C\uDC80-\uDC88\uDC90-\uDC99]|\uD835[\uDC00-\uDC54\uDC56-\uDC9C\uDC9E\uDC9F\uDCA2\uDCA5\uDCA6\uDCA9-\uDCAC\uDCAE-\uDCB9\uDCBB\uDCBD-\uDCC3\uDCC5-\uDD05\uDD07-\uDD0A\uDD0D-\uDD14\uDD16-\uDD1C\uDD1E-\uDD39\uDD3B-\uDD3E\uDD40-\uDD44\uDD46\uDD4A-\uDD50\uDD52-\uDEA5\uDEA8-\uDEC0\uDEC2-\uDEDA\uDEDC-\uDEFA\uDEFC-\uDF14\uDF16-\uDF34\uDF36-\uDF4E\uDF50-\uDF6E\uDF70-\uDF88\uDF8A-\uDFA8\uDFAA-\uDFC2\uDFC4-\uDFCB]|\uD83A[\uDC00-\uDCC4\uDD00-\uDD43]|\uD83B[\uDE00-\uDE03\uDE05-\uDE1F\uDE21\uDE22\uDE24\uDE27\uDE29-\uDE32\uDE34-\uDE37\uDE39\uDE3B\uDE42\uDE47\uDE49\uDE4B\uDE4D-\uDE4F\uDE51\uDE52\uDE54\uDE57\uDE59\uDE5B\uDE5D\uDE5F\uDE61\uDE62\uDE64\uDE67-\uDE6A\uDE6C-\uDE72\uDE74-\uDE77\uDE79-\uDE7C\uDE7E\uDE80-\uDE89\uDE8B-\uDE9B\uDEA1-\uDEA3\uDEA5-\uDEA9\uDEAB-\uDEBB]|\uD869[\uDC00-\uDED6\uDF00-\uDFFF]|\uD86D[\uDC00-\uDF34\uDF40-\uDFFF]|\uD86E[\uDC00-\uDC1D\uDC20-\uDFFF]|\uD873[\uDC00-\uDEA1\uDEB0-\uDFFF]|\uD87A[\uDC00-\uDFE0]|\uD87E[\uDC00-\uDE1D])\S*/g;
     /**
@@ -21343,25 +20858,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TitleCasePipe;
     }();
 
-    TitleCasePipe.ɵfac = function TitleCasePipe_Factory(t) {
-      return new (t || TitleCasePipe)();
-    };
-
-    TitleCasePipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "titlecase",
-      type: TitleCasePipe,
-      pure: true
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TitleCasePipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'titlecase'
-        }]
-      }], null, null);
-    })();
+    TitleCasePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'titlecase'
+      }]
+    }];
     /**
      * Transforms text to all upper case.
      * @see `LowerCasePipe`
@@ -21370,7 +20872,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@ngModule CommonModule
      * \@publicApi
      */
-
 
     var UpperCasePipe = /*#__PURE__*/function () {
       function UpperCasePipe() {
@@ -21398,25 +20899,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return UpperCasePipe;
     }();
 
-    UpperCasePipe.ɵfac = function UpperCasePipe_Factory(t) {
-      return new (t || UpperCasePipe)();
-    };
-
-    UpperCasePipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "uppercase",
-      type: UpperCasePipe,
-      pure: true
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](UpperCasePipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'uppercase'
-        }]
-      }], null, null);
-    })();
+    UpperCasePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'uppercase'
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/pipes/date_pipe.ts
@@ -21564,7 +21052,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
     // clang-format on
 
-
     var DatePipe = /*#__PURE__*/function () {
       /**
        * @param {?} locale
@@ -21608,15 +21095,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DatePipe;
     }();
 
-    DatePipe.ɵfac = function DatePipe_Factory(t) {
-      return new (t || DatePipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]));
-    };
-
-    DatePipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "date",
-      type: DatePipe,
-      pure: true
-    });
+    DatePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'date',
+        pure: true
+      }]
+    }];
     /** @nocollapse */
 
     DatePipe.ctorParameters = function () {
@@ -21628,26 +21113,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DatePipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'date',
-          pure: true
-        }]
-      }], function () {
-        return [{
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -21713,15 +21178,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return I18nPluralPipe;
     }();
 
-    I18nPluralPipe.ɵfac = function I18nPluralPipe_Factory(t) {
-      return new (t || I18nPluralPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](NgLocalization));
-    };
-
-    I18nPluralPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "i18nPlural",
-      type: I18nPluralPipe,
-      pure: true
-    });
+    I18nPluralPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'i18nPlural',
+        pure: true
+      }]
+    }];
     /** @nocollapse */
 
     I18nPluralPipe.ctorParameters = function () {
@@ -21729,22 +21192,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: NgLocalization
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](I18nPluralPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'i18nPlural',
-          pure: true
-        }]
-      }], function () {
-        return [{
-          type: NgLocalization
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -21808,26 +21255,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return I18nSelectPipe;
     }();
 
-    I18nSelectPipe.ɵfac = function I18nSelectPipe_Factory(t) {
-      return new (t || I18nSelectPipe)();
-    };
-
-    I18nSelectPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "i18nSelect",
-      type: I18nSelectPipe,
-      pure: true
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](I18nSelectPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'i18nSelect',
-          pure: true
-        }]
-      }], null, null);
-    })();
+    I18nSelectPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'i18nSelect',
+        pure: true
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/pipes/json_pipe.ts
@@ -21850,7 +21284,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-
     var JsonPipe = /*#__PURE__*/function () {
       function JsonPipe() {
         _classCallCheck(this, JsonPipe);
@@ -21871,26 +21304,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return JsonPipe;
     }();
 
-    JsonPipe.ɵfac = function JsonPipe_Factory(t) {
-      return new (t || JsonPipe)();
-    };
-
-    JsonPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "json",
-      type: JsonPipe,
-      pure: false
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](JsonPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'json',
-          pure: false
-        }]
-      }], null, null);
-    })();
+    JsonPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'json',
+        pure: false
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/pipes/keyvalue_pipe.ts
@@ -21903,7 +21323,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @param {?} value
      * @return {?}
      */
-
 
     function makeKeyValuePair(key, value) {
       return {
@@ -22008,15 +21427,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return KeyValuePipe;
     }();
 
-    KeyValuePipe.ɵfac = function KeyValuePipe_Factory(t) {
-      return new (t || KeyValuePipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]));
-    };
-
-    KeyValuePipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "keyvalue",
-      type: KeyValuePipe,
-      pure: false
-    });
+    KeyValuePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'keyvalue',
+        pure: false
+      }]
+    }];
     /** @nocollapse */
 
     KeyValuePipe.ctorParameters = function () {
@@ -22024,22 +21441,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](KeyValuePipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'keyvalue',
-          pure: false
-        }]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["KeyValueDiffers"]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -22175,15 +21576,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DecimalPipe;
     }();
 
-    DecimalPipe.ɵfac = function DecimalPipe_Factory(t) {
-      return new (t || DecimalPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]));
-    };
-
-    DecimalPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "number",
-      type: DecimalPipe,
-      pure: true
-    });
+    DecimalPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'number'
+      }]
+    }];
     /** @nocollapse */
 
     DecimalPipe.ctorParameters = function () {
@@ -22195,25 +21593,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DecimalPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'number'
-        }]
-      }], function () {
-        return [{
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -22285,15 +21664,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return PercentPipe;
     }();
 
-    PercentPipe.ɵfac = function PercentPipe_Factory(t) {
-      return new (t || PercentPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]));
-    };
-
-    PercentPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "percent",
-      type: PercentPipe,
-      pure: true
-    });
+    PercentPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'percent'
+      }]
+    }];
     /** @nocollapse */
 
     PercentPipe.ctorParameters = function () {
@@ -22305,25 +21681,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PercentPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'percent'
-        }]
-      }], function () {
-        return [{
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -22463,15 +21820,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return CurrencyPipe;
     }();
 
-    CurrencyPipe.ɵfac = function CurrencyPipe_Factory(t) {
-      return new (t || CurrencyPipe)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["DEFAULT_CURRENCY_CODE"]));
-    };
-
-    CurrencyPipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "currency",
-      type: CurrencyPipe,
-      pure: true
-    });
+    CurrencyPipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'currency'
+      }]
+    }];
     /** @nocollapse */
 
     CurrencyPipe.ctorParameters = function () {
@@ -22489,31 +21843,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CurrencyPipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'currency'
-        }]
-      }], function () {
-        return [{
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]
-          }]
-        }, {
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["DEFAULT_CURRENCY_CODE"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -22626,26 +21955,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SlicePipe;
     }();
 
-    SlicePipe.ɵfac = function SlicePipe_Factory(t) {
-      return new (t || SlicePipe)();
-    };
-
-    SlicePipe.ɵpipe = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefinePipe"]({
-      name: "slice",
-      type: SlicePipe,
-      pure: false
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SlicePipe, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
-        args: [{
-          name: 'slice',
-          pure: false
-        }]
-      }], null, null);
-    })();
+    SlicePipe.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Pipe"],
+      args: [{
+        name: 'slice',
+        pure: false
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/pipes/index.ts
@@ -22656,7 +21972,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * A collection of Angular pipes that are likely to be used in each and every application.
      * @type {?}
      */
-
 
     var COMMON_PIPES = [AsyncPipe, UpperCasePipe, LowerCasePipe, JsonPipe, SlicePipe, DecimalPipe, PercentPipe, TitleCasePipe, CurrencyPipe, DatePipe, I18nPluralPipe, I18nSelectPipe, KeyValuePipe];
     /**
@@ -22685,41 +22000,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, CommonModule);
     };
 
-    CommonModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
-      type: CommonModule
-    });
-    CommonModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
-      factory: function CommonModule_Factory(t) {
-        return new (t || CommonModule)();
-      },
-      providers: [{
-        provide: NgLocalization,
-        useClass: NgLocaleLocalization
-      }]
-    });
-
-    (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](CommonModule, {
-        declarations: [NgClass, NgComponentOutlet, NgForOf, NgIf, NgTemplateOutlet, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgPlural, NgPluralCase, AsyncPipe, UpperCasePipe, LowerCasePipe, JsonPipe, SlicePipe, DecimalPipe, PercentPipe, TitleCasePipe, CurrencyPipe, DatePipe, I18nPluralPipe, I18nSelectPipe, KeyValuePipe],
-        exports: [NgClass, NgComponentOutlet, NgForOf, NgIf, NgTemplateOutlet, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgPlural, NgPluralCase, AsyncPipe, UpperCasePipe, LowerCasePipe, JsonPipe, SlicePipe, DecimalPipe, PercentPipe, TitleCasePipe, CurrencyPipe, DatePipe, I18nPluralPipe, I18nSelectPipe, KeyValuePipe]
-      });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CommonModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
-        args: [{
-          declarations: [COMMON_DIRECTIVES, COMMON_PIPES],
-          exports: [COMMON_DIRECTIVES, COMMON_PIPES],
-          providers: [{
-            provide: NgLocalization,
-            useClass: NgLocaleLocalization
-          }]
+    CommonModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        declarations: [COMMON_DIRECTIVES, COMMON_PIPES],
+        exports: [COMMON_DIRECTIVES, COMMON_PIPES],
+        providers: [{
+          provide: NgLocalization,
+          useClass: NgLocaleLocalization
         }]
-      }], null, null);
-    })();
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/platform_id.ts
@@ -22735,7 +22026,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
     /** @type {?} */
-
 
     var PLATFORM_BROWSER_ID = 'browser';
     /** @type {?} */
@@ -23109,15 +22399,3801 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js":
-  /*!******************************************************************!*\
-    !*** ./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
-    \******************************************************************/
+  "./node_modules/@angular/common/fesm2015/http.js":
+  /*!*******************************************************!*\
+    !*** ./node_modules/@angular/common/fesm2015/http.js ***!
+    \*******************************************************/
+
+  /*! exports provided: HTTP_INTERCEPTORS, HttpBackend, HttpClient, HttpClientJsonpModule, HttpClientModule, HttpClientXsrfModule, HttpErrorResponse, HttpEventType, HttpHandler, HttpHeaderResponse, HttpHeaders, HttpParams, HttpRequest, HttpResponse, HttpResponseBase, HttpUrlEncodingCodec, HttpXhrBackend, HttpXsrfTokenExtractor, JsonpClientBackend, JsonpInterceptor, XhrFactory, ɵHttpInterceptingHandler, ɵangular_packages_common_http_http_a, ɵangular_packages_common_http_http_b, ɵangular_packages_common_http_http_c, ɵangular_packages_common_http_http_d, ɵangular_packages_common_http_http_e, ɵangular_packages_common_http_http_f, ɵangular_packages_common_http_http_g, ɵangular_packages_common_http_http_h */
+
+  /***/
+  function node_modulesAngularCommonFesm2015HttpJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HTTP_INTERCEPTORS", function () {
+      return HTTP_INTERCEPTORS;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpBackend", function () {
+      return HttpBackend;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpClient", function () {
+      return HttpClient;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpClientJsonpModule", function () {
+      return HttpClientJsonpModule;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpClientModule", function () {
+      return HttpClientModule;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpClientXsrfModule", function () {
+      return HttpClientXsrfModule;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpErrorResponse", function () {
+      return HttpErrorResponse;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpEventType", function () {
+      return HttpEventType;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpHandler", function () {
+      return HttpHandler;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpHeaderResponse", function () {
+      return HttpHeaderResponse;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpHeaders", function () {
+      return HttpHeaders;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpParams", function () {
+      return HttpParams;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpRequest", function () {
+      return HttpRequest;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpResponse", function () {
+      return HttpResponse;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpResponseBase", function () {
+      return HttpResponseBase;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpUrlEncodingCodec", function () {
+      return HttpUrlEncodingCodec;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpXhrBackend", function () {
+      return HttpXhrBackend;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HttpXsrfTokenExtractor", function () {
+      return HttpXsrfTokenExtractor;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "JsonpClientBackend", function () {
+      return JsonpClientBackend;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "JsonpInterceptor", function () {
+      return JsonpInterceptor;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "XhrFactory", function () {
+      return XhrFactory;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵHttpInterceptingHandler", function () {
+      return HttpInterceptingHandler;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_a", function () {
+      return NoopInterceptor;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_b", function () {
+      return JsonpCallbackContext;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_c", function () {
+      return jsonpCallbackContext;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_d", function () {
+      return BrowserXhr;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_e", function () {
+      return XSRF_COOKIE_NAME;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_f", function () {
+      return XSRF_HEADER_NAME;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_g", function () {
+      return HttpXsrfCookieExtractor;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_common_http_http_h", function () {
+      return HttpXsrfInterceptor;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! rxjs */
+    "./node_modules/rxjs/_esm2015/index.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /**
+     * @license Angular v9.1.11
+     * (c) 2010-2020 Google LLC. https://angular.io/
+     * License: MIT
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/backend.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+
+    /**
+     * Transforms an `HttpRequest` into a stream of `HttpEvent`s, one of which will likely be a
+     * `HttpResponse`.
+     *
+     * `HttpHandler` is injectable. When injected, the handler instance dispatches requests to the
+     * first interceptor in the chain, which dispatches to the second, etc, eventually reaching the
+     * `HttpBackend`.
+     *
+     * In an `HttpInterceptor`, the `HttpHandler` parameter is the next interceptor in the chain.
+     *
+     * \@publicApi
+     * @abstract
+     */
+
+
+    var HttpHandler = function HttpHandler() {
+      _classCallCheck(this, HttpHandler);
+    };
+
+    if (false) {}
+    /**
+     * A final `HttpHandler` which will dispatch the request via browser HTTP APIs to a backend.
+     *
+     * Interceptors sit between the `HttpClient` interface and the `HttpBackend`.
+     *
+     * When injected, `HttpBackend` dispatches requests directly to the backend, without going
+     * through the interceptor chain.
+     *
+     * \@publicApi
+     * @abstract
+     */
+
+
+    var HttpBackend = function HttpBackend() {
+      _classCallCheck(this, HttpBackend);
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/headers.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+
+    /**
+     * @record
+     */
+
+
+    function Update() {}
+
+    if (false) {}
+    /**
+     * Represents the header configuration options for an HTTP request.
+     * Instances are immutable. Modifying methods return a cloned
+     * instance with the change. The original object is never changed.
+     *
+     * \@publicApi
+     */
+
+
+    var HttpHeaders = /*#__PURE__*/function () {
+      /**
+       * Constructs a new HTTP header object with the given values.
+       * @param {?=} headers
+       */
+      function HttpHeaders(headers) {
+        var _this64 = this;
+
+        _classCallCheck(this, HttpHeaders);
+
+        /**
+         * Internal map of lowercased header names to the normalized
+         * form of the name (the form seen first).
+         */
+        this.normalizedNames = new Map();
+        /**
+         * Queued updates to be materialized the next initialization.
+         */
+
+        this.lazyUpdate = null;
+
+        if (!headers) {
+          this.headers = new Map();
+        } else if (typeof headers === 'string') {
+          this.lazyInit =
+          /**
+          * @return {?}
+          */
+          function () {
+            _this64.headers = new Map();
+            headers.split('\n').forEach(
+            /**
+            * @param {?} line
+            * @return {?}
+            */
+            function (line) {
+              /** @type {?} */
+              var index = line.indexOf(':');
+
+              if (index > 0) {
+                /** @type {?} */
+                var name = line.slice(0, index);
+                /** @type {?} */
+
+                var key = name.toLowerCase();
+                /** @type {?} */
+
+                var value = line.slice(index + 1).trim();
+
+                _this64.maybeSetNormalizedName(name, key);
+
+                if (_this64.headers.has(key)) {
+                  /** @type {?} */
+                  _this64.headers.get(key).push(value);
+                } else {
+                  _this64.headers.set(key, [value]);
+                }
+              }
+            });
+          };
+        } else {
+          this.lazyInit =
+          /**
+          * @return {?}
+          */
+          function () {
+            _this64.headers = new Map();
+            Object.keys(headers).forEach(
+            /**
+            * @param {?} name
+            * @return {?}
+            */
+            function (name) {
+              /** @type {?} */
+              var values = headers[name];
+              /** @type {?} */
+
+              var key = name.toLowerCase();
+
+              if (typeof values === 'string') {
+                values = [values];
+              }
+
+              if (values.length > 0) {
+                _this64.headers.set(key, values);
+
+                _this64.maybeSetNormalizedName(name, key);
+              }
+            });
+          };
+        }
+      }
+      /**
+       * Checks for existence of a given header.
+       *
+       * @param {?} name The header name to check for existence.
+       *
+       * @return {?} True if the header exists, false otherwise.
+       */
+
+
+      _createClass2(HttpHeaders, [{
+        key: "has",
+        value: function has(name) {
+          this.init();
+          return this.headers.has(name.toLowerCase());
+        }
+        /**
+         * Retrieves the first value of a given header.
+         *
+         * @param {?} name The header name.
+         *
+         * @return {?} The value string if the header exists, null otherwise
+         */
+
+      }, {
+        key: "get",
+        value: function get(name) {
+          this.init();
+          /** @type {?} */
+
+          var values = this.headers.get(name.toLowerCase());
+          return values && values.length > 0 ? values[0] : null;
+        }
+        /**
+         * Retrieves the names of the headers.
+         *
+         * @return {?} A list of header names.
+         */
+
+      }, {
+        key: "keys",
+        value: function keys() {
+          this.init();
+          return Array.from(this.normalizedNames.values());
+        }
+        /**
+         * Retrieves a list of values for a given header.
+         *
+         * @param {?} name The header name from which to retrieve values.
+         *
+         * @return {?} A string of values if the header exists, null otherwise.
+         */
+
+      }, {
+        key: "getAll",
+        value: function getAll(name) {
+          this.init();
+          return this.headers.get(name.toLowerCase()) || null;
+        }
+        /**
+         * Appends a new value to the existing set of values for a header
+         * and returns them in a clone of the original instance.
+         *
+         * @param {?} name The header name for which to append the values.
+         * @param {?} value The value to append.
+         *
+         * @return {?} A clone of the HTTP headers object with the value appended to the given header.
+         */
+
+      }, {
+        key: "append",
+        value: function append(name, value) {
+          return this.clone({
+            name: name,
+            value: value,
+            op: 'a'
+          });
+        }
+        /**
+         * Sets or modifies a value for a given header in a clone of the original instance.
+         * If the header already exists, its value is replaced with the given value
+         * in the returned object.
+         *
+         * @param {?} name The header name.
+         * @param {?} value The value or values to set or overide for the given header.
+         *
+         * @return {?} A clone of the HTTP headers object with the newly set header value.
+         */
+
+      }, {
+        key: "set",
+        value: function set(name, value) {
+          return this.clone({
+            name: name,
+            value: value,
+            op: 's'
+          });
+        }
+        /**
+         * Deletes values for a given header in a clone of the original instance.
+         *
+         * @param {?} name The header name.
+         * @param {?=} value The value or values to delete for the given header.
+         *
+         * @return {?} A clone of the HTTP headers object with the given value deleted.
+         */
+
+      }, {
+        key: "delete",
+        value: function _delete(name, value) {
+          return this.clone({
+            name: name,
+            value: value,
+            op: 'd'
+          });
+        }
+        /**
+         * @private
+         * @param {?} name
+         * @param {?} lcName
+         * @return {?}
+         */
+
+      }, {
+        key: "maybeSetNormalizedName",
+        value: function maybeSetNormalizedName(name, lcName) {
+          if (!this.normalizedNames.has(lcName)) {
+            this.normalizedNames.set(lcName, name);
+          }
+        }
+        /**
+         * @private
+         * @return {?}
+         */
+
+      }, {
+        key: "init",
+        value: function init() {
+          var _this65 = this;
+
+          if (!!this.lazyInit) {
+            if (this.lazyInit instanceof HttpHeaders) {
+              this.copyFrom(this.lazyInit);
+            } else {
+              this.lazyInit();
+            }
+
+            this.lazyInit = null;
+
+            if (!!this.lazyUpdate) {
+              this.lazyUpdate.forEach(
+              /**
+              * @param {?} update
+              * @return {?}
+              */
+              function (update) {
+                return _this65.applyUpdate(update);
+              });
+              this.lazyUpdate = null;
+            }
+          }
+        }
+        /**
+         * @private
+         * @param {?} other
+         * @return {?}
+         */
+
+      }, {
+        key: "copyFrom",
+        value: function copyFrom(other) {
+          var _this66 = this;
+
+          other.init();
+          Array.from(other.headers.keys()).forEach(
+          /**
+          * @param {?} key
+          * @return {?}
+          */
+          function (key) {
+            _this66.headers.set(key,
+            /** @type {?} */
+            other.headers.get(key));
+
+            _this66.normalizedNames.set(key,
+            /** @type {?} */
+            other.normalizedNames.get(key));
+          });
+        }
+        /**
+         * @private
+         * @param {?} update
+         * @return {?}
+         */
+
+      }, {
+        key: "clone",
+        value: function clone(update) {
+          /** @type {?} */
+          var clone = new HttpHeaders();
+          clone.lazyInit = !!this.lazyInit && this.lazyInit instanceof HttpHeaders ? this.lazyInit : this;
+          clone.lazyUpdate = (this.lazyUpdate || []).concat([update]);
+          return clone;
+        }
+        /**
+         * @private
+         * @param {?} update
+         * @return {?}
+         */
+
+      }, {
+        key: "applyUpdate",
+        value: function applyUpdate(update) {
+          /** @type {?} */
+          var key = update.name.toLowerCase();
+
+          switch (update.op) {
+            case 'a':
+            case 's':
+              /** @type {?} */
+              var value =
+              /** @type {?} */
+              update.value;
+
+              if (typeof value === 'string') {
+                value = [value];
+              }
+
+              if (value.length === 0) {
+                return;
+              }
+
+              this.maybeSetNormalizedName(update.name, key);
+              /** @type {?} */
+
+              var base = (update.op === 'a' ? this.headers.get(key) : undefined) || [];
+              base.push.apply(base, _toConsumableArray(value));
+              this.headers.set(key, base);
+              break;
+
+            case 'd':
+              /** @type {?} */
+              var toDelete =
+              /** @type {?} */
+              update.value;
+
+              if (!toDelete) {
+                this.headers["delete"](key);
+                this.normalizedNames["delete"](key);
+              } else {
+                /** @type {?} */
+                var existing = this.headers.get(key);
+
+                if (!existing) {
+                  return;
+                }
+
+                existing = existing.filter(
+                /**
+                * @param {?} value
+                * @return {?}
+                */
+                function (value) {
+                  return toDelete.indexOf(value) === -1;
+                });
+
+                if (existing.length === 0) {
+                  this.headers["delete"](key);
+                  this.normalizedNames["delete"](key);
+                } else {
+                  this.headers.set(key, existing);
+                }
+              }
+
+              break;
+          }
+        }
+        /**
+         * \@internal
+         * @param {?} fn
+         * @return {?}
+         */
+
+      }, {
+        key: "forEach",
+        value: function forEach(fn) {
+          var _this67 = this;
+
+          this.init();
+          Array.from(this.normalizedNames.keys()).forEach(
+          /**
+          * @param {?} key
+          * @return {?}
+          */
+          function (key) {
+            return fn(
+            /** @type {?} */
+            _this67.normalizedNames.get(key),
+            /** @type {?} */
+            _this67.headers.get(key));
+          });
+        }
+      }]);
+
+      return HttpHeaders;
+    }();
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/params.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+
+    /**
+     * A codec for encoding and decoding parameters in URLs.
+     *
+     * Used by `HttpParams`.
+     *
+     * \@publicApi
+     *
+     * @record
+     */
+
+
+    function HttpParameterCodec() {}
+
+    if (false) {}
+    /**
+     * Provides encoding and decoding of URL parameter and query-string values.
+     *
+     * Serializes and parses URL parameter keys and values to encode and decode them.
+     * If you pass URL query parameters without encoding,
+     * the query parameters can be misinterpreted at the receiving end.
+     *
+     *
+     * \@publicApi
+     */
+
+
+    var HttpUrlEncodingCodec = /*#__PURE__*/function () {
+      function HttpUrlEncodingCodec() {
+        _classCallCheck(this, HttpUrlEncodingCodec);
+      }
+
+      _createClass2(HttpUrlEncodingCodec, [{
+        key: "encodeKey",
+
+        /**
+         * Encodes a key name for a URL parameter or query-string.
+         * @param {?} key The key name.
+         * @return {?} The encoded key name.
+         */
+        value: function encodeKey(key) {
+          return standardEncoding(key);
+        }
+        /**
+         * Encodes the value of a URL parameter or query-string.
+         * @param {?} value The value.
+         * @return {?} The encoded value.
+         */
+
+      }, {
+        key: "encodeValue",
+        value: function encodeValue(value) {
+          return standardEncoding(value);
+        }
+        /**
+         * Decodes an encoded URL parameter or query-string key.
+         * @param {?} key The encoded key name.
+         * @return {?} The decoded key name.
+         */
+
+      }, {
+        key: "decodeKey",
+        value: function decodeKey(key) {
+          return decodeURIComponent(key);
+        }
+        /**
+         * Decodes an encoded URL parameter or query-string value.
+         * @param {?} value The encoded value.
+         * @return {?} The decoded value.
+         */
+
+      }, {
+        key: "decodeValue",
+        value: function decodeValue(value) {
+          return decodeURIComponent(value);
+        }
+      }]);
+
+      return HttpUrlEncodingCodec;
+    }();
+    /**
+     * @param {?} rawParams
+     * @param {?} codec
+     * @return {?}
+     */
+
+
+    function paramParser(rawParams, codec) {
+      /** @type {?} */
+      var map = new Map();
+
+      if (rawParams.length > 0) {
+        /** @type {?} */
+        var params = rawParams.split('&');
+        params.forEach(
+        /**
+        * @param {?} param
+        * @return {?}
+        */
+        function (param) {
+          /** @type {?} */
+          var eqIdx = param.indexOf('=');
+
+          var _ref4 = eqIdx == -1 ? [codec.decodeKey(param), ''] : [codec.decodeKey(param.slice(0, eqIdx)), codec.decodeValue(param.slice(eqIdx + 1))],
+              _ref5 = _slicedToArray(_ref4, 2),
+              key = _ref5[0],
+              val = _ref5[1];
+          /** @type {?} */
+
+
+          var list = map.get(key) || [];
+          list.push(val);
+          map.set(key, list);
+        });
+      }
+
+      return map;
+    }
+    /**
+     * @param {?} v
+     * @return {?}
+     */
+
+
+    function standardEncoding(v) {
+      return encodeURIComponent(v).replace(/%40/gi, '@').replace(/%3A/gi, ':').replace(/%24/gi, '$').replace(/%2C/gi, ',').replace(/%3B/gi, ';').replace(/%2B/gi, '+').replace(/%3D/gi, '=').replace(/%3F/gi, '?').replace(/%2F/gi, '/');
+    }
+    /**
+     * @record
+     */
+
+
+    function Update$1() {}
+
+    if (false) {}
+    /**
+     * Options used to construct an `HttpParams` instance.
+     *
+     * \@publicApi
+     * @record
+     */
+
+
+    function HttpParamsOptions() {}
+
+    if (false) {}
+    /**
+     * An HTTP request/response body that represents serialized parameters,
+     * per the MIME type `application/x-www-form-urlencoded`.
+     *
+     * This class is immutable; all mutation operations return a new instance.
+     *
+     * \@publicApi
+     */
+
+
+    var HttpParams = /*#__PURE__*/function () {
+      /**
+       * @param {?=} options
+       */
+      function HttpParams() {
+        var _this68 = this;
+
+        var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] :
+        /** @type {?} */
+        {};
+
+        _classCallCheck(this, HttpParams);
+
+        this.updates = null;
+        this.cloneFrom = null;
+        this.encoder = options.encoder || new HttpUrlEncodingCodec();
+
+        if (!!options.fromString) {
+          if (!!options.fromObject) {
+            throw new Error("Cannot specify both fromString and fromObject.");
+          }
+
+          this.map = paramParser(options.fromString, this.encoder);
+        } else if (!!options.fromObject) {
+          this.map = new Map();
+          Object.keys(options.fromObject).forEach(
+          /**
+          * @param {?} key
+          * @return {?}
+          */
+          function (key) {
+            /** @type {?} */
+            var value =
+            /** @type {?} */
+            options.fromObject[key];
+
+            /** @type {?} */
+            _this68.map.set(key, Array.isArray(value) ? value : [value]);
+          });
+        } else {
+          this.map = null;
+        }
+      }
+      /**
+       * Reports whether the body includes one or more values for a given parameter.
+       * @param {?} param The parameter name.
+       * @return {?} True if the parameter has one or more values,
+       * false if it has no value or is not present.
+       */
+
+
+      _createClass2(HttpParams, [{
+        key: "has",
+        value: function has(param) {
+          this.init();
+          return (
+            /** @type {?} */
+            this.map.has(param)
+          );
+        }
+        /**
+         * Retrieves the first value for a parameter.
+         * @param {?} param The parameter name.
+         * @return {?} The first value of the given parameter,
+         * or `null` if the parameter is not present.
+         */
+
+      }, {
+        key: "get",
+        value: function get(param) {
+          this.init();
+          /** @type {?} */
+
+          var res =
+          /** @type {?} */
+          this.map.get(param);
+          return !!res ? res[0] : null;
+        }
+        /**
+         * Retrieves all values for a  parameter.
+         * @param {?} param The parameter name.
+         * @return {?} All values in a string array,
+         * or `null` if the parameter not present.
+         */
+
+      }, {
+        key: "getAll",
+        value: function getAll(param) {
+          this.init();
+          return (
+            /** @type {?} */
+            this.map.get(param) || null
+          );
+        }
+        /**
+         * Retrieves all the parameters for this body.
+         * @return {?} The parameter names in a string array.
+         */
+
+      }, {
+        key: "keys",
+        value: function keys() {
+          this.init();
+          return Array.from(
+          /** @type {?} */
+          this.map.keys());
+        }
+        /**
+         * Appends a new value to existing values for a parameter.
+         * @param {?} param The parameter name.
+         * @param {?} value The new value to add.
+         * @return {?} A new body with the appended value.
+         */
+
+      }, {
+        key: "append",
+        value: function append(param, value) {
+          return this.clone({
+            param: param,
+            value: value,
+            op: 'a'
+          });
+        }
+        /**
+         * Replaces the value for a parameter.
+         * @param {?} param The parameter name.
+         * @param {?} value The new value.
+         * @return {?} A new body with the new value.
+         */
+
+      }, {
+        key: "set",
+        value: function set(param, value) {
+          return this.clone({
+            param: param,
+            value: value,
+            op: 's'
+          });
+        }
+        /**
+         * Removes a given value or all values from a parameter.
+         * @param {?} param The parameter name.
+         * @param {?=} value The value to remove, if provided.
+         * @return {?} A new body with the given value removed, or with all values
+         * removed if no value is specified.
+         */
+
+      }, {
+        key: "delete",
+        value: function _delete(param, value) {
+          return this.clone({
+            param: param,
+            value: value,
+            op: 'd'
+          });
+        }
+        /**
+         * Serializes the body to an encoded string, where key-value pairs (separated by `=`) are
+         * separated by `&`s.
+         * @return {?}
+         */
+
+      }, {
+        key: "toString",
+        value: function toString() {
+          var _this69 = this;
+
+          this.init();
+          return this.keys().map(
+          /**
+          * @param {?} key
+          * @return {?}
+          */
+          function (key) {
+            /** @type {?} */
+            var eKey = _this69.encoder.encodeKey(key); // `a: ['1']` produces `'a=1'`
+            // `b: []` produces `''`
+            // `c: ['1', '2']` produces `'c=1&c=2'`
+
+
+            return (
+              /** @type {?} */
+
+              /** @type {?} */
+              _this69.map.get(key).map(
+              /**
+              * @param {?} value
+              * @return {?}
+              */
+              function (value) {
+                return eKey + '=' + _this69.encoder.encodeValue(value);
+              }).join('&')
+            );
+          }) // filter out empty values because `b: []` produces `''`
+          // which results in `a=1&&c=1&c=2` instead of `a=1&c=1&c=2` if we don't
+          .filter(
+          /**
+          * @param {?} param
+          * @return {?}
+          */
+          function (param) {
+            return param !== '';
+          }).join('&');
+        }
+        /**
+         * @private
+         * @param {?} update
+         * @return {?}
+         */
+
+      }, {
+        key: "clone",
+        value: function clone(update) {
+          /** @type {?} */
+          var clone = new HttpParams(
+          /** @type {?} */
+          {
+            encoder: this.encoder
+          });
+          clone.cloneFrom = this.cloneFrom || this;
+          clone.updates = (this.updates || []).concat([update]);
+          return clone;
+        }
+        /**
+         * @private
+         * @return {?}
+         */
+
+      }, {
+        key: "init",
+        value: function init() {
+          var _this70 = this;
+
+          if (this.map === null) {
+            this.map = new Map();
+          }
+
+          if (this.cloneFrom !== null) {
+            this.cloneFrom.init();
+            this.cloneFrom.keys().forEach(
+            /**
+            * @param {?} key
+            * @return {?}
+            */
+            function (key) {
+              return (
+                /** @type {?} */
+                _this70.map.set(key,
+                /** @type {?} */
+
+                /** @type {?} */
+
+                /** @type {?} */
+                _this70.cloneFrom.map.get(key))
+              );
+            });
+
+            /** @type {?} */
+            this.updates.forEach(
+            /**
+            * @param {?} update
+            * @return {?}
+            */
+            function (update) {
+              switch (update.op) {
+                case 'a':
+                case 's':
+                  /** @type {?} */
+                  var base = (update.op === 'a' ?
+                  /** @type {?} */
+                  _this70.map.get(update.param) : undefined) || [];
+                  base.push(
+                  /** @type {?} */
+                  update.value);
+
+                  /** @type {?} */
+                  _this70.map.set(update.param, base);
+
+                  break;
+
+                case 'd':
+                  if (update.value !== undefined) {
+                    /** @type {?} */
+                    var _base =
+                    /** @type {?} */
+                    _this70.map.get(update.param) || [];
+                    /** @type {?} */
+
+
+                    var idx = _base.indexOf(update.value);
+
+                    if (idx !== -1) {
+                      _base.splice(idx, 1);
+                    }
+
+                    if (_base.length > 0) {
+                      /** @type {?} */
+                      _this70.map.set(update.param, _base);
+                    } else {
+                      /** @type {?} */
+                      _this70.map["delete"](update.param);
+                    }
+                  } else {
+                    /** @type {?} */
+                    _this70.map["delete"](update.param);
+
+                    break;
+                  }
+
+              }
+            });
+            this.cloneFrom = this.updates = null;
+          }
+        }
+      }]);
+
+      return HttpParams;
+    }();
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/request.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * Construction interface for `HttpRequest`s.
+     *
+     * All values are optional and will override default values if provided.
+     * @record
+     */
+
+
+    function HttpRequestInit() {}
+
+    if (false) {}
+    /**
+     * Determine whether the given HTTP method may include a body.
+     * @param {?} method
+     * @return {?}
+     */
+
+
+    function mightHaveBody(method) {
+      switch (method) {
+        case 'DELETE':
+        case 'GET':
+        case 'HEAD':
+        case 'OPTIONS':
+        case 'JSONP':
+          return false;
+
+        default:
+          return true;
+      }
+    }
+    /**
+     * Safely assert whether the given value is an ArrayBuffer.
+     *
+     * In some execution environments ArrayBuffer is not defined.
+     * @param {?} value
+     * @return {?}
+     */
+
+
+    function isArrayBuffer(value) {
+      return typeof ArrayBuffer !== 'undefined' && value instanceof ArrayBuffer;
+    }
+    /**
+     * Safely assert whether the given value is a Blob.
+     *
+     * In some execution environments Blob is not defined.
+     * @param {?} value
+     * @return {?}
+     */
+
+
+    function isBlob(value) {
+      return typeof Blob !== 'undefined' && value instanceof Blob;
+    }
+    /**
+     * Safely assert whether the given value is a FormData instance.
+     *
+     * In some execution environments FormData is not defined.
+     * @param {?} value
+     * @return {?}
+     */
+
+
+    function isFormData(value) {
+      return typeof FormData !== 'undefined' && value instanceof FormData;
+    }
+    /**
+     * An outgoing HTTP request with an optional typed body.
+     *
+     * `HttpRequest` represents an outgoing request, including URL, method,
+     * headers, body, and other request configuration options. Instances should be
+     * assumed to be immutable. To modify a `HttpRequest`, the `clone`
+     * method should be used.
+     *
+     * \@publicApi
+     * @template T
+     */
+
+
+    var HttpRequest = /*#__PURE__*/function () {
+      /**
+       * @param {?} method
+       * @param {?} url
+       * @param {?=} third
+       * @param {?=} fourth
+       */
+      function HttpRequest(method, url, third, fourth) {
+        _classCallCheck(this, HttpRequest);
+
+        this.url = url;
+        /**
+         * The request body, or `null` if one isn't set.
+         *
+         * Bodies are not enforced to be immutable, as they can include a reference to any
+         * user-defined data type. However, interceptors should take care to preserve
+         * idempotence by treating them as such.
+         */
+
+        this.body = null;
+        /**
+         * Whether this request should be made in a way that exposes progress events.
+         *
+         * Progress events are expensive (change detection runs on each event) and so
+         * they should only be requested if the consumer intends to monitor them.
+         */
+
+        this.reportProgress = false;
+        /**
+         * Whether this request should be sent with outgoing credentials (cookies).
+         */
+
+        this.withCredentials = false;
+        /**
+         * The expected response type of the server.
+         *
+         * This is used to parse the response appropriately before returning it to
+         * the requestee.
+         */
+
+        this.responseType = 'json';
+        this.method = method.toUpperCase(); // Next, need to figure out which argument holds the HttpRequestInit
+        // options, if any.
+
+        /** @type {?} */
+
+        var options; // Check whether a body argument is expected. The only valid way to omit
+        // the body argument is to use a known no-body method like GET.
+
+        if (mightHaveBody(this.method) || !!fourth) {
+          // Body is the third argument, options are the fourth.
+          this.body = third !== undefined ?
+          /** @type {?} */
+          third : null;
+          options = fourth;
+        } else {
+          // No body required, options are the third argument. The body stays null.
+          options =
+          /** @type {?} */
+          third;
+        } // If options have been passed, interpret them.
+
+
+        if (options) {
+          // Normalize reportProgress and withCredentials.
+          this.reportProgress = !!options.reportProgress;
+          this.withCredentials = !!options.withCredentials; // Override default response type of 'json' if one is provided.
+
+          if (!!options.responseType) {
+            this.responseType = options.responseType;
+          } // Override headers if they're provided.
+
+
+          if (!!options.headers) {
+            this.headers = options.headers;
+          }
+
+          if (!!options.params) {
+            this.params = options.params;
+          }
+        } // If no headers have been passed in, construct a new HttpHeaders instance.
+
+
+        if (!this.headers) {
+          this.headers = new HttpHeaders();
+        } // If no parameters have been passed in, construct a new HttpUrlEncodedParams instance.
+
+
+        if (!this.params) {
+          this.params = new HttpParams();
+          this.urlWithParams = url;
+        } else {
+          // Encode the parameters to a string in preparation for inclusion in the URL.
+
+          /** @type {?} */
+          var params = this.params.toString();
+
+          if (params.length === 0) {
+            // No parameters, the visible URL is just the URL given at creation time.
+            this.urlWithParams = url;
+          } else {
+            // Does the URL already have query parameters? Look for '?'.
+
+            /** @type {?} */
+            var qIdx = url.indexOf('?'); // There are 3 cases to handle:
+            // 1) No existing parameters -> append '?' followed by params.
+            // 2) '?' exists and is followed by existing query string ->
+            //    append '&' followed by params.
+            // 3) '?' exists at the end of the url -> append params directly.
+            // This basically amounts to determining the character, if any, with
+            // which to join the URL and parameters.
+
+            /** @type {?} */
+
+            var sep = qIdx === -1 ? '?' : qIdx < url.length - 1 ? '&' : '';
+            this.urlWithParams = url + sep + params;
+          }
+        }
+      }
+      /**
+       * Transform the free-form body into a serialized format suitable for
+       * transmission to the server.
+       * @return {?}
+       */
+
+
+      _createClass2(HttpRequest, [{
+        key: "serializeBody",
+        value: function serializeBody() {
+          // If no body is present, no need to serialize it.
+          if (this.body === null) {
+            return null;
+          } // Check whether the body is already in a serialized form. If so,
+          // it can just be returned directly.
+
+
+          if (isArrayBuffer(this.body) || isBlob(this.body) || isFormData(this.body) || typeof this.body === 'string') {
+            return this.body;
+          } // Check whether the body is an instance of HttpUrlEncodedParams.
+
+
+          if (this.body instanceof HttpParams) {
+            return this.body.toString();
+          } // Check whether the body is an object or array, and serialize with JSON if so.
+
+
+          if (typeof this.body === 'object' || typeof this.body === 'boolean' || Array.isArray(this.body)) {
+            return JSON.stringify(this.body);
+          } // Fall back on toString() for everything else.
+
+
+          return (
+            /** @type {?} */
+            this.body.toString()
+          );
+        }
+        /**
+         * Examine the body and attempt to infer an appropriate MIME type
+         * for it.
+         *
+         * If no such type can be inferred, this method will return `null`.
+         * @return {?}
+         */
+
+      }, {
+        key: "detectContentTypeHeader",
+        value: function detectContentTypeHeader() {
+          // An empty body has no content type.
+          if (this.body === null) {
+            return null;
+          } // FormData bodies rely on the browser's content type assignment.
+
+
+          if (isFormData(this.body)) {
+            return null;
+          } // Blobs usually have their own content type. If it doesn't, then
+          // no type can be inferred.
+
+
+          if (isBlob(this.body)) {
+            return this.body.type || null;
+          } // Array buffers have unknown contents and thus no type can be inferred.
+
+
+          if (isArrayBuffer(this.body)) {
+            return null;
+          } // Technically, strings could be a form of JSON data, but it's safe enough
+          // to assume they're plain strings.
+
+
+          if (typeof this.body === 'string') {
+            return 'text/plain';
+          } // `HttpUrlEncodedParams` has its own content-type.
+
+
+          if (this.body instanceof HttpParams) {
+            return 'application/x-www-form-urlencoded;charset=UTF-8';
+          } // Arrays, objects, and numbers will be encoded as JSON.
+
+
+          if (typeof this.body === 'object' || typeof this.body === 'number' || Array.isArray(this.body)) {
+            return 'application/json';
+          } // No type could be inferred.
+
+
+          return null;
+        }
+        /**
+         * @param {?=} update
+         * @return {?}
+         */
+
+      }, {
+        key: "clone",
+        value: function clone() {
+          var update = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          // For method, url, and responseType, take the current value unless
+          // it is overridden in the update hash.
+
+          /** @type {?} */
+          var method = update.method || this.method;
+          /** @type {?} */
+
+          var url = update.url || this.url;
+          /** @type {?} */
+
+          var responseType = update.responseType || this.responseType; // The body is somewhat special - a `null` value in update.body means
+          // whatever current body is present is being overridden with an empty
+          // body, whereas an `undefined` value in update.body implies no
+          // override.
+
+          /** @type {?} */
+
+          var body = update.body !== undefined ? update.body : this.body; // Carefully handle the boolean options to differentiate between
+          // `false` and `undefined` in the update args.
+
+          /** @type {?} */
+
+          var withCredentials = update.withCredentials !== undefined ? update.withCredentials : this.withCredentials;
+          /** @type {?} */
+
+          var reportProgress = update.reportProgress !== undefined ? update.reportProgress : this.reportProgress; // Headers and params may be appended to if `setHeaders` or
+          // `setParams` are used.
+
+          /** @type {?} */
+
+          var headers = update.headers || this.headers;
+          /** @type {?} */
+
+          var params = update.params || this.params; // Check whether the caller has asked to add headers.
+
+          if (update.setHeaders !== undefined) {
+            // Set every requested header.
+            headers = Object.keys(update.setHeaders).reduce(
+            /**
+            * @param {?} headers
+            * @param {?} name
+            * @return {?}
+            */
+            function (headers, name) {
+              return headers.set(name,
+              /** @type {?} */
+              update.setHeaders[name]);
+            }, headers);
+          } // Check whether the caller has asked to set params.
+
+
+          if (update.setParams) {
+            // Set every requested param.
+            params = Object.keys(update.setParams).reduce(
+            /**
+            * @param {?} params
+            * @param {?} param
+            * @return {?}
+            */
+            function (params, param) {
+              return params.set(param,
+              /** @type {?} */
+              update.setParams[param]);
+            }, params);
+          } // Finally, construct the new HttpRequest using the pieces from above.
+
+
+          return new HttpRequest(method, url, body, {
+            params: params,
+            headers: headers,
+            reportProgress: reportProgress,
+            responseType: responseType,
+            withCredentials: withCredentials
+          });
+        }
+      }]);
+
+      return HttpRequest;
+    }();
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/response.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /** @enum {number} */
+
+
+    var HttpEventType = {
+      /**
+       * The request was sent out over the wire.
+       */
+      Sent: 0,
+
+      /**
+       * An upload progress event was received.
+       */
+      UploadProgress: 1,
+
+      /**
+       * The response status code and headers were received.
+       */
+      ResponseHeader: 2,
+
+      /**
+       * A download progress event was received.
+       */
+      DownloadProgress: 3,
+
+      /**
+       * The full response including the body was received.
+       */
+      Response: 4,
+
+      /**
+       * A custom event from an interceptor or a backend.
+       */
+      User: 5
+    };
+    HttpEventType[HttpEventType.Sent] = 'Sent';
+    HttpEventType[HttpEventType.UploadProgress] = 'UploadProgress';
+    HttpEventType[HttpEventType.ResponseHeader] = 'ResponseHeader';
+    HttpEventType[HttpEventType.DownloadProgress] = 'DownloadProgress';
+    HttpEventType[HttpEventType.Response] = 'Response';
+    HttpEventType[HttpEventType.User] = 'User';
+    /**
+     * Base interface for progress events.
+     *
+     * \@publicApi
+     * @record
+     */
+
+    function HttpProgressEvent() {}
+
+    if (false) {}
+    /**
+     * A download progress event.
+     *
+     * \@publicApi
+     * @record
+     */
+
+
+    function HttpDownloadProgressEvent() {}
+
+    if (false) {}
+    /**
+     * An upload progress event.
+     *
+     * \@publicApi
+     * @record
+     */
+
+
+    function HttpUploadProgressEvent() {}
+
+    if (false) {}
+    /**
+     * An event indicating that the request was sent to the server. Useful
+     * when a request may be retried multiple times, to distinguish between
+     * retries on the final event stream.
+     *
+     * \@publicApi
+     * @record
+     */
+
+
+    function HttpSentEvent() {}
+
+    if (false) {}
+    /**
+     * A user-defined event.
+     *
+     * Grouping all custom events under this type ensures they will be handled
+     * and forwarded by all implementations of interceptors.
+     *
+     * \@publicApi
+     * @record
+     * @template T
+     */
+
+
+    function HttpUserEvent() {}
+
+    if (false) {}
+    /**
+     * An error that represents a failed attempt to JSON.parse text coming back
+     * from the server.
+     *
+     * It bundles the Error object with the actual response body that failed to parse.
+     *
+     *
+     * @record
+     */
+
+
+    function HttpJsonParseError() {}
+
+    if (false) {}
+    /**
+     * Base class for both `HttpResponse` and `HttpHeaderResponse`.
+     *
+     * \@publicApi
+     * @abstract
+     */
+
+
+    var HttpResponseBase =
+    /**
+     * Super-constructor for all responses.
+     *
+     * The single parameter accepted is an initialization hash. Any properties
+     * of the response passed there will override the default values.
+     * @param {?} init
+     * @param {?=} defaultStatus
+     * @param {?=} defaultStatusText
+     */
+    function HttpResponseBase(init) {
+      var defaultStatus = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 200;
+      var defaultStatusText = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'OK';
+
+      _classCallCheck(this, HttpResponseBase);
+
+      // If the hash has values passed, use them to initialize the response.
+      // Otherwise use the default values.
+      this.headers = init.headers || new HttpHeaders();
+      this.status = init.status !== undefined ? init.status : defaultStatus;
+      this.statusText = init.statusText || defaultStatusText;
+      this.url = init.url || null; // Cache the ok value to avoid defining a getter.
+
+      this.ok = this.status >= 200 && this.status < 300;
+    };
+
+    if (false) {}
+    /**
+     * A partial HTTP response which only includes the status and header data,
+     * but no response body.
+     *
+     * `HttpHeaderResponse` is a `HttpEvent` available on the response
+     * event stream, only when progress events are requested.
+     *
+     * \@publicApi
+     */
+
+
+    var HttpHeaderResponse = /*#__PURE__*/function (_HttpResponseBase) {
+      _inherits(HttpHeaderResponse, _HttpResponseBase);
+
+      var _super8 = _createSuper(HttpHeaderResponse);
+
+      /**
+       * Create a new `HttpHeaderResponse` with the given parameters.
+       * @param {?=} init
+       */
+      function HttpHeaderResponse() {
+        var _this71;
+
+        var init = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+        _classCallCheck(this, HttpHeaderResponse);
+
+        _this71 = _super8.call(this, init);
+        _this71.type = HttpEventType.ResponseHeader;
+        return _this71;
+      }
+      /**
+       * Copy this `HttpHeaderResponse`, overriding its contents with the
+       * given parameter hash.
+       * @param {?=} update
+       * @return {?}
+       */
+
+
+      _createClass2(HttpHeaderResponse, [{
+        key: "clone",
+        value: function clone() {
+          var update = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          // Perform a straightforward initialization of the new HttpHeaderResponse,
+          // overriding the current parameters with new ones if given.
+          return new HttpHeaderResponse({
+            headers: update.headers || this.headers,
+            status: update.status !== undefined ? update.status : this.status,
+            statusText: update.statusText || this.statusText,
+            url: update.url || this.url || undefined
+          });
+        }
+      }]);
+
+      return HttpHeaderResponse;
+    }(HttpResponseBase);
+
+    if (false) {}
+    /**
+     * A full HTTP response, including a typed response body (which may be `null`
+     * if one was not returned).
+     *
+     * `HttpResponse` is a `HttpEvent` available on the response event
+     * stream.
+     *
+     * \@publicApi
+     * @template T
+     */
+
+
+    var HttpResponse = /*#__PURE__*/function (_HttpResponseBase2) {
+      _inherits(HttpResponse, _HttpResponseBase2);
+
+      var _super9 = _createSuper(HttpResponse);
+
+      /**
+       * Construct a new `HttpResponse`.
+       * @param {?=} init
+       */
+      function HttpResponse() {
+        var _this72;
+
+        var init = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+        _classCallCheck(this, HttpResponse);
+
+        _this72 = _super9.call(this, init);
+        _this72.type = HttpEventType.Response;
+        _this72.body = init.body !== undefined ? init.body : null;
+        return _this72;
+      }
+      /**
+       * @param {?=} update
+       * @return {?}
+       */
+
+
+      _createClass2(HttpResponse, [{
+        key: "clone",
+        value: function clone() {
+          var update = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          return new HttpResponse({
+            body: update.body !== undefined ? update.body : this.body,
+            headers: update.headers || this.headers,
+            status: update.status !== undefined ? update.status : this.status,
+            statusText: update.statusText || this.statusText,
+            url: update.url || this.url || undefined
+          });
+        }
+      }]);
+
+      return HttpResponse;
+    }(HttpResponseBase);
+
+    if (false) {}
+    /**
+     * A response that represents an error or failure, either from a
+     * non-successful HTTP status, an error while executing the request,
+     * or some other failure which occurred during the parsing of the response.
+     *
+     * Any error returned on the `Observable` response stream will be
+     * wrapped in an `HttpErrorResponse` to provide additional context about
+     * the state of the HTTP layer when the error occurred. The error property
+     * will contain either a wrapped Error object or the error response returned
+     * from the server.
+     *
+     * \@publicApi
+     */
+
+
+    var HttpErrorResponse = /*#__PURE__*/function (_HttpResponseBase3) {
+      _inherits(HttpErrorResponse, _HttpResponseBase3);
+
+      var _super10 = _createSuper(HttpErrorResponse);
+
+      /**
+       * @param {?} init
+       */
+      function HttpErrorResponse(init) {
+        var _this73;
+
+        _classCallCheck(this, HttpErrorResponse);
+
+        // Initialize with a default status of 0 / Unknown Error.
+        _this73 = _super10.call(this, init, 0, 'Unknown Error');
+        _this73.name = 'HttpErrorResponse';
+        /**
+         * Errors are never okay, even when the status code is in the 2xx success range.
+         */
+
+        _this73.ok = false; // If the response was successful, then this was a parse error. Otherwise, it was
+        // a protocol-level failure of some sort. Either the request failed in transit
+        // or the server returned an unsuccessful status code.
+
+        if (_this73.status >= 200 && _this73.status < 300) {
+          _this73.message = "Http failure during parsing for ".concat(init.url || '(unknown url)');
+        } else {
+          _this73.message = "Http failure response for ".concat(init.url || '(unknown url)', ": ").concat(init.status, " ").concat(init.statusText);
+        }
+
+        _this73.error = init.error || null;
+        return _this73;
+      }
+
+      return HttpErrorResponse;
+    }(HttpResponseBase);
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/client.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * Constructs an instance of `HttpRequestOptions<T>` from a source `HttpMethodOptions` and
+     * the given `body`. This function clones the object and adds the body.
+     *
+     * Note that the `responseType` *options* value is a String that identifies the
+     * single data type of the response.
+     * A single overload version of the method handles each response type.
+     * The value of `responseType` cannot be a union, as the combined signature could imply.
+     *
+     * @template T
+     * @param {?} options
+     * @param {?} body
+     * @return {?}
+     */
+
+
+    function addBody(options, body) {
+      return {
+        body: body,
+        headers: options.headers,
+        observe: options.observe,
+        params: options.params,
+        reportProgress: options.reportProgress,
+        responseType: options.responseType,
+        withCredentials: options.withCredentials
+      };
+    }
+    /**
+     * Performs HTTP requests.
+     * This service is available as an injectable class, with methods to perform HTTP requests.
+     * Each request method has multiple signatures, and the return type varies based on
+     * the signature that is called (mainly the values of `observe` and `responseType`).
+     *
+     * Note that the `responseType` *options* value is a String that identifies the
+     * single data type of the response.
+     * A single overload version of the method handles each response type.
+     * The value of `responseType` cannot be a union, as the combined signature could imply.
+     *
+     * \@usageNotes
+     * Sample HTTP requests for the [Tour of Heroes](/tutorial/toh-pt0) application.
+     *
+     * ### HTTP Request Example
+     *
+     * ```
+     *  // GET heroes whose name contains search term
+     * searchHeroes(term: string): observable<Hero[]>{
+     *
+     *  const params = new HttpParams({fromString: 'name=term'});
+     *    return this.httpClient.request('GET', this.heroesUrl, {responseType:'json', params});
+     * }
+     * ```
+     * ### JSONP Example
+     * ```
+     * requestJsonp(url, callback = 'callback') {
+     *  return this.httpClient.jsonp(this.heroesURL, callback);
+     * }
+     * ```
+     *
+     * ### PATCH Example
+     * ```
+     * // PATCH one of the heroes' name
+     * patchHero (id: number, heroName: string): Observable<{}> {
+     * const url = `${this.heroesUrl}/${id}`;   // PATCH api/heroes/42
+     *  return this.httpClient.patch(url, {name: heroName}, httpOptions)
+     *    .pipe(catchError(this.handleError('patchHero')));
+     * }
+     * ```
+     *
+     * @see [HTTP Guide](guide/http)
+     *
+     * \@publicApi
+     */
+
+
+    var HttpClient = /*#__PURE__*/function () {
+      /**
+       * @param {?} handler
+       */
+      function HttpClient(handler) {
+        _classCallCheck(this, HttpClient);
+
+        this.handler = handler;
+      }
+      /**
+       * Constructs an observable for a generic HTTP request that, when subscribed,
+       * fires the request through the chain of registered interceptors and on to the
+       * server.
+       *
+       * You can pass an `HttpRequest` directly as the only parameter. In this case,
+       * the call returns an observable of the raw `HttpEvent` stream.
+       *
+       * Alternatively you can pass an HTTP method as the first parameter,
+       * a URL string as the second, and an options hash containing the request body as the third.
+       * See `addBody()`. In this case, the specified `responseType` and `observe` options determine the
+       * type of returned observable.
+       *   * The `responseType` value determines how a successful response body is parsed.
+       *   * If `responseType` is the default `json`, you can pass a type interface for the resulting
+       * object as a type parameter to the call.
+       *
+       * The `observe` value determines the return type, according to what you are interested in
+       * observing.
+       *   * An `observe` value of events returns an observable of the raw `HttpEvent` stream, including
+       * progress events by default.
+       *   * An `observe` value of response returns an observable of `HttpResponse<T>`,
+       * where the `T` parameter depends on the `responseType` and any optionally provided type
+       * parameter.
+       *   * An `observe` value of body returns an observable of `<T>` with the same `T` body type.
+       *
+       * @param {?} first
+       * @param {?=} url
+       * @param {?=} options
+       * @return {?}
+       */
+
+
+      _createClass2(HttpClient, [{
+        key: "request",
+        value: function request(first, url) {
+          var _this74 = this;
+
+          var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+          /** @type {?} */
+          var req; // First, check whether the primary argument is an instance of `HttpRequest`.
+
+          if (first instanceof HttpRequest) {
+            // It is. The other arguments must be undefined (per the signatures) and can be
+            // ignored.
+            req = first;
+          } else {
+            // It's a string, so it represents a URL. Construct a request based on it,
+            // and incorporate the remaining arguments (assuming `GET` unless a method is
+            // provided.
+            // Figure out the headers.
+
+            /** @type {?} */
+            var headers = undefined;
+
+            if (options.headers instanceof HttpHeaders) {
+              headers = options.headers;
+            } else {
+              headers = new HttpHeaders(options.headers);
+            } // Sort out parameters.
+
+            /** @type {?} */
+
+
+            var params = undefined;
+
+            if (!!options.params) {
+              if (options.params instanceof HttpParams) {
+                params = options.params;
+              } else {
+                params = new HttpParams(
+                /** @type {?} */
+                {
+                  fromObject: options.params
+                });
+              }
+            } // Construct the request.
+
+
+            req = new HttpRequest(first,
+            /** @type {?} */
+            url, options.body !== undefined ? options.body : null, {
+              headers: headers,
+              params: params,
+              reportProgress: options.reportProgress,
+              // By default, JSON is assumed to be returned for all calls.
+              responseType: options.responseType || 'json',
+              withCredentials: options.withCredentials
+            });
+          } // Start with an Observable.of() the initial request, and run the handler (which
+          // includes all interceptors) inside a concatMap(). This way, the handler runs
+          // inside an Observable chain, which causes interceptors to be re-run on every
+          // subscription (this also makes retries re-run the handler, including interceptors).
+
+          /** @type {?} */
+
+
+          var events$ = Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(req).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["concatMap"])(
+          /**
+          * @param {?} req
+          * @return {?}
+          */
+          function (req) {
+            return _this74.handler.handle(req);
+          })); // If coming via the API signature which accepts a previously constructed HttpRequest,
+          // the only option is to get the event stream. Otherwise, return the event stream if
+          // that is what was requested.
+
+          if (first instanceof HttpRequest || options.observe === 'events') {
+            return events$;
+          } // The requested stream contains either the full response or the body. In either
+          // case, the first step is to filter the event stream to extract a stream of
+          // responses(s).
+
+          /** @type {?} */
+
+
+          var res$ =
+          /** @type {?} */
+          events$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["filter"])(
+          /**
+          * @param {?} event
+          * @return {?}
+          */
+          function (event) {
+            return event instanceof HttpResponse;
+          })); // Decide which stream to return.
+
+          switch (options.observe || 'body') {
+            case 'body':
+              // The requested stream is the body. Map the response stream to the response
+              // body. This could be done more simply, but a misbehaving interceptor might
+              // transform the response body into a different format and ignore the requested
+              // responseType. Guard against this by validating that the response is of the
+              // requested type.
+              switch (req.responseType) {
+                case 'arraybuffer':
+                  return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(
+                  /**
+                  * @param {?} res
+                  * @return {?}
+                  */
+                  function (res) {
+                    // Validate that the body is an ArrayBuffer.
+                    if (res.body !== null && !(res.body instanceof ArrayBuffer)) {
+                      throw new Error('Response is not an ArrayBuffer.');
+                    }
+
+                    return res.body;
+                  }));
+
+                case 'blob':
+                  return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(
+                  /**
+                  * @param {?} res
+                  * @return {?}
+                  */
+                  function (res) {
+                    // Validate that the body is a Blob.
+                    if (res.body !== null && !(res.body instanceof Blob)) {
+                      throw new Error('Response is not a Blob.');
+                    }
+
+                    return res.body;
+                  }));
+
+                case 'text':
+                  return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(
+                  /**
+                  * @param {?} res
+                  * @return {?}
+                  */
+                  function (res) {
+                    // Validate that the body is a string.
+                    if (res.body !== null && typeof res.body !== 'string') {
+                      throw new Error('Response is not a string.');
+                    }
+
+                    return res.body;
+                  }));
+
+                case 'json':
+                default:
+                  // No validation needed for JSON responses, as they can be of any type.
+                  return res$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(
+                  /**
+                  * @param {?} res
+                  * @return {?}
+                  */
+                  function (res) {
+                    return res.body;
+                  }));
+              }
+
+            case 'response':
+              // The response stream was requested directly, so return it.
+              return res$;
+
+            default:
+              // Guard against new future observe types being added.
+              throw new Error("Unreachable: unhandled observe type ".concat(options.observe, "}"));
+          }
+        }
+        /**
+         * Constructs an observable that, when subscribed, causes the configured
+         * `DELETE` request to execute on the server. See the individual overloads for
+         * details on the return type.
+         *
+         * @param {?} url     The endpoint URL.
+         * @param {?=} options The HTTP options to send with the request.
+         *
+         * @return {?}
+         */
+
+      }, {
+        key: "delete",
+        value: function _delete(url) {
+          var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+          return this.request('DELETE', url,
+          /** @type {?} */
+          options);
+        }
+        /**
+         * Constructs an observable that, when subscribed, causes the configured
+         * `GET` request to execute on the server. See the individual overloads for
+         * details on the return type.
+         * @param {?} url
+         * @param {?=} options
+         * @return {?}
+         */
+
+      }, {
+        key: "get",
+        value: function get(url) {
+          var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+          return this.request('GET', url,
+          /** @type {?} */
+          options);
+        }
+        /**
+         * Constructs an observable that, when subscribed, causes the configured
+         * `HEAD` request to execute on the server. The `HEAD` method returns
+         * meta information about the resource without transferring the
+         * resource itself. See the individual overloads for
+         * details on the return type.
+         * @param {?} url
+         * @param {?=} options
+         * @return {?}
+         */
+
+      }, {
+        key: "head",
+        value: function head(url) {
+          var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+          return this.request('HEAD', url,
+          /** @type {?} */
+          options);
+        }
+        /**
+         * Constructs an `Observable` that, when subscribed, causes a request with the special method
+         * `JSONP` to be dispatched via the interceptor pipeline.
+         * The [JSONP pattern](https://en.wikipedia.org/wiki/JSONP) works around limitations of certain
+         * API endpoints that don't support newer,
+         * and preferable [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) protocol.
+         * JSONP treats the endpoint API as a JavaScript file and tricks the browser to process the
+         * requests even if the API endpoint is not located on the same domain (origin) as the client-side
+         * application making the request.
+         * The endpoint API must support JSONP callback for JSONP requests to work.
+         * The resource API returns the JSON response wrapped in a callback function.
+         * You can pass the callback function name as one of the query parameters.
+         * Note that JSONP requests can only be used with `GET` requests.
+         *
+         * @template T
+         * @param {?} url The resource URL.
+         * @param {?} callbackParam The callback function name.
+         *
+         * @return {?}
+         */
+
+      }, {
+        key: "jsonp",
+        value: function jsonp(url, callbackParam) {
+          return this.request('JSONP', url, {
+            params: new HttpParams().append(callbackParam, 'JSONP_CALLBACK'),
+            observe: 'body',
+            responseType: 'json'
+          });
+        }
+        /**
+         * Constructs an `Observable` that, when subscribed, causes the configured
+         * `OPTIONS` request to execute on the server. This method allows the client
+         * to determine the supported HTTP methods and other capabilites of an endpoint,
+         * without implying a resource action. See the individual overloads for
+         * details on the return type.
+         * @param {?} url
+         * @param {?=} options
+         * @return {?}
+         */
+
+      }, {
+        key: "options",
+        value: function options(url) {
+          var _options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+          return this.request('OPTIONS', url,
+          /** @type {?} */
+          _options);
+        }
+        /**
+         * Constructs an observable that, when subscribed, causes the configured
+         * `PATCH` request to execute on the server. See the individual overloads for
+         * details on the return type.
+         * @param {?} url
+         * @param {?} body
+         * @param {?=} options
+         * @return {?}
+         */
+
+      }, {
+        key: "patch",
+        value: function patch(url, body) {
+          var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+          return this.request('PATCH', url, addBody(options, body));
+        }
+        /**
+         * Constructs an observable that, when subscribed, causes the configured
+         * `POST` request to execute on the server. The server responds with the location of
+         * the replaced resource. See the individual overloads for
+         * details on the return type.
+         * @param {?} url
+         * @param {?} body
+         * @param {?=} options
+         * @return {?}
+         */
+
+      }, {
+        key: "post",
+        value: function post(url, body) {
+          var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+          return this.request('POST', url, addBody(options, body));
+        }
+        /**
+         * Constructs an observable that, when subscribed, causes the configured
+         * `PUT` request to execute on the server. The `PUT` method replaces an existing resource
+         * with a new set of values.
+         * See the individual overloads for details on the return type.
+         * @param {?} url
+         * @param {?} body
+         * @param {?=} options
+         * @return {?}
+         */
+
+      }, {
+        key: "put",
+        value: function put(url, body) {
+          var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+          return this.request('PUT', url, addBody(options, body));
+        }
+      }]);
+
+      return HttpClient;
+    }();
+
+    HttpClient.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    HttpClient.ctorParameters = function () {
+      return [{
+        type: HttpHandler
+      }];
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/interceptor.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * Intercepts and handles an `HttpRequest` or `HttpResponse`.
+     *
+     * Most interceptors transform the outgoing request before passing it to the
+     * next interceptor in the chain, by calling `next.handle(transformedReq)`.
+     * An interceptor may transform the
+     * response event stream as well, by applying additional RxJS operators on the stream
+     * returned by `next.handle()`.
+     *
+     * More rarely, an interceptor may handle the request entirely,
+     * and compose a new event stream instead of invoking `next.handle()`. This is an
+     * acceptable behavior, but keep in mind that further interceptors will be skipped entirely.
+     *
+     * It is also rare but valid for an interceptor to return multiple responses on the
+     * event stream for a single request.
+     *
+     * \@publicApi
+     *
+     * @see [HTTP Guide](guide/http#intercepting-requests-and-responses)
+     *
+     * \@usageNotes
+     *
+     * To use the same instance of `HttpInterceptors` for the entire app, import the `HttpClientModule`
+     * only in your `AppModule`, and add the interceptors to the root application injector .
+     * If you import `HttpClientModule` multiple times across different modules (for example, in lazy
+     * loading modules), each import creates a new copy of the `HttpClientModule`, which overwrites the
+     * interceptors provided in the root module.
+     *
+     * @record
+     */
+
+
+    function HttpInterceptor() {}
+
+    if (false) {}
+    /**
+     * `HttpHandler` which applies an `HttpInterceptor` to an `HttpRequest`.
+     *
+     *
+     */
+
+
+    var HttpInterceptorHandler = /*#__PURE__*/function () {
+      /**
+       * @param {?} next
+       * @param {?} interceptor
+       */
+      function HttpInterceptorHandler(next, interceptor) {
+        _classCallCheck(this, HttpInterceptorHandler);
+
+        this.next = next;
+        this.interceptor = interceptor;
+      }
+      /**
+       * @param {?} req
+       * @return {?}
+       */
+
+
+      _createClass2(HttpInterceptorHandler, [{
+        key: "handle",
+        value: function handle(req) {
+          return this.interceptor.intercept(req, this.next);
+        }
+      }]);
+
+      return HttpInterceptorHandler;
+    }();
+
+    if (false) {}
+    /**
+     * A multi-provider token that represents the array of registered
+     * `HttpInterceptor` objects.
+     *
+     * \@publicApi
+     * @type {?}
+     */
+
+
+    var HTTP_INTERCEPTORS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('HTTP_INTERCEPTORS');
+
+    var NoopInterceptor = /*#__PURE__*/function () {
+      function NoopInterceptor() {
+        _classCallCheck(this, NoopInterceptor);
+      }
+
+      _createClass2(NoopInterceptor, [{
+        key: "intercept",
+
+        /**
+         * @param {?} req
+         * @param {?} next
+         * @return {?}
+         */
+        value: function intercept(req, next) {
+          return next.handle(req);
+        }
+      }]);
+
+      return NoopInterceptor;
+    }();
+
+    NoopInterceptor.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/jsonp.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    // Every request made through JSONP needs a callback name that's unique across the
+    // whole page. Each request is assigned an id and the callback name is constructed
+    // from that. The next id to be assigned is tracked in a global variable here that
+    // is shared among all applications on the page.
+
+    /** @type {?} */
+
+    var nextRequestId = 0; // Error text given when a JSONP script is injected, but doesn't invoke the callback
+    // passed in its URL.
+
+    /** @type {?} */
+
+    var JSONP_ERR_NO_CALLBACK = 'JSONP injected script did not invoke callback.'; // Error text given when a request is passed to the JsonpClientBackend that doesn't
+    // have a request method JSONP.
+
+    /** @type {?} */
+
+    var JSONP_ERR_WRONG_METHOD = 'JSONP requests must use JSONP request method.';
+    /** @type {?} */
+
+    var JSONP_ERR_WRONG_RESPONSE_TYPE = 'JSONP requests must use Json response type.';
+    /**
+     * DI token/abstract type representing a map of JSONP callbacks.
+     *
+     * In the browser, this should always be the `window` object.
+     *
+     *
+     * @abstract
+     */
+
+    var JsonpCallbackContext = function JsonpCallbackContext() {
+      _classCallCheck(this, JsonpCallbackContext);
+    };
+    /**
+     * Processes an `HttpRequest` with the JSONP method,
+     * by performing JSONP style requests.
+     * @see `HttpHandler`
+     * @see `HttpXhrBackend`
+     *
+     * \@publicApi
+     */
+
+
+    var JsonpClientBackend = /*#__PURE__*/function () {
+      /**
+       * @param {?} callbackMap
+       * @param {?} document
+       */
+      function JsonpClientBackend(callbackMap, document) {
+        _classCallCheck(this, JsonpClientBackend);
+
+        this.callbackMap = callbackMap;
+        this.document = document;
+      }
+      /**
+       * Get the name of the next callback method, by incrementing the global `nextRequestId`.
+       * @private
+       * @return {?}
+       */
+
+
+      _createClass2(JsonpClientBackend, [{
+        key: "nextCallback",
+        value: function nextCallback() {
+          return "ng_jsonp_callback_".concat(nextRequestId++);
+        }
+        /**
+         * Processes a JSONP request and returns an event stream of the results.
+         * @param {?} req The request object.
+         * @return {?} An observable of the response events.
+         *
+         */
+
+      }, {
+        key: "handle",
+        value: function handle(req) {
+          var _this75 = this;
+
+          // Firstly, check both the method and response type. If either doesn't match
+          // then the request was improperly routed here and cannot be handled.
+          if (req.method !== 'JSONP') {
+            throw new Error(JSONP_ERR_WRONG_METHOD);
+          } else if (req.responseType !== 'json') {
+            throw new Error(JSONP_ERR_WRONG_RESPONSE_TYPE);
+          } // Everything else happens inside the Observable boundary.
+
+
+          return new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"](
+          /**
+          * @param {?} observer
+          * @return {?}
+          */
+          function (observer) {
+            // The first step to make a request is to generate the callback name, and replace the
+            // callback placeholder in the URL with the name. Care has to be taken here to ensure
+            // a trailing &, if matched, gets inserted back into the URL in the correct place.
+
+            /** @type {?} */
+            var callback = _this75.nextCallback();
+            /** @type {?} */
+
+
+            var url = req.urlWithParams.replace(/=JSONP_CALLBACK(&|$)/, "=".concat(callback, "$1")); // Construct the <script> tag and point it at the URL.
+
+            /** @type {?} */
+
+            var node = _this75.document.createElement('script');
+
+            node.src = url; // A JSONP request requires waiting for multiple callbacks. These variables
+            // are closed over and track state across those callbacks.
+            // The response object, if one has been received, or null otherwise.
+
+            /** @type {?} */
+
+            var body = null; // Whether the response callback has been called.
+
+            /** @type {?} */
+
+            var finished = false; // Whether the request has been cancelled (and thus any other callbacks)
+            // should be ignored.
+
+            /** @type {?} */
+
+            var cancelled = false; // Set the response callback in this.callbackMap (which will be the window
+            // object in the browser. The script being loaded via the <script> tag will
+            // eventually call this callback.
+
+            _this75.callbackMap[callback] =
+            /**
+            * @param {?=} data
+            * @return {?}
+            */
+            function (data) {
+              // Data has been received from the JSONP script. Firstly, delete this callback.
+              delete _this75.callbackMap[callback]; // Next, make sure the request wasn't cancelled in the meantime.
+
+              if (cancelled) {
+                return;
+              } // Set state to indicate data was received.
+
+
+              body = data;
+              finished = true;
+            }; // cleanup() is a utility closure that removes the <script> from the page and
+            // the response callback from the window. This logic is used in both the
+            // success, error, and cancellation paths, so it's extracted out for convenience.
+
+            /** @type {?} */
+
+
+            var cleanup =
+            /**
+            * @return {?}
+            */
+            function cleanup() {
+              // Remove the <script> tag if it's still on the page.
+              if (node.parentNode) {
+                node.parentNode.removeChild(node);
+              } // Remove the response callback from the callbackMap (window object in the
+              // browser).
+
+
+              delete _this75.callbackMap[callback];
+            }; // onLoad() is the success callback which runs after the response callback
+            // if the JSONP script loads successfully. The event itself is unimportant.
+            // If something went wrong, onLoad() may run without the response callback
+            // having been invoked.
+
+            /** @type {?} */
+
+
+            var onLoad =
+            /**
+            * @param {?} event
+            * @return {?}
+            */
+            function onLoad(event) {
+              // Do nothing if the request has been cancelled.
+              if (cancelled) {
+                return;
+              } // Cleanup the page.
+
+
+              cleanup(); // Check whether the response callback has run.
+
+              if (!finished) {
+                // It hasn't, something went wrong with the request. Return an error via
+                // the Observable error path. All JSONP errors have status 0.
+                observer.error(new HttpErrorResponse({
+                  url: url,
+                  status: 0,
+                  statusText: 'JSONP Error',
+                  error: new Error(JSONP_ERR_NO_CALLBACK)
+                }));
+                return;
+              } // Success. body either contains the response body or null if none was
+              // returned.
+
+
+              observer.next(new HttpResponse({
+                body: body,
+                status: 200,
+                statusText: 'OK',
+                url: url
+              })); // Complete the stream, the response is over.
+
+              observer.complete();
+            }; // onError() is the error callback, which runs if the script returned generates
+            // a Javascript error. It emits the error via the Observable error channel as
+            // a HttpErrorResponse.
+
+            /** @type {?} */
+
+
+            var onError =
+            /**
+            * @param {?} error
+            * @return {?}
+            */
+            function onError(error) {
+              // If the request was already cancelled, no need to emit anything.
+              if (cancelled) {
+                return;
+              }
+
+              cleanup(); // Wrap the error in a HttpErrorResponse.
+
+              observer.error(new HttpErrorResponse({
+                error: error,
+                status: 0,
+                statusText: 'JSONP Error',
+                url: url
+              }));
+            }; // Subscribe to both the success (load) and error events on the <script> tag,
+            // and add it to the page.
+
+
+            node.addEventListener('load', onLoad);
+            node.addEventListener('error', onError);
+
+            _this75.document.body.appendChild(node); // The request has now been successfully sent.
+
+
+            observer.next({
+              type: HttpEventType.Sent
+            }); // Cancellation handler.
+
+            return (
+              /**
+              * @return {?}
+              */
+              function () {
+                // Track the cancellation so event listeners won't do anything even if already scheduled.
+                cancelled = true; // Remove the event listeners so they won't run if the events later fire.
+
+                node.removeEventListener('load', onLoad);
+                node.removeEventListener('error', onError); // And finally, clean up the page.
+
+                cleanup();
+              }
+            );
+          });
+        }
+      }]);
+
+      return JsonpClientBackend;
+    }();
+
+    JsonpClientBackend.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    JsonpClientBackend.ctorParameters = function () {
+      return [{
+        type: JsonpCallbackContext
+      }, {
+        type: undefined,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DOCUMENT"]]
+        }]
+      }];
+    };
+
+    if (false) {}
+    /**
+     * Identifies requests with the method JSONP and
+     * shifts them to the `JsonpClientBackend`.
+     *
+     * @see `HttpInterceptor`
+     *
+     * \@publicApi
+     */
+
+
+    var JsonpInterceptor = /*#__PURE__*/function () {
+      /**
+       * @param {?} jsonp
+       */
+      function JsonpInterceptor(jsonp) {
+        _classCallCheck(this, JsonpInterceptor);
+
+        this.jsonp = jsonp;
+      }
+      /**
+       * Identifies and handles a given JSONP request.
+       * @param {?} req The outgoing request object to handle.
+       * @param {?} next The next interceptor in the chain, or the backend
+       * if no interceptors remain in the chain.
+       * @return {?} An observable of the event stream.
+       */
+
+
+      _createClass2(JsonpInterceptor, [{
+        key: "intercept",
+        value: function intercept(req, next) {
+          if (req.method === 'JSONP') {
+            return this.jsonp.handle(
+            /** @type {?} */
+            req);
+          } // Fall through for normal HTTP requests.
+
+
+          return next.handle(req);
+        }
+      }]);
+
+      return JsonpInterceptor;
+    }();
+
+    JsonpInterceptor.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    JsonpInterceptor.ctorParameters = function () {
+      return [{
+        type: JsonpClientBackend
+      }];
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/xhr.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /** @type {?} */
+
+
+    var XSSI_PREFIX = /^\)\]\}',?\n/;
+    /**
+     * Determine an appropriate URL for the response, by checking either
+     * XMLHttpRequest.responseURL or the X-Request-URL header.
+     * @param {?} xhr
+     * @return {?}
+     */
+
+    function getResponseUrl(xhr) {
+      if ('responseURL' in xhr && xhr.responseURL) {
+        return xhr.responseURL;
+      }
+
+      if (/^X-Request-URL:/m.test(xhr.getAllResponseHeaders())) {
+        return xhr.getResponseHeader('X-Request-URL');
+      }
+
+      return null;
+    }
+    /**
+     * A wrapper around the `XMLHttpRequest` constructor.
+     *
+     * \@publicApi
+     * @abstract
+     */
+
+
+    var XhrFactory = function XhrFactory() {
+      _classCallCheck(this, XhrFactory);
+    };
+
+    if (false) {}
+    /**
+     * A factory for `HttpXhrBackend` that uses the `XMLHttpRequest` browser API.
+     *
+     */
+
+
+    var BrowserXhr = /*#__PURE__*/function () {
+      function BrowserXhr() {
+        _classCallCheck(this, BrowserXhr);
+      }
+      /**
+       * @return {?}
+       */
+
+
+      _createClass2(BrowserXhr, [{
+        key: "build",
+        value: function build() {
+          return (
+            /** @type {?} */
+            new XMLHttpRequest()
+          );
+        }
+      }]);
+
+      return BrowserXhr;
+    }();
+
+    BrowserXhr.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    BrowserXhr.ctorParameters = function () {
+      return [];
+    };
+    /**
+     * Tracks a response from the server that does not yet have a body.
+     * @record
+     */
+
+
+    function PartialResponse() {}
+
+    if (false) {}
+    /**
+     * Uses `XMLHttpRequest` to send requests to a backend server.
+     * @see `HttpHandler`
+     * @see `JsonpClientBackend`
+     *
+     * \@publicApi
+     */
+
+
+    var HttpXhrBackend = /*#__PURE__*/function () {
+      /**
+       * @param {?} xhrFactory
+       */
+      function HttpXhrBackend(xhrFactory) {
+        _classCallCheck(this, HttpXhrBackend);
+
+        this.xhrFactory = xhrFactory;
+      }
+      /**
+       * Processes a request and returns a stream of response events.
+       * @param {?} req The request object.
+       * @return {?} An observable of the response events.
+       */
+
+
+      _createClass2(HttpXhrBackend, [{
+        key: "handle",
+        value: function handle(req) {
+          var _this76 = this;
+
+          // Quick check to give a better error message when a user attempts to use
+          // HttpClient.jsonp() without installing the JsonpClientModule
+          if (req.method === 'JSONP') {
+            throw new Error("Attempted to construct Jsonp request without JsonpClientModule installed.");
+          } // Everything happens on Observable subscription.
+
+
+          return new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"](
+          /**
+          * @param {?} observer
+          * @return {?}
+          */
+          function (observer) {
+            // Start by setting up the XHR object with request method, URL, and withCredentials flag.
+
+            /** @type {?} */
+            var xhr = _this76.xhrFactory.build();
+
+            xhr.open(req.method, req.urlWithParams);
+
+            if (!!req.withCredentials) {
+              xhr.withCredentials = true;
+            } // Add all the requested headers.
+
+
+            req.headers.forEach(
+            /**
+            * @param {?} name
+            * @param {?} values
+            * @return {?}
+            */
+            function (name, values) {
+              return xhr.setRequestHeader(name, values.join(','));
+            }); // Add an Accept header if one isn't present already.
+
+            if (!req.headers.has('Accept')) {
+              xhr.setRequestHeader('Accept', 'application/json, text/plain, */*');
+            } // Auto-detect the Content-Type header if one isn't present already.
+
+
+            if (!req.headers.has('Content-Type')) {
+              /** @type {?} */
+              var detectedType = req.detectContentTypeHeader(); // Sometimes Content-Type detection fails.
+
+              if (detectedType !== null) {
+                xhr.setRequestHeader('Content-Type', detectedType);
+              }
+            } // Set the responseType if one was requested.
+
+
+            if (req.responseType) {
+              /** @type {?} */
+              var responseType = req.responseType.toLowerCase(); // JSON responses need to be processed as text. This is because if the server
+              // returns an XSSI-prefixed JSON response, the browser will fail to parse it,
+              // xhr.response will be null, and xhr.responseText cannot be accessed to
+              // retrieve the prefixed JSON data in order to strip the prefix. Thus, all JSON
+              // is parsed by first requesting text and then applying JSON.parse.
+
+              xhr.responseType =
+              /** @type {?} */
+              responseType !== 'json' ? responseType : 'text';
+            } // Serialize the request body if one is present. If not, this will be set to null.
+
+            /** @type {?} */
+
+
+            var reqBody = req.serializeBody(); // If progress events are enabled, response headers will be delivered
+            // in two events - the HttpHeaderResponse event and the full HttpResponse
+            // event. However, since response headers don't change in between these
+            // two events, it doesn't make sense to parse them twice. So headerResponse
+            // caches the data extracted from the response whenever it's first parsed,
+            // to ensure parsing isn't duplicated.
+
+            /** @type {?} */
+
+            var headerResponse = null; // partialFromXhr extracts the HttpHeaderResponse from the current XMLHttpRequest
+            // state, and memoizes it into headerResponse.
+
+            /** @type {?} */
+
+            var partialFromXhr =
+            /**
+            * @return {?}
+            */
+            function partialFromXhr() {
+              if (headerResponse !== null) {
+                return headerResponse;
+              } // Read status and normalize an IE9 bug (http://bugs.jquery.com/ticket/1450).
+
+              /** @type {?} */
+
+
+              var status = xhr.status === 1223 ? 204 : xhr.status;
+              /** @type {?} */
+
+              var statusText = xhr.statusText || 'OK'; // Parse headers from XMLHttpRequest - this step is lazy.
+
+              /** @type {?} */
+
+              var headers = new HttpHeaders(xhr.getAllResponseHeaders()); // Read the response URL from the XMLHttpResponse instance and fall back on the
+              // request URL.
+
+              /** @type {?} */
+
+              var url = getResponseUrl(xhr) || req.url; // Construct the HttpHeaderResponse and memoize it.
+
+              headerResponse = new HttpHeaderResponse({
+                headers: headers,
+                status: status,
+                statusText: statusText,
+                url: url
+              });
+              return headerResponse;
+            }; // Next, a few closures are defined for the various events which XMLHttpRequest can
+            // emit. This allows them to be unregistered as event listeners later.
+            // First up is the load event, which represents a response being fully available.
+
+            /** @type {?} */
+
+
+            var onLoad =
+            /**
+            * @return {?}
+            */
+            function onLoad() {
+              // Read response state from the memoized partial data.
+              var _partialFromXhr = partialFromXhr(),
+                  headers = _partialFromXhr.headers,
+                  status = _partialFromXhr.status,
+                  statusText = _partialFromXhr.statusText,
+                  url = _partialFromXhr.url; // The body will be read out if present.
+
+              /** @type {?} */
+
+
+              var body = null;
+
+              if (status !== 204) {
+                // Use XMLHttpRequest.response if set, responseText otherwise.
+                body = typeof xhr.response === 'undefined' ? xhr.responseText : xhr.response;
+              } // Normalize another potential bug (this one comes from CORS).
+
+
+              if (status === 0) {
+                status = !!body ? 200 : 0;
+              } // ok determines whether the response will be transmitted on the event or
+              // error channel. Unsuccessful status codes (not 2xx) will always be errors,
+              // but a successful status code can still result in an error if the user
+              // asked for JSON data and the body cannot be parsed as such.
+
+              /** @type {?} */
+
+
+              var ok = status >= 200 && status < 300; // Check whether the body needs to be parsed as JSON (in many cases the browser
+              // will have done that already).
+
+              if (req.responseType === 'json' && typeof body === 'string') {
+                // Save the original body, before attempting XSSI prefix stripping.
+
+                /** @type {?} */
+                var originalBody = body;
+                body = body.replace(XSSI_PREFIX, '');
+
+                try {
+                  // Attempt the parse. If it fails, a parse error should be delivered to the user.
+                  body = body !== '' ? JSON.parse(body) : null;
+                } catch (error) {
+                  // Since the JSON.parse failed, it's reasonable to assume this might not have been a
+                  // JSON response. Restore the original body (including any XSSI prefix) to deliver
+                  // a better error response.
+                  body = originalBody; // If this was an error request to begin with, leave it as a string, it probably
+                  // just isn't JSON. Otherwise, deliver the parsing error to the user.
+
+                  if (ok) {
+                    // Even though the response status was 2xx, this is still an error.
+                    ok = false; // The parse error contains the text of the body that failed to parse.
+
+                    body =
+                    /** @type {?} */
+                    {
+                      error: error,
+                      text: body
+                    };
+                  }
+                }
+              }
+
+              if (ok) {
+                // A successful response is delivered on the event stream.
+                observer.next(new HttpResponse({
+                  body: body,
+                  headers: headers,
+                  status: status,
+                  statusText: statusText,
+                  url: url || undefined
+                })); // The full body has been received and delivered, no further events
+                // are possible. This request is complete.
+
+                observer.complete();
+              } else {
+                // An unsuccessful request is delivered on the error channel.
+                observer.error(new HttpErrorResponse({
+                  // The error in this case is the response body (error from the server).
+                  error: body,
+                  headers: headers,
+                  status: status,
+                  statusText: statusText,
+                  url: url || undefined
+                }));
+              }
+            }; // The onError callback is called when something goes wrong at the network level.
+            // Connection timeout, DNS error, offline, etc. These are actual errors, and are
+            // transmitted on the error channel.
+
+            /** @type {?} */
+
+
+            var onError =
+            /**
+            * @param {?} error
+            * @return {?}
+            */
+            function onError(error) {
+              var _partialFromXhr2 = partialFromXhr(),
+                  url = _partialFromXhr2.url;
+              /** @type {?} */
+
+
+              var res = new HttpErrorResponse({
+                error: error,
+                status: xhr.status || 0,
+                statusText: xhr.statusText || 'Unknown Error',
+                url: url || undefined
+              });
+              observer.error(res);
+            }; // The sentHeaders flag tracks whether the HttpResponseHeaders event
+            // has been sent on the stream. This is necessary to track if progress
+            // is enabled since the event will be sent on only the first download
+            // progerss event.
+
+            /** @type {?} */
+
+
+            var sentHeaders = false; // The download progress event handler, which is only registered if
+            // progress events are enabled.
+
+            /** @type {?} */
+
+            var onDownProgress =
+            /**
+            * @param {?} event
+            * @return {?}
+            */
+            function onDownProgress(event) {
+              // Send the HttpResponseHeaders event if it hasn't been sent already.
+              if (!sentHeaders) {
+                observer.next(partialFromXhr());
+                sentHeaders = true;
+              } // Start building the download progress event to deliver on the response
+              // event stream.
+
+              /** @type {?} */
+
+
+              var progressEvent = {
+                type: HttpEventType.DownloadProgress,
+                loaded: event.loaded
+              }; // Set the total number of bytes in the event if it's available.
+
+              if (event.lengthComputable) {
+                progressEvent.total = event.total;
+              } // If the request was for text content and a partial response is
+              // available on XMLHttpRequest, include it in the progress event
+              // to allow for streaming reads.
+
+
+              if (req.responseType === 'text' && !!xhr.responseText) {
+                progressEvent.partialText = xhr.responseText;
+              } // Finally, fire the event.
+
+
+              observer.next(progressEvent);
+            }; // The upload progress event handler, which is only registered if
+            // progress events are enabled.
+
+            /** @type {?} */
+
+
+            var onUpProgress =
+            /**
+            * @param {?} event
+            * @return {?}
+            */
+            function onUpProgress(event) {
+              // Upload progress events are simpler. Begin building the progress
+              // event.
+
+              /** @type {?} */
+              var progress = {
+                type: HttpEventType.UploadProgress,
+                loaded: event.loaded
+              }; // If the total number of bytes being uploaded is available, include
+              // it.
+
+              if (event.lengthComputable) {
+                progress.total = event.total;
+              } // Send the event.
+
+
+              observer.next(progress);
+            }; // By default, register for load and error events.
+
+
+            xhr.addEventListener('load', onLoad);
+            xhr.addEventListener('error', onError); // Progress events are only enabled if requested.
+
+            if (req.reportProgress) {
+              // Download progress is always enabled if requested.
+              xhr.addEventListener('progress', onDownProgress); // Upload progress depends on whether there is a body to upload.
+
+              if (reqBody !== null && xhr.upload) {
+                xhr.upload.addEventListener('progress', onUpProgress);
+              }
+            } // Fire the request, and notify the event stream that it was fired.
+
+
+            xhr.send(
+            /** @type {?} */
+            reqBody);
+            observer.next({
+              type: HttpEventType.Sent
+            }); // This is the return from the Observable function, which is the
+            // request cancellation handler.
+
+            return (
+              /**
+              * @return {?}
+              */
+              function () {
+                // On a cancellation, remove all registered event listeners.
+                xhr.removeEventListener('error', onError);
+                xhr.removeEventListener('load', onLoad);
+
+                if (req.reportProgress) {
+                  xhr.removeEventListener('progress', onDownProgress);
+
+                  if (reqBody !== null && xhr.upload) {
+                    xhr.upload.removeEventListener('progress', onUpProgress);
+                  }
+                } // Finally, abort the in-flight request.
+
+
+                xhr.abort();
+              }
+            );
+          });
+        }
+      }]);
+
+      return HttpXhrBackend;
+    }();
+
+    HttpXhrBackend.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    HttpXhrBackend.ctorParameters = function () {
+      return [{
+        type: XhrFactory
+      }];
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/xsrf.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /** @type {?} */
+
+
+    var XSRF_COOKIE_NAME = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('XSRF_COOKIE_NAME');
+    /** @type {?} */
+
+    var XSRF_HEADER_NAME = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('XSRF_HEADER_NAME');
+    /**
+     * Retrieves the current XSRF token to use with the next outgoing request.
+     *
+     * \@publicApi
+     * @abstract
+     */
+
+    var HttpXsrfTokenExtractor = function HttpXsrfTokenExtractor() {
+      _classCallCheck(this, HttpXsrfTokenExtractor);
+    };
+
+    if (false) {}
+    /**
+     * `HttpXsrfTokenExtractor` which retrieves the token from a cookie.
+     */
+
+
+    var HttpXsrfCookieExtractor = /*#__PURE__*/function () {
+      /**
+       * @param {?} doc
+       * @param {?} platform
+       * @param {?} cookieName
+       */
+      function HttpXsrfCookieExtractor(doc, platform, cookieName) {
+        _classCallCheck(this, HttpXsrfCookieExtractor);
+
+        this.doc = doc;
+        this.platform = platform;
+        this.cookieName = cookieName;
+        this.lastCookieString = '';
+        this.lastToken = null;
+        /**
+         * \@internal for testing
+         */
+
+        this.parseCount = 0;
+      }
+      /**
+       * @return {?}
+       */
+
+
+      _createClass2(HttpXsrfCookieExtractor, [{
+        key: "getToken",
+        value: function getToken() {
+          if (this.platform === 'server') {
+            return null;
+          }
+          /** @type {?} */
+
+
+          var cookieString = this.doc.cookie || '';
+
+          if (cookieString !== this.lastCookieString) {
+            this.parseCount++;
+            this.lastToken = Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["ɵparseCookieValue"])(cookieString, this.cookieName);
+            this.lastCookieString = cookieString;
+          }
+
+          return this.lastToken;
+        }
+      }]);
+
+      return HttpXsrfCookieExtractor;
+    }();
+
+    HttpXsrfCookieExtractor.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    HttpXsrfCookieExtractor.ctorParameters = function () {
+      return [{
+        type: undefined,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DOCUMENT"]]
+        }]
+      }, {
+        type: String,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]
+        }]
+      }, {
+        type: String,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [XSRF_COOKIE_NAME]
+        }]
+      }];
+    };
+
+    if (false) {}
+    /**
+     * `HttpInterceptor` which adds an XSRF token to eligible outgoing requests.
+     */
+
+
+    var HttpXsrfInterceptor = /*#__PURE__*/function () {
+      /**
+       * @param {?} tokenService
+       * @param {?} headerName
+       */
+      function HttpXsrfInterceptor(tokenService, headerName) {
+        _classCallCheck(this, HttpXsrfInterceptor);
+
+        this.tokenService = tokenService;
+        this.headerName = headerName;
+      }
+      /**
+       * @param {?} req
+       * @param {?} next
+       * @return {?}
+       */
+
+
+      _createClass2(HttpXsrfInterceptor, [{
+        key: "intercept",
+        value: function intercept(req, next) {
+          /** @type {?} */
+          var lcUrl = req.url.toLowerCase(); // Skip both non-mutating requests and absolute URLs.
+          // Non-mutating requests don't require a token, and absolute URLs require special handling
+          // anyway as the cookie set
+          // on our origin is not the same as the token expected by another origin.
+
+          if (req.method === 'GET' || req.method === 'HEAD' || lcUrl.startsWith('http://') || lcUrl.startsWith('https://')) {
+            return next.handle(req);
+          }
+          /** @type {?} */
+
+
+          var token = this.tokenService.getToken(); // Be careful not to overwrite an existing header of the same name.
+
+          if (token !== null && !req.headers.has(this.headerName)) {
+            req = req.clone({
+              headers: req.headers.set(this.headerName, token)
+            });
+          }
+
+          return next.handle(req);
+        }
+      }]);
+
+      return HttpXsrfInterceptor;
+    }();
+
+    HttpXsrfInterceptor.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    HttpXsrfInterceptor.ctorParameters = function () {
+      return [{
+        type: HttpXsrfTokenExtractor
+      }, {
+        type: String,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [XSRF_HEADER_NAME]
+        }]
+      }];
+    };
+
+    if (false) {}
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/src/module.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * An injectable `HttpHandler` that applies multiple interceptors
+     * to a request before passing it to the given `HttpBackend`.
+     *
+     * The interceptors are loaded lazily from the injector, to allow
+     * interceptors to themselves inject classes depending indirectly
+     * on `HttpInterceptingHandler` itself.
+     * @see `HttpInterceptor`
+     */
+
+
+    var HttpInterceptingHandler = /*#__PURE__*/function () {
+      /**
+       * @param {?} backend
+       * @param {?} injector
+       */
+      function HttpInterceptingHandler(backend, injector) {
+        _classCallCheck(this, HttpInterceptingHandler);
+
+        this.backend = backend;
+        this.injector = injector;
+        this.chain = null;
+      }
+      /**
+       * @param {?} req
+       * @return {?}
+       */
+
+
+      _createClass2(HttpInterceptingHandler, [{
+        key: "handle",
+        value: function handle(req) {
+          if (this.chain === null) {
+            /** @type {?} */
+            var interceptors = this.injector.get(HTTP_INTERCEPTORS, []);
+            this.chain = interceptors.reduceRight(
+            /**
+            * @param {?} next
+            * @param {?} interceptor
+            * @return {?}
+            */
+            function (next, interceptor) {
+              return new HttpInterceptorHandler(next, interceptor);
+            }, this.backend);
+          }
+
+          return this.chain.handle(req);
+        }
+      }]);
+
+      return HttpInterceptingHandler;
+    }();
+
+    HttpInterceptingHandler.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    HttpInterceptingHandler.ctorParameters = function () {
+      return [{
+        type: HttpBackend
+      }, {
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"]
+      }];
+    };
+
+    if (false) {}
+    /**
+     * Constructs an `HttpHandler` that applies interceptors
+     * to a request before passing it to the given `HttpBackend`.
+     *
+     * Use as a factory function within `HttpClientModule`.
+     *
+     *
+     * @param {?} backend
+     * @param {?=} interceptors
+     * @return {?}
+     */
+
+
+    function interceptingHandler(backend) {
+      var interceptors = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
+
+      if (!interceptors) {
+        return backend;
+      }
+
+      return interceptors.reduceRight(
+      /**
+      * @param {?} next
+      * @param {?} interceptor
+      * @return {?}
+      */
+      function (next, interceptor) {
+        return new HttpInterceptorHandler(next, interceptor);
+      }, backend);
+    }
+    /**
+     * Factory function that determines where to store JSONP callbacks.
+     *
+     * Ordinarily JSONP callbacks are stored on the `window` object, but this may not exist
+     * in test environments. In that case, callbacks are stored on an anonymous object instead.
+     *
+     *
+     * @return {?}
+     */
+
+
+    function jsonpCallbackContext() {
+      if (typeof window === 'object') {
+        return window;
+      }
+
+      return {};
+    }
+    /**
+     * Configures XSRF protection support for outgoing requests.
+     *
+     * For a server that supports a cookie-based XSRF protection system,
+     * use directly to configure XSRF protection with the correct
+     * cookie and header names.
+     *
+     * If no names are supplied, the default cookie name is `XSRF-TOKEN`
+     * and the default header name is `X-XSRF-TOKEN`.
+     *
+     * \@publicApi
+     */
+
+
+    var HttpClientXsrfModule = /*#__PURE__*/function () {
+      function HttpClientXsrfModule() {
+        _classCallCheck(this, HttpClientXsrfModule);
+      }
+
+      _createClass2(HttpClientXsrfModule, null, [{
+        key: "disable",
+
+        /**
+         * Disable the default XSRF protection.
+         * @return {?}
+         */
+        value: function disable() {
+          return {
+            ngModule: HttpClientXsrfModule,
+            providers: [{
+              provide: HttpXsrfInterceptor,
+              useClass: NoopInterceptor
+            }]
+          };
+        }
+        /**
+         * Configure XSRF protection.
+         * @param {?=} options An object that can specify either or both
+         * cookie name or header name.
+         * - Cookie name default is `XSRF-TOKEN`.
+         * - Header name default is `X-XSRF-TOKEN`.
+         *
+         * @return {?}
+         */
+
+      }, {
+        key: "withOptions",
+        value: function withOptions() {
+          var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          return {
+            ngModule: HttpClientXsrfModule,
+            providers: [options.cookieName ? {
+              provide: XSRF_COOKIE_NAME,
+              useValue: options.cookieName
+            } : [], options.headerName ? {
+              provide: XSRF_HEADER_NAME,
+              useValue: options.headerName
+            } : []]
+          };
+        }
+      }]);
+
+      return HttpClientXsrfModule;
+    }();
+
+    HttpClientXsrfModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        providers: [HttpXsrfInterceptor, {
+          provide: HTTP_INTERCEPTORS,
+          useExisting: HttpXsrfInterceptor,
+          multi: true
+        }, {
+          provide: HttpXsrfTokenExtractor,
+          useClass: HttpXsrfCookieExtractor
+        }, {
+          provide: XSRF_COOKIE_NAME,
+          useValue: 'XSRF-TOKEN'
+        }, {
+          provide: XSRF_HEADER_NAME,
+          useValue: 'X-XSRF-TOKEN'
+        }]
+      }]
+    }];
+    /**
+     * Configures the [dependency injector](guide/glossary#injector) for `HttpClient`
+     * with supporting services for XSRF. Automatically imported by `HttpClientModule`.
+     *
+     * You can add interceptors to the chain behind `HttpClient` by binding them to the
+     * multiprovider for built-in [DI token](guide/glossary#di-token) `HTTP_INTERCEPTORS`.
+     *
+     * \@publicApi
+     */
+
+    var HttpClientModule = function HttpClientModule() {
+      _classCallCheck(this, HttpClientModule);
+    };
+
+    HttpClientModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        /**
+         * Optional configuration for XSRF protection.
+         */
+        imports: [HttpClientXsrfModule.withOptions({
+          cookieName: 'XSRF-TOKEN',
+          headerName: 'X-XSRF-TOKEN'
+        })],
+
+        /**
+         * Configures the [dependency injector](guide/glossary#injector) where it is imported
+         * with supporting services for HTTP communications.
+         */
+        providers: [HttpClient, {
+          provide: HttpHandler,
+          useClass: HttpInterceptingHandler
+        }, HttpXhrBackend, {
+          provide: HttpBackend,
+          useExisting: HttpXhrBackend
+        }, BrowserXhr, {
+          provide: XhrFactory,
+          useExisting: BrowserXhr
+        }]
+      }]
+    }];
+    /**
+     * Configures the [dependency injector](guide/glossary#injector) for `HttpClient`
+     * with supporting services for JSONP.
+     * Without this module, Jsonp requests reach the backend
+     * with method JSONP, where they are rejected.
+     *
+     * You can add interceptors to the chain behind `HttpClient` by binding them to the
+     * multiprovider for built-in [DI token](guide/glossary#di-token) `HTTP_INTERCEPTORS`.
+     *
+     * \@publicApi
+     */
+
+    var HttpClientJsonpModule = function HttpClientJsonpModule() {
+      _classCallCheck(this, HttpClientJsonpModule);
+    };
+
+    HttpClientJsonpModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        providers: [JsonpClientBackend, {
+          provide: JsonpCallbackContext,
+          useFactory: jsonpCallbackContext
+        }, {
+          provide: HTTP_INTERCEPTORS,
+          useClass: JsonpInterceptor,
+          multi: true
+        }]
+      }]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/public_api.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * Generated from: packages/common/http/index.ts
+     * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * Generated bundle index. Do not edit.
+     */
+    //# sourceMappingURL=http.js.map
+
+    /***/
+  },
+
+  /***/
+  "./node_modules/@angular/core/fesm2015/core.js":
+  /*!*****************************************************!*\
+    !*** ./node_modules/@angular/core/fesm2015/core.js ***!
+    \*****************************************************/
 
   /*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresetJitOptions, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
 
   /***/
-  function node_modulesAngularCore__ivy_ngcc__Fesm2015CoreJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularCoreFesm2015CoreJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -32510,12 +35586,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SafeHtmlImpl = /*#__PURE__*/function (_SafeValueImpl) {
       _inherits(SafeHtmlImpl, _SafeValueImpl);
 
-      var _super8 = _createSuper(SafeHtmlImpl);
+      var _super11 = _createSuper(SafeHtmlImpl);
 
       function SafeHtmlImpl() {
         _classCallCheck(this, SafeHtmlImpl);
 
-        return _super8.apply(this, arguments);
+        return _super11.apply(this, arguments);
       }
 
       _createClass2(SafeHtmlImpl, [{
@@ -32537,12 +35613,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SafeStyleImpl = /*#__PURE__*/function (_SafeValueImpl2) {
       _inherits(SafeStyleImpl, _SafeValueImpl2);
 
-      var _super9 = _createSuper(SafeStyleImpl);
+      var _super12 = _createSuper(SafeStyleImpl);
 
       function SafeStyleImpl() {
         _classCallCheck(this, SafeStyleImpl);
 
-        return _super9.apply(this, arguments);
+        return _super12.apply(this, arguments);
       }
 
       _createClass2(SafeStyleImpl, [{
@@ -32564,12 +35640,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SafeScriptImpl = /*#__PURE__*/function (_SafeValueImpl3) {
       _inherits(SafeScriptImpl, _SafeValueImpl3);
 
-      var _super10 = _createSuper(SafeScriptImpl);
+      var _super13 = _createSuper(SafeScriptImpl);
 
       function SafeScriptImpl() {
         _classCallCheck(this, SafeScriptImpl);
 
-        return _super10.apply(this, arguments);
+        return _super13.apply(this, arguments);
       }
 
       _createClass2(SafeScriptImpl, [{
@@ -32591,12 +35667,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SafeUrlImpl = /*#__PURE__*/function (_SafeValueImpl4) {
       _inherits(SafeUrlImpl, _SafeValueImpl4);
 
-      var _super11 = _createSuper(SafeUrlImpl);
+      var _super14 = _createSuper(SafeUrlImpl);
 
       function SafeUrlImpl() {
         _classCallCheck(this, SafeUrlImpl);
 
-        return _super11.apply(this, arguments);
+        return _super14.apply(this, arguments);
       }
 
       _createClass2(SafeUrlImpl, [{
@@ -32618,12 +35694,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SafeResourceUrlImpl = /*#__PURE__*/function (_SafeValueImpl5) {
       _inherits(SafeResourceUrlImpl, _SafeValueImpl5);
 
-      var _super12 = _createSuper(SafeResourceUrlImpl);
+      var _super15 = _createSuper(SafeResourceUrlImpl);
 
       function SafeResourceUrlImpl() {
         _classCallCheck(this, SafeResourceUrlImpl);
 
-        return _super12.apply(this, arguments);
+        return _super15.apply(this, arguments);
       }
 
       _createClass2(SafeResourceUrlImpl, [{
@@ -43128,19 +46204,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RootViewRef = /*#__PURE__*/function (_ViewRef) {
       _inherits(RootViewRef, _ViewRef);
 
-      var _super13 = _createSuper(RootViewRef);
+      var _super16 = _createSuper(RootViewRef);
 
       /**
        * @param {?} _view
        */
       function RootViewRef(_view) {
-        var _this64;
+        var _this77;
 
         _classCallCheck(this, RootViewRef);
 
-        _this64 = _super13.call(this, _view);
-        _this64._view = _view;
-        return _this64;
+        _this77 = _super16.call(this, _view);
+        _this77._view = _view;
+        return _this77;
       }
       /**
        * @return {?}
@@ -43313,12 +46389,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         R3ElementRef = /*#__PURE__*/function (_ElementRefToken) {
           _inherits(ElementRef, _ElementRefToken);
 
-          var _super14 = _createSuper(ElementRef);
+          var _super17 = _createSuper(ElementRef);
 
           function ElementRef() {
             _classCallCheck(this, ElementRef);
 
-            return _super14.apply(this, arguments);
+            return _super17.apply(this, arguments);
           }
 
           return ElementRef;
@@ -43362,7 +46438,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         R3TemplateRef = /*#__PURE__*/function (_TemplateRefToken) {
           _inherits(TemplateRef, _TemplateRefToken);
 
-          var _super15 = _createSuper(TemplateRef);
+          var _super18 = _createSuper(TemplateRef);
 
           /**
            * @param {?} _declarationView
@@ -43370,15 +46446,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
            * @param {?} elementRef
            */
           function TemplateRef(_declarationView, _declarationTContainer, elementRef) {
-            var _this65;
+            var _this78;
 
             _classCallCheck(this, TemplateRef);
 
-            _this65 = _super15.call(this);
-            _this65._declarationView = _declarationView;
-            _this65._declarationTContainer = _declarationTContainer;
-            _this65.elementRef = elementRef;
-            return _this65;
+            _this78 = _super18.call(this);
+            _this78._declarationView = _declarationView;
+            _this78._declarationTContainer = _declarationTContainer;
+            _this78.elementRef = elementRef;
+            return _this78;
           }
           /**
            * @param {?} context
@@ -43467,7 +46543,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         R3ViewContainerRef = /*#__PURE__*/function (_ViewContainerRefToke) {
           _inherits(ViewContainerRef, _ViewContainerRefToke);
 
-          var _super16 = _createSuper(ViewContainerRef);
+          var _super19 = _createSuper(ViewContainerRef);
 
           /**
            * @param {?} _lContainer
@@ -43475,15 +46551,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
            * @param {?} _hostView
            */
           function ViewContainerRef(_lContainer, _hostTNode, _hostView) {
-            var _this66;
+            var _this79;
 
             _classCallCheck(this, ViewContainerRef);
 
-            _this66 = _super16.call(this);
-            _this66._lContainer = _lContainer;
-            _this66._hostTNode = _hostTNode;
-            _this66._hostView = _hostView;
-            return _this66;
+            _this79 = _super19.call(this);
+            _this79._lContainer = _lContainer;
+            _this79._hostTNode = _hostTNode;
+            _this79._hostView = _hostView;
+            return _this79;
           }
           /**
            * @return {?}
@@ -44033,10 +47109,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     */
     function SWITCH_CHANGE_DETECTOR_REF_FACTORY__PRE_R3__() {};
 
-    var ɵ0$5 = SWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__;
+    var ɵ0$5 = SWITCH_CHANGE_DETECTOR_REF_FACTORY__PRE_R3__;
     /** @type {?} */
 
-    var SWITCH_CHANGE_DETECTOR_REF_FACTORY = SWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__;
+    var SWITCH_CHANGE_DETECTOR_REF_FACTORY = SWITCH_CHANGE_DETECTOR_REF_FACTORY__PRE_R3__;
     /**
      * @license
      * Copyright Google Inc. All Rights Reserved.
@@ -44914,7 +47990,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_COMPILE_INJECTABLE__PRE_R3__ = render2CompileInjectable;
     /** @type {?} */
 
-    var SWITCH_COMPILE_INJECTABLE = SWITCH_COMPILE_INJECTABLE__POST_R3__;
+    var SWITCH_COMPILE_INJECTABLE = SWITCH_COMPILE_INJECTABLE__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/di/scope.ts
@@ -45035,7 +48111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?=} source
        */
       function R3Injector(def, additionalProviders, parent) {
-        var _this67 = this;
+        var _this80 = this;
 
         var source = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
 
@@ -45072,7 +48148,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (provider) {
-          return _this67.processProvider(provider, def, additionalProviders);
+          return _this80.processProvider(provider, def, additionalProviders);
         });
         deepForEach([def],
         /**
@@ -45080,7 +48156,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (injectorDef) {
-          return _this67.processInjectorType(injectorDef, [], dedupStack);
+          return _this80.processInjectorType(injectorDef, [], dedupStack);
         }); // Make sure the INJECTOR token provides this injector.
 
         this.records.set(INJECTOR, makeRecord(undefined, this)); // Detect whether this injector has the APP_ROOT_SCOPE token and thus should provide
@@ -45222,7 +48298,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_resolveInjectorDefTypes",
         value: function _resolveInjectorDefTypes() {
-          var _this68 = this;
+          var _this81 = this;
 
           this.injectorDefTypes.forEach(
           /**
@@ -45230,7 +48306,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (defType) {
-            return _this68.get(defType);
+            return _this81.get(defType);
           });
         }
         /**
@@ -45288,7 +48364,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "processInjectorType",
         value: function processInjectorType(defOrWrappedDef, parents, dedupStack) {
-          var _this69 = this;
+          var _this82 = this;
 
           defOrWrappedDef = resolveForwardRef(defOrWrappedDef);
           if (!defOrWrappedDef) return false; // Either the defOrWrappedDef is an InjectorType (with injector def) or an
@@ -45361,7 +48437,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function (imported) {
-                if (_this69.processInjectorType(imported, parents, dedupStack)) {
+                if (_this82.processInjectorType(imported, parents, dedupStack)) {
                   if (importTypesWithProviders === undefined) importTypesWithProviders = []; // If the processed import is an injector type with providers, we store it in the
                   // list of import types with providers, so that we can process those afterwards.
 
@@ -45389,7 +48465,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 * @return {?}
                 */
                 function (provider) {
-                  return _this69.processProvider(provider, ngModule, providers || EMPTY_ARRAY$2);
+                  return _this82.processProvider(provider, ngModule, providers || EMPTY_ARRAY$2);
                 });
               };
 
@@ -45419,7 +48495,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (provider) {
-              return _this69.processProvider(provider, injectorType, defProviders);
+              return _this82.processProvider(provider, injectorType, defProviders);
             });
           }
 
@@ -45864,7 +48940,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var INJECTOR_IMPL = INJECTOR_IMPL__POST_R3__;
+    var INJECTOR_IMPL = INJECTOR_IMPL__PRE_R3__;
     /**
      * Concrete injectors implement this interface. Injectors are configured
      * with [providers](guide/glossary#provider) that associate
@@ -47753,7 +50829,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_instantiate",
         value: function _instantiate(provider, ResolvedReflectiveFactory) {
-          var _this70 = this;
+          var _this83 = this;
 
           /** @type {?} */
           var factory = ResolvedReflectiveFactory.factory;
@@ -47768,7 +50844,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (dep) {
-              return _this70._getByReflectiveDependency(dep);
+              return _this83._getByReflectiveDependency(dep);
             });
           } catch (e) {
             if (e.addKey) {
@@ -57559,26 +60635,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ComponentFactoryBoundToModule = /*#__PURE__*/function (_ComponentFactory) {
       _inherits(ComponentFactoryBoundToModule, _ComponentFactory);
 
-      var _super17 = _createSuper(ComponentFactoryBoundToModule);
+      var _super20 = _createSuper(ComponentFactoryBoundToModule);
 
       /**
        * @param {?} factory
        * @param {?} ngModule
        */
       function ComponentFactoryBoundToModule(factory, ngModule) {
-        var _this71;
+        var _this84;
 
         _classCallCheck(this, ComponentFactoryBoundToModule);
 
-        _this71 = _super17.call(this);
-        _this71.factory = factory;
-        _this71.ngModule = ngModule;
-        _this71.selector = factory.selector;
-        _this71.componentType = factory.componentType;
-        _this71.ngContentSelectors = factory.ngContentSelectors;
-        _this71.inputs = factory.inputs;
-        _this71.outputs = factory.outputs;
-        return _this71;
+        _this84 = _super20.call(this);
+        _this84.factory = factory;
+        _this84.ngModule = ngModule;
+        _this84.selector = factory.selector;
+        _this84.componentType = factory.componentType;
+        _this84.ngContentSelectors = factory.ngContentSelectors;
+        _this84.inputs = factory.inputs;
+        _this84.outputs = factory.outputs;
+        return _this84;
       }
       /**
        * @param {?} injector
@@ -57668,7 +60744,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_ELEMENT_REF_FACTORY__PRE_R3__ = noop;
     /** @type {?} */
 
-    var SWITCH_ELEMENT_REF_FACTORY = SWITCH_ELEMENT_REF_FACTORY__POST_R3__;
+    var SWITCH_ELEMENT_REF_FACTORY = SWITCH_ELEMENT_REF_FACTORY__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/render/api.ts
@@ -57765,7 +60841,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_RENDERER2_FACTORY__PRE_R3__ = noop;
     /** @type {?} */
 
-    var SWITCH_RENDERER2_FACTORY = SWITCH_RENDERER2_FACTORY__POST_R3__;
+    var SWITCH_RENDERER2_FACTORY = SWITCH_RENDERER2_FACTORY__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/sanitization/sanitizer.ts
@@ -58133,7 +61209,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "check",
         value: function check(collection) {
-          var _this72 = this;
+          var _this85 = this;
 
           this._reset();
           /** @type {?} */
@@ -58183,18 +61259,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (item) {
-              itemTrackBy = _this72._trackByFn(index, item);
+              itemTrackBy = _this85._trackByFn(index, item);
 
               if (record === null || !looseIdentical(record.trackById, itemTrackBy)) {
-                record = _this72._mismatch(record, item, itemTrackBy, index);
+                record = _this85._mismatch(record, item, itemTrackBy, index);
                 mayBeDirty = true;
               } else {
                 if (mayBeDirty) {
                   // TODO(misko): can we limit this to duplicates only?
-                  record = _this72._verifyReinsertion(record, item, itemTrackBy, index);
+                  record = _this85._verifyReinsertion(record, item, itemTrackBy, index);
                 }
 
-                if (!looseIdentical(record.item, item)) _this72._addIdentityChange(record, item);
+                if (!looseIdentical(record.item, item)) _this85._addIdentityChange(record, item);
               }
 
               record = record._next;
@@ -59185,7 +62261,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "check",
         value: function check(map) {
-          var _this73 = this;
+          var _this86 = this;
 
           this._reset();
           /** @type {?} */
@@ -59202,15 +62278,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (value, key) {
             if (insertBefore && insertBefore.key === key) {
-              _this73._maybeAddToChanges(insertBefore, value);
+              _this86._maybeAddToChanges(insertBefore, value);
 
-              _this73._appendAfter = insertBefore;
+              _this86._appendAfter = insertBefore;
               insertBefore = insertBefore._next;
             } else {
               /** @type {?} */
-              var record = _this73._getOrCreateRecordForKey(key, value);
+              var record = _this86._getOrCreateRecordForKey(key, value);
 
-              insertBefore = _this73._insertBeforeOrAppend(insertBefore, record);
+              insertBefore = _this86._insertBeforeOrAppend(insertBefore, record);
             }
           }); // Items remaining at the end of the list have been deleted
 
@@ -59976,7 +63052,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_TEMPLATE_REF_FACTORY__PRE_R3__ = noop;
     /** @type {?} */
 
-    var SWITCH_TEMPLATE_REF_FACTORY = SWITCH_TEMPLATE_REF_FACTORY__POST_R3__;
+    var SWITCH_TEMPLATE_REF_FACTORY = SWITCH_TEMPLATE_REF_FACTORY__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/linker/view_container_ref.ts
@@ -60027,7 +63103,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_VIEW_CONTAINER_REF_FACTORY__PRE_R3__ = noop;
     /** @type {?} */
 
-    var SWITCH_VIEW_CONTAINER_REF_FACTORY = SWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__;
+    var SWITCH_VIEW_CONTAINER_REF_FACTORY = SWITCH_VIEW_CONTAINER_REF_FACTORY__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/view/errors.ts
@@ -61112,10 +64188,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @param {?} __0
         * @return {?}
         */
-        function (_ref4) {
-          var _ref5 = _slicedToArray(_ref4, 2),
-              queryId = _ref5[0],
-              valueType = _ref5[1];
+        function (_ref6) {
+          var _ref7 = _slicedToArray(_ref6, 2),
+              queryId = _ref7[0],
+              valueType = _ref7[1];
 
           if (typeof queryId === 'number') {
             matchedQueries[queryId] = valueType;
@@ -62296,7 +65372,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ComponentFactory_ = /*#__PURE__*/function (_ComponentFactory2) {
       _inherits(ComponentFactory_, _ComponentFactory2);
 
-      var _super18 = _createSuper(ComponentFactory_);
+      var _super21 = _createSuper(ComponentFactory_);
 
       /**
        * @param {?} selector
@@ -62307,20 +65383,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} ngContentSelectors
        */
       function ComponentFactory_(selector, componentType, viewDefFactory, _inputs, _outputs, ngContentSelectors) {
-        var _this74;
+        var _this87;
 
         _classCallCheck(this, ComponentFactory_);
 
         // Attention: this ctor is called as top level function.
         // Putting any logic in here will destroy closure tree shaking!
-        _this74 = _super18.call(this);
-        _this74.selector = selector;
-        _this74.componentType = componentType;
-        _this74._inputs = _inputs;
-        _this74._outputs = _outputs;
-        _this74.ngContentSelectors = ngContentSelectors;
-        _this74.viewDefFactory = viewDefFactory;
-        return _this74;
+        _this87 = _super21.call(this);
+        _this87.selector = selector;
+        _this87.componentType = componentType;
+        _this87._inputs = _inputs;
+        _this87._outputs = _outputs;
+        _this87.ngContentSelectors = ngContentSelectors;
+        _this87.viewDefFactory = viewDefFactory;
+        return _this87;
       }
       /**
        * @return {?}
@@ -62419,7 +65495,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ComponentRef_ = /*#__PURE__*/function (_ComponentRef) {
       _inherits(ComponentRef_, _ComponentRef);
 
-      var _super19 = _createSuper(ComponentRef_);
+      var _super22 = _createSuper(ComponentRef_);
 
       /**
        * @param {?} _view
@@ -62427,19 +65503,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _component
        */
       function ComponentRef_(_view, _viewRef, _component) {
-        var _this75;
+        var _this88;
 
         _classCallCheck(this, ComponentRef_);
 
-        _this75 = _super19.call(this);
-        _this75._view = _view;
-        _this75._viewRef = _viewRef;
-        _this75._component = _component;
-        _this75._elDef = _this75._view.def.nodes[0];
-        _this75.hostView = _viewRef;
-        _this75.changeDetectorRef = _viewRef;
-        _this75.instance = _component;
-        return _this75;
+        _this88 = _super22.call(this);
+        _this88._view = _view;
+        _this88._viewRef = _viewRef;
+        _this88._component = _component;
+        _this88._elDef = _this88._view.def.nodes[0];
+        _this88.hostView = _viewRef;
+        _this88.changeDetectorRef = _viewRef;
+        _this88.instance = _component;
+        return _this88;
       }
       /**
        * @return {?}
@@ -62953,21 +66029,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TemplateRef_ = /*#__PURE__*/function (_TemplateRef) {
       _inherits(TemplateRef_, _TemplateRef);
 
-      var _super20 = _createSuper(TemplateRef_);
+      var _super23 = _createSuper(TemplateRef_);
 
       /**
        * @param {?} _parentView
        * @param {?} _def
        */
       function TemplateRef_(_parentView, _def) {
-        var _this76;
+        var _this89;
 
         _classCallCheck(this, TemplateRef_);
 
-        _this76 = _super20.call(this);
-        _this76._parentView = _parentView;
-        _this76._def = _def;
-        return _this76;
+        _this89 = _super23.call(this);
+        _this89._parentView = _parentView;
+        _this89._def = _def;
+        return _this89;
       }
       /**
        * @param {?} context
@@ -64237,19 +67313,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ComponentFactoryResolver$1 = /*#__PURE__*/function (_ComponentFactoryReso) {
       _inherits(ComponentFactoryResolver$1, _ComponentFactoryReso);
 
-      var _super21 = _createSuper(ComponentFactoryResolver$1);
+      var _super24 = _createSuper(ComponentFactoryResolver$1);
 
       /**
        * @param {?=} ngModule The NgModuleRef to which all resolved factories are bound.
        */
       function ComponentFactoryResolver$1(ngModule) {
-        var _this77;
+        var _this90;
 
         _classCallCheck(this, ComponentFactoryResolver$1);
 
-        _this77 = _super21.call(this);
-        _this77.ngModule = ngModule;
-        return _this77;
+        _this90 = _super24.call(this);
+        _this90.ngModule = ngModule;
+        return _this90;
       }
       /**
        * @template T
@@ -64370,25 +67446,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ComponentFactory$1 = /*#__PURE__*/function (_ComponentFactory3) {
       _inherits(ComponentFactory$1, _ComponentFactory3);
 
-      var _super22 = _createSuper(ComponentFactory$1);
+      var _super25 = _createSuper(ComponentFactory$1);
 
       /**
        * @param {?} componentDef The component definition.
        * @param {?=} ngModule The NgModuleRef to which the factory is bound.
        */
       function ComponentFactory$1(componentDef, ngModule) {
-        var _this78;
+        var _this91;
 
         _classCallCheck(this, ComponentFactory$1);
 
-        _this78 = _super22.call(this);
-        _this78.componentDef = componentDef;
-        _this78.ngModule = ngModule;
-        _this78.componentType = componentDef.type;
-        _this78.selector = stringifyCSSSelectorList(componentDef.selectors);
-        _this78.ngContentSelectors = componentDef.ngContentSelectors ? componentDef.ngContentSelectors : [];
-        _this78.isBoundToModule = !!ngModule;
-        return _this78;
+        _this91 = _super25.call(this);
+        _this91.componentDef = componentDef;
+        _this91.ngModule = ngModule;
+        _this91.componentType = componentDef.type;
+        _this91.selector = stringifyCSSSelectorList(componentDef.selectors);
+        _this91.ngContentSelectors = componentDef.ngContentSelectors ? componentDef.ngContentSelectors : [];
+        _this91.isBoundToModule = !!ngModule;
+        return _this91;
       }
       /**
        * @return {?}
@@ -64594,7 +67670,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ComponentRef$1 = /*#__PURE__*/function (_ComponentRef2) {
       _inherits(ComponentRef$1, _ComponentRef2);
 
-      var _super23 = _createSuper(ComponentRef$1);
+      var _super26 = _createSuper(ComponentRef$1);
 
       /**
        * @param {?} componentType
@@ -64604,20 +67680,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _tNode
        */
       function ComponentRef$1(componentType, instance, location, _rootLView, _tNode) {
-        var _this79;
+        var _this92;
 
         _classCallCheck(this, ComponentRef$1);
 
-        _this79 = _super23.call(this);
-        _this79.location = location;
-        _this79._rootLView = _rootLView;
-        _this79._tNode = _tNode;
-        _this79.destroyCbs = [];
-        _this79.instance = instance;
-        _this79.hostView = _this79.changeDetectorRef = new RootViewRef(_rootLView);
+        _this92 = _super26.call(this);
+        _this92.location = location;
+        _this92._rootLView = _rootLView;
+        _this92._tNode = _tNode;
+        _this92.destroyCbs = [];
+        _this92.instance = instance;
+        _this92.hostView = _this92.changeDetectorRef = new RootViewRef(_rootLView);
         assignTViewNodeToLView(_rootLView[TVIEW], null, -1, _rootLView);
-        _this79.componentType = componentType;
-        return _this79;
+        _this92.componentType = componentType;
+        return _this92;
       }
       /**
        * @return {?}
@@ -67331,30 +70407,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NgModuleRef$1 = /*#__PURE__*/function (_NgModuleRef) {
       _inherits(NgModuleRef$1, _NgModuleRef);
 
-      var _super24 = _createSuper(NgModuleRef$1);
+      var _super27 = _createSuper(NgModuleRef$1);
 
       /**
        * @param {?} ngModuleType
        * @param {?} _parent
        */
       function NgModuleRef$1(ngModuleType, _parent) {
-        var _this80;
+        var _this93;
 
         _classCallCheck(this, NgModuleRef$1);
 
-        _this80 = _super24.call(this);
-        _this80._parent = _parent; // tslint:disable-next-line:require-internal-with-underscore
+        _this93 = _super27.call(this);
+        _this93._parent = _parent; // tslint:disable-next-line:require-internal-with-underscore
 
-        _this80._bootstrapComponents = [];
-        _this80.injector = _assertThisInitialized(_this80);
-        _this80.destroyCbs = []; // When bootstrapping a module we have a dependency graph that looks like this:
+        _this93._bootstrapComponents = [];
+        _this93.injector = _assertThisInitialized(_this93);
+        _this93.destroyCbs = []; // When bootstrapping a module we have a dependency graph that looks like this:
         // ApplicationRef -> ComponentFactoryResolver -> NgModuleRef. The problem is that if the
         // module being resolved tries to inject the ComponentFactoryResolver, it'll create a
         // circular dependency which will result in a runtime error, because the injector doesn't
         // exist yet. We work around the issue by creating the ComponentFactoryResolver ourselves
         // and providing it, rather than letting the injector resolve it.
 
-        _this80.componentFactoryResolver = new ComponentFactoryResolver$1(_assertThisInitialized(_this80));
+        _this93.componentFactoryResolver = new ComponentFactoryResolver$1(_assertThisInitialized(_this93));
         /** @type {?} */
 
         var ngModuleDef = getNgModuleDef(ngModuleType);
@@ -67363,25 +70439,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         var ngLocaleIdDef = getNgLocaleIdDef(ngModuleType);
         ngLocaleIdDef && setLocaleId(ngLocaleIdDef);
-        _this80._bootstrapComponents = maybeUnwrapFn(
+        _this93._bootstrapComponents = maybeUnwrapFn(
         /** @type {?} */
         ngModuleDef.bootstrap);
-        _this80._r3Injector =
+        _this93._r3Injector =
         /** @type {?} */
         createInjectorWithoutInjectorInstances(ngModuleType, _parent, [{
           provide: NgModuleRef,
-          useValue: _assertThisInitialized(_this80)
+          useValue: _assertThisInitialized(_this93)
         }, {
           provide: ComponentFactoryResolver,
-          useValue: _this80.componentFactoryResolver
+          useValue: _this93.componentFactoryResolver
         }], stringify(ngModuleType)); // We need to resolve the injector types separately from the injector creation, because
         // the module might be trying to use this ref in its contructor for DI which will cause a
         // circular error that will eventually error out, because the injector isn't created yet.
 
-        _this80._r3Injector._resolveInjectorDefTypes();
+        _this93._r3Injector._resolveInjectorDefTypes();
 
-        _this80.instance = _this80.get(ngModuleType);
-        return _this80;
+        _this93.instance = _this93.get(ngModuleType);
+        return _this93;
       }
       /**
        * @param {?} token
@@ -67454,18 +70530,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NgModuleFactory$1 = /*#__PURE__*/function (_NgModuleFactory) {
       _inherits(NgModuleFactory$1, _NgModuleFactory);
 
-      var _super25 = _createSuper(NgModuleFactory$1);
+      var _super28 = _createSuper(NgModuleFactory$1);
 
       /**
        * @param {?} moduleType
        */
       function NgModuleFactory$1(moduleType) {
-        var _this81;
+        var _this94;
 
         _classCallCheck(this, NgModuleFactory$1);
 
-        _this81 = _super25.call(this);
-        _this81.moduleType = moduleType;
+        _this94 = _super28.call(this);
+        _this94.moduleType = moduleType;
         /** @type {?} */
 
         var ngModuleDef = getNgModuleDef(moduleType);
@@ -67499,7 +70575,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           moduleType);
         }
 
-        return _this81;
+        return _this94;
       }
       /**
        * @param {?} parentInjector
@@ -68216,7 +71292,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var EventEmitter = /*#__PURE__*/function (_rxjs__WEBPACK_IMPORT) {
       _inherits(EventEmitter, _rxjs__WEBPACK_IMPORT);
 
-      var _super26 = _createSuper(EventEmitter);
+      var _super29 = _createSuper(EventEmitter);
 
       // tslint:disable-line
 
@@ -68228,15 +71304,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        *
        */
       function EventEmitter() {
-        var _this82;
+        var _this95;
 
         var isAsync = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
         _classCallCheck(this, EventEmitter);
 
-        _this82 = _super26.call(this);
-        _this82.__isAsync = isAsync;
-        return _this82;
+        _this95 = _super29.call(this);
+        _this95.__isAsync = isAsync;
+        return _this95;
       }
       /**
        * Emits an event containing a given value.
@@ -71834,13 +74910,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_COMPILE_PIPE__PRE_R3__ = noop;
     /** @type {?} */
 
-    var SWITCH_COMPILE_COMPONENT = SWITCH_COMPILE_COMPONENT__POST_R3__;
+    var SWITCH_COMPILE_COMPONENT = SWITCH_COMPILE_COMPONENT__PRE_R3__;
     /** @type {?} */
 
-    var SWITCH_COMPILE_DIRECTIVE = SWITCH_COMPILE_DIRECTIVE__POST_R3__;
+    var SWITCH_COMPILE_DIRECTIVE = SWITCH_COMPILE_DIRECTIVE__PRE_R3__;
     /** @type {?} */
 
-    var SWITCH_COMPILE_PIPE = SWITCH_COMPILE_PIPE__POST_R3__;
+    var SWITCH_COMPILE_PIPE = SWITCH_COMPILE_PIPE__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/metadata/ng_module.ts
@@ -71999,7 +75075,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_COMPILE_NGMODULE__PRE_R3__ = preR3NgModuleCompile;
     /** @type {?} */
 
-    var SWITCH_COMPILE_NGMODULE = SWITCH_COMPILE_NGMODULE__POST_R3__;
+    var SWITCH_COMPILE_NGMODULE = SWITCH_COMPILE_NGMODULE__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/metadata.ts
@@ -72047,7 +75123,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} appInits
        */
       function ApplicationInitStatus(appInits) {
-        var _this83 = this;
+        var _this96 = this;
 
         _classCallCheck(this, ApplicationInitStatus);
 
@@ -72061,8 +75137,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (res, rej) {
-          _this83.resolve = res;
-          _this83.reject = rej;
+          _this96.resolve = res;
+          _this96.reject = rej;
         });
       }
       /**
@@ -72074,7 +75150,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ApplicationInitStatus, [{
         key: "runInitializers",
         value: function runInitializers() {
-          var _this84 = this;
+          var _this97 = this;
 
           if (this.initialized) {
             return;
@@ -72091,9 +75167,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function complete() {
             /** @type {?} */
-            _this84.done = true;
+            _this97.done = true;
 
-            _this84.resolve();
+            _this97.resolve();
           };
 
           if (this.appInits) {
@@ -72119,7 +75195,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (e) {
-            _this84.reject(e);
+            _this97.reject(e);
           });
 
           if (asyncInitPromises.length === 0) {
@@ -72133,14 +75209,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ApplicationInitStatus;
     }();
 
-    ApplicationInitStatus.ɵfac = function ApplicationInitStatus_Factory(t) {
-      return new (t || ApplicationInitStatus)(ɵɵinject(APP_INITIALIZER, 8));
-    };
-
-    ApplicationInitStatus.ɵprov = ɵɵdefineInjectable({
-      token: ApplicationInitStatus,
-      factory: ApplicationInitStatus.ɵfac
-    });
+    ApplicationInitStatus.decorators = [{
+      type: Injectable
+    }];
     /** @nocollapse */
 
     ApplicationInitStatus.ctorParameters = function () {
@@ -72154,24 +75225,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(ApplicationInitStatus, [{
-        type: Injectable
-      }], function () {
-        return [{
-          type: Array,
-          decorators: [{
-            type: Inject,
-            args: [APP_INITIALIZER]
-          }, {
-            type: Optional
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -72294,21 +75347,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Console;
     }();
 
-    Console.ɵfac = function Console_Factory(t) {
-      return new (t || Console)();
-    };
-
-    Console.ɵprov = ɵɵdefineInjectable({
-      token: Console,
-      factory: Console.ɵfac
-    });
-    /*@__PURE__*/
-
-    (function () {
-      setClassMetadata(Console, [{
-        type: Injectable
-      }], null, null);
-    })();
+    Console.decorators = [{
+      type: Injectable
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/i18n/tokens.ts
@@ -72338,7 +75379,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      * @type {?}
      */
-
 
     var LOCALE_ID$1 = new InjectionToken('LocaleId');
     /**
@@ -72465,7 +75505,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SWITCH_IVY_ENABLED__PRE_R3__ = false;
     /** @type {?} */
 
-    var ivyEnabled = SWITCH_IVY_ENABLED__POST_R3__;
+    var ivyEnabled = SWITCH_IVY_ENABLED__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/linker/compiler.ts
@@ -72520,7 +75560,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var Compiler_compileModuleSync = Compiler_compileModuleSync__POST_R3__;
+    var Compiler_compileModuleSync = Compiler_compileModuleSync__PRE_R3__;
     /** @type {?} */
 
     var Compiler_compileModuleAsync__PRE_R3__ =
@@ -72540,7 +75580,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var Compiler_compileModuleAsync = Compiler_compileModuleAsync__POST_R3__;
+    var Compiler_compileModuleAsync = Compiler_compileModuleAsync__PRE_R3__;
     /** @type {?} */
 
     var Compiler_compileModuleAndAllComponentsSync__PRE_R3__ =
@@ -72583,7 +75623,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var Compiler_compileModuleAndAllComponentsSync = Compiler_compileModuleAndAllComponentsSync__POST_R3__;
+    var Compiler_compileModuleAndAllComponentsSync = Compiler_compileModuleAndAllComponentsSync__PRE_R3__;
     /** @type {?} */
 
     var Compiler_compileModuleAndAllComponentsAsync__PRE_R3__ =
@@ -72603,7 +75643,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var Compiler_compileModuleAndAllComponentsAsync = Compiler_compileModuleAndAllComponentsAsync__POST_R3__;
+    var Compiler_compileModuleAndAllComponentsAsync = Compiler_compileModuleAndAllComponentsAsync__PRE_R3__;
     /**
      * Low-level service for running the angular compiler during runtime
      * to create {\@link ComponentFactory}s, which
@@ -72675,23 +75715,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Compiler;
     }();
 
-    Compiler.ɵfac = function Compiler_Factory(t) {
-      return new (t || Compiler)();
-    };
-
-    Compiler.ɵprov = ɵɵdefineInjectable({
-      token: Compiler,
-      factory: Compiler.ɵfac
-    });
-    /*@__PURE__*/
-
-    (function () {
-      setClassMetadata(Compiler, [{
-        type: Injectable
-      }], function () {
-        return [];
-      }, null);
-    })();
+    Compiler.decorators = [{
+      type: Injectable
+    }];
 
     if (false) {}
     /**
@@ -72858,11 +75884,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /**
        * @param {?} __0
        */
-      function NgZone(_ref6) {
-        var _ref6$enableLongStack = _ref6.enableLongStackTrace,
-            enableLongStackTrace = _ref6$enableLongStack === void 0 ? false : _ref6$enableLongStack,
-            _ref6$shouldCoalesceE = _ref6.shouldCoalesceEventChangeDetection,
-            shouldCoalesceEventChangeDetection = _ref6$shouldCoalesceE === void 0 ? false : _ref6$shouldCoalesceE;
+      function NgZone(_ref8) {
+        var _ref8$enableLongStack = _ref8.enableLongStackTrace,
+            enableLongStackTrace = _ref8$enableLongStack === void 0 ? false : _ref8$enableLongStack,
+            _ref8$shouldCoalesceE = _ref8.shouldCoalesceEventChangeDetection,
+            shouldCoalesceEventChangeDetection = _ref8$shouldCoalesceE === void 0 ? false : _ref8$shouldCoalesceE;
 
         _classCallCheck(this, NgZone);
 
@@ -73437,7 +76463,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _ngZone
        */
       function Testability(_ngZone) {
-        var _this85 = this;
+        var _this98 = this;
 
         _classCallCheck(this, Testability);
 
@@ -73462,7 +76488,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function () {
-          _this85.taskTrackingZone = typeof Zone == 'undefined' ? null : Zone.current.get('TaskTrackingZone');
+          _this98.taskTrackingZone = typeof Zone == 'undefined' ? null : Zone.current.get('TaskTrackingZone');
         });
       }
       /**
@@ -73474,7 +76500,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(Testability, [{
         key: "_watchAngularEvents",
         value: function _watchAngularEvents() {
-          var _this86 = this;
+          var _this99 = this;
 
           this._ngZone.onUnstable.subscribe({
             next:
@@ -73482,8 +76508,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function next() {
-              _this86._didWork = true;
-              _this86._isZoneStable = false;
+              _this99._didWork = true;
+              _this99._isZoneStable = false;
             }
           });
 
@@ -73492,7 +76518,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this86._ngZone.onStable.subscribe({
+            _this99._ngZone.onStable.subscribe({
               next:
               /**
               * @return {?}
@@ -73504,9 +76530,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 * @return {?}
                 */
                 function () {
-                  _this86._isZoneStable = true;
+                  _this99._isZoneStable = true;
 
-                  _this86._runCallbacksIfReady();
+                  _this99._runCallbacksIfReady();
                 });
               }
             });
@@ -73562,7 +76588,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_runCallbacksIfReady",
         value: function _runCallbacksIfReady() {
-          var _this87 = this;
+          var _this100 = this;
 
           if (this.isStable()) {
             // Schedules the call backs in a new frame so that it is always async.
@@ -73571,17 +76597,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              while (_this87._callbacks.length !== 0) {
+              while (_this100._callbacks.length !== 0) {
                 /** @type {?} */
                 var cb =
                 /** @type {?} */
-                _this87._callbacks.pop();
+                _this100._callbacks.pop();
 
                 clearTimeout(cb.timeoutId);
-                cb.doneCb(_this87._didWork);
+                cb.doneCb(_this100._didWork);
               }
 
-              _this87._didWork = false;
+              _this100._didWork = false;
             });
           } else {
             // Still not stable, send updates.
@@ -73647,7 +76673,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addCallback",
         value: function addCallback(cb, timeout, updateCb) {
-          var _this88 = this;
+          var _this101 = this;
 
           /** @type {?} */
           var timeoutId = -1;
@@ -73658,7 +76684,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              _this88._callbacks = _this88._callbacks.filter(
+              _this101._callbacks = _this101._callbacks.filter(
               /**
               * @param {?} cb
               * @return {?}
@@ -73666,7 +76692,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               function (cb) {
                 return cb.timeoutId !== timeoutId;
               });
-              cb(_this88._didWork, _this88.getPendingTasks());
+              cb(_this101._didWork, _this101.getPendingTasks());
             }, timeout);
           }
 
@@ -73738,14 +76764,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Testability;
     }();
 
-    Testability.ɵfac = function Testability_Factory(t) {
-      return new (t || Testability)(ɵɵinject(NgZone));
-    };
-
-    Testability.ɵprov = ɵɵdefineInjectable({
-      token: Testability,
-      factory: Testability.ɵfac
-    });
+    Testability.decorators = [{
+      type: Injectable
+    }];
     /** @nocollapse */
 
     Testability.ctorParameters = function () {
@@ -73753,18 +76774,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: NgZone
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(Testability, [{
-        type: Injectable
-      }], function () {
-        return [{
-          type: NgZone
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -73868,29 +76877,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TestabilityRegistry;
     }();
 
-    TestabilityRegistry.ɵfac = function TestabilityRegistry_Factory(t) {
-      return new (t || TestabilityRegistry)();
-    };
-
-    TestabilityRegistry.ɵprov = ɵɵdefineInjectable({
-      token: TestabilityRegistry,
-      factory: TestabilityRegistry.ɵfac
-    });
+    TestabilityRegistry.decorators = [{
+      type: Injectable
+    }];
     /** @nocollapse */
 
     TestabilityRegistry.ctorParameters = function () {
       return [];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(TestabilityRegistry, [{
-        type: Injectable
-      }], function () {
-        return [];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -73963,7 +76957,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var compileNgModuleFactory = compileNgModuleFactory__POST_R3__;
+    var compileNgModuleFactory = compileNgModuleFactory__PRE_R3__;
     /**
      * @template M
      * @param {?} injector
@@ -74097,10 +77091,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var publishDefaultGlobalUtils$1 = publishDefaultGlobalUtils__POST_R3__;
+    var publishDefaultGlobalUtils$1 = publishDefaultGlobalUtils__PRE_R3__;
     /** @type {?} */
 
-    var isBoundToModule = isBoundToModule__POST_R3__;
+    var isBoundToModule = isBoundToModule__PRE_R3__;
     /**
      * @template C
      * @param {?} cf
@@ -74346,7 +77340,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(PlatformRef, [{
         key: "bootstrapModuleFactory",
         value: function bootstrapModuleFactory(moduleFactory, options) {
-          var _this89 = this;
+          var _this102 = this;
 
           // Note: We need to create the NgZone _before_ we instantiate the module,
           // as instantiating the module creates some providers eagerly.
@@ -74377,7 +77371,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             /** @type {?} */
             var ngZoneInjector = Injector.create({
               providers: providers,
-              parent: _this89.injector,
+              parent: _this102.injector,
               name: moduleFactory.moduleType.name
             });
             /** @type {?} */
@@ -74398,7 +77392,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              return remove(_this89._modules, moduleRef);
+              return remove(_this102._modules, moduleRef);
             });
 
             /** @type {?} */
@@ -74444,7 +77438,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   setLocaleId(localeId || DEFAULT_LOCALE_ID);
                 }
 
-                _this89._moduleDoBootstrap(moduleRef);
+                _this102._moduleDoBootstrap(moduleRef);
 
                 return moduleRef;
               });
@@ -74475,7 +77469,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "bootstrapModule",
         value: function bootstrapModule(moduleType) {
-          var _this90 = this;
+          var _this103 = this;
 
           var compilerOptions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
 
@@ -74487,7 +77481,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (moduleFactory) {
-            return _this90.bootstrapModuleFactory(moduleFactory, options);
+            return _this103.bootstrapModuleFactory(moduleFactory, options);
           });
         }
         /**
@@ -74589,14 +77583,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return PlatformRef;
     }();
 
-    PlatformRef.ɵfac = function PlatformRef_Factory(t) {
-      return new (t || PlatformRef)(ɵɵinject(Injector));
-    };
-
-    PlatformRef.ɵprov = ɵɵdefineInjectable({
-      token: PlatformRef,
-      factory: PlatformRef.ɵfac
-    });
+    PlatformRef.decorators = [{
+      type: Injectable
+    }];
     /** @nocollapse */
 
     PlatformRef.ctorParameters = function () {
@@ -74604,18 +77593,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: Injector
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(PlatformRef, [{
-        type: Injectable
-      }], function () {
-        return [{
-          type: Injector
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -74810,7 +77787,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _initStatus
        */
       function ApplicationRef(_zone, _console, _injector, _exceptionHandler, _componentFactoryResolver, _initStatus) {
-        var _this91 = this;
+        var _this104 = this;
 
         _classCallCheck(this, ApplicationRef);
 
@@ -74848,12 +77825,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function next() {
-            _this91._zone.run(
+            _this104._zone.run(
             /**
             * @return {?}
             */
             function () {
-              _this91.tick();
+              _this104.tick();
             });
           }
         });
@@ -74866,14 +77843,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (observer) {
-          _this91._stable = _this91._zone.isStable && !_this91._zone.hasPendingMacrotasks && !_this91._zone.hasPendingMicrotasks;
+          _this104._stable = _this104._zone.isStable && !_this104._zone.hasPendingMacrotasks && !_this104._zone.hasPendingMicrotasks;
 
-          _this91._zone.runOutsideAngular(
+          _this104._zone.runOutsideAngular(
           /**
           * @return {?}
           */
           function () {
-            observer.next(_this91._stable);
+            observer.next(_this104._stable);
             observer.complete();
           });
         });
@@ -74891,12 +77868,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           /** @type {?} */
           var stableSub;
 
-          _this91._zone.runOutsideAngular(
+          _this104._zone.runOutsideAngular(
           /**
           * @return {?}
           */
           function () {
-            stableSub = _this91._zone.onStable.subscribe(
+            stableSub = _this104._zone.onStable.subscribe(
             /**
             * @return {?}
             */
@@ -74909,8 +77886,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function () {
-                if (!_this91._stable && !_this91._zone.hasPendingMacrotasks && !_this91._zone.hasPendingMicrotasks) {
-                  _this91._stable = true;
+                if (!_this104._stable && !_this104._zone.hasPendingMacrotasks && !_this104._zone.hasPendingMicrotasks) {
+                  _this104._stable = true;
                   observer.next(true);
                 }
               });
@@ -74919,17 +77896,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           /** @type {?} */
 
 
-          var unstableSub = _this91._zone.onUnstable.subscribe(
+          var unstableSub = _this104._zone.onUnstable.subscribe(
           /**
           * @return {?}
           */
           function () {
             NgZone.assertInAngularZone();
 
-            if (_this91._stable) {
-              _this91._stable = false;
+            if (_this104._stable) {
+              _this104._stable = false;
 
-              _this91._zone.runOutsideAngular(
+              _this104._zone.runOutsideAngular(
               /**
               * @return {?}
               */
@@ -74978,7 +77955,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ApplicationRef, [{
         key: "bootstrap",
         value: function bootstrap(componentOrFactory, rootSelectorOrNode) {
-          var _this92 = this;
+          var _this105 = this;
 
           if (!this._initStatus.done) {
             throw new Error('Cannot bootstrap as there are still asynchronous initializers running. Bootstrap components in the `ngDoBootstrap` method of the root module.');
@@ -75012,7 +77989,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this92._unloadComponent(compRef);
+            _this105._unloadComponent(compRef);
           });
           /** @type {?} */
 
@@ -75045,7 +78022,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "tick",
         value: function tick() {
-          var _this93 = this;
+          var _this106 = this;
 
           if (this._runningTick) {
             throw new Error('ApplicationRef.tick is called recursively');
@@ -75091,7 +78068,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              return _this93._exceptionHandler.handleError(e);
+              return _this106._exceptionHandler.handleError(e);
             });
           } finally {
             this._runningTick = false;
@@ -75204,14 +78181,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ApplicationRef;
     }();
 
-    ApplicationRef.ɵfac = function ApplicationRef_Factory(t) {
-      return new (t || ApplicationRef)(ɵɵinject(NgZone), ɵɵinject(Console), ɵɵinject(Injector), ɵɵinject(ErrorHandler), ɵɵinject(ComponentFactoryResolver), ɵɵinject(ApplicationInitStatus));
-    };
-
-    ApplicationRef.ɵprov = ɵɵdefineInjectable({
-      token: ApplicationRef,
-      factory: ApplicationRef.ɵfac
-    });
+    ApplicationRef.decorators = [{
+      type: Injectable
+    }];
     /** @nocollapse */
 
     ApplicationRef.ctorParameters = function () {
@@ -75229,28 +78201,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: ApplicationInitStatus
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(ApplicationRef, [{
-        type: Injectable
-      }], function () {
-        return [{
-          type: NgZone
-        }, {
-          type: Console
-        }, {
-          type: Injector
-        }, {
-          type: ErrorHandler
-        }, {
-          type: ComponentFactoryResolver
-        }, {
-          type: ApplicationInitStatus
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -75374,7 +78324,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var getModuleFactory = getModuleFactory__POST_R3__;
+    var getModuleFactory = getModuleFactory__PRE_R3__;
     /**
      * @param {?} id
      * @return {?}
@@ -75458,7 +78408,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "loadAndCompile",
         value: function loadAndCompile(path) {
-          var _this94 = this;
+          var _this107 = this;
 
           var _path$split = path.split(_SEPARATOR),
               _path$split2 = _slicedToArray(_path$split, 2),
@@ -75489,7 +78439,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (type) {
-            return _this94._compiler.compileModuleAsync(type);
+            return _this107._compiler.compileModuleAsync(type);
           });
         }
         /**
@@ -75536,14 +78486,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SystemJsNgModuleLoader;
     }();
 
-    SystemJsNgModuleLoader.ɵfac = function SystemJsNgModuleLoader_Factory(t) {
-      return new (t || SystemJsNgModuleLoader)(ɵɵinject(Compiler), ɵɵinject(SystemJsNgModuleLoaderConfig, 8));
-    };
-
-    SystemJsNgModuleLoader.ɵprov = ɵɵdefineInjectable({
-      token: SystemJsNgModuleLoader,
-      factory: SystemJsNgModuleLoader.ɵfac
-    });
+    SystemJsNgModuleLoader.decorators = [{
+      type: Injectable
+    }];
     /** @nocollapse */
 
     SystemJsNgModuleLoader.ctorParameters = function () {
@@ -75556,23 +78501,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(SystemJsNgModuleLoader, [{
-        type: Injectable
-      }], function () {
-        return [{
-          type: Compiler
-        }, {
-          type: SystemJsNgModuleLoaderConfig,
-          decorators: [{
-            type: Optional
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -75612,12 +78540,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ViewRef$1 = /*#__PURE__*/function (_ChangeDetectorRef) {
       _inherits(ViewRef$1, _ChangeDetectorRef);
 
-      var _super27 = _createSuper(ViewRef$1);
+      var _super30 = _createSuper(ViewRef$1);
 
       function ViewRef$1() {
         _classCallCheck(this, ViewRef$1);
 
-        return _super27.apply(this, arguments);
+        return _super30.apply(this, arguments);
       }
 
       return ViewRef$1;
@@ -75684,12 +78612,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var EmbeddedViewRef = /*#__PURE__*/function (_ViewRef$) {
       _inherits(EmbeddedViewRef, _ViewRef$);
 
-      var _super28 = _createSuper(EmbeddedViewRef);
+      var _super31 = _createSuper(EmbeddedViewRef);
 
       function EmbeddedViewRef() {
         _classCallCheck(this, EmbeddedViewRef);
 
-        return _super28.apply(this, arguments);
+        return _super31.apply(this, arguments);
       }
 
       return EmbeddedViewRef;
@@ -75811,7 +78739,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DebugElement__PRE_R3__ = /*#__PURE__*/function (_DebugNode__PRE_R3__) {
       _inherits(DebugElement__PRE_R3__, _DebugNode__PRE_R3__);
 
-      var _super29 = _createSuper(DebugElement__PRE_R3__);
+      var _super32 = _createSuper(DebugElement__PRE_R3__);
 
       /**
        * @param {?} nativeNode
@@ -75819,18 +78747,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _debugContext
        */
       function DebugElement__PRE_R3__(nativeNode, parent, _debugContext) {
-        var _this95;
+        var _this108;
 
         _classCallCheck(this, DebugElement__PRE_R3__);
 
-        _this95 = _super29.call(this, nativeNode, parent, _debugContext);
-        _this95.properties = {};
-        _this95.attributes = {};
-        _this95.classes = {};
-        _this95.styles = {};
-        _this95.childNodes = [];
-        _this95.nativeElement = nativeNode;
-        return _this95;
+        _this108 = _super32.call(this, nativeNode, parent, _debugContext);
+        _this108.properties = {};
+        _this108.attributes = {};
+        _this108.classes = {};
+        _this108.styles = {};
+        _this108.childNodes = [];
+        _this108.nativeElement = nativeNode;
+        return _this108;
       }
       /**
        * @param {?} child
@@ -75874,7 +78802,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "insertChildrenAfter",
         value: function insertChildrenAfter(child, newChildren) {
-          var _this96 = this;
+          var _this109 = this;
 
           /** @type {?} */
           var siblingIndex = this.childNodes.indexOf(child);
@@ -75896,7 +78824,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               }
 
               /** @type {?} */
-              child.parent = _this96;
+              child.parent = _this109;
             });
           }
         }
@@ -76187,7 +79115,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DebugElement__POST_R3__ = /*#__PURE__*/function (_DebugNode__POST_R3__) {
       _inherits(DebugElement__POST_R3__, _DebugNode__POST_R3__);
 
-      var _super30 = _createSuper(DebugElement__POST_R3__);
+      var _super33 = _createSuper(DebugElement__POST_R3__);
 
       /**
        * @param {?} nativeNode
@@ -76196,7 +79124,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, DebugElement__POST_R3__);
 
         ngDevMode && assertDomNode(nativeNode);
-        return _super30.call(this, nativeNode);
+        return _super33.call(this, nativeNode);
       }
       /**
        * @return {?}
@@ -76990,7 +79918,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var getDebugNode$1 = getDebugNode__POST_R3__;
+    var getDebugNode$1 = getDebugNode__PRE_R3__;
     /**
      * @param {?} nativeNode
      * @return {?}
@@ -77011,7 +79939,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var getDebugNodeR2 = getDebugNodeR2__POST_R3__;
+    var getDebugNodeR2 = getDebugNodeR2__PRE_R3__;
     /**
      * @return {?}
      */
@@ -77054,13 +79982,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var DebugNode$1 = DebugNode__POST_R3__;
+    var DebugNode$1 = DebugNode__PRE_R3__;
     /**
      * \@publicApi
      * @type {?}
      */
 
-    var DebugElement = DebugElement__POST_R3__;
+    var DebugElement = DebugElement__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/change_detection.ts
@@ -77256,15 +80184,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, ApplicationModule);
     };
 
-    ApplicationModule.ɵmod = ɵɵdefineNgModule({
-      type: ApplicationModule
-    });
-    ApplicationModule.ɵinj = ɵɵdefineInjector({
-      factory: function ApplicationModule_Factory(t) {
-        return new (t || ApplicationModule)(ɵɵinject(ApplicationRef));
-      },
-      providers: APPLICATION_MODULE_PROVIDERS
-    });
+    ApplicationModule.decorators = [{
+      type: NgModule,
+      args: [{
+        providers: APPLICATION_MODULE_PROVIDERS
+      }]
+    }];
     /** @nocollapse */
 
     ApplicationModule.ctorParameters = function () {
@@ -77272,21 +80197,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: ApplicationRef
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      setClassMetadata(ApplicationModule, [{
-        type: NgModule,
-        args: [{
-          providers: APPLICATION_MODULE_PROVIDERS
-        }]
-      }], function () {
-        return [{
-          type: ApplicationRef
-        }];
-      }, null);
-    })();
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/view/element.ts
@@ -77502,10 +80412,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       * @param {?} __0
       * @return {?}
       */
-      function (_ref7) {
-        var _ref8 = _slicedToArray(_ref7, 2),
-            namespaceAndName = _ref8[0],
-            value = _ref8[1];
+      function (_ref9) {
+        var _ref10 = _slicedToArray(_ref9, 2),
+            namespaceAndName = _ref10[0],
+            value = _ref10[1];
 
         var _splitNamespace5 = splitNamespace(namespaceAndName),
             _splitNamespace6 = _slicedToArray(_splitNamespace5, 2),
@@ -82081,7 +84991,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NgModuleFactory_ = /*#__PURE__*/function (_NgModuleFactory2) {
       _inherits(NgModuleFactory_, _NgModuleFactory2);
 
-      var _super31 = _createSuper(NgModuleFactory_);
+      var _super34 = _createSuper(NgModuleFactory_);
 
       /**
        * @param {?} moduleType
@@ -82089,17 +84999,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _ngModuleDefFactory
        */
       function NgModuleFactory_(moduleType, _bootstrapComponents, _ngModuleDefFactory) {
-        var _this97;
+        var _this110;
 
         _classCallCheck(this, NgModuleFactory_);
 
         // Attention: this ctor is called as top level function.
         // Putting any logic in here will destroy closure tree shaking!
-        _this97 = _super31.call(this);
-        _this97.moduleType = moduleType;
-        _this97._bootstrapComponents = _bootstrapComponents;
-        _this97._ngModuleDefFactory = _ngModuleDefFactory;
-        return _this97;
+        _this110 = _super34.call(this);
+        _this110.moduleType = moduleType;
+        _this110._bootstrapComponents = _bootstrapComponents;
+        _this110._ngModuleDefFactory = _ngModuleDefFactory;
+        return _this110;
       }
       /**
        * @param {?} parentInjector
@@ -82190,15 +85100,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js":
-  /*!************************************************************************************!*\
-    !*** ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js ***!
-    \************************************************************************************/
+  "./node_modules/@angular/platform-browser/fesm2015/animations.js":
+  /*!***********************************************************************!*\
+    !*** ./node_modules/@angular/platform-browser/fesm2015/animations.js ***!
+    \***********************************************************************/
 
   /*! exports provided: ANIMATION_MODULE_TYPE, BrowserAnimationsModule, NoopAnimationsModule, ɵAnimationRenderer, ɵAnimationRendererFactory, ɵBrowserAnimationBuilder, ɵBrowserAnimationFactory, ɵInjectableAnimationEngine, ɵangular_packages_platform_browser_animations_animations_a, ɵangular_packages_platform_browser_animations_animations_b, ɵangular_packages_platform_browser_animations_animations_c, ɵangular_packages_platform_browser_animations_animations_d, ɵangular_packages_platform_browser_animations_animations_e, ɵangular_packages_platform_browser_animations_animations_f */
 
   /***/
-  function node_modulesAngularPlatformBrowser__ivy_ngcc__Fesm2015AnimationsJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularPlatformBrowserFesm2015AnimationsJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -82291,31 +85201,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
     var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/platform-browser */
-    "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+    "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
     /* harmony import */
 
 
     var _angular_animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/animations */
-    "./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js");
+    "./node_modules/@angular/animations/fesm2015/animations.js");
     /* harmony import */
 
 
     var _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! @angular/animations/browser */
-    "./node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js");
+    "./node_modules/@angular/animations/fesm2015/browser.js");
     /* harmony import */
 
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "./node_modules/@angular/common/fesm2015/common.js");
     /**
      * @license Angular v9.1.11
      * (c) 2010-2020 Google LLC. https://angular.io/
@@ -82332,19 +85242,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BrowserAnimationBuilder = /*#__PURE__*/function (_angular_animations__2) {
       _inherits(BrowserAnimationBuilder, _angular_animations__2);
 
-      var _super32 = _createSuper(BrowserAnimationBuilder);
+      var _super35 = _createSuper(BrowserAnimationBuilder);
 
       /**
        * @param {?} rootRenderer
        * @param {?} doc
        */
       function BrowserAnimationBuilder(rootRenderer, doc) {
-        var _this98;
+        var _this111;
 
         _classCallCheck(this, BrowserAnimationBuilder);
 
-        _this98 = _super32.call(this);
-        _this98._nextAnimationId = 0;
+        _this111 = _super35.call(this);
+        _this111._nextAnimationId = 0;
         /** @type {?} */
 
         var typeData =
@@ -82357,10 +85267,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             animation: []
           }
         };
-        _this98._renderer =
+        _this111._renderer =
         /** @type {?} */
         rootRenderer.createRenderer(doc.body, typeData);
-        return _this98;
+        return _this111;
       }
       /**
        * @param {?} animation
@@ -82386,14 +85296,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BrowserAnimationBuilder;
     }(_angular_animations__WEBPACK_IMPORTED_MODULE_2__["AnimationBuilder"]);
 
-    BrowserAnimationBuilder.ɵfac = function BrowserAnimationBuilder_Factory(t) {
-      return new (t || BrowserAnimationBuilder)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"]));
-    };
-
-    BrowserAnimationBuilder.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: BrowserAnimationBuilder,
-      factory: BrowserAnimationBuilder.ɵfac
-    });
+    BrowserAnimationBuilder.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
     /** @nocollapse */
 
     BrowserAnimationBuilder.ctorParameters = function () {
@@ -82407,45 +85312,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BrowserAnimationBuilder, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"]
-        }, {
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
 
     var BrowserAnimationFactory = /*#__PURE__*/function (_angular_animations__3) {
       _inherits(BrowserAnimationFactory, _angular_animations__3);
 
-      var _super33 = _createSuper(BrowserAnimationFactory);
+      var _super36 = _createSuper(BrowserAnimationFactory);
 
       /**
        * @param {?} _id
        * @param {?} _renderer
        */
       function BrowserAnimationFactory(_id, _renderer) {
-        var _this99;
+        var _this112;
 
         _classCallCheck(this, BrowserAnimationFactory);
 
-        _this99 = _super33.call(this);
-        _this99._id = _id;
-        _this99._renderer = _renderer;
-        return _this99;
+        _this112 = _super36.call(this);
+        _this112._id = _id;
+        _this112._renderer = _renderer;
+        return _this112;
       }
       /**
        * @param {?} element
@@ -82720,7 +85607,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(AnimationRendererFactory, [{
         key: "createRenderer",
         value: function createRenderer(hostElement, type) {
-          var _this100 = this;
+          var _this113 = this;
 
           /** @type {?} */
           var EMPTY_NAMESPACE_ID = ''; // cache the delegates to find out which cached delegate can
@@ -82762,7 +85649,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             if (Array.isArray(trigger)) {
               trigger.forEach(registerTrigger);
             } else {
-              _this100.engine.registerTrigger(componentId, namespaceId, hostElement, trigger.name, trigger);
+              _this113.engine.registerTrigger(componentId, namespaceId, hostElement, trigger.name, trigger);
             }
           };
           /** @type {?} */
@@ -82795,7 +85682,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_scheduleCountTask",
         value: function _scheduleCountTask() {
-          var _this101 = this;
+          var _this114 = this;
 
           // always use promise to schedule microtask instead of use Zone
           this.promise.then(
@@ -82803,7 +85690,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this101._microtaskId++;
+            _this114._microtaskId++;
           });
         }
         /**
@@ -82817,7 +85704,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "scheduleListenerCallback",
         value: function scheduleListenerCallback(count, fn, data) {
-          var _this102 = this;
+          var _this115 = this;
 
           if (count >= 0 && count < this._microtaskId) {
             this._zone.run(
@@ -82837,12 +85724,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              _this102._zone.run(
+              _this115._zone.run(
               /**
               * @return {?}
               */
               function () {
-                _this102._animationCallbacksBuffer.forEach(
+                _this115._animationCallbacksBuffer.forEach(
                 /**
                 * @param {?} tuple
                 * @return {?}
@@ -82855,7 +85742,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   fn(data);
                 });
 
-                _this102._animationCallbacksBuffer = [];
+                _this115._animationCallbacksBuffer = [];
               });
             });
           }
@@ -82869,7 +85756,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "end",
         value: function end() {
-          var _this103 = this;
+          var _this116 = this;
 
           this._cdRecurDepth--; // this is to prevent animations from running twice when an inner
           // component does CD when a parent component instead has inserted it
@@ -82880,9 +85767,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              _this103._scheduleCountTask();
+              _this116._scheduleCountTask();
 
-              _this103.engine.flush(_this103._microtaskId);
+              _this116.engine.flush(_this116._microtaskId);
             });
           }
 
@@ -82904,14 +85791,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return AnimationRendererFactory;
     }();
 
-    AnimationRendererFactory.ɵfac = function AnimationRendererFactory_Factory(t) {
-      return new (t || AnimationRendererFactory)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["ɵAnimationEngine"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]));
-    };
-
-    AnimationRendererFactory.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: AnimationRendererFactory,
-      factory: AnimationRendererFactory.ɵfac
-    });
+    AnimationRendererFactory.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
     /** @nocollapse */
 
     AnimationRendererFactory.ctorParameters = function () {
@@ -82923,22 +85805,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AnimationRendererFactory, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["RendererFactory2"]
-        }, {
-          type: _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["ɵAnimationEngine"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]
-        }];
-      }, null);
-    })();
 
     if (false) {}
 
@@ -83218,7 +86084,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AnimationRenderer = /*#__PURE__*/function (_BaseAnimationRendere) {
       _inherits(AnimationRenderer, _BaseAnimationRendere);
 
-      var _super34 = _createSuper(AnimationRenderer);
+      var _super37 = _createSuper(AnimationRenderer);
 
       /**
        * @param {?} factory
@@ -83227,14 +86093,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} engine
        */
       function AnimationRenderer(factory, namespaceId, delegate, engine) {
-        var _this104;
+        var _this117;
 
         _classCallCheck(this, AnimationRenderer);
 
-        _this104 = _super34.call(this, namespaceId, delegate, engine);
-        _this104.factory = factory;
-        _this104.namespaceId = namespaceId;
-        return _this104;
+        _this117 = _super37.call(this, namespaceId, delegate, engine);
+        _this117.factory = factory;
+        _this117.namespaceId = namespaceId;
+        return _this117;
       }
       /**
        * @param {?} el
@@ -83270,7 +86136,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "listen",
         value: function listen(target, eventName, callback) {
-          var _this105 = this;
+          var _this118 = this;
 
           if (eventName.charAt(0) == ANIMATION_PREFIX) {
             /** @type {?} */
@@ -83303,7 +86169,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               /** @type {?} */
               event['_data'] || -1;
 
-              _this105.factory.scheduleListenerCallback(countId, callback, event);
+              _this118.factory.scheduleListenerCallback(countId, callback, event);
             });
           }
 
@@ -83363,7 +86229,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var InjectableAnimationEngine = /*#__PURE__*/function (_angular_animations_b) {
       _inherits(InjectableAnimationEngine, _angular_animations_b);
 
-      var _super35 = _createSuper(InjectableAnimationEngine);
+      var _super38 = _createSuper(InjectableAnimationEngine);
 
       /**
        * @param {?} doc
@@ -83373,20 +86239,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function InjectableAnimationEngine(doc, driver, normalizer) {
         _classCallCheck(this, InjectableAnimationEngine);
 
-        return _super35.call(this, doc.body, driver, normalizer);
+        return _super38.call(this, doc.body, driver, normalizer);
       }
 
       return InjectableAnimationEngine;
     }(_angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["ɵAnimationEngine"]);
 
-    InjectableAnimationEngine.ɵfac = function InjectableAnimationEngine_Factory(t) {
-      return new (t || InjectableAnimationEngine)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["AnimationDriver"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["ɵAnimationStyleNormalizer"]));
-    };
-
-    InjectableAnimationEngine.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
-      token: InjectableAnimationEngine,
-      factory: InjectableAnimationEngine.ɵfac
-    });
+    InjectableAnimationEngine.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }];
     /** @nocollapse */
 
     InjectableAnimationEngine.ctorParameters = function () {
@@ -83402,26 +86263,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["ɵAnimationStyleNormalizer"]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](InjectableAnimationEngine, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"]]
-          }]
-        }, {
-          type: _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["AnimationDriver"]
-        }, {
-          type: _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__["ɵAnimationStyleNormalizer"]
-        }];
-      }, null);
-    })();
     /**
      * @return {?}
      */
@@ -83514,76 +86355,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, BrowserAnimationsModule);
     };
 
-    BrowserAnimationsModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
-      type: BrowserAnimationsModule
-    });
-    BrowserAnimationsModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
-      factory: function BrowserAnimationsModule_Factory(t) {
-        return new (t || BrowserAnimationsModule)();
-      },
-      providers: BROWSER_ANIMATIONS_PROVIDERS,
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]]
-    });
-
-    (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](BrowserAnimationsModule, {
-        exports: function exports() {
-          return [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]];
-        }
-      });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BrowserAnimationsModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
-        args: [{
-          exports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]],
-          providers: BROWSER_ANIMATIONS_PROVIDERS
-        }]
-      }], null, null);
-    })();
+    BrowserAnimationsModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        exports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]],
+        providers: BROWSER_ANIMATIONS_PROVIDERS
+      }]
+    }];
     /**
      * A null player that must be imported to allow disabling of animations.
      * \@publicApi
      */
 
-
     var NoopAnimationsModule = function NoopAnimationsModule() {
       _classCallCheck(this, NoopAnimationsModule);
     };
 
-    NoopAnimationsModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({
-      type: NoopAnimationsModule
-    });
-    NoopAnimationsModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
-      factory: function NoopAnimationsModule_Factory(t) {
-        return new (t || NoopAnimationsModule)();
-      },
-      providers: BROWSER_NOOP_ANIMATIONS_PROVIDERS,
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]]
-    });
-
-    (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](NoopAnimationsModule, {
-        exports: function exports() {
-          return [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]];
-        }
-      });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NoopAnimationsModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
-        args: [{
-          exports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]],
-          providers: BROWSER_NOOP_ANIMATIONS_PROVIDERS
-        }]
-      }], null, null);
-    })();
+    NoopAnimationsModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        exports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"]],
+        providers: BROWSER_NOOP_ANIMATIONS_PROVIDERS
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/animations/src/private_export.ts
@@ -83614,19 +86408,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     //# sourceMappingURL=animations.js.map
 
     /***/
-
   },
 
   /***/
-  "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js":
-  /*!******************************************************************************************!*\
-    !*** ./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js ***!
-    \******************************************************************************************/
+  "./node_modules/@angular/platform-browser/fesm2015/platform-browser.js":
+  /*!*****************************************************************************!*\
+    !*** ./node_modules/@angular/platform-browser/fesm2015/platform-browser.js ***!
+    \*****************************************************************************/
 
   /*! exports provided: ɵgetDOM, BrowserModule, BrowserTransferStateModule, By, DomSanitizer, EVENT_MANAGER_PLUGINS, EventManager, HAMMER_GESTURE_CONFIG, HAMMER_LOADER, HammerGestureConfig, HammerModule, Meta, Title, TransferState, VERSION, disableDebugTools, enableDebugTools, makeStateKey, platformBrowser, ɵBROWSER_SANITIZATION_PROVIDERS, ɵBROWSER_SANITIZATION_PROVIDERS__POST_R3__, ɵBrowserDomAdapter, ɵBrowserGetTestability, ɵDomEventsPlugin, ɵDomRendererFactory2, ɵDomSanitizerImpl, ɵDomSharedStylesHost, ɵELEMENT_PROBE_PROVIDERS, ɵELEMENT_PROBE_PROVIDERS__POST_R3__, ɵHAMMER_PROVIDERS__POST_R3__, ɵHammerGesturesPlugin, ɵINTERNAL_BROWSER_PLATFORM_PROVIDERS, ɵKeyEventsPlugin, ɵNAMESPACE_URIS, ɵSharedStylesHost, ɵTRANSITION_ID, ɵangular_packages_platform_browser_platform_browser_a, ɵangular_packages_platform_browser_platform_browser_b, ɵangular_packages_platform_browser_platform_browser_c, ɵangular_packages_platform_browser_platform_browser_d, ɵangular_packages_platform_browser_platform_browser_e, ɵangular_packages_platform_browser_platform_browser_f, ɵangular_packages_platform_browser_platform_browser_g, ɵangular_packages_platform_browser_platform_browser_h, ɵangular_packages_platform_browser_platform_browser_i, ɵangular_packages_platform_browser_platform_browser_j, ɵangular_packages_platform_browser_platform_browser_k, ɵangular_packages_platform_browser_platform_browser_l, ɵangular_packages_platform_browser_platform_browser_m, ɵangular_packages_platform_browser_platform_browser_n, ɵangular_packages_platform_browser_platform_browser_o, ɵescapeHtml, ɵflattenStyles, ɵinitDomAdapter, ɵshimContentAttribute, ɵshimHostAttribute */
 
   /***/
-  function node_modulesAngularPlatformBrowser__ivy_ngcc__Fesm2015PlatformBrowserJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularPlatformBrowserFesm2015PlatformBrowserJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -83965,19 +86758,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "./node_modules/@angular/common/fesm2015/common.js");
     /* harmony reexport (safe) */
 
 
     __webpack_require__.d(__webpack_exports__, "ɵgetDOM", function () {
       return _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"];
     });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
     /**
      * @license Angular v9.1.11
      * (c) 2010-2020 Google LLC. https://angular.io/
@@ -84002,12 +86795,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var GenericBrowserDomAdapter = /*#__PURE__*/function (_angular_common__WEBP) {
       _inherits(GenericBrowserDomAdapter, _angular_common__WEBP);
 
-      var _super36 = _createSuper(GenericBrowserDomAdapter);
+      var _super39 = _createSuper(GenericBrowserDomAdapter);
 
       function GenericBrowserDomAdapter() {
         _classCallCheck(this, GenericBrowserDomAdapter);
 
-        return _super36.call(this);
+        return _super39.call(this);
       }
       /**
        * @return {?}
@@ -84068,12 +86861,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BrowserDomAdapter = /*#__PURE__*/function (_GenericBrowserDomAda) {
       _inherits(BrowserDomAdapter, _GenericBrowserDomAda);
 
-      var _super37 = _createSuper(BrowserDomAdapter);
+      var _super40 = _createSuper(BrowserDomAdapter);
 
       function BrowserDomAdapter() {
         _classCallCheck(this, BrowserDomAdapter);
 
-        return _super37.apply(this, arguments);
+        return _super40.apply(this, arguments);
       }
 
       _createClass2(BrowserDomAdapter, [{
@@ -84779,7 +87572,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }];
     /** @type {?} */
 
-    var ELEMENT_PROBE_PROVIDERS = ELEMENT_PROBE_PROVIDERS__POST_R3__;
+    var ELEMENT_PROBE_PROVIDERS = ELEMENT_PROBE_PROVIDERS__PRE_R3__;
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/dom/events/event_manager.ts
@@ -84808,7 +87601,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _zone
        */
       function EventManager(plugins, _zone) {
-        var _this106 = this;
+        var _this119 = this;
 
         _classCallCheck(this, EventManager);
 
@@ -84822,7 +87615,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {THIS}
         */
         function (p) {
-          return p.manager = _this106;
+          return p.manager = _this119;
         });
         this._plugins = plugins.slice().reverse();
       }
@@ -84911,14 +87704,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return EventManager;
     }();
 
-    EventManager.ɵfac = function EventManager_Factory(t) {
-      return new (t || EventManager)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](EVENT_MANAGER_PLUGINS), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]));
-    };
-
-    EventManager.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: EventManager,
-      factory: EventManager.ɵfac
-    });
+    EventManager.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     EventManager.ctorParameters = function () {
@@ -84932,24 +87720,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](EventManager, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: Array,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [EVENT_MANAGER_PLUGINS]
-          }]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -85017,7 +87787,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(SharedStylesHost, [{
         key: "addStyles",
         value: function addStyles(styles) {
-          var _this107 = this;
+          var _this120 = this;
 
           /** @type {?} */
           var additions = new Set();
@@ -85027,8 +87797,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (style) {
-            if (!_this107._stylesSet.has(style)) {
-              _this107._stylesSet.add(style);
+            if (!_this120._stylesSet.has(style)) {
+              _this120._stylesSet.add(style);
 
               additions.add(style);
             }
@@ -85057,47 +87827,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SharedStylesHost;
     }();
 
-    SharedStylesHost.ɵfac = function SharedStylesHost_Factory(t) {
-      return new (t || SharedStylesHost)();
-    };
-
-    SharedStylesHost.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: SharedStylesHost,
-      factory: SharedStylesHost.ɵfac
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](SharedStylesHost, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [];
-      }, null);
-    })();
+    SharedStylesHost.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
 
     if (false) {}
 
     var DomSharedStylesHost = /*#__PURE__*/function (_SharedStylesHost) {
       _inherits(DomSharedStylesHost, _SharedStylesHost);
 
-      var _super38 = _createSuper(DomSharedStylesHost);
+      var _super41 = _createSuper(DomSharedStylesHost);
 
       /**
        * @param {?} _doc
        */
       function DomSharedStylesHost(_doc) {
-        var _this108;
+        var _this121;
 
         _classCallCheck(this, DomSharedStylesHost);
 
-        _this108 = _super38.call(this);
-        _this108._doc = _doc;
-        _this108._hostNodes = new Set();
-        _this108._styleNodes = new Set();
+        _this121 = _super41.call(this);
+        _this121._doc = _doc;
+        _this121._hostNodes = new Set();
+        _this121._styleNodes = new Set();
 
-        _this108._hostNodes.add(_doc.head);
+        _this121._hostNodes.add(_doc.head);
 
-        return _this108;
+        return _this121;
       }
       /**
        * @private
@@ -85110,7 +87866,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(DomSharedStylesHost, [{
         key: "_addStylesToHost",
         value: function _addStylesToHost(styles, host) {
-          var _this109 = this;
+          var _this122 = this;
 
           styles.forEach(
           /**
@@ -85119,11 +87875,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (style) {
             /** @type {?} */
-            var styleEl = _this109._doc.createElement('style');
+            var styleEl = _this122._doc.createElement('style');
 
             styleEl.textContent = style;
 
-            _this109._styleNodes.add(host.appendChild(styleEl));
+            _this122._styleNodes.add(host.appendChild(styleEl));
           });
         }
         /**
@@ -85156,7 +87912,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "onStylesAdded",
         value: function onStylesAdded(additions) {
-          var _this110 = this;
+          var _this123 = this;
 
           this._hostNodes.forEach(
           /**
@@ -85164,7 +87920,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (hostNode) {
-            return _this110._addStylesToHost(additions, hostNode);
+            return _this123._addStylesToHost(additions, hostNode);
           });
         }
         /**
@@ -85188,14 +87944,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DomSharedStylesHost;
     }(SharedStylesHost);
 
-    DomSharedStylesHost.ɵfac = function DomSharedStylesHost_Factory(t) {
-      return new (t || DomSharedStylesHost)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
-    };
-
-    DomSharedStylesHost.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: DomSharedStylesHost,
-      factory: DomSharedStylesHost.ɵfac
-    });
+    DomSharedStylesHost.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     DomSharedStylesHost.ctorParameters = function () {
@@ -85207,22 +87958,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](DomSharedStylesHost, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -85417,14 +88152,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DomRendererFactory2;
     }();
 
-    DomRendererFactory2.ɵfac = function DomRendererFactory2_Factory(t) {
-      return new (t || DomRendererFactory2)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](EventManager), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](DomSharedStylesHost), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["APP_ID"]));
-    };
-
-    DomRendererFactory2.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: DomRendererFactory2,
-      factory: DomRendererFactory2.ɵfac
-    });
+    DomRendererFactory2.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     DomRendererFactory2.ctorParameters = function () {
@@ -85440,26 +88170,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](DomRendererFactory2, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: EventManager
-        }, {
-          type: DomSharedStylesHost
-        }, {
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["APP_ID"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
 
@@ -85795,7 +88505,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var EmulatedEncapsulationDomRenderer2 = /*#__PURE__*/function (_DefaultDomRenderer) {
       _inherits(EmulatedEncapsulationDomRenderer2, _DefaultDomRenderer);
 
-      var _super39 = _createSuper(EmulatedEncapsulationDomRenderer2);
+      var _super42 = _createSuper(EmulatedEncapsulationDomRenderer2);
 
       /**
        * @param {?} eventManager
@@ -85804,19 +88514,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} appId
        */
       function EmulatedEncapsulationDomRenderer2(eventManager, sharedStylesHost, component, appId) {
-        var _this111;
+        var _this124;
 
         _classCallCheck(this, EmulatedEncapsulationDomRenderer2);
 
-        _this111 = _super39.call(this, eventManager);
-        _this111.component = component;
+        _this124 = _super42.call(this, eventManager);
+        _this124.component = component;
         /** @type {?} */
 
         var styles = flattenStyles(appId + '-' + component.id, component.styles, []);
         sharedStylesHost.addStyles(styles);
-        _this111.contentAttr = shimContentAttribute(appId + '-' + component.id);
-        _this111.hostAttr = shimHostAttribute(appId + '-' + component.id);
-        return _this111;
+        _this124.contentAttr = shimContentAttribute(appId + '-' + component.id);
+        _this124.hostAttr = shimHostAttribute(appId + '-' + component.id);
+        return _this124;
       }
       /**
        * @param {?} element
@@ -85855,7 +88565,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ShadowDomRenderer = /*#__PURE__*/function (_DefaultDomRenderer2) {
       _inherits(ShadowDomRenderer, _DefaultDomRenderer2);
 
-      var _super40 = _createSuper(ShadowDomRenderer);
+      var _super43 = _createSuper(ShadowDomRenderer);
 
       /**
        * @param {?} eventManager
@@ -85864,28 +88574,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} component
        */
       function ShadowDomRenderer(eventManager, sharedStylesHost, hostEl, component) {
-        var _this112;
+        var _this125;
 
         _classCallCheck(this, ShadowDomRenderer);
 
-        _this112 = _super40.call(this, eventManager);
-        _this112.sharedStylesHost = sharedStylesHost;
-        _this112.hostEl = hostEl;
-        _this112.component = component;
+        _this125 = _super43.call(this, eventManager);
+        _this125.sharedStylesHost = sharedStylesHost;
+        _this125.hostEl = hostEl;
+        _this125.component = component;
 
         if (component.encapsulation === _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].ShadowDom) {
-          _this112.shadowRoot =
+          _this125.shadowRoot =
           /** @type {?} */
           hostEl.attachShadow({
             mode: 'open'
           });
         } else {
-          _this112.shadowRoot =
+          _this125.shadowRoot =
           /** @type {?} */
           hostEl.createShadowRoot();
         }
 
-        _this112.sharedStylesHost.addHost(_this112.shadowRoot);
+        _this125.sharedStylesHost.addHost(_this125.shadowRoot);
         /** @type {?} */
 
 
@@ -85896,10 +88606,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var styleEl = document.createElement('style');
           styleEl.textContent = styles[i];
 
-          _this112.shadowRoot.appendChild(styleEl);
+          _this125.shadowRoot.appendChild(styleEl);
         }
 
-        return _this112;
+        return _this125;
       }
       /**
        * @private
@@ -85982,7 +88692,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DomEventsPlugin = /*#__PURE__*/function (_EventManagerPlugin) {
       _inherits(DomEventsPlugin, _EventManagerPlugin);
 
-      var _super41 = _createSuper(DomEventsPlugin);
+      var _super44 = _createSuper(DomEventsPlugin);
 
       /**
        * @param {?} doc
@@ -85990,7 +88700,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function DomEventsPlugin(doc) {
         _classCallCheck(this, DomEventsPlugin);
 
-        return _super41.call(this, doc);
+        return _super44.call(this, doc);
       } // This plugin should come last in the list of plugins, because it accepts all
       // events.
 
@@ -86015,7 +88725,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addEventListener",
         value: function addEventListener(element, eventName, handler) {
-          var _this113 = this;
+          var _this126 = this;
 
           element.addEventListener(eventName,
           /** @type {?} */
@@ -86025,7 +88735,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              return _this113.removeEventListener(element, eventName,
+              return _this126.removeEventListener(element, eventName,
               /** @type {?} */
               handler);
             }
@@ -86050,14 +88760,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DomEventsPlugin;
     }(EventManagerPlugin);
 
-    DomEventsPlugin.ɵfac = function DomEventsPlugin_Factory(t) {
-      return new (t || DomEventsPlugin)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
-    };
-
-    DomEventsPlugin.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: DomEventsPlugin,
-      factory: DomEventsPlugin.ɵfac
-    });
+    DomEventsPlugin.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     DomEventsPlugin.ctorParameters = function () {
@@ -86069,22 +88774,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](DomEventsPlugin, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/dom/events/hammer_gestures.ts
@@ -86228,23 +88917,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return HammerGestureConfig;
     }();
 
-    HammerGestureConfig.ɵfac = function HammerGestureConfig_Factory(t) {
-      return new (t || HammerGestureConfig)();
-    };
-
-    HammerGestureConfig.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: HammerGestureConfig,
-      factory: HammerGestureConfig.ɵfac
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HammerGestureConfig, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [];
-      }, null);
-    })();
+    HammerGestureConfig.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
 
     if (false) {}
     /**
@@ -86257,7 +88932,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var HammerGesturesPlugin = /*#__PURE__*/function (_EventManagerPlugin2) {
       _inherits(HammerGesturesPlugin, _EventManagerPlugin2);
 
-      var _super42 = _createSuper(HammerGesturesPlugin);
+      var _super45 = _createSuper(HammerGesturesPlugin);
 
       /**
        * @param {?} doc
@@ -86266,15 +88941,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?=} loader
        */
       function HammerGesturesPlugin(doc, _config, console, loader) {
-        var _this114;
+        var _this127;
 
         _classCallCheck(this, HammerGesturesPlugin);
 
-        _this114 = _super42.call(this, doc);
-        _this114._config = _config;
-        _this114.console = console;
-        _this114.loader = loader;
-        return _this114;
+        _this127 = _super45.call(this, doc);
+        _this127._config = _config;
+        _this127.console = console;
+        _this127.loader = loader;
+        return _this127;
       }
       /**
        * @param {?} eventName
@@ -86308,7 +88983,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addEventListener",
         value: function addEventListener(element, eventName, handler) {
-          var _this115 = this;
+          var _this128 = this;
 
           /** @type {?} */
           var zone = this.manager.getZone();
@@ -86343,7 +89018,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               if (!
               /** @type {?} */
               window.Hammer) {
-                _this115.console.warn("The custom HAMMER_LOADER completed, but Hammer.JS is not present.");
+                _this128.console.warn("The custom HAMMER_LOADER completed, but Hammer.JS is not present.");
 
                 deregister =
                 /**
@@ -86357,14 +89032,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               if (!cancelRegistration) {
                 // Now that Hammer is loaded and the listener is being loaded for real,
                 // the deregistration function changes from canceling registration to removal.
-                deregister = _this115.addEventListener(element, eventName, handler);
+                deregister = _this128.addEventListener(element, eventName, handler);
               }
             })["catch"](
             /**
             * @return {?}
             */
             function () {
-              _this115.console.warn("The \"".concat(eventName, "\" event cannot be bound because the custom ") + "Hammer.JS loader failed.");
+              _this128.console.warn("The \"".concat(eventName, "\" event cannot be bound because the custom ") + "Hammer.JS loader failed.");
 
               deregister =
               /**
@@ -86393,7 +89068,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             // Creating the manager bind events, must be done outside of angular
 
             /** @type {?} */
-            var mc = _this115._config.buildHammer(element);
+            var mc = _this128._config.buildHammer(element);
             /** @type {?} */
 
 
@@ -86442,14 +89117,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return HammerGesturesPlugin;
     }(EventManagerPlugin);
 
-    HammerGesturesPlugin.ɵfac = function HammerGesturesPlugin_Factory(t) {
-      return new (t || HammerGesturesPlugin)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](HAMMER_GESTURE_CONFIG), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵConsole"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](HAMMER_LOADER, 8));
-    };
-
-    HammerGesturesPlugin.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: HammerGesturesPlugin,
-      factory: HammerGesturesPlugin.ɵfac
-    });
+    HammerGesturesPlugin.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     HammerGesturesPlugin.ctorParameters = function () {
@@ -86477,38 +89147,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HammerGesturesPlugin, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }, {
-          type: HammerGestureConfig,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [HAMMER_GESTURE_CONFIG]
-          }]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵConsole"]
-        }, {
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"]
-          }, {
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [HAMMER_LOADER]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -86537,7 +89175,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }];
     /** @type {?} */
 
-    var HAMMER_PROVIDERS = HAMMER_PROVIDERS__POST_R3__;
+    var HAMMER_PROVIDERS = HAMMER_PROVIDERS__PRE_R3__;
     /**
      * Adds support for HammerJS.
      *
@@ -86554,25 +89192,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, HammerModule);
     };
 
-    HammerModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-      type: HammerModule
-    });
-    HammerModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-      factory: function HammerModule_Factory(t) {
-        return new (t || HammerModule)();
-      },
-      providers: HAMMER_PROVIDERS__PRE_R3__
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](HammerModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
-        args: [{
-          providers: HAMMER_PROVIDERS__PRE_R3__
-        }]
-      }], null, null);
-    })();
+    HammerModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+      args: [{
+        providers: HAMMER_PROVIDERS__PRE_R3__
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/dom/events/key_events.ts
@@ -86583,7 +89208,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * Defines supported modifiers for key events.
      * @type {?}
      */
-
 
     var MODIFIER_KEYS = ['alt', 'control', 'meta', 'shift'];
     /** @type {?} */
@@ -86685,7 +89309,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var KeyEventsPlugin = /*#__PURE__*/function (_EventManagerPlugin3) {
       _inherits(KeyEventsPlugin, _EventManagerPlugin3);
 
-      var _super43 = _createSuper(KeyEventsPlugin);
+      var _super46 = _createSuper(KeyEventsPlugin);
 
       /**
        * Initializes an instance of the browser plug-in.
@@ -86694,7 +89318,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function KeyEventsPlugin(doc) {
         _classCallCheck(this, KeyEventsPlugin);
 
-        return _super43.call(this, doc);
+        return _super46.call(this, doc);
       }
       /**
        * Reports whether a named key event is supported.
@@ -86883,14 +89507,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return KeyEventsPlugin;
     }(EventManagerPlugin);
 
-    KeyEventsPlugin.ɵfac = function KeyEventsPlugin_Factory(t) {
-      return new (t || KeyEventsPlugin)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
-    };
-
-    KeyEventsPlugin.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: KeyEventsPlugin,
-      factory: KeyEventsPlugin.ɵfac
-    });
+    KeyEventsPlugin.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     KeyEventsPlugin.ctorParameters = function () {
@@ -86902,22 +89521,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](KeyEventsPlugin, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
     /**
      * @param {?} event
      * @return {?}
@@ -87051,11 +89654,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, DomSanitizer);
     };
 
-    DomSanitizer.ɵfac = function DomSanitizer_Factory(t) {
-      return new (t || DomSanitizer)();
-    };
+    DomSanitizer.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+      args: [{
+        providedIn: 'root',
+        useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(
+        /**
+        * @return {?}
+        */
+        function () {
+          return DomSanitizerImpl;
+        })
+      }]
+    }];
     /** @nocollapse */
-
 
     DomSanitizer.ɵprov = Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"])({
       factory: function DomSanitizer_Factory() {
@@ -87064,23 +89676,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       token: DomSanitizer,
       providedIn: "root"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](DomSanitizer, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
-        args: [{
-          providedIn: 'root',
-          useExisting: Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(
-          /**
-          * @return {?}
-          */
-          function () {
-            return DomSanitizerImpl;
-          })
-        }]
-      }], null, null);
-    })();
 
     if (false) {}
     /**
@@ -87096,19 +89691,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DomSanitizerImpl = /*#__PURE__*/function (_DomSanitizer) {
       _inherits(DomSanitizerImpl, _DomSanitizer);
 
-      var _super44 = _createSuper(DomSanitizerImpl);
+      var _super47 = _createSuper(DomSanitizerImpl);
 
       /**
        * @param {?} _doc
        */
       function DomSanitizerImpl(_doc) {
-        var _this116;
+        var _this129;
 
         _classCallCheck(this, DomSanitizerImpl);
 
-        _this116 = _super44.call(this);
-        _this116._doc = _doc;
-        return _this116;
+        _this129 = _super47.call(this);
+        _this129._doc = _doc;
+        return _this129;
       }
       /**
        * @param {?} ctx
@@ -87238,11 +89833,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DomSanitizerImpl;
     }(DomSanitizer);
 
-    DomSanitizerImpl.ɵfac = function DomSanitizerImpl_Factory(t) {
-      return new (t || DomSanitizerImpl)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
-    };
+    DomSanitizerImpl.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+      args: [{
+        providedIn: 'root',
+        useFactory: domSanitizerImplFactory,
+        deps: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]]
+      }]
+    }];
     /** @nocollapse */
-
 
     DomSanitizerImpl.ctorParameters = function () {
       return [{
@@ -87263,26 +89862,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       token: DomSanitizerImpl,
       providedIn: "root"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](DomSanitizerImpl, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
-        args: [{
-          providedIn: 'root',
-          useFactory: domSanitizerImplFactory,
-          deps: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]]
-        }]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -87355,7 +89934,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @type {?}
      */
 
-    var BROWSER_SANITIZATION_PROVIDERS = BROWSER_SANITIZATION_PROVIDERS__POST_R3__;
+    var BROWSER_SANITIZATION_PROVIDERS = BROWSER_SANITIZATION_PROVIDERS__PRE_R3__;
     /**
      * \@publicApi
      * @type {?}
@@ -87454,16 +90033,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BrowserModule;
     }();
 
-    BrowserModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-      type: BrowserModule
-    });
-    BrowserModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-      factory: function BrowserModule_Factory(t) {
-        return new (t || BrowserModule)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](BrowserModule, 12));
-      },
-      providers: BROWSER_MODULE_PROVIDERS,
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationModule"]]
-    });
+    BrowserModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+      args: [{
+        providers: BROWSER_MODULE_PROVIDERS,
+        exports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationModule"]]
+      }]
+    }];
     /** @nocollapse */
 
     BrowserModule.ctorParameters = function () {
@@ -87479,38 +90055,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-
-    (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](BrowserModule, {
-        exports: function exports() {
-          return [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationModule"]];
-        }
-      });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](BrowserModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
-        args: [{
-          providers: BROWSER_MODULE_PROVIDERS,
-          exports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ApplicationModule"]]
-        }]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"]
-          }, {
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["SkipSelf"]
-          }, {
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [BrowserModule]
-          }]
-        }];
-      }, null);
-    })();
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/browser/meta.ts
@@ -87566,7 +90110,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addTags",
         value: function addTags(tags) {
-          var _this117 = this;
+          var _this130 = this;
 
           var forceCreation = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
           if (!tags) return [];
@@ -87578,7 +90122,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (result, tag) {
             if (tag) {
-              result.push(_this117._getOrCreateElement(tag, forceCreation));
+              result.push(_this130._getOrCreateElement(tag, forceCreation));
             }
 
             return result;
@@ -87758,11 +90302,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Meta;
     }();
 
-    Meta.ɵfac = function Meta_Factory(t) {
-      return new (t || Meta)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
-    };
+    Meta.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+      args: [{
+        providedIn: 'root',
+        useFactory: createMeta,
+        deps: []
+      }]
+    }];
     /** @nocollapse */
-
 
     Meta.ctorParameters = function () {
       return [{
@@ -87781,26 +90329,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       token: Meta,
       providedIn: "root"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](Meta, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
-        args: [{
-          providedIn: 'root',
-          useFactory: createMeta,
-          deps: []
-        }]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -87866,11 +90394,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Title;
     }();
 
-    Title.ɵfac = function Title_Factory(t) {
-      return new (t || Title)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
-    };
+    Title.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
+      args: [{
+        providedIn: 'root',
+        useFactory: createTitle,
+        deps: []
+      }]
+    }];
     /** @nocollapse */
-
 
     Title.ctorParameters = function () {
       return [{
@@ -87889,26 +90421,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       token: Title,
       providedIn: "root"
     });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](Title, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"],
-        args: [{
-          providedIn: 'root',
-          useFactory: createTitle,
-          deps: []
-        }]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]]
-          }]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -88285,23 +90797,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TransferState;
     }();
 
-    TransferState.ɵfac = function TransferState_Factory(t) {
-      return new (t || TransferState)();
-    };
-
-    TransferState.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: TransferState,
-      factory: TransferState.ɵfac
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](TransferState, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [];
-      }, null);
-    })();
+    TransferState.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
 
     if (false) {}
     /**
@@ -88343,33 +90841,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, BrowserTransferStateModule);
     };
 
-    BrowserTransferStateModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-      type: BrowserTransferStateModule
-    });
-    BrowserTransferStateModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-      factory: function BrowserTransferStateModule_Factory(t) {
-        return new (t || BrowserTransferStateModule)();
-      },
-      providers: [{
-        provide: TransferState,
-        useFactory: initTransferState,
-        deps: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["APP_ID"]]
-      }]
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](BrowserTransferStateModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
-        args: [{
-          providers: [{
-            provide: TransferState,
-            useFactory: initTransferState,
-            deps: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["APP_ID"]]
-          }]
+    BrowserTransferStateModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+      args: [{
+        providers: [{
+          provide: TransferState,
+          useFactory: initTransferState,
+          deps: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["APP_ID"]]
         }]
-      }], null, null);
-    })();
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/dom/debug/by.ts
@@ -88381,7 +90862,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      *
      * \@publicApi
      */
-
 
     var By = /*#__PURE__*/function () {
       function By() {
@@ -88525,15 +91005,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js":
-  /*!**********************************************************************!*\
-    !*** ./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js ***!
-    \**********************************************************************/
+  "./node_modules/@angular/router/fesm2015/router.js":
+  /*!*********************************************************!*\
+    !*** ./node_modules/@angular/router/fesm2015/router.js ***!
+    \*********************************************************/
 
   /*! exports provided: ActivatedRoute, ActivatedRouteSnapshot, ActivationEnd, ActivationStart, ChildActivationEnd, ChildActivationStart, ChildrenOutletContexts, DefaultUrlSerializer, GuardsCheckEnd, GuardsCheckStart, NavigationCancel, NavigationEnd, NavigationError, NavigationStart, NoPreloading, OutletContext, PRIMARY_OUTLET, PreloadAllModules, PreloadingStrategy, ROUTER_CONFIGURATION, ROUTER_INITIALIZER, ROUTES, ResolveEnd, ResolveStart, RouteConfigLoadEnd, RouteConfigLoadStart, RouteReuseStrategy, Router, RouterEvent, RouterLink, RouterLinkActive, RouterLinkWithHref, RouterModule, RouterOutlet, RouterPreloader, RouterState, RouterStateSnapshot, RoutesRecognized, Scroll, UrlHandlingStrategy, UrlSegment, UrlSegmentGroup, UrlSerializer, UrlTree, VERSION, convertToParamMap, provideRoutes, ɵEmptyOutletComponent, ɵROUTER_PROVIDERS, ɵangular_packages_router_router_a, ɵangular_packages_router_router_b, ɵangular_packages_router_router_c, ɵangular_packages_router_router_d, ɵangular_packages_router_router_e, ɵangular_packages_router_router_f, ɵangular_packages_router_router_g, ɵangular_packages_router_router_h, ɵangular_packages_router_router_i, ɵangular_packages_router_router_j, ɵangular_packages_router_router_k, ɵangular_packages_router_router_l, ɵangular_packages_router_router_m, ɵangular_packages_router_router_n, ɵangular_packages_router_router_o, ɵflatten */
 
   /***/
-  function node_modulesAngularRouter__ivy_ngcc__Fesm2015RouterJs(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesAngularRouterFesm2015RouterJs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -88932,13 +91412,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_common__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
     /*! @angular/common */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+    "./node_modules/@angular/common/fesm2015/common.js");
     /* harmony import */
 
 
     var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/core */
-    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    "./node_modules/@angular/core/fesm2015/core.js");
     /* harmony import */
 
 
@@ -89017,7 +91497,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NavigationStart = /*#__PURE__*/function (_RouterEvent) {
       _inherits(NavigationStart, _RouterEvent);
 
-      var _super45 = _createSuper(NavigationStart);
+      var _super48 = _createSuper(NavigationStart);
 
       /**
        * @param {?} id
@@ -89030,17 +91510,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url) {
-        var _this118;
+        var _this131;
 
         var navigationTrigger = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'imperative';
         var restoredState = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
 
         _classCallCheck(this, NavigationStart);
 
-        _this118 = _super45.call(this, id, url);
-        _this118.navigationTrigger = navigationTrigger;
-        _this118.restoredState = restoredState;
-        return _this118;
+        _this131 = _super48.call(this, id, url);
+        _this131.navigationTrigger = navigationTrigger;
+        _this131.restoredState = restoredState;
+        return _this131;
       }
       /**
        * \@docsNotRequired
@@ -89069,7 +91549,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NavigationEnd = /*#__PURE__*/function (_RouterEvent2) {
       _inherits(NavigationEnd, _RouterEvent2);
 
-      var _super46 = _createSuper(NavigationEnd);
+      var _super49 = _createSuper(NavigationEnd);
 
       /**
        * @param {?} id
@@ -89081,13 +91561,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, urlAfterRedirects) {
-        var _this119;
+        var _this132;
 
         _classCallCheck(this, NavigationEnd);
 
-        _this119 = _super46.call(this, id, url);
-        _this119.urlAfterRedirects = urlAfterRedirects;
-        return _this119;
+        _this132 = _super49.call(this, id, url);
+        _this132.urlAfterRedirects = urlAfterRedirects;
+        return _this132;
       }
       /**
        * \@docsNotRequired
@@ -89119,7 +91599,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NavigationCancel = /*#__PURE__*/function (_RouterEvent3) {
       _inherits(NavigationCancel, _RouterEvent3);
 
-      var _super47 = _createSuper(NavigationCancel);
+      var _super50 = _createSuper(NavigationCancel);
 
       /**
        * @param {?} id
@@ -89131,13 +91611,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, reason) {
-        var _this120;
+        var _this133;
 
         _classCallCheck(this, NavigationCancel);
 
-        _this120 = _super47.call(this, id, url);
-        _this120.reason = reason;
-        return _this120;
+        _this133 = _super50.call(this, id, url);
+        _this133.reason = reason;
+        return _this133;
       }
       /**
        * \@docsNotRequired
@@ -89166,7 +91646,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var NavigationError = /*#__PURE__*/function (_RouterEvent4) {
       _inherits(NavigationError, _RouterEvent4);
 
-      var _super48 = _createSuper(NavigationError);
+      var _super51 = _createSuper(NavigationError);
 
       /**
        * @param {?} id
@@ -89178,13 +91658,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, error) {
-        var _this121;
+        var _this134;
 
         _classCallCheck(this, NavigationError);
 
-        _this121 = _super48.call(this, id, url);
-        _this121.error = error;
-        return _this121;
+        _this134 = _super51.call(this, id, url);
+        _this134.error = error;
+        return _this134;
       }
       /**
        * \@docsNotRequired
@@ -89213,7 +91693,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RoutesRecognized = /*#__PURE__*/function (_RouterEvent5) {
       _inherits(RoutesRecognized, _RouterEvent5);
 
-      var _super49 = _createSuper(RoutesRecognized);
+      var _super52 = _createSuper(RoutesRecognized);
 
       /**
        * @param {?} id
@@ -89226,14 +91706,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, urlAfterRedirects, state) {
-        var _this122;
+        var _this135;
 
         _classCallCheck(this, RoutesRecognized);
 
-        _this122 = _super49.call(this, id, url);
-        _this122.urlAfterRedirects = urlAfterRedirects;
-        _this122.state = state;
-        return _this122;
+        _this135 = _super52.call(this, id, url);
+        _this135.urlAfterRedirects = urlAfterRedirects;
+        _this135.state = state;
+        return _this135;
       }
       /**
        * \@docsNotRequired
@@ -89262,7 +91742,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var GuardsCheckStart = /*#__PURE__*/function (_RouterEvent6) {
       _inherits(GuardsCheckStart, _RouterEvent6);
 
-      var _super50 = _createSuper(GuardsCheckStart);
+      var _super53 = _createSuper(GuardsCheckStart);
 
       /**
        * @param {?} id
@@ -89275,14 +91755,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, urlAfterRedirects, state) {
-        var _this123;
+        var _this136;
 
         _classCallCheck(this, GuardsCheckStart);
 
-        _this123 = _super50.call(this, id, url);
-        _this123.urlAfterRedirects = urlAfterRedirects;
-        _this123.state = state;
-        return _this123;
+        _this136 = _super53.call(this, id, url);
+        _this136.urlAfterRedirects = urlAfterRedirects;
+        _this136.state = state;
+        return _this136;
       }
       /**
        * @return {?}
@@ -89310,7 +91790,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var GuardsCheckEnd = /*#__PURE__*/function (_RouterEvent7) {
       _inherits(GuardsCheckEnd, _RouterEvent7);
 
-      var _super51 = _createSuper(GuardsCheckEnd);
+      var _super54 = _createSuper(GuardsCheckEnd);
 
       /**
        * @param {?} id
@@ -89324,15 +91804,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, urlAfterRedirects, state, shouldActivate) {
-        var _this124;
+        var _this137;
 
         _classCallCheck(this, GuardsCheckEnd);
 
-        _this124 = _super51.call(this, id, url);
-        _this124.urlAfterRedirects = urlAfterRedirects;
-        _this124.state = state;
-        _this124.shouldActivate = shouldActivate;
-        return _this124;
+        _this137 = _super54.call(this, id, url);
+        _this137.urlAfterRedirects = urlAfterRedirects;
+        _this137.state = state;
+        _this137.shouldActivate = shouldActivate;
+        return _this137;
       }
       /**
        * @return {?}
@@ -89363,7 +91843,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ResolveStart = /*#__PURE__*/function (_RouterEvent8) {
       _inherits(ResolveStart, _RouterEvent8);
 
-      var _super52 = _createSuper(ResolveStart);
+      var _super55 = _createSuper(ResolveStart);
 
       /**
        * @param {?} id
@@ -89376,14 +91856,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, urlAfterRedirects, state) {
-        var _this125;
+        var _this138;
 
         _classCallCheck(this, ResolveStart);
 
-        _this125 = _super52.call(this, id, url);
-        _this125.urlAfterRedirects = urlAfterRedirects;
-        _this125.state = state;
-        return _this125;
+        _this138 = _super55.call(this, id, url);
+        _this138.urlAfterRedirects = urlAfterRedirects;
+        _this138.state = state;
+        return _this138;
       }
       /**
        * @return {?}
@@ -89412,7 +91892,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ResolveEnd = /*#__PURE__*/function (_RouterEvent9) {
       _inherits(ResolveEnd, _RouterEvent9);
 
-      var _super53 = _createSuper(ResolveEnd);
+      var _super56 = _createSuper(ResolveEnd);
 
       /**
        * @param {?} id
@@ -89425,14 +91905,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       id,
       /** @docsNotRequired */
       url, urlAfterRedirects, state) {
-        var _this126;
+        var _this139;
 
         _classCallCheck(this, ResolveEnd);
 
-        _this126 = _super53.call(this, id, url);
-        _this126.urlAfterRedirects = urlAfterRedirects;
-        _this126.state = state;
-        return _this126;
+        _this139 = _super56.call(this, id, url);
+        _this139.urlAfterRedirects = urlAfterRedirects;
+        _this139.state = state;
+        return _this139;
       }
       /**
        * @return {?}
@@ -89720,35 +92200,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _classCallCheck(this, ɵEmptyOutletComponent);
     };
 
-    ɵEmptyOutletComponent.ɵfac = function ɵEmptyOutletComponent_Factory(t) {
-      return new (t || ɵEmptyOutletComponent)();
-    };
-
-    ɵEmptyOutletComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
-      type: ɵEmptyOutletComponent,
-      selectors: [["ng-component"]],
-      decls: 1,
-      vars: 0,
-      template: function ɵEmptyOutletComponent_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "router-outlet");
-        }
-      },
-      directives: function directives() {
-        return [RouterOutlet];
-      },
-      encapsulation: 2
-    });
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](ɵEmptyOutletComponent, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
-        args: [{
-          template: "<router-outlet></router-outlet>"
-        }]
-      }], null, null);
-    })();
+    ɵEmptyOutletComponent.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"],
+      args: [{
+        template: "<router-outlet></router-outlet>"
+      }]
+    }];
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/router/src/shared.ts
@@ -89769,7 +92226,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      * @type {?}
      */
-
 
     var PRIMARY_OUTLET = 'primary';
     /**
@@ -90761,7 +93217,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} children
        */
       function UrlSegmentGroup(segments, children) {
-        var _this127 = this;
+        var _this140 = this;
 
         _classCallCheck(this, UrlSegmentGroup);
 
@@ -90781,7 +93237,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {THIS}
         */
         function (v, k) {
-          return v.parent = _this127;
+          return v.parent = _this140;
         });
       }
       /**
@@ -91911,7 +94367,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RouterState = /*#__PURE__*/function (_Tree) {
       _inherits(RouterState, _Tree);
 
-      var _super54 = _createSuper(RouterState);
+      var _super57 = _createSuper(RouterState);
 
       /**
        * \@internal
@@ -91919,16 +94375,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} snapshot
        */
       function RouterState(root, snapshot) {
-        var _this128;
+        var _this141;
 
         _classCallCheck(this, RouterState);
 
-        _this128 = _super54.call(this, root);
-        _this128.snapshot = snapshot;
+        _this141 = _super57.call(this, root);
+        _this141.snapshot = snapshot;
         setRouterState(
         /** @type {?} */
-        _assertThisInitialized(_this128), root);
-        return _this128;
+        _assertThisInitialized(_this141), root);
+        return _this141;
       }
       /**
        * @return {?}
@@ -92423,7 +94879,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RouterStateSnapshot = /*#__PURE__*/function (_Tree2) {
       _inherits(RouterStateSnapshot, _Tree2);
 
-      var _super55 = _createSuper(RouterStateSnapshot);
+      var _super58 = _createSuper(RouterStateSnapshot);
 
       /**
        * \@internal
@@ -92431,16 +94887,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} root
        */
       function RouterStateSnapshot(url, root) {
-        var _this129;
+        var _this142;
 
         _classCallCheck(this, RouterStateSnapshot);
 
-        _this129 = _super55.call(this, root);
-        _this129.url = url;
+        _this142 = _super58.call(this, root);
+        _this142.url = url;
         setRouterState(
         /** @type {?} */
-        _assertThisInitialized(_this129), root);
-        return _this129;
+        _assertThisInitialized(_this142), root);
+        return _this142;
       }
       /**
        * @return {?}
@@ -93336,7 +95792,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "deactivateChildRoutes",
         value: function deactivateChildRoutes(futureNode, currNode, contexts) {
-          var _this130 = this;
+          var _this143 = this;
 
           /** @type {?} */
           var children = nodeChildrenAsMap(currNode); // Recurse on the routes active in the future state to de-activate deeper children
@@ -93350,7 +95806,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             /** @type {?} */
             var childOutletName = futureChild.value.outlet;
 
-            _this130.deactivateRoutes(futureChild, children[childOutletName], contexts);
+            _this143.deactivateRoutes(futureChild, children[childOutletName], contexts);
 
             delete children[childOutletName];
           }); // De-activate the routes that will not be re-used
@@ -93362,7 +95818,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (v, childName) {
-            _this130.deactivateRouteAndItsChildren(v, contexts);
+            _this143.deactivateRouteAndItsChildren(v, contexts);
           });
         }
         /**
@@ -93456,7 +95912,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "deactivateRouteAndOutlet",
         value: function deactivateRouteAndOutlet(route, parentContexts) {
-          var _this131 = this;
+          var _this144 = this;
 
           /** @type {?} */
           var context = parentContexts.getContext(route.value.outlet);
@@ -93474,7 +95930,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (v, k) {
-              return _this131.deactivateRouteAndItsChildren(v, contexts);
+              return _this144.deactivateRouteAndItsChildren(v, contexts);
             });
 
             if (context.outlet) {
@@ -93496,7 +95952,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "activateChildRoutes",
         value: function activateChildRoutes(futureNode, currNode, contexts) {
-          var _this132 = this;
+          var _this145 = this;
 
           /** @type {?} */
           var children = nodeChildrenAsMap(currNode);
@@ -93506,9 +95962,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (c) {
-            _this132.activateRoutes(c, children[c.value.outlet], contexts);
+            _this145.activateRoutes(c, children[c.value.outlet], contexts);
 
-            _this132.forwardEvent(new ActivationEnd(c.value.snapshot));
+            _this145.forwardEvent(new ActivationEnd(c.value.snapshot));
           });
 
           if (futureNode.children.length) {
@@ -93845,7 +96301,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ApplyRedirects, [{
         key: "apply",
         value: function apply() {
-          var _this133 = this;
+          var _this146 = this;
 
           /** @type {?} */
           var expanded$ = this.expandSegmentGroup(this.ngModule, this.config, this.urlTree.root, PRIMARY_OUTLET);
@@ -93857,9 +96313,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (rootSegmentGroup) {
-            return _this133.createUrlTree(rootSegmentGroup, _this133.urlTree.queryParams,
+            return _this146.createUrlTree(rootSegmentGroup, _this146.urlTree.queryParams,
             /** @type {?} */
-            _this133.urlTree.fragment);
+            _this146.urlTree.fragment);
           }));
           return urlTrees$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(
           /**
@@ -93869,13 +96325,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function (e) {
             if (e instanceof AbsoluteRedirect) {
               // after an absolute redirect we do not apply any more redirects!
-              _this133.allowRedirects = false; // we need to run matching, so we can fetch all lazy-loaded modules
+              _this146.allowRedirects = false; // we need to run matching, so we can fetch all lazy-loaded modules
 
-              return _this133.match(e.urlTree);
+              return _this146.match(e.urlTree);
             }
 
             if (e instanceof NoMatch) {
-              throw _this133.noMatchError(e);
+              throw _this146.noMatchError(e);
             }
 
             throw e;
@@ -93890,7 +96346,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "match",
         value: function match(tree) {
-          var _this134 = this;
+          var _this147 = this;
 
           /** @type {?} */
           var expanded$ = this.expandSegmentGroup(this.ngModule, this.config, tree.root, PRIMARY_OUTLET);
@@ -93902,7 +96358,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (rootSegmentGroup) {
-            return _this134.createUrlTree(rootSegmentGroup, tree.queryParams,
+            return _this147.createUrlTree(rootSegmentGroup, tree.queryParams,
             /** @type {?} */
             tree.fragment);
           }));
@@ -93913,7 +96369,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (e) {
             if (e instanceof NoMatch) {
-              throw _this134.noMatchError(e);
+              throw _this147.noMatchError(e);
             }
 
             throw e;
@@ -93982,7 +96438,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "expandChildren",
         value: function expandChildren(ngModule, routes, segmentGroup) {
-          var _this135 = this;
+          var _this148 = this;
 
           return waitForMap(segmentGroup.children,
           /**
@@ -93991,7 +96447,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (childOutlet, child) {
-            return _this135.expandSegmentGroup(ngModule, routes, child, childOutlet);
+            return _this148.expandSegmentGroup(ngModule, routes, child, childOutlet);
           });
         }
         /**
@@ -94008,7 +96464,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "expandSegment",
         value: function expandSegment(ngModule, segmentGroup, routes, segments, outlet, allowRedirects) {
-          var _this136 = this;
+          var _this149 = this;
 
           return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"]).apply(void 0, _toConsumableArray(routes)).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(
           /**
@@ -94017,7 +96473,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (r) {
             /** @type {?} */
-            var expanded$ = _this136.expandSegmentAgainstRoute(ngModule, segmentGroup, routes, r, segments, outlet, allowRedirects);
+            var expanded$ = _this149.expandSegmentAgainstRoute(ngModule, segmentGroup, routes, r, segments, outlet, allowRedirects);
 
             return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(
             /**
@@ -94051,7 +96507,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (e, _) {
             if (e instanceof rxjs__WEBPACK_IMPORTED_MODULE_2__["EmptyError"] || e.name === 'EmptyError') {
-              if (_this136.noLeftoversInUrl(segmentGroup, segments, outlet)) {
+              if (_this149.noLeftoversInUrl(segmentGroup, segments, outlet)) {
                 return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(new UrlSegmentGroup([], {}));
               }
 
@@ -94135,7 +96591,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "expandWildCardWithParamsAgainstRouteUsingRedirect",
         value: function expandWildCardWithParamsAgainstRouteUsingRedirect(ngModule, routes, route, outlet) {
-          var _this137 = this;
+          var _this150 = this;
 
           /** @type {?} */
           var newTree = this.applyRedirectCommands([],
@@ -94156,7 +96612,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function (newSegments) {
             /** @type {?} */
             var group = new UrlSegmentGroup(newSegments, {});
-            return _this137.expandSegment(ngModule, group, routes, newSegments, outlet, false);
+            return _this150.expandSegment(ngModule, group, routes, newSegments, outlet, false);
           }));
         }
         /**
@@ -94173,7 +96629,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "expandRegularSegmentAgainstRouteUsingRedirect",
         value: function expandRegularSegmentAgainstRouteUsingRedirect(ngModule, segmentGroup, routes, route, segments, outlet) {
-          var _this138 = this;
+          var _this151 = this;
 
           var _match = match(segmentGroup, route, segments),
               matched = _match.matched,
@@ -94202,7 +96658,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (newSegments) {
-            return _this138.expandSegment(ngModule, segmentGroup, routes, newSegments.concat(segments.slice(lastChild)), outlet, false);
+            return _this151.expandSegment(ngModule, segmentGroup, routes, newSegments.concat(segments.slice(lastChild)), outlet, false);
           }));
         }
         /**
@@ -94217,7 +96673,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "matchSegmentAgainstRoute",
         value: function matchSegmentAgainstRoute(ngModule, rawSegmentGroup, route, segments) {
-          var _this139 = this;
+          var _this152 = this;
 
           if (route.path === '**') {
             if (route.loadChildren) {
@@ -94265,7 +96721,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
             if (slicedSegments.length === 0 && segmentGroup.hasChildren()) {
               /** @type {?} */
-              var _expanded$ = _this139.expandChildren(childModule, childConfig, segmentGroup);
+              var _expanded$ = _this152.expandChildren(childModule, childConfig, segmentGroup);
 
               return _expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(
               /**
@@ -94283,7 +96739,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             /** @type {?} */
 
 
-            var expanded$ = _this139.expandSegment(childModule, segmentGroup, childConfig, slicedSegments, PRIMARY_OUTLET, true);
+            var expanded$ = _this152.expandSegment(childModule, segmentGroup, childConfig, slicedSegments, PRIMARY_OUTLET, true);
 
             return expanded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(
             /**
@@ -94306,7 +96762,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getChildConfig",
         value: function getChildConfig(ngModule, route, segments) {
-          var _this140 = this;
+          var _this153 = this;
 
           if (route.children) {
             // The children belong to the same module
@@ -94326,7 +96782,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             */
             function (shouldLoad) {
               if (shouldLoad) {
-                return _this140.configLoader.load(ngModule.injector, route).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(
+                return _this153.configLoader.load(ngModule.injector, route).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(
                 /**
                 * @param {?} cfg
                 * @return {?}
@@ -94448,7 +96904,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "createSegmentGroup",
         value: function createSegmentGroup(redirectTo, group, segments, posParams) {
-          var _this141 = this;
+          var _this154 = this;
 
           /** @type {?} */
           var updatedSegments = this.createSegments(redirectTo, group.segments, segments, posParams);
@@ -94462,7 +96918,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (child, name) {
-            children[name] = _this141.createSegmentGroup(redirectTo, child, segments, posParams);
+            children[name] = _this154.createSegmentGroup(redirectTo, child, segments, posParams);
           });
           return new UrlSegmentGroup(updatedSegments, children);
         }
@@ -94478,7 +96934,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "createSegments",
         value: function createSegments(redirectTo, redirectToSegments, actualSegments, posParams) {
-          var _this142 = this;
+          var _this155 = this;
 
           return redirectToSegments.map(
           /**
@@ -94486,7 +96942,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (s) {
-            return s.path.startsWith(':') ? _this142.findPosParam(redirectTo, s, posParams) : _this142.findOrReturn(s, actualSegments);
+            return s.path.startsWith(':') ? _this155.findPosParam(redirectTo, s, posParams) : _this155.findOrReturn(s, actualSegments);
           });
         }
         /**
@@ -95640,7 +98096,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "inheritParamsAndData",
         value: function inheritParamsAndData(routeNode) {
-          var _this143 = this;
+          var _this156 = this;
 
           /** @type {?} */
           var route = routeNode.value;
@@ -95655,7 +98111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (n) {
-            return _this143.inheritParamsAndData(n);
+            return _this156.inheritParamsAndData(n);
           });
         }
         /**
@@ -95683,7 +98139,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "processChildren",
         value: function processChildren(config, segmentGroup) {
-          var _this144 = this;
+          var _this157 = this;
 
           /** @type {?} */
           var children = mapChildrenIntoArray(segmentGroup,
@@ -95693,7 +98149,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (child, childOutlet) {
-            return _this144.processSegmentGroup(config, child, childOutlet);
+            return _this157.processSegmentGroup(config, child, childOutlet);
           });
           checkOutletNameUniqueness(children);
           sortActivatedRouteSnapshots(children);
@@ -96590,7 +99046,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(RouterConfigLoader, [{
         key: "load",
         value: function load(parentInjector, route) {
-          var _this145 = this;
+          var _this158 = this;
 
           if (this.onLoadStartListener) {
             this.onLoadStartListener(route);
@@ -96607,8 +99063,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (factory) {
-            if (_this145.onLoadEndListener) {
-              _this145.onLoadEndListener(route);
+            if (_this158.onLoadEndListener) {
+              _this158.onLoadEndListener(route);
             }
             /** @type {?} */
 
@@ -96626,7 +99082,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "loadModuleFactory",
         value: function loadModuleFactory(loadChildren) {
-          var _this146 = this;
+          var _this159 = this;
 
           if (typeof loadChildren === 'string') {
             return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(this.loader.load(loadChildren));
@@ -96640,7 +99096,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               if (t instanceof _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModuleFactory"]) {
                 return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(t);
               } else {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(_this146.compiler.compileModuleAsync(t));
+                return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(_this159.compiler.compileModuleAsync(t));
               }
             }));
           }
@@ -96806,7 +99262,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        */
       // TODO: vsavkin make internal after the final is out.
       function Router(rootComponentType, urlSerializer, rootContexts, location, injector, loader, compiler, config) {
-        var _this147 = this;
+        var _this160 = this;
 
         _classCallCheck(this, Router);
 
@@ -96908,7 +99364,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function onLoadStart(r) {
-          return _this147.triggerEvent(new RouteConfigLoadStart(r));
+          return _this160.triggerEvent(new RouteConfigLoadStart(r));
         };
         /** @type {?} */
 
@@ -96919,7 +99375,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function onLoadEnd(r) {
-          return _this147.triggerEvent(new RouteConfigLoadEnd(r));
+          return _this160.triggerEvent(new RouteConfigLoadEnd(r));
         };
 
         this.ngModule = injector.get(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModuleRef"]);
@@ -96970,7 +99426,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(Router, [{
         key: "setupNavigations",
         value: function setupNavigations(transitions) {
-          var _this148 = this;
+          var _this161 = this;
 
           /** @type {?} */
           var eventsSubject =
@@ -96997,7 +99453,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               return (
                 /** @type {?} */
                 Object.assign(Object.assign({}, t), {
-                  extractedUrl: _this148.urlHandlingStrategy.extract(t.rawUrl)
+                  extractedUrl: _this161.urlHandlingStrategy.extract(t.rawUrl)
                 })
               );
             }), // Using switchMap so we cancel executing navigations when a new one comes in
@@ -97019,13 +99475,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function (t) {
-                _this148.currentNavigation = {
+                _this161.currentNavigation = {
                   id: t.id,
                   initialUrl: t.currentRawUrl,
                   extractedUrl: t.extractedUrl,
                   trigger: t.source,
                   extras: t.extras,
-                  previousNavigation: _this148.lastSuccessfulNavigation ? Object.assign(Object.assign({}, _this148.lastSuccessfulNavigation), {
+                  previousNavigation: _this161.lastSuccessfulNavigation ? Object.assign(Object.assign({}, _this161.lastSuccessfulNavigation), {
                     previousNavigation: null
                   }) : null
                 };
@@ -97036,11 +99492,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               */
               function (t) {
                 /** @type {?} */
-                var urlTransition = !_this148.navigated || t.extractedUrl.toString() !== _this148.browserUrlTree.toString();
+                var urlTransition = !_this161.navigated || t.extractedUrl.toString() !== _this161.browserUrlTree.toString();
                 /** @type {?} */
 
 
-                var processCurrentUrl = (_this148.onSameUrlNavigation === 'reload' ? true : urlTransition) && _this148.urlHandlingStrategy.shouldProcessUrl(t.rawUrl);
+                var processCurrentUrl = (_this161.onSameUrlNavigation === 'reload' ? true : urlTransition) && _this161.urlHandlingStrategy.shouldProcessUrl(t.rawUrl);
 
                 if (processCurrentUrl) {
                   return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(t).pipe( // Fire NavigationStart event
@@ -97051,11 +99507,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   */
                   function (t) {
                     /** @type {?} */
-                    var transition = _this148.transitions.getValue();
+                    var transition = _this161.transitions.getValue();
 
-                    eventsSubject.next(new NavigationStart(t.id, _this148.serializeUrl(t.extractedUrl), t.source, t.restoredState));
+                    eventsSubject.next(new NavigationStart(t.id, _this161.serializeUrl(t.extractedUrl), t.source, t.restoredState));
 
-                    if (transition !== _this148.transitions.getValue()) {
+                    if (transition !== _this161.transitions.getValue()) {
                       return rxjs__WEBPACK_IMPORTED_MODULE_2__["EMPTY"];
                     }
 
@@ -97070,39 +99526,39 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   function (t) {
                     return Promise.resolve(t);
                   }), // ApplyRedirects
-                  applyRedirects$1(_this148.ngModule.injector, _this148.configLoader, _this148.urlSerializer, _this148.config), // Update the currentNavigation
+                  applyRedirects$1(_this161.ngModule.injector, _this161.configLoader, _this161.urlSerializer, _this161.config), // Update the currentNavigation
                   Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(
                   /**
                   * @param {?} t
                   * @return {?}
                   */
                   function (t) {
-                    _this148.currentNavigation = Object.assign(Object.assign({},
+                    _this161.currentNavigation = Object.assign(Object.assign({},
                     /** @type {?} */
-                    _this148.currentNavigation), {
+                    _this161.currentNavigation), {
                       finalUrl: t.urlAfterRedirects
                     });
                   }), // Recognize
-                  recognize$1(_this148.rootComponentType, _this148.config,
+                  recognize$1(_this161.rootComponentType, _this161.config,
                   /**
                   * @param {?} url
                   * @return {?}
                   */
                   function (url) {
-                    return _this148.serializeUrl(url);
-                  }, _this148.paramsInheritanceStrategy, _this148.relativeLinkResolution), // Update URL if in `eager` update mode
+                    return _this161.serializeUrl(url);
+                  }, _this161.paramsInheritanceStrategy, _this161.relativeLinkResolution), // Update URL if in `eager` update mode
                   Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(
                   /**
                   * @param {?} t
                   * @return {?}
                   */
                   function (t) {
-                    if (_this148.urlUpdateStrategy === 'eager') {
+                    if (_this161.urlUpdateStrategy === 'eager') {
                       if (!t.extras.skipLocationChange) {
-                        _this148.setBrowserUrl(t.urlAfterRedirects, !!t.extras.replaceUrl, t.id, t.extras.state);
+                        _this161.setBrowserUrl(t.urlAfterRedirects, !!t.extras.replaceUrl, t.id, t.extras.state);
                       }
 
-                      _this148.browserUrlTree = t.urlAfterRedirects;
+                      _this161.browserUrlTree = t.urlAfterRedirects;
                     }
                   }), // Fire RoutesRecognized
                   Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(
@@ -97112,14 +99568,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   */
                   function (t) {
                     /** @type {?} */
-                    var routesRecognized = new RoutesRecognized(t.id, _this148.serializeUrl(t.extractedUrl), _this148.serializeUrl(t.urlAfterRedirects),
+                    var routesRecognized = new RoutesRecognized(t.id, _this161.serializeUrl(t.extractedUrl), _this161.serializeUrl(t.urlAfterRedirects),
                     /** @type {?} */
                     t.targetSnapshot);
                     eventsSubject.next(routesRecognized);
                   }));
                 } else {
                   /** @type {?} */
-                  var processPreviousUrl = urlTransition && _this148.rawUrlTree && _this148.urlHandlingStrategy.shouldProcessUrl(_this148.rawUrlTree);
+                  var processPreviousUrl = urlTransition && _this161.rawUrlTree && _this161.urlHandlingStrategy.shouldProcessUrl(_this161.rawUrlTree);
                   /* When the current URL shouldn't be processed, but the previous one was,
                    * we handle this "error condition" by navigating to the previously
                    * successful URL, but leaving the URL intact.*/
@@ -97133,11 +99589,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                         extras = t.extras;
                     /** @type {?} */
 
-                    var navStart = new NavigationStart(id, _this148.serializeUrl(extractedUrl), source, restoredState);
+                    var navStart = new NavigationStart(id, _this161.serializeUrl(extractedUrl), source, restoredState);
                     eventsSubject.next(navStart);
                     /** @type {?} */
 
-                    var targetSnapshot = createEmptyState(extractedUrl, _this148.rootComponentType).snapshot;
+                    var targetSnapshot = createEmptyState(extractedUrl, _this161.rootComponentType).snapshot;
                     return Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["of"])(Object.assign(Object.assign({}, t), {
                       targetSnapshot: targetSnapshot,
                       urlAfterRedirects: extractedUrl,
@@ -97152,8 +99608,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                      * URL. This way the next navigation will be coming from the current URL
                      * in the browser.
                      */
-                    _this148.rawUrlTree = t.rawUrl;
-                    _this148.browserUrlTree = t.urlAfterRedirects;
+                    _this161.rawUrlTree = t.rawUrl;
+                    _this161.browserUrlTree = t.urlAfterRedirects;
                     t.resolve(null);
                     return rxjs__WEBPACK_IMPORTED_MODULE_2__["EMPTY"];
                   }
@@ -97172,7 +99628,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     _t$extras = t.extras,
                     skipLocationChange = _t$extras.skipLocationChange,
                     replaceUrl = _t$extras.replaceUrl;
-                return _this148.hooks.beforePreactivation(
+                return _this161.hooks.beforePreactivation(
                 /** @type {?} */
                 targetSnapshot, {
                   navigationId: navigationId,
@@ -97189,11 +99645,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               */
               function (t) {
                 /** @type {?} */
-                var guardsStart = new GuardsCheckStart(t.id, _this148.serializeUrl(t.extractedUrl), _this148.serializeUrl(t.urlAfterRedirects),
+                var guardsStart = new GuardsCheckStart(t.id, _this161.serializeUrl(t.extractedUrl), _this161.serializeUrl(t.urlAfterRedirects),
                 /** @type {?} */
                 t.targetSnapshot);
 
-                _this148.triggerEvent(guardsStart);
+                _this161.triggerEvent(guardsStart);
               }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(
               /**
               * @param {?} t
@@ -97203,15 +99659,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 return Object.assign(Object.assign({}, t), {
                   guards: getAllRouteGuards(
                   /** @type {?} */
-                  t.targetSnapshot, t.currentSnapshot, _this148.rootContexts)
+                  t.targetSnapshot, t.currentSnapshot, _this161.rootContexts)
                 });
-              }), checkGuards(_this148.ngModule.injector,
+              }), checkGuards(_this161.ngModule.injector,
               /**
               * @param {?} evt
               * @return {?}
               */
               function (evt) {
-                return _this148.triggerEvent(evt);
+                return _this161.triggerEvent(evt);
               }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(
               /**
               * @param {?} t
@@ -97220,7 +99676,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               function (t) {
                 if (isUrlTree(t.guardsResult)) {
                   /** @type {?} */
-                  var error = navigationCancelingError("Redirecting to \"".concat(_this148.serializeUrl(t.guardsResult), "\""));
+                  var error = navigationCancelingError("Redirecting to \"".concat(_this161.serializeUrl(t.guardsResult), "\""));
                   error.url = t.guardsResult;
                   throw error;
                 }
@@ -97231,11 +99687,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               */
               function (t) {
                 /** @type {?} */
-                var guardsEnd = new GuardsCheckEnd(t.id, _this148.serializeUrl(t.extractedUrl), _this148.serializeUrl(t.urlAfterRedirects),
+                var guardsEnd = new GuardsCheckEnd(t.id, _this161.serializeUrl(t.extractedUrl), _this161.serializeUrl(t.urlAfterRedirects),
                 /** @type {?} */
                 t.targetSnapshot, !!t.guardsResult);
 
-                _this148.triggerEvent(guardsEnd);
+                _this161.triggerEvent(guardsEnd);
               }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["filter"])(
               /**
               * @param {?} t
@@ -97243,11 +99699,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               */
               function (t) {
                 if (!t.guardsResult) {
-                  _this148.resetUrlToCurrentUrlTree();
+                  _this161.resetUrlToCurrentUrlTree();
                   /** @type {?} */
 
 
-                  var navCancel = new NavigationCancel(t.id, _this148.serializeUrl(t.extractedUrl), '');
+                  var navCancel = new NavigationCancel(t.id, _this161.serializeUrl(t.extractedUrl), '');
                   eventsSubject.next(navCancel);
                   t.resolve(false);
                   return false;
@@ -97269,12 +99725,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   */
                   function (t) {
                     /** @type {?} */
-                    var resolveStart = new ResolveStart(t.id, _this148.serializeUrl(t.extractedUrl), _this148.serializeUrl(t.urlAfterRedirects),
+                    var resolveStart = new ResolveStart(t.id, _this161.serializeUrl(t.extractedUrl), _this161.serializeUrl(t.urlAfterRedirects),
                     /** @type {?} */
                     t.targetSnapshot);
 
-                    _this148.triggerEvent(resolveStart);
-                  }), resolveData(_this148.paramsInheritanceStrategy, _this148.ngModule.injector), //
+                    _this161.triggerEvent(resolveStart);
+                  }), resolveData(_this161.paramsInheritanceStrategy, _this161.ngModule.injector), //
                   Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(
                   /**
                   * @param {?} t
@@ -97282,11 +99738,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   */
                   function (t) {
                     /** @type {?} */
-                    var resolveEnd = new ResolveEnd(t.id, _this148.serializeUrl(t.extractedUrl), _this148.serializeUrl(t.urlAfterRedirects),
+                    var resolveEnd = new ResolveEnd(t.id, _this161.serializeUrl(t.extractedUrl), _this161.serializeUrl(t.urlAfterRedirects),
                     /** @type {?} */
                     t.targetSnapshot);
 
-                    _this148.triggerEvent(resolveEnd);
+                    _this161.triggerEvent(resolveEnd);
                   }));
                 }
 
@@ -97305,7 +99761,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     _t$extras2 = t.extras,
                     skipLocationChange = _t$extras2.skipLocationChange,
                     replaceUrl = _t$extras2.replaceUrl;
-                return _this148.hooks.afterPreactivation(
+                return _this161.hooks.afterPreactivation(
                 /** @type {?} */
                 targetSnapshot, {
                   navigationId: navigationId,
@@ -97321,7 +99777,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               */
               function (t) {
                 /** @type {?} */
-                var targetRouterState = createRouterState(_this148.routeReuseStrategy,
+                var targetRouterState = createRouterState(_this161.routeReuseStrategy,
                 /** @type {?} */
                 t.targetSnapshot, t.currentRouterState);
                 return Object.assign(Object.assign({}, t), {
@@ -97339,28 +99795,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function (t) {
-                _this148.currentUrlTree = t.urlAfterRedirects;
-                _this148.rawUrlTree = _this148.urlHandlingStrategy.merge(_this148.currentUrlTree, t.rawUrl);
+                _this161.currentUrlTree = t.urlAfterRedirects;
+                _this161.rawUrlTree = _this161.urlHandlingStrategy.merge(_this161.currentUrlTree, t.rawUrl);
 
                 /** @type {?} */
-                _this148.routerState =
+                _this161.routerState =
                 /** @type {?} */
                 t.targetRouterState;
 
-                if (_this148.urlUpdateStrategy === 'deferred') {
+                if (_this161.urlUpdateStrategy === 'deferred') {
                   if (!t.extras.skipLocationChange) {
-                    _this148.setBrowserUrl(_this148.rawUrlTree, !!t.extras.replaceUrl, t.id, t.extras.state);
+                    _this161.setBrowserUrl(_this161.rawUrlTree, !!t.extras.replaceUrl, t.id, t.extras.state);
                   }
 
-                  _this148.browserUrlTree = t.urlAfterRedirects;
+                  _this161.browserUrlTree = t.urlAfterRedirects;
                 }
-              }), activateRoutes(_this148.rootContexts, _this148.routeReuseStrategy,
+              }), activateRoutes(_this161.rootContexts, _this161.routeReuseStrategy,
               /**
               * @param {?} evt
               * @return {?}
               */
               function (evt) {
-                return _this148.triggerEvent(evt);
+                return _this161.triggerEvent(evt);
               }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])({
                 /**
                  * @return {?}
@@ -97395,11 +99851,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   // sync code which looks for a value here in order to determine whether or
                   // not to handle a given popstate event or to leave it to the Angualr
                   // router.
-                  _this148.resetUrlToCurrentUrlTree();
+                  _this161.resetUrlToCurrentUrlTree();
                   /** @type {?} */
 
 
-                  var navCancel = new NavigationCancel(t.id, _this148.serializeUrl(t.extractedUrl), "Navigation ID ".concat(t.id, " is not equal to the current navigation id ").concat(_this148.navigationId));
+                  var navCancel = new NavigationCancel(t.id, _this161.serializeUrl(t.extractedUrl), "Navigation ID ".concat(t.id, " is not equal to the current navigation id ").concat(_this161.navigationId));
                   eventsSubject.next(navCancel);
                   t.resolve(false);
                 } // currentNavigation should always be reset to null here. If navigation was
@@ -97407,7 +99863,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 // we can safely set currentNavigation to null here.
 
 
-                _this148.currentNavigation = null;
+                _this161.currentNavigation = null;
               }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(
               /**
               * @param {?} e
@@ -97428,14 +99884,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     // isn't a change from the default currentUrlTree and won't navigate.
                     // This is only applicable with initial navigation, so setting
                     // `navigated` only when not redirecting resolves this scenario.
-                    _this148.navigated = true;
+                    _this161.navigated = true;
 
-                    _this148.resetStateAndUrl(t.currentRouterState, t.currentUrlTree, t.rawUrl);
+                    _this161.resetStateAndUrl(t.currentRouterState, t.currentUrlTree, t.rawUrl);
                   }
                   /** @type {?} */
 
 
-                  var navCancel = new NavigationCancel(t.id, _this148.serializeUrl(t.extractedUrl), e.message);
+                  var navCancel = new NavigationCancel(t.id, _this161.serializeUrl(t.extractedUrl), e.message);
                   eventsSubject.next(navCancel); // When redirecting, we need to delay resolving the navigation
                   // promise and push it to the redirect navigation
 
@@ -97452,15 +99908,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     */
                     function () {
                       /** @type {?} */
-                      var mergedTree = _this148.urlHandlingStrategy.merge(e.url, _this148.rawUrlTree);
+                      var mergedTree = _this161.urlHandlingStrategy.merge(e.url, _this161.rawUrlTree);
                       /** @type {?} */
 
 
                       var extras = {
                         skipLocationChange: t.extras.skipLocationChange,
-                        replaceUrl: _this148.urlUpdateStrategy === 'eager'
+                        replaceUrl: _this161.urlUpdateStrategy === 'eager'
                       };
-                      return _this148.scheduleNavigation(mergedTree, 'imperative', null, extras, {
+                      return _this161.scheduleNavigation(mergedTree, 'imperative', null, extras, {
                         resolve: t.resolve,
                         reject: t.reject,
                         promise: t.promise
@@ -97471,15 +99927,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                    * the pre-error state. */
 
                 } else {
-                  _this148.resetStateAndUrl(t.currentRouterState, t.currentUrlTree, t.rawUrl);
+                  _this161.resetStateAndUrl(t.currentRouterState, t.currentUrlTree, t.rawUrl);
                   /** @type {?} */
 
 
-                  var navError = new NavigationError(t.id, _this148.serializeUrl(t.extractedUrl), e);
+                  var navError = new NavigationError(t.id, _this161.serializeUrl(t.extractedUrl), e);
                   eventsSubject.next(navError);
 
                   try {
-                    t.resolve(_this148.errorHandler(e));
+                    t.resolve(_this161.errorHandler(e));
                   } catch (ee) {
                     t.reject(ee);
                   }
@@ -97556,7 +100012,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "setUpLocationChangeListener",
         value: function setUpLocationChangeListener() {
-          var _this149 = this;
+          var _this162 = this;
 
           // Don't need to use Zone.wrap any more, because zone.js
           // already patch onPopState, so location change callback will
@@ -97571,7 +100027,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             */
             function (change) {
               /** @type {?} */
-              var rawUrlTree = _this149.parseUrl(change['url']);
+              var rawUrlTree = _this162.parseUrl(change['url']);
               /** @type {?} */
 
 
@@ -97586,7 +100042,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function () {
-                _this149.scheduleNavigation(rawUrlTree, source, state, {
+                _this162.scheduleNavigation(rawUrlTree, source, state, {
                   replaceUrl: true
                 });
               }, 0);
@@ -97938,7 +100394,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "processNavigations",
         value: function processNavigations() {
-          var _this150 = this;
+          var _this163 = this;
 
           this.navigations.subscribe(
           /**
@@ -97946,14 +100402,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (t) {
-            _this150.navigated = true;
-            _this150.lastSuccessfulId = t.id;
+            _this163.navigated = true;
+            _this163.lastSuccessfulId = t.id;
 
             /** @type {?} */
-            _this150.events.next(new NavigationEnd(t.id, _this150.serializeUrl(t.extractedUrl), _this150.serializeUrl(_this150.currentUrlTree)));
+            _this163.events.next(new NavigationEnd(t.id, _this163.serializeUrl(t.extractedUrl), _this163.serializeUrl(_this163.currentUrlTree)));
 
-            _this150.lastSuccessfulNavigation = _this150.currentNavigation;
-            _this150.currentNavigation = null;
+            _this163.lastSuccessfulNavigation = _this163.currentNavigation;
+            _this163.currentNavigation = null;
             t.resolve(true);
           },
           /**
@@ -97961,7 +100417,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (e) {
-            _this150.console.warn("Unhandled Navigation Error: ");
+            _this163.console.warn("Unhandled Navigation Error: ");
           });
         }
         /**
@@ -98120,14 +100576,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       return Router;
     }();
-
-    Router.ɵfac = function Router_Factory(t) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinvalidFactory"]();
-    };
-
-    Router.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
-      type: Router
-    });
 
     if (false) {}
     /**
@@ -98343,32 +100791,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterLink;
     }();
 
-    RouterLink.ɵfac = function RouterLink_Factory(t) {
-      return new (t || RouterLink)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinjectAttribute"]('tabindex'), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]));
-    };
-
-    RouterLink.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
-      type: RouterLink,
-      selectors: [["", "routerLink", "", 5, "a", 5, "area"]],
-      hostBindings: function RouterLink_HostBindings(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function RouterLink_click_HostBindingHandler() {
-            return ctx.onClick();
-          });
-        }
-      },
-      inputs: {
-        routerLink: "routerLink",
-        preserveQueryParams: "preserveQueryParams",
-        queryParams: "queryParams",
-        fragment: "fragment",
-        queryParamsHandling: "queryParamsHandling",
-        preserveFragment: "preserveFragment",
-        skipLocationChange: "skipLocationChange",
-        replaceUrl: "replaceUrl",
-        state: "state"
-      }
-    });
+    RouterLink.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
+      args: [{
+        selector: ':not(a):not(area)[routerLink]'
+      }]
+    }];
     /** @nocollapse */
 
     RouterLink.ctorParameters = function () {
@@ -98422,64 +100850,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         args: ['click']
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterLink, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
-        args: [{
-          selector: ':not(a):not(area)[routerLink]'
-        }]
-      }], function () {
-        return [{
-          type: Router
-        }, {
-          type: ActivatedRoute
-        }, {
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Attribute"],
-            args: ['tabindex']
-          }]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]
-        }];
-      }, {
-        routerLink: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        preserveQueryParams: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        onClick: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"],
-          args: ['click']
-        }],
-        queryParams: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        fragment: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        queryParamsHandling: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        preserveFragment: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        skipLocationChange: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        replaceUrl: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        state: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -98502,7 +100872,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} locationStrategy
        */
       function RouterLinkWithHref(router, route, locationStrategy) {
-        var _this151 = this;
+        var _this164 = this;
 
         _classCallCheck(this, RouterLinkWithHref);
 
@@ -98517,7 +100887,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         */
         function (s) {
           if (s instanceof NavigationEnd) {
-            _this151.updateTargetUrlAndHref();
+            _this164.updateTargetUrlAndHref();
           }
         });
       }
@@ -98639,41 +101009,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterLinkWithHref;
     }();
 
-    RouterLinkWithHref.ɵfac = function RouterLinkWithHref_Factory(t) {
-      return new (t || RouterLinkWithHref)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_0__["LocationStrategy"]));
-    };
-
-    RouterLinkWithHref.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
-      type: RouterLinkWithHref,
-      selectors: [["a", "routerLink", ""], ["area", "routerLink", ""]],
-      hostVars: 2,
-      hostBindings: function RouterLinkWithHref_HostBindings(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function RouterLinkWithHref_click_HostBindingHandler($event) {
-            return ctx.onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey);
-          });
-        }
-
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵhostProperty"]("href", ctx.href, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵattribute"]("target", ctx.target);
-        }
-      },
-      inputs: {
-        routerLink: "routerLink",
-        preserveQueryParams: "preserveQueryParams",
-        target: "target",
-        queryParams: "queryParams",
-        fragment: "fragment",
-        queryParamsHandling: "queryParamsHandling",
-        preserveFragment: "preserveFragment",
-        skipLocationChange: "skipLocationChange",
-        replaceUrl: "replaceUrl",
-        state: "state"
-      },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵNgOnChangesFeature"]]
-    });
+    RouterLinkWithHref.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
+      args: [{
+        selector: 'a[routerLink],area[routerLink]'
+      }]
+    }];
     /** @nocollapse */
 
     RouterLinkWithHref.ctorParameters = function () {
@@ -98728,65 +101069,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         args: ['click', ['$event.button', '$event.ctrlKey', '$event.metaKey', '$event.shiftKey']]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterLinkWithHref, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
-        args: [{
-          selector: 'a[routerLink],area[routerLink]'
-        }]
-      }], function () {
-        return [{
-          type: Router
-        }, {
-          type: ActivatedRoute
-        }, {
-          type: _angular_common__WEBPACK_IMPORTED_MODULE_0__["LocationStrategy"]
-        }];
-      }, {
-        routerLink: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        preserveQueryParams: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        onClick: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostListener"],
-          args: ['click', ['$event.button', '$event.ctrlKey', '$event.metaKey', '$event.shiftKey']]
-        }],
-        href: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"]
-        }],
-        target: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["HostBinding"],
-          args: ['attr.target']
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        queryParams: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        fragment: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        queryParamsHandling: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        preserveFragment: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        skipLocationChange: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        replaceUrl: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        state: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -98872,7 +101154,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?=} linkWithHref
        */
       function RouterLinkActive(router, element, renderer, link, linkWithHref) {
-        var _this152 = this;
+        var _this165 = this;
 
         _classCallCheck(this, RouterLinkActive);
 
@@ -98893,7 +101175,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         */
         function (s) {
           if (s instanceof NavigationEnd) {
-            _this152.update();
+            _this165.update();
           }
         });
       }
@@ -98905,7 +101187,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(RouterLinkActive, [{
         key: "ngAfterContentInit",
         value: function ngAfterContentInit() {
-          var _this153 = this;
+          var _this166 = this;
 
           this.links.changes.subscribe(
           /**
@@ -98913,7 +101195,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (_) {
-            return _this153.update();
+            return _this166.update();
           });
           this.linksWithHrefs.changes.subscribe(
           /**
@@ -98921,7 +101203,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (_) {
-            return _this153.update();
+            return _this166.update();
           });
           this.update();
         }
@@ -98957,7 +101239,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "update",
         value: function update() {
-          var _this154 = this;
+          var _this167 = this;
 
           if (!this.links || !this.linksWithHrefs || !this.router.navigated) return;
           Promise.resolve().then(
@@ -98966,22 +101248,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function () {
             /** @type {?} */
-            var hasActiveLinks = _this154.hasActiveLinks();
+            var hasActiveLinks = _this167.hasActiveLinks();
 
-            if (_this154.isActive !== hasActiveLinks) {
+            if (_this167.isActive !== hasActiveLinks) {
               /** @type {?} */
-              _this154.isActive = hasActiveLinks;
+              _this167.isActive = hasActiveLinks;
 
-              _this154.classes.forEach(
+              _this167.classes.forEach(
               /**
               * @param {?} c
               * @return {?}
               */
               function (c) {
                 if (hasActiveLinks) {
-                  _this154.renderer.addClass(_this154.element.nativeElement, c);
+                  _this167.renderer.addClass(_this167.element.nativeElement, c);
                 } else {
-                  _this154.renderer.removeClass(_this154.element.nativeElement, c);
+                  _this167.renderer.removeClass(_this167.element.nativeElement, c);
                 }
               });
             }
@@ -98996,7 +101278,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "isLinkActive",
         value: function isLinkActive(router) {
-          var _this155 = this;
+          var _this168 = this;
 
           return (
             /**
@@ -99004,7 +101286,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (link) {
-              return router.isActive(link.urlTree, _this155.routerLinkActiveOptions.exact);
+              return router.isActive(link.urlTree, _this168.routerLinkActiveOptions.exact);
             }
           );
         }
@@ -99039,34 +101321,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterLinkActive;
     }();
 
-    RouterLinkActive.ɵfac = function RouterLinkActive_Factory(t) {
-      return new (t || RouterLinkActive)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](RouterLink, 8), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](RouterLinkWithHref, 8));
-    };
-
-    RouterLinkActive.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
-      type: RouterLinkActive,
-      selectors: [["", "routerLinkActive", ""]],
-      contentQueries: function RouterLinkActive_ContentQueries(rf, ctx, dirIndex) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵcontentQuery"](dirIndex, RouterLink, true);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵcontentQuery"](dirIndex, RouterLinkWithHref, true);
-        }
-
-        if (rf & 2) {
-          var _t;
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.links = _t);
-          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵloadQuery"]()) && (ctx.linksWithHrefs = _t);
-        }
-      },
-      inputs: {
-        routerLinkActiveOptions: "routerLinkActiveOptions",
-        routerLinkActive: "routerLinkActive"
-      },
-      exportAs: ["routerLinkActive"],
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵNgOnChangesFeature"]]
-    });
+    RouterLinkActive.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
+      args: [{
+        selector: '[routerLinkActive]',
+        exportAs: 'routerLinkActive'
+      }]
+    }];
     /** @nocollapse */
 
     RouterLinkActive.ctorParameters = function () {
@@ -99109,54 +101370,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterLinkActive, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
-        args: [{
-          selector: '[routerLinkActive]',
-          exportAs: 'routerLinkActive'
-        }]
-      }], function () {
-        return [{
-          type: Router
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]
-        }, {
-          type: RouterLink,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"]
-          }]
-        }, {
-          type: RouterLinkWithHref,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"]
-          }]
-        }];
-      }, {
-        routerLinkActiveOptions: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        routerLinkActive: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"]
-        }],
-        links: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"],
-          args: [RouterLink, {
-            descendants: true
-          }]
-        }],
-        linksWithHrefs: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ContentChildren"],
-          args: [RouterLinkWithHref, {
-            descendants: true
-          }]
-        }]
-      });
-    })();
 
     if (false) {}
     /**
@@ -99525,19 +101738,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterOutlet;
     }();
 
-    RouterOutlet.ɵfac = function RouterOutlet_Factory(t) {
-      return new (t || RouterOutlet)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](ChildrenOutletContexts), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinjectAttribute"]('name'), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]));
-    };
-
-    RouterOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
-      type: RouterOutlet,
-      selectors: [["router-outlet"]],
-      outputs: {
-        activateEvents: "activate",
-        deactivateEvents: "deactivate"
-      },
-      exportAs: ["outlet"]
-    });
+    RouterOutlet.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
+      args: [{
+        selector: 'router-outlet',
+        exportAs: 'outlet'
+      }]
+    }];
     /** @nocollapse */
 
     RouterOutlet.ctorParameters = function () {
@@ -99568,42 +101775,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         args: ['deactivate']
       }]
     };
-    /*@__PURE__*/
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterOutlet, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Directive"],
-        args: [{
-          selector: 'router-outlet',
-          exportAs: 'outlet'
-        }]
-      }], function () {
-        return [{
-          type: ChildrenOutletContexts
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ComponentFactoryResolver"]
-        }, {
-          type: String,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Attribute"],
-            args: ['name']
-          }]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"]
-        }];
-      }, {
-        activateEvents: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"],
-          args: ['activate']
-        }],
-        deactivateEvents: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Output"],
-          args: ['deactivate']
-        }]
-      });
-    })();
 
     if (false) {}
 
@@ -99797,7 +101968,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(RouterPreloader, [{
         key: "setUpPreloading",
         value: function setUpPreloading() {
-          var _this156 = this;
+          var _this169 = this;
 
           this.subscription = this.router.events.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["filter"])(
           /**
@@ -99811,7 +101982,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            return _this156.preload();
+            return _this169.preload();
           })).subscribe(
           /**
           * @return {?}
@@ -99897,7 +102068,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "preloadConfig",
         value: function preloadConfig(ngModule, route) {
-          var _this157 = this;
+          var _this170 = this;
 
           return this.preloadingStrategy.preload(route,
           /**
@@ -99905,7 +102076,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function () {
             /** @type {?} */
-            var loaded$ = _this157.loader.load(ngModule.injector, route);
+            var loaded$ = _this170.loader.load(ngModule.injector, route);
 
             return loaded$.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["mergeMap"])(
             /**
@@ -99914,7 +102085,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             */
             function (config) {
               route._loadedConfig = config;
-              return _this157.processRoutes(config.module, config.routes);
+              return _this170.processRoutes(config.module, config.routes);
             }));
           });
         }
@@ -99923,14 +102094,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterPreloader;
     }();
 
-    RouterPreloader.ɵfac = function RouterPreloader_Factory(t) {
-      return new (t || RouterPreloader)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](Router), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModuleFactoryLoader"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Compiler"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](PreloadingStrategy));
-    };
-
-    RouterPreloader.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: RouterPreloader,
-      factory: RouterPreloader.ɵfac
-    });
+    RouterPreloader.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     RouterPreloader.ctorParameters = function () {
@@ -99946,26 +102112,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: PreloadingStrategy
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterPreloader, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: Router
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModuleFactoryLoader"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Compiler"]
-        }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]
-        }, {
-          type: PreloadingStrategy
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -100023,7 +102169,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "createScrollEvents",
         value: function createScrollEvents() {
-          var _this158 = this;
+          var _this171 = this;
 
           return this.router.events.subscribe(
           /**
@@ -100033,13 +102179,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function (e) {
             if (e instanceof NavigationStart) {
               // store the scroll position of the current stable navigations.
-              _this158.store[_this158.lastId] = _this158.viewportScroller.getScrollPosition();
-              _this158.lastSource = e.navigationTrigger;
-              _this158.restoredId = e.restoredState ? e.restoredState.navigationId : 0;
+              _this171.store[_this171.lastId] = _this171.viewportScroller.getScrollPosition();
+              _this171.lastSource = e.navigationTrigger;
+              _this171.restoredId = e.restoredState ? e.restoredState.navigationId : 0;
             } else if (e instanceof NavigationEnd) {
-              _this158.lastId = e.id;
+              _this171.lastId = e.id;
 
-              _this158.scheduleScrollEvent(e, _this158.router.parseUrl(e.urlAfterRedirects).fragment);
+              _this171.scheduleScrollEvent(e, _this171.router.parseUrl(e.urlAfterRedirects).fragment);
             }
           });
         }
@@ -100051,7 +102197,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "consumeScrollEvents",
         value: function consumeScrollEvents() {
-          var _this159 = this;
+          var _this172 = this;
 
           return this.router.events.subscribe(
           /**
@@ -100062,17 +102208,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             if (!(e instanceof Scroll)) return; // a popstate event. The pop state event will always ignore anchor scrolling.
 
             if (e.position) {
-              if (_this159.options.scrollPositionRestoration === 'top') {
-                _this159.viewportScroller.scrollToPosition([0, 0]);
-              } else if (_this159.options.scrollPositionRestoration === 'enabled') {
-                _this159.viewportScroller.scrollToPosition(e.position);
+              if (_this172.options.scrollPositionRestoration === 'top') {
+                _this172.viewportScroller.scrollToPosition([0, 0]);
+              } else if (_this172.options.scrollPositionRestoration === 'enabled') {
+                _this172.viewportScroller.scrollToPosition(e.position);
               } // imperative navigation "forward"
 
             } else {
-              if (e.anchor && _this159.options.anchorScrolling === 'enabled') {
-                _this159.viewportScroller.scrollToAnchor(e.anchor);
-              } else if (_this159.options.scrollPositionRestoration !== 'disabled') {
-                _this159.viewportScroller.scrollToPosition([0, 0]);
+              if (e.anchor && _this172.options.anchorScrolling === 'enabled') {
+                _this172.viewportScroller.scrollToAnchor(e.anchor);
+              } else if (_this172.options.scrollPositionRestoration !== 'disabled') {
+                _this172.viewportScroller.scrollToPosition([0, 0]);
               }
             }
           });
@@ -100108,14 +102254,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       return RouterScroller;
     }();
-
-    RouterScroller.ɵfac = function RouterScroller_Factory(t) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinvalidFactory"]();
-    };
-
-    RouterScroller.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
-      type: RouterScroller
-    });
 
     if (false) {}
     /**
@@ -100297,14 +102435,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterModule;
     }();
 
-    RouterModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({
-      type: RouterModule
-    });
-    RouterModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
-      factory: function RouterModule_Factory(t) {
-        return new (t || RouterModule)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](ROUTER_FORROOT_GUARD, 8), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](Router, 8));
-      }
-    });
+    RouterModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+      args: [{
+        declarations: ROUTER_DIRECTIVES,
+        exports: ROUTER_DIRECTIVES,
+        entryComponents: [ɵEmptyOutletComponent]
+      }]
+    }];
     /** @nocollapse */
 
     RouterModule.ctorParameters = function () {
@@ -100323,41 +102461,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }]
       }];
     };
-
-    (function () {
-      (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](RouterModule, {
-        declarations: [RouterOutlet, RouterLink, RouterLinkWithHref, RouterLinkActive, ɵEmptyOutletComponent],
-        exports: [RouterOutlet, RouterLink, RouterLinkWithHref, RouterLinkActive, ɵEmptyOutletComponent]
-      });
-    })();
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
-        args: [{
-          declarations: ROUTER_DIRECTIVES,
-          exports: ROUTER_DIRECTIVES,
-          entryComponents: [ɵEmptyOutletComponent]
-        }]
-      }], function () {
-        return [{
-          type: undefined,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"]
-          }, {
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Inject"],
-            args: [ROUTER_FORROOT_GUARD]
-          }]
-        }, {
-          type: Router,
-          decorators: [{
-            type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Optional"]
-          }]
-        }];
-      }, null);
-    })();
     /**
      * @param {?} router
      * @param {?} viewportScroller
@@ -100556,7 +102659,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(RouterInitializer, [{
         key: "appInitializer",
         value: function appInitializer() {
-          var _this160 = this;
+          var _this173 = this;
 
           /** @type {?} */
           var p = this.injector.get(_angular_common__WEBPACK_IMPORTED_MODULE_0__["LOCATION_INITIALIZED"], Promise.resolve(null));
@@ -100581,13 +102684,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             });
             /** @type {?} */
 
-            var router = _this160.injector.get(Router);
+            var router = _this173.injector.get(Router);
             /** @type {?} */
 
 
-            var opts = _this160.injector.get(ROUTER_CONFIGURATION);
+            var opts = _this173.injector.get(ROUTER_CONFIGURATION);
 
-            if (_this160.isLegacyDisabled(opts) || _this160.isLegacyEnabled(opts)) {
+            if (_this173.isLegacyDisabled(opts) || _this173.isLegacyEnabled(opts)) {
               resolve(true);
             } else if (opts.initialNavigation === 'disabled') {
               router.setUpLocationChangeListener();
@@ -100599,10 +102702,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               */
               function () {
                 // only the initial navigation should be delayed
-                if (!_this160.initNavigation) {
-                  _this160.initNavigation = true;
+                if (!_this173.initNavigation) {
+                  _this173.initNavigation = true;
                   resolve(true);
-                  return _this160.resultOfPreactivationDone; // subsequent navigations should not be delayed
+                  return _this173.resultOfPreactivationDone; // subsequent navigations should not be delayed
                 } else {
                   return (
                     /** @type {?} */
@@ -100687,14 +102790,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RouterInitializer;
     }();
 
-    RouterInitializer.ɵfac = function RouterInitializer_Factory(t) {
-      return new (t || RouterInitializer)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]));
-    };
-
-    RouterInitializer.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({
-      token: RouterInitializer,
-      factory: RouterInitializer.ɵfac
-    });
+    RouterInitializer.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }];
     /** @nocollapse */
 
     RouterInitializer.ctorParameters = function () {
@@ -100702,18 +102800,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]
       }];
     };
-    /*@__PURE__*/
-
-
-    (function () {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](RouterInitializer, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
-      }], function () {
-        return [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injector"]
-        }];
-      }, null);
-    })();
 
     if (false) {}
     /**
@@ -100807,6 +102893,724 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     //# sourceMappingURL=router.js.map
 
     /***/
+  },
+
+  /***/
+  "./node_modules/@angular/router/router.ngfactory.js":
+  /*!**********************************************************!*\
+    !*** ./node_modules/@angular/router/router.ngfactory.js ***!
+    \**********************************************************/
+
+  /*! exports provided: RouterModuleNgFactory, RenderType_ɵangular_packages_router_router_l, View_ɵangular_packages_router_router_l_0, View_ɵangular_packages_router_router_l_Host_0, ɵangular_packages_router_router_lNgFactory */
+
+  /***/
+  function node_modulesAngularRouterRouterNgfactoryJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "RouterModuleNgFactory", function () {
+      return RouterModuleNgFactory;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "RenderType_ɵangular_packages_router_router_l", function () {
+      return RenderType_ɵangular_packages_router_router_l;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "View_ɵangular_packages_router_router_l_0", function () {
+      return View_ɵangular_packages_router_router_l_0;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "View_ɵangular_packages_router_router_l_Host_0", function () {
+      return View_ɵangular_packages_router_router_l_Host_0;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_router_router_lNgFactory", function () {
+      return ɵangular_packages_router_router_lNgFactory;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /**
+     * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+     *
+     * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+     * tslint:disable
+     */
+
+
+    var RouterModuleNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcmf"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"], [], function (_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmod"]([_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵCodegenComponentFactoryResolver"], [[8, [ɵangular_packages_router_router_lNgFactory]], [3, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"]], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModuleRef"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"], [[2, _angular_router__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_router_router_a"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]]])]);
+    });
+
+    var styles_ɵangular_packages_router_router_l = [];
+
+    var RenderType_ɵangular_packages_router_router_l = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({
+      encapsulation: 2,
+      styles: styles_ɵangular_packages_router_router_l,
+      data: {}
+    });
+
+    function View_ɵangular_packages_router_router_l_0(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 16777216, null, null, 1, "router-outlet", [], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 212992, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"], [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ChildrenOutletContexts"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"], [8, null], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]], null, null)], function (_ck, _v) {
+        _ck(_v, 1, 0);
+      }, null);
+    }
+
+    function View_ɵangular_packages_router_router_l_Host_0(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "ng-component", [], null, null, null, View_ɵangular_packages_router_router_l_0, RenderType_ɵangular_packages_router_router_l)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _angular_router__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_router_router_l"], [], null, null)], null, null);
+    }
+
+    var ɵangular_packages_router_router_lNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("ng-component", _angular_router__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_router_router_l"], View_ɵangular_packages_router_router_l_Host_0, {}, {}, []);
+    /***/
+
+  },
+
+  /***/
+  "./node_modules/@ngx-loading-bar/core/fesm2015/ngx-loading-bar-core.js":
+  /*!*****************************************************************************!*\
+    !*** ./node_modules/@ngx-loading-bar/core/fesm2015/ngx-loading-bar-core.js ***!
+    \*****************************************************************************/
+
+  /*! exports provided: LoadingBarModule, LoadingBarComponent, LoadingBarService */
+
+  /***/
+  function node_modulesNgxLoadingBarCoreFesm2015NgxLoadingBarCoreJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoadingBarModule", function () {
+      return LoadingBarModule;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoadingBarComponent", function () {
+      return LoadingBarComponent;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoadingBarService", function () {
+      return LoadingBarService;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! rxjs */
+    "./node_modules/rxjs/_esm2015/index.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+
+    var LoadingBarService = /*#__PURE__*/function () {
+      /**
+       * @param {?} platformId
+       */
+      function LoadingBarService(platformId) {
+        _classCallCheck(this, LoadingBarService);
+
+        this.platformId = platformId;
+        this.progress$ =
+        /** @type {?} */
+        new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["debounceTime"])(0));
+        this._pendingRequests = 0;
+        this._value = 0;
+      }
+      /**
+       * @param {?=} initialValue
+       * @return {?}
+       */
+
+
+      _createClass2(LoadingBarService, [{
+        key: "start",
+        value: function start() {
+          var initialValue = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 2;
+          ++this._pendingRequests;
+
+          if (this._value === 0 || this._pendingRequests === 1) {
+            // Inserts the loading bar element into the dom, and sets it to 2%
+            this.set(this._pendingRequests === 1 && this._value > 0 ? this._value : initialValue);
+          }
+        }
+        /**
+         * @return {?}
+         */
+
+      }, {
+        key: "stop",
+        value: function stop() {
+          this.complete();
+
+          while (this._pendingRequests > 0) {
+            this.complete();
+          }
+        }
+        /**
+         * @return {?}
+         */
+
+      }, {
+        key: "complete",
+        value: function complete() {
+          var _this174 = this;
+
+          if (this._pendingRequests === 0 && this._value === 0) {
+            return;
+          }
+
+          if (this._pendingRequests > 0) {
+            --this._pendingRequests;
+          }
+
+          if (this._pendingRequests === 0 || this._pendingRequests === 0 && this._value > 0) {
+            if (this._value !== 100) {
+              this.set(100);
+            } // Attempt to aggregate any start/complete calls within 500ms:
+
+
+            setTimeout(function () {
+              return _this174.set(0);
+            }, 500);
+          }
+        }
+        /**
+         * Set the loading bar's width to a certain percent.
+         *
+         * @param {?} n any value between 0 and 100
+         * @return {?}
+         */
+
+      }, {
+        key: "set",
+        value: function set(n) {
+          var _this175 = this;
+
+          if (!Object(_angular_common__WEBPACK_IMPORTED_MODULE_3__["isPlatformBrowser"])(this.platformId)) {
+            this._pendingRequests = 0;
+            return;
+          }
+
+          if (n === 0 && this._pendingRequests > 0) {
+            n = 2;
+          }
+
+          this._value = n;
+          this.progress$.next(n);
+
+          if (this._pendingRequests === 0) {
+            return;
+          } // increment loadingbar to give the illusion that there is always
+          // progress but make sure to cancel the previous timeouts so we don't
+          // have multiple incs running at the same time.
+
+
+          clearTimeout(this._incTimeout);
+
+          if (this._value > 0 && this._value < 100) {
+            this._incTimeout = setTimeout(function () {
+              return _this175.increment();
+            }, 250);
+          }
+        }
+        /**
+         * Increments the loading bar by a random amount
+         * but slows down as it progresses
+         * @param {?=} rnd
+         * @return {?}
+         */
+
+      }, {
+        key: "increment",
+        value: function increment() {
+          var rnd = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+
+          if (rnd > 0) {
+            this.set(this._value + rnd);
+          }
+          /** @type {?} */
+
+
+          var stat = this._value;
+
+          if (stat >= 0 && stat < 25) {
+            // Start out between 3 - 6% increments
+            rnd = Math.random() * (5 - 3 + 1) + 3;
+          } else if (stat >= 25 && stat < 65) {
+            // increment between 0 - 3%
+            rnd = Math.random() * 3;
+          } else if (stat >= 65 && stat < 90) {
+            // increment between 0 - 2%
+            rnd = Math.random() * 2;
+          } else if (stat >= 90 && stat < 99) {
+            // finally, increment it .5 %
+            rnd = 0.5;
+          } else {
+            // after 99%, don't increment:
+            rnd = 0;
+          }
+
+          this.set(this._value + rnd);
+        }
+        /**
+         * @return {?}
+         */
+
+      }, {
+        key: "ngOnDestroy",
+        value: function ngOnDestroy() {
+          this.progress$.complete();
+        }
+      }]);
+
+      return LoadingBarService;
+    }();
+
+    LoadingBarService.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"],
+      args: [{
+        providedIn: 'root'
+      }]
+    }];
+    /** @nocollapse */
+
+    LoadingBarService.ctorParameters = function () {
+      return [{
+        type: Object,
+        decorators: [{
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"],
+          args: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]
+        }]
+      }];
+    };
+    /** @nocollapse */
+
+
+    LoadingBarService.ngInjectableDef = Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["defineInjectable"])({
+      factory: function LoadingBarService_Factory() {
+        return new LoadingBarService(Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["inject"])(_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]));
+      },
+      token: LoadingBarService,
+      providedIn: "root"
+    });
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    var LoadingBarComponent =
+    /**
+     * @param {?} loader
+     */
+    function LoadingBarComponent(loader) {
+      _classCallCheck(this, LoadingBarComponent);
+
+      this.loader = loader;
+      this.includeSpinner = true;
+      this.includeBar = true;
+      this.fixed = true;
+      this.value = null;
+    };
+
+    LoadingBarComponent.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+      args: [{
+        selector: 'ngx-loading-bar',
+        template: "\n    <ng-container *ngIf=\"(value !== null ? value : loader.progress$|async) as progress\">\n      <div id=\"loading-bar-spinner\" *ngIf=\"includeSpinner\" [style.color]=\"color\">\n        <div [style.width]=\"diameter\" [style.height]=\"diameter\" class=\"spinner-icon\"></div>\n      </div>\n      <div id=\"loading-bar\" *ngIf=\"includeBar\" [style.color]=\"color\">\n        <div class=\"bar\" [style.background]=\"color\" [style.height]=\"height\" [style.width]=\"progress + '%'\">\n          <div class=\"peg\" [style.height]=\"height\"></div>\n        </div>\n      </div>\n    </ng-container>\n  ",
+        preserveWhitespaces: false,
+        encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewEncapsulation"].Emulated,
+        host: {
+          '[class.loading-bar-fixed]': 'fixed'
+        },
+        styles: [":host{position:relative;display:block}:host.loading-bar-fixed>div .bar{position:fixed}:host.loading-bar-fixed>div#loading-bar-spinner{position:fixed;top:10px;left:10px}[dir=rtl] :host.loading-bar-fixed>div#loading-bar-spinner{right:10px;left:unset}:host.loading-bar-fixed>div .peg{display:block}:host>div{pointer-events:none;transition:350ms linear;color:#29d}:host>div .bar{transition:width 350ms;background:#29d;position:absolute;z-index:10002;top:0;left:0;width:100%;height:2px;border-bottom-right-radius:1px;border-top-right-radius:1px}[dir=rtl] :host>div .bar{right:0;left:unset}:host>div .peg{display:none;position:absolute;width:70px;right:0;top:0;height:2px;opacity:.45;box-shadow:1px 0 6px 1px;color:inherit;border-radius:100%}:host>div#loading-bar-spinner{display:block;position:absolute;z-index:10002;top:5px;left:0}:host>div#loading-bar-spinner .spinner-icon{width:14px;height:14px;border:2px solid transparent;border-top-color:inherit;border-left-color:inherit;border-radius:50%;-webkit-animation:.4s linear infinite loading-bar-spinner;animation:.4s linear infinite loading-bar-spinner}@-webkit-keyframes loading-bar-spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes loading-bar-spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}"]
+      }]
+    }];
+    /** @nocollapse */
+
+    LoadingBarComponent.ctorParameters = function () {
+      return [{
+        type: LoadingBarService
+      }];
+    };
+
+    LoadingBarComponent.propDecorators = {
+      includeSpinner: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      includeBar: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      fixed: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      color: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      height: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      diameter: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }],
+      value: [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+      }]
+    };
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    var LoadingBarModule = function LoadingBarModule() {
+      _classCallCheck(this, LoadingBarModule);
+    };
+
+    LoadingBarModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        imports: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["CommonModule"]],
+        declarations: [LoadingBarComponent],
+        exports: [LoadingBarComponent]
+      }]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    //# sourceMappingURL=ngx-loading-bar-core.js.map
+
+    /***/
+  },
+
+  /***/
+  "./node_modules/@ngx-loading-bar/http-client/fesm2015/ngx-loading-bar-http-client.js":
+  /*!*******************************************************************************************!*\
+    !*** ./node_modules/@ngx-loading-bar/http-client/fesm2015/ngx-loading-bar-http-client.js ***!
+    \*******************************************************************************************/
+
+  /*! exports provided: LoadingBarHttpClientModule, ɵa */
+
+  /***/
+  function node_modulesNgxLoadingBarHttpClientFesm2015NgxLoadingBarHttpClientJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoadingBarHttpClientModule", function () {
+      return LoadingBarHttpClientModule;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ɵa", function () {
+      return LoadingBarInterceptor;
+    });
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @ngx-loading-bar/core */
+    "./node_modules/@ngx-loading-bar/core/fesm2015/ngx-loading-bar-core.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+
+    var LoadingBarInterceptor = /*#__PURE__*/function () {
+      /**
+       * @param {?} loadingBar
+       */
+      function LoadingBarInterceptor(loadingBar) {
+        _classCallCheck(this, LoadingBarInterceptor);
+
+        this.loadingBar = loadingBar;
+      }
+      /**
+       * @param {?} req
+       * @param {?} next
+       * @return {?}
+       */
+
+
+      _createClass2(LoadingBarInterceptor, [{
+        key: "intercept",
+        value: function intercept(req, next) {
+          var _this176 = this;
+
+          // https://github.com/angular/angular/issues/18155
+          if (req.headers.has('ignoreLoadingBar')) {
+            return next.handle(req.clone({
+              headers: req.headers["delete"]('ignoreLoadingBar')
+            }));
+          }
+          /** @type {?} */
+
+
+          var r = next.handle(req);
+          /** @type {?} */
+
+          var started = false;
+          /** @type {?} */
+
+          var responseSubscribe = r.subscribe.bind(r);
+
+          r.subscribe = function () {
+            _this176.loadingBar.start();
+
+            started = true;
+            return responseSubscribe.apply(void 0, arguments);
+          };
+
+          return r.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["finalize"])(function () {
+            return started && _this176.loadingBar.complete();
+          }));
+        }
+      }]);
+
+      return LoadingBarInterceptor;
+    }();
+
+    LoadingBarInterceptor.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"]
+    }];
+    /** @nocollapse */
+
+    LoadingBarInterceptor.ctorParameters = function () {
+      return [{
+        type: _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_1__["LoadingBarService"]
+      }];
+    };
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+
+    var LoadingBarHttpClientModule = function LoadingBarHttpClientModule() {
+      _classCallCheck(this, LoadingBarHttpClientModule);
+    };
+
+    LoadingBarHttpClientModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
+      args: [{
+        imports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClientModule"], _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_1__["LoadingBarModule"]],
+        exports: [_angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpClientModule"], _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_1__["LoadingBarModule"]],
+        providers: [{
+          provide: _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HTTP_INTERCEPTORS"],
+          useClass: LoadingBarInterceptor,
+          multi: true
+        }]
+      }]
+    }];
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    //# sourceMappingURL=ngx-loading-bar-http-client.js.map
+
+    /***/
+  },
+
+  /***/
+  "./node_modules/@ngx-loading-bar/router/fesm2015/ngx-loading-bar-router.js":
+  /*!*********************************************************************************!*\
+    !*** ./node_modules/@ngx-loading-bar/router/fesm2015/ngx-loading-bar-router.js ***!
+    \*********************************************************************************/
+
+  /*! exports provided: LoadingBarRouterModule */
+
+  /***/
+  function node_modulesNgxLoadingBarRouterFesm2015NgxLoadingBarRouterJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoadingBarRouterModule", function () {
+      return LoadingBarRouterModule;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @ngx-loading-bar/core */
+    "./node_modules/@ngx-loading-bar/core/fesm2015/ngx-loading-bar-core.js");
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+
+    var LoadingBarRouterModule = /*#__PURE__*/function () {
+      /**
+       * @param {?} router
+       * @param {?} loadingBar
+       */
+      function LoadingBarRouterModule(router, loadingBar) {
+        var _this177 = this;
+
+        _classCallCheck(this, LoadingBarRouterModule);
+
+        router.events.subscribe(function (event) {
+          /** @type {?} */
+          var state = _this177.getCurrentNavigationState(router);
+
+          if (state && state.ignoreLoadingBar) {
+            return;
+          }
+
+          if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationStart"]) {
+            loadingBar.start();
+          }
+
+          if (event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationError"] || event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationEnd"] || event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_1__["NavigationCancel"]) {
+            loadingBar.complete();
+          }
+        });
+      }
+      /**
+       * @private
+       * @param {?} router
+       * @return {?}
+       */
+
+
+      _createClass2(LoadingBarRouterModule, [{
+        key: "getCurrentNavigationState",
+        value: function getCurrentNavigationState(router) {
+          // `getCurrentNavigation` only available in angular `7.2`
+
+          /** @type {?} */
+          var currentNavigation = router.getCurrentNavigation && router.getCurrentNavigation();
+
+          if (currentNavigation && currentNavigation.extras) {
+            return currentNavigation.extras.state;
+          }
+
+          return {};
+        }
+      }]);
+
+      return LoadingBarRouterModule;
+    }();
+
+    LoadingBarRouterModule.decorators = [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+      args: [{
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"], _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_2__["LoadingBarModule"]],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"], _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_2__["LoadingBarModule"]]
+      }]
+    }];
+    /** @nocollapse */
+
+    LoadingBarRouterModule.ctorParameters = function () {
+      return [{
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"]
+      }, {
+        type: _ngx_loading_bar_core__WEBPACK_IMPORTED_MODULE_2__["LoadingBarService"]
+      }];
+    };
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+
+    /**
+     * @fileoverview added by tsickle
+     * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+     */
+    //# sourceMappingURL=ngx-loading-bar-router.js.map
+
+    /***/
+
   },
 
   /***/
@@ -101522,18 +104326,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AsyncSubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP) {
       _inherits(AsyncSubject, _Subject__WEBPACK_IMP);
 
-      var _super56 = _createSuper(AsyncSubject);
+      var _super59 = _createSuper(AsyncSubject);
 
       function AsyncSubject() {
-        var _this161;
+        var _this178;
 
         _classCallCheck(this, AsyncSubject);
 
-        _this161 = _super56.apply(this, arguments);
-        _this161.value = null;
-        _this161.hasNext = false;
-        _this161.hasCompleted = false;
-        return _this161;
+        _this178 = _super59.apply(this, arguments);
+        _this178.value = null;
+        _this178.hasNext = false;
+        _this178.hasCompleted = false;
+        return _this178;
       }
 
       _createClass2(AsyncSubject, [{
@@ -101620,16 +104424,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BehaviorSubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP2) {
       _inherits(BehaviorSubject, _Subject__WEBPACK_IMP2);
 
-      var _super57 = _createSuper(BehaviorSubject);
+      var _super60 = _createSuper(BehaviorSubject);
 
       function BehaviorSubject(_value) {
-        var _this162;
+        var _this179;
 
         _classCallCheck(this, BehaviorSubject);
 
-        _this162 = _super57.call(this);
-        _this162._value = _value;
-        return _this162;
+        _this179 = _super60.call(this);
+        _this179._value = _value;
+        return _this179;
       }
 
       _createClass2(BehaviorSubject, [{
@@ -101702,19 +104506,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var InnerSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_) {
       _inherits(InnerSubscriber, _Subscriber__WEBPACK_);
 
-      var _super58 = _createSuper(InnerSubscriber);
+      var _super61 = _createSuper(InnerSubscriber);
 
       function InnerSubscriber(parent, outerValue, outerIndex) {
-        var _this163;
+        var _this180;
 
         _classCallCheck(this, InnerSubscriber);
 
-        _this163 = _super58.call(this);
-        _this163.parent = parent;
-        _this163.outerValue = outerValue;
-        _this163.outerIndex = outerIndex;
-        _this163.index = 0;
-        return _this163;
+        _this180 = _super61.call(this);
+        _this180.parent = parent;
+        _this180.outerValue = outerValue;
+        _this180.outerIndex = outerIndex;
+        _this180.index = 0;
+        return _this180;
       }
 
       _createClass2(InnerSubscriber, [{
@@ -102006,12 +104810,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "forEach",
         value: function forEach(next, promiseCtor) {
-          var _this164 = this;
+          var _this181 = this;
 
           promiseCtor = getPromiseCtor(promiseCtor);
           return new promiseCtor(function (resolve, reject) {
             var subscription;
-            subscription = _this164.subscribe(function (value) {
+            subscription = _this181.subscribe(function (value) {
               try {
                 next(value);
               } catch (err) {
@@ -102051,13 +104855,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "toPromise",
         value: function toPromise(promiseCtor) {
-          var _this165 = this;
+          var _this182 = this;
 
           promiseCtor = getPromiseCtor(promiseCtor);
           return new promiseCtor(function (resolve, reject) {
             var value;
 
-            _this165.subscribe(function (x) {
+            _this182.subscribe(function (x) {
               return value = x;
             }, function (err) {
               return reject(err);
@@ -102168,12 +104972,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var OuterSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_2) {
       _inherits(OuterSubscriber, _Subscriber__WEBPACK_2);
 
-      var _super59 = _createSuper(OuterSubscriber);
+      var _super62 = _createSuper(OuterSubscriber);
 
       function OuterSubscriber() {
         _classCallCheck(this, OuterSubscriber);
 
-        return _super59.apply(this, arguments);
+        return _super62.apply(this, arguments);
       }
 
       _createClass2(OuterSubscriber, [{
@@ -102259,10 +105063,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ReplaySubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP3) {
       _inherits(ReplaySubject, _Subject__WEBPACK_IMP3);
 
-      var _super60 = _createSuper(ReplaySubject);
+      var _super63 = _createSuper(ReplaySubject);
 
       function ReplaySubject() {
-        var _this166;
+        var _this183;
 
         var bufferSize = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : Number.POSITIVE_INFINITY;
         var windowTime = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
@@ -102270,21 +105074,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _classCallCheck(this, ReplaySubject);
 
-        _this166 = _super60.call(this);
-        _this166.scheduler = scheduler;
-        _this166._events = [];
-        _this166._infiniteTimeWindow = false;
-        _this166._bufferSize = bufferSize < 1 ? 1 : bufferSize;
-        _this166._windowTime = windowTime < 1 ? 1 : windowTime;
+        _this183 = _super63.call(this);
+        _this183.scheduler = scheduler;
+        _this183._events = [];
+        _this183._infiniteTimeWindow = false;
+        _this183._bufferSize = bufferSize < 1 ? 1 : bufferSize;
+        _this183._windowTime = windowTime < 1 ? 1 : windowTime;
 
         if (windowTime === Number.POSITIVE_INFINITY) {
-          _this166._infiniteTimeWindow = true;
-          _this166.next = _this166.nextInfiniteTimeWindow;
+          _this183._infiniteTimeWindow = true;
+          _this183.next = _this183.nextInfiniteTimeWindow;
         } else {
-          _this166.next = _this166.nextTimeWindow;
+          _this183.next = _this183.nextTimeWindow;
         }
 
-        return _this166;
+        return _this183;
       }
 
       _createClass2(ReplaySubject, [{
@@ -102522,16 +105326,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SubjectSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_3) {
       _inherits(SubjectSubscriber, _Subscriber__WEBPACK_3);
 
-      var _super61 = _createSuper(SubjectSubscriber);
+      var _super64 = _createSuper(SubjectSubscriber);
 
       function SubjectSubscriber(destination) {
-        var _this167;
+        var _this184;
 
         _classCallCheck(this, SubjectSubscriber);
 
-        _this167 = _super61.call(this, destination);
-        _this167.destination = destination;
-        return _this167;
+        _this184 = _super64.call(this, destination);
+        _this184.destination = destination;
+        return _this184;
       }
 
       return SubjectSubscriber;
@@ -102540,20 +105344,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var Subject = /*#__PURE__*/function (_Observable__WEBPACK_) {
       _inherits(Subject, _Observable__WEBPACK_);
 
-      var _super62 = _createSuper(Subject);
+      var _super65 = _createSuper(Subject);
 
       function Subject() {
-        var _this168;
+        var _this185;
 
         _classCallCheck(this, Subject);
 
-        _this168 = _super62.call(this);
-        _this168.observers = [];
-        _this168.closed = false;
-        _this168.isStopped = false;
-        _this168.hasError = false;
-        _this168.thrownError = null;
-        return _this168;
+        _this185 = _super65.call(this);
+        _this185.observers = [];
+        _this185.closed = false;
+        _this185.isStopped = false;
+        _this185.hasError = false;
+        _this185.thrownError = null;
+        return _this185;
       }
 
       _createClass2(Subject, [{
@@ -102674,17 +105478,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AnonymousSubject = /*#__PURE__*/function (_Subject) {
       _inherits(AnonymousSubject, _Subject);
 
-      var _super63 = _createSuper(AnonymousSubject);
+      var _super66 = _createSuper(AnonymousSubject);
 
       function AnonymousSubject(destination, source) {
-        var _this169;
+        var _this186;
 
         _classCallCheck(this, AnonymousSubject);
 
-        _this169 = _super63.call(this);
-        _this169.destination = destination;
-        _this169.source = source;
-        return _this169;
+        _this186 = _super66.call(this);
+        _this186.destination = destination;
+        _this186.source = source;
+        return _this186;
       }
 
       _createClass2(AnonymousSubject, [{
@@ -102763,18 +105567,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SubjectSubscription = /*#__PURE__*/function (_Subscription__WEBPAC) {
       _inherits(SubjectSubscription, _Subscription__WEBPAC);
 
-      var _super64 = _createSuper(SubjectSubscription);
+      var _super67 = _createSuper(SubjectSubscription);
 
       function SubjectSubscription(subject, subscriber) {
-        var _this170;
+        var _this187;
 
         _classCallCheck(this, SubjectSubscription);
 
-        _this170 = _super64.call(this);
-        _this170.subject = subject;
-        _this170.subscriber = subscriber;
-        _this170.closed = false;
-        return _this170;
+        _this187 = _super67.call(this);
+        _this187.subject = subject;
+        _this187.subscriber = subscriber;
+        _this187.closed = false;
+        return _this187;
       }
 
       _createClass2(SubjectSubscription, [{
@@ -102873,50 +105677,50 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var Subscriber = /*#__PURE__*/function (_Subscription__WEBPAC2) {
       _inherits(Subscriber, _Subscription__WEBPAC2);
 
-      var _super65 = _createSuper(Subscriber);
+      var _super68 = _createSuper(Subscriber);
 
       function Subscriber(destinationOrNext, error, complete) {
-        var _this171;
+        var _this188;
 
         _classCallCheck(this, Subscriber);
 
-        _this171 = _super65.call(this);
-        _this171.syncErrorValue = null;
-        _this171.syncErrorThrown = false;
-        _this171.syncErrorThrowable = false;
-        _this171.isStopped = false;
+        _this188 = _super68.call(this);
+        _this188.syncErrorValue = null;
+        _this188.syncErrorThrown = false;
+        _this188.syncErrorThrowable = false;
+        _this188.isStopped = false;
 
         switch (arguments.length) {
           case 0:
-            _this171.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
+            _this188.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
             break;
 
           case 1:
             if (!destinationOrNext) {
-              _this171.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
+              _this188.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
               break;
             }
 
             if (typeof destinationOrNext === 'object') {
               if (destinationOrNext instanceof Subscriber) {
-                _this171.syncErrorThrowable = destinationOrNext.syncErrorThrowable;
-                _this171.destination = destinationOrNext;
-                destinationOrNext.add(_assertThisInitialized(_this171));
+                _this188.syncErrorThrowable = destinationOrNext.syncErrorThrowable;
+                _this188.destination = destinationOrNext;
+                destinationOrNext.add(_assertThisInitialized(_this188));
               } else {
-                _this171.syncErrorThrowable = true;
-                _this171.destination = new SafeSubscriber(_assertThisInitialized(_this171), destinationOrNext);
+                _this188.syncErrorThrowable = true;
+                _this188.destination = new SafeSubscriber(_assertThisInitialized(_this188), destinationOrNext);
               }
 
               break;
             }
 
           default:
-            _this171.syncErrorThrowable = true;
-            _this171.destination = new SafeSubscriber(_assertThisInitialized(_this171), destinationOrNext, error, complete);
+            _this188.syncErrorThrowable = true;
+            _this188.destination = new SafeSubscriber(_assertThisInitialized(_this188), destinationOrNext, error, complete);
             break;
         }
 
-        return _this171;
+        return _this188;
       }
 
       _createClass2(Subscriber, [{
@@ -103003,18 +105807,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SafeSubscriber = /*#__PURE__*/function (_Subscriber) {
       _inherits(SafeSubscriber, _Subscriber);
 
-      var _super66 = _createSuper(SafeSubscriber);
+      var _super69 = _createSuper(SafeSubscriber);
 
       function SafeSubscriber(_parentSubscriber, observerOrNext, error, complete) {
-        var _this172;
+        var _this189;
 
         _classCallCheck(this, SafeSubscriber);
 
-        _this172 = _super66.call(this);
-        _this172._parentSubscriber = _parentSubscriber;
+        _this189 = _super69.call(this);
+        _this189._parentSubscriber = _parentSubscriber;
         var next;
 
-        var context = _assertThisInitialized(_this172);
+        var context = _assertThisInitialized(_this189);
 
         if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_0__["isFunction"])(observerOrNext)) {
           next = observerOrNext;
@@ -103027,18 +105831,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             context = Object.create(observerOrNext);
 
             if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_0__["isFunction"])(context.unsubscribe)) {
-              _this172.add(context.unsubscribe.bind(context));
+              _this189.add(context.unsubscribe.bind(context));
             }
 
-            context.unsubscribe = _this172.unsubscribe.bind(_assertThisInitialized(_this172));
+            context.unsubscribe = _this189.unsubscribe.bind(_assertThisInitialized(_this189));
           }
         }
 
-        _this172._context = context;
-        _this172._next = next;
-        _this172._error = error;
-        _this172._complete = complete;
-        return _this172;
+        _this189._context = context;
+        _this189._next = next;
+        _this189._error = error;
+        _this189._complete = complete;
+        return _this189;
       }
 
       _createClass2(SafeSubscriber, [{
@@ -103094,14 +105898,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "complete",
         value: function complete() {
-          var _this173 = this;
+          var _this190 = this;
 
           if (!this.isStopped) {
             var _parentSubscriber = this._parentSubscriber;
 
             if (this._complete) {
               var wrappedComplete = function wrappedComplete() {
-                return _this173._complete.call(_this173._context);
+                return _this190._complete.call(_this190._context);
               };
 
               if (!_config__WEBPACK_IMPORTED_MODULE_4__["config"].useDeprecatedSynchronousErrorHandling || !_parentSubscriber.syncErrorThrowable) {
@@ -103487,19 +106291,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ConnectableObservable = /*#__PURE__*/function (_Observable__WEBPACK_2) {
       _inherits(ConnectableObservable, _Observable__WEBPACK_2);
 
-      var _super67 = _createSuper(ConnectableObservable);
+      var _super70 = _createSuper(ConnectableObservable);
 
       function ConnectableObservable(source, subjectFactory) {
-        var _this174;
+        var _this191;
 
         _classCallCheck(this, ConnectableObservable);
 
-        _this174 = _super67.call(this);
-        _this174.source = source;
-        _this174.subjectFactory = subjectFactory;
-        _this174._refCount = 0;
-        _this174._isComplete = false;
-        return _this174;
+        _this191 = _super70.call(this);
+        _this191.source = source;
+        _this191.subjectFactory = subjectFactory;
+        _this191._refCount = 0;
+        _this191._isComplete = false;
+        return _this191;
       }
 
       _createClass2(ConnectableObservable, [{
@@ -103586,16 +106390,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ConnectableSubscriber = /*#__PURE__*/function (_Subject__WEBPACK_IMP4) {
       _inherits(ConnectableSubscriber, _Subject__WEBPACK_IMP4);
 
-      var _super68 = _createSuper(ConnectableSubscriber);
+      var _super71 = _createSuper(ConnectableSubscriber);
 
       function ConnectableSubscriber(destination, connectable) {
-        var _this175;
+        var _this192;
 
         _classCallCheck(this, ConnectableSubscriber);
 
-        _this175 = _super68.call(this, destination);
-        _this175.connectable = connectable;
-        return _this175;
+        _this192 = _super71.call(this, destination);
+        _this192.connectable = connectable;
+        return _this192;
       }
 
       _createClass2(ConnectableSubscriber, [{
@@ -103665,16 +106469,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RefCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_4) {
       _inherits(RefCountSubscriber, _Subscriber__WEBPACK_4);
 
-      var _super69 = _createSuper(RefCountSubscriber);
+      var _super72 = _createSuper(RefCountSubscriber);
 
       function RefCountSubscriber(destination, connectable) {
-        var _this176;
+        var _this193;
 
         _classCallCheck(this, RefCountSubscriber);
 
-        _this176 = _super69.call(this, destination);
-        _this176.connectable = connectable;
-        return _this176;
+        _this193 = _super72.call(this, destination);
+        _this193.connectable = connectable;
+        return _this193;
       }
 
       _createClass2(RefCountSubscriber, [{
@@ -103760,30 +106564,30 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SubscribeOnObservable = /*#__PURE__*/function (_Observable__WEBPACK_3) {
       _inherits(SubscribeOnObservable, _Observable__WEBPACK_3);
 
-      var _super70 = _createSuper(SubscribeOnObservable);
+      var _super73 = _createSuper(SubscribeOnObservable);
 
       function SubscribeOnObservable(source) {
-        var _this177;
+        var _this194;
 
         var delayTime = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
         var scheduler = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
 
         _classCallCheck(this, SubscribeOnObservable);
 
-        _this177 = _super70.call(this);
-        _this177.source = source;
-        _this177.delayTime = delayTime;
-        _this177.scheduler = scheduler;
+        _this194 = _super73.call(this);
+        _this194.source = source;
+        _this194.delayTime = delayTime;
+        _this194.scheduler = scheduler;
 
         if (!Object(_util_isNumeric__WEBPACK_IMPORTED_MODULE_2__["isNumeric"])(delayTime) || delayTime < 0) {
-          _this177.delayTime = 0;
+          _this194.delayTime = 0;
         }
 
         if (!scheduler || typeof scheduler.schedule !== 'function') {
-          _this177.scheduler = _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
+          _this194.scheduler = _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
         }
 
-        return _this177;
+        return _this194;
       }
 
       _createClass2(SubscribeOnObservable, [{
@@ -103941,7 +106745,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function dispatch(state) {
-      var _this178 = this;
+      var _this195 = this;
 
       var self = this;
       var args = state.args,
@@ -103962,7 +106766,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           var value = innerArgs.length <= 1 ? innerArgs[0] : innerArgs;
 
-          _this178.add(scheduler.schedule(dispatchNext, 0, {
+          _this195.add(scheduler.schedule(dispatchNext, 0, {
             value: value,
             subject: subject
           }));
@@ -104124,7 +106928,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function dispatch(state) {
-      var _this179 = this;
+      var _this196 = this;
 
       var params = state.params,
           subscriber = state.subscriber,
@@ -104145,14 +106949,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var err = innerArgs.shift();
 
           if (err) {
-            _this179.add(scheduler.schedule(dispatchError, 0, {
+            _this196.add(scheduler.schedule(dispatchError, 0, {
               err: err,
               subject: subject
             }));
           } else {
             var value = innerArgs.length <= 1 ? innerArgs[0] : innerArgs;
 
-            _this179.add(scheduler.schedule(dispatchNext, 0, {
+            _this196.add(scheduler.schedule(dispatchNext, 0, {
               value: value,
               subject: subject
             }));
@@ -104296,19 +107100,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var CombineLatestSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB) {
       _inherits(CombineLatestSubscriber, _OuterSubscriber__WEB);
 
-      var _super71 = _createSuper(CombineLatestSubscriber);
+      var _super74 = _createSuper(CombineLatestSubscriber);
 
       function CombineLatestSubscriber(destination, resultSelector) {
-        var _this180;
+        var _this197;
 
         _classCallCheck(this, CombineLatestSubscriber);
 
-        _this180 = _super71.call(this, destination);
-        _this180.resultSelector = resultSelector;
-        _this180.active = 0;
-        _this180.values = [];
-        _this180.observables = [];
-        return _this180;
+        _this197 = _super74.call(this, destination);
+        _this197.resultSelector = resultSelector;
+        _this197.active = 0;
+        _this197.values = [];
+        _this197.observables = [];
+        return _this197;
       }
 
       _createClass2(CombineLatestSubscriber, [{
@@ -105775,18 +108579,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RaceSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB2) {
       _inherits(RaceSubscriber, _OuterSubscriber__WEB2);
 
-      var _super72 = _createSuper(RaceSubscriber);
+      var _super75 = _createSuper(RaceSubscriber);
 
       function RaceSubscriber(destination) {
-        var _this181;
+        var _this198;
 
         _classCallCheck(this, RaceSubscriber);
 
-        _this181 = _super72.call(this, destination);
-        _this181.hasFirst = false;
-        _this181.observables = [];
-        _this181.subscriptions = [];
-        return _this181;
+        _this198 = _super75.call(this, destination);
+        _this198.hasFirst = false;
+        _this198.observables = [];
+        _this198.subscriptions = [];
+        return _this198;
       }
 
       _createClass2(RaceSubscriber, [{
@@ -105983,9 +108787,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    function dispatch(_ref12) {
-      var error = _ref12.error,
-          subscriber = _ref12.subscriber;
+    function dispatch(_ref14) {
+      var error = _ref14.error,
+          subscriber = _ref14.subscriber;
       subscriber.error(error);
     } //# sourceMappingURL=throwError.js.map
 
@@ -106259,21 +109063,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ZipSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_5) {
       _inherits(ZipSubscriber, _Subscriber__WEBPACK_5);
 
-      var _super73 = _createSuper(ZipSubscriber);
+      var _super76 = _createSuper(ZipSubscriber);
 
       function ZipSubscriber(destination, resultSelector) {
-        var _this182;
+        var _this199;
 
         var values = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : Object.create(null);
 
         _classCallCheck(this, ZipSubscriber);
 
-        _this182 = _super73.call(this, destination);
-        _this182.iterators = [];
-        _this182.active = 0;
-        _this182.resultSelector = typeof resultSelector === 'function' ? resultSelector : null;
-        _this182.values = values;
-        return _this182;
+        _this199 = _super76.call(this, destination);
+        _this199.iterators = [];
+        _this199.active = 0;
+        _this199.resultSelector = typeof resultSelector === 'function' ? resultSelector : null;
+        _this199.values = values;
+        return _this199;
       }
 
       _createClass2(ZipSubscriber, [{
@@ -106464,20 +109268,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ZipBufferIterator = /*#__PURE__*/function (_OuterSubscriber__WEB3) {
       _inherits(ZipBufferIterator, _OuterSubscriber__WEB3);
 
-      var _super74 = _createSuper(ZipBufferIterator);
+      var _super77 = _createSuper(ZipBufferIterator);
 
       function ZipBufferIterator(destination, parent, observable) {
-        var _this183;
+        var _this200;
 
         _classCallCheck(this, ZipBufferIterator);
 
-        _this183 = _super74.call(this, destination);
-        _this183.parent = parent;
-        _this183.observable = observable;
-        _this183.stillUnsubscribed = true;
-        _this183.buffer = [];
-        _this183.isComplete = false;
-        return _this183;
+        _this200 = _super77.call(this, destination);
+        _this200.parent = parent;
+        _this200.observable = observable;
+        _this200.stillUnsubscribed = true;
+        _this200.buffer = [];
+        _this200.isComplete = false;
+        return _this200;
       }
 
       _createClass2(ZipBufferIterator, [{
@@ -106600,17 +109404,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AuditSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB4) {
       _inherits(AuditSubscriber, _OuterSubscriber__WEB4);
 
-      var _super75 = _createSuper(AuditSubscriber);
+      var _super78 = _createSuper(AuditSubscriber);
 
       function AuditSubscriber(destination, durationSelector) {
-        var _this184;
+        var _this201;
 
         _classCallCheck(this, AuditSubscriber);
 
-        _this184 = _super75.call(this, destination);
-        _this184.durationSelector = durationSelector;
-        _this184.hasValue = false;
-        return _this184;
+        _this201 = _super78.call(this, destination);
+        _this201.durationSelector = durationSelector;
+        _this201.hasValue = false;
+        return _this201;
       }
 
       _createClass2(AuditSubscriber, [{
@@ -106783,19 +109587,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BufferSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB5) {
       _inherits(BufferSubscriber, _OuterSubscriber__WEB5);
 
-      var _super76 = _createSuper(BufferSubscriber);
+      var _super79 = _createSuper(BufferSubscriber);
 
       function BufferSubscriber(destination, closingNotifier) {
-        var _this185;
+        var _this202;
 
         _classCallCheck(this, BufferSubscriber);
 
-        _this185 = _super76.call(this, destination);
-        _this185.buffer = [];
+        _this202 = _super79.call(this, destination);
+        _this202.buffer = [];
 
-        _this185.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this185), closingNotifier));
+        _this202.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this202), closingNotifier));
 
-        return _this185;
+        return _this202;
       }
 
       _createClass2(BufferSubscriber, [{
@@ -106879,17 +109683,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BufferCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_6) {
       _inherits(BufferCountSubscriber, _Subscriber__WEBPACK_6);
 
-      var _super77 = _createSuper(BufferCountSubscriber);
+      var _super80 = _createSuper(BufferCountSubscriber);
 
       function BufferCountSubscriber(destination, bufferSize) {
-        var _this186;
+        var _this203;
 
         _classCallCheck(this, BufferCountSubscriber);
 
-        _this186 = _super77.call(this, destination);
-        _this186.bufferSize = bufferSize;
-        _this186.buffer = [];
-        return _this186;
+        _this203 = _super80.call(this, destination);
+        _this203.bufferSize = bufferSize;
+        _this203.buffer = [];
+        return _this203;
       }
 
       _createClass2(BufferCountSubscriber, [{
@@ -106922,19 +109726,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BufferSkipCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_7) {
       _inherits(BufferSkipCountSubscriber, _Subscriber__WEBPACK_7);
 
-      var _super78 = _createSuper(BufferSkipCountSubscriber);
+      var _super81 = _createSuper(BufferSkipCountSubscriber);
 
       function BufferSkipCountSubscriber(destination, bufferSize, startBufferEvery) {
-        var _this187;
+        var _this204;
 
         _classCallCheck(this, BufferSkipCountSubscriber);
 
-        _this187 = _super78.call(this, destination);
-        _this187.bufferSize = bufferSize;
-        _this187.startBufferEvery = startBufferEvery;
-        _this187.buffers = [];
-        _this187.count = 0;
-        return _this187;
+        _this204 = _super81.call(this, destination);
+        _this204.bufferSize = bufferSize;
+        _this204.startBufferEvery = startBufferEvery;
+        _this204.buffers = [];
+        _this204.count = 0;
+        return _this204;
       }
 
       _createClass2(BufferSkipCountSubscriber, [{
@@ -107078,50 +109882,50 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BufferTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_8) {
       _inherits(BufferTimeSubscriber, _Subscriber__WEBPACK_8);
 
-      var _super79 = _createSuper(BufferTimeSubscriber);
+      var _super82 = _createSuper(BufferTimeSubscriber);
 
       function BufferTimeSubscriber(destination, bufferTimeSpan, bufferCreationInterval, maxBufferSize, scheduler) {
-        var _this188;
+        var _this205;
 
         _classCallCheck(this, BufferTimeSubscriber);
 
-        _this188 = _super79.call(this, destination);
-        _this188.bufferTimeSpan = bufferTimeSpan;
-        _this188.bufferCreationInterval = bufferCreationInterval;
-        _this188.maxBufferSize = maxBufferSize;
-        _this188.scheduler = scheduler;
-        _this188.contexts = [];
+        _this205 = _super82.call(this, destination);
+        _this205.bufferTimeSpan = bufferTimeSpan;
+        _this205.bufferCreationInterval = bufferCreationInterval;
+        _this205.maxBufferSize = maxBufferSize;
+        _this205.scheduler = scheduler;
+        _this205.contexts = [];
 
-        var context = _this188.openContext();
+        var context = _this205.openContext();
 
-        _this188.timespanOnly = bufferCreationInterval == null || bufferCreationInterval < 0;
+        _this205.timespanOnly = bufferCreationInterval == null || bufferCreationInterval < 0;
 
-        if (_this188.timespanOnly) {
+        if (_this205.timespanOnly) {
           var timeSpanOnlyState = {
-            subscriber: _assertThisInitialized(_this188),
+            subscriber: _assertThisInitialized(_this205),
             context: context,
             bufferTimeSpan: bufferTimeSpan
           };
 
-          _this188.add(context.closeAction = scheduler.schedule(dispatchBufferTimeSpanOnly, bufferTimeSpan, timeSpanOnlyState));
+          _this205.add(context.closeAction = scheduler.schedule(dispatchBufferTimeSpanOnly, bufferTimeSpan, timeSpanOnlyState));
         } else {
           var closeState = {
-            subscriber: _assertThisInitialized(_this188),
+            subscriber: _assertThisInitialized(_this205),
             context: context
           };
           var creationState = {
             bufferTimeSpan: bufferTimeSpan,
             bufferCreationInterval: bufferCreationInterval,
-            subscriber: _assertThisInitialized(_this188),
+            subscriber: _assertThisInitialized(_this205),
             scheduler: scheduler
           };
 
-          _this188.add(context.closeAction = scheduler.schedule(dispatchBufferClose, bufferTimeSpan, closeState));
+          _this205.add(context.closeAction = scheduler.schedule(dispatchBufferClose, bufferTimeSpan, closeState));
 
-          _this188.add(scheduler.schedule(dispatchBufferCreation, bufferCreationInterval, creationState));
+          _this205.add(scheduler.schedule(dispatchBufferCreation, bufferCreationInterval, creationState));
         }
 
-        return _this188;
+        return _this205;
       }
 
       _createClass2(BufferTimeSubscriber, [{
@@ -107318,21 +110122,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BufferToggleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB6) {
       _inherits(BufferToggleSubscriber, _OuterSubscriber__WEB6);
 
-      var _super80 = _createSuper(BufferToggleSubscriber);
+      var _super83 = _createSuper(BufferToggleSubscriber);
 
       function BufferToggleSubscriber(destination, openings, closingSelector) {
-        var _this189;
+        var _this206;
 
         _classCallCheck(this, BufferToggleSubscriber);
 
-        _this189 = _super80.call(this, destination);
-        _this189.openings = openings;
-        _this189.closingSelector = closingSelector;
-        _this189.contexts = [];
+        _this206 = _super83.call(this, destination);
+        _this206.openings = openings;
+        _this206.closingSelector = closingSelector;
+        _this206.contexts = [];
 
-        _this189.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this189), openings));
+        _this206.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this206), openings));
 
-        return _this189;
+        return _this206;
       }
 
       _createClass2(BufferToggleSubscriber, [{
@@ -107510,20 +110314,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var BufferWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB7) {
       _inherits(BufferWhenSubscriber, _OuterSubscriber__WEB7);
 
-      var _super81 = _createSuper(BufferWhenSubscriber);
+      var _super84 = _createSuper(BufferWhenSubscriber);
 
       function BufferWhenSubscriber(destination, closingSelector) {
-        var _this190;
+        var _this207;
 
         _classCallCheck(this, BufferWhenSubscriber);
 
-        _this190 = _super81.call(this, destination);
-        _this190.closingSelector = closingSelector;
-        _this190.subscribing = false;
+        _this207 = _super84.call(this, destination);
+        _this207.closingSelector = closingSelector;
+        _this207.subscribing = false;
 
-        _this190.openBuffer();
+        _this207.openBuffer();
 
-        return _this190;
+        return _this207;
       }
 
       _createClass2(BufferWhenSubscriber, [{
@@ -107670,17 +110474,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var CatchSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB8) {
       _inherits(CatchSubscriber, _OuterSubscriber__WEB8);
 
-      var _super82 = _createSuper(CatchSubscriber);
+      var _super85 = _createSuper(CatchSubscriber);
 
       function CatchSubscriber(destination, selector, caught) {
-        var _this191;
+        var _this208;
 
         _classCallCheck(this, CatchSubscriber);
 
-        _this191 = _super82.call(this, destination);
-        _this191.selector = selector;
-        _this191.caught = caught;
-        return _this191;
+        _this208 = _super85.call(this, destination);
+        _this208.selector = selector;
+        _this208.caught = caught;
+        return _this208;
       }
 
       _createClass2(CatchSubscriber, [{
@@ -108014,19 +110818,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var CountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_9) {
       _inherits(CountSubscriber, _Subscriber__WEBPACK_9);
 
-      var _super83 = _createSuper(CountSubscriber);
+      var _super86 = _createSuper(CountSubscriber);
 
       function CountSubscriber(destination, predicate, source) {
-        var _this192;
+        var _this209;
 
         _classCallCheck(this, CountSubscriber);
 
-        _this192 = _super83.call(this, destination);
-        _this192.predicate = predicate;
-        _this192.source = source;
-        _this192.count = 0;
-        _this192.index = 0;
-        return _this192;
+        _this209 = _super86.call(this, destination);
+        _this209.predicate = predicate;
+        _this209.source = source;
+        _this209.count = 0;
+        _this209.index = 0;
+        return _this209;
       }
 
       _createClass2(CountSubscriber, [{
@@ -108127,18 +110931,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DebounceSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB9) {
       _inherits(DebounceSubscriber, _OuterSubscriber__WEB9);
 
-      var _super84 = _createSuper(DebounceSubscriber);
+      var _super87 = _createSuper(DebounceSubscriber);
 
       function DebounceSubscriber(destination, durationSelector) {
-        var _this193;
+        var _this210;
 
         _classCallCheck(this, DebounceSubscriber);
 
-        _this193 = _super84.call(this, destination);
-        _this193.durationSelector = durationSelector;
-        _this193.hasValue = false;
-        _this193.durationSubscription = null;
-        return _this193;
+        _this210 = _super87.call(this, destination);
+        _this210.durationSelector = durationSelector;
+        _this210.hasValue = false;
+        _this210.durationSubscription = null;
+        return _this210;
       }
 
       _createClass2(DebounceSubscriber, [{
@@ -108276,20 +111080,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DebounceTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_10) {
       _inherits(DebounceTimeSubscriber, _Subscriber__WEBPACK_10);
 
-      var _super85 = _createSuper(DebounceTimeSubscriber);
+      var _super88 = _createSuper(DebounceTimeSubscriber);
 
       function DebounceTimeSubscriber(destination, dueTime, scheduler) {
-        var _this194;
+        var _this211;
 
         _classCallCheck(this, DebounceTimeSubscriber);
 
-        _this194 = _super85.call(this, destination);
-        _this194.dueTime = dueTime;
-        _this194.scheduler = scheduler;
-        _this194.debouncedSubscription = null;
-        _this194.lastValue = null;
-        _this194.hasValue = false;
-        return _this194;
+        _this211 = _super88.call(this, destination);
+        _this211.dueTime = dueTime;
+        _this211.scheduler = scheduler;
+        _this211.debouncedSubscription = null;
+        _this211.lastValue = null;
+        _this211.hasValue = false;
+        return _this211;
       }
 
       _createClass2(DebounceTimeSubscriber, [{
@@ -108395,17 +111199,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DefaultIfEmptySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_11) {
       _inherits(DefaultIfEmptySubscriber, _Subscriber__WEBPACK_11);
 
-      var _super86 = _createSuper(DefaultIfEmptySubscriber);
+      var _super89 = _createSuper(DefaultIfEmptySubscriber);
 
       function DefaultIfEmptySubscriber(destination, defaultValue) {
-        var _this195;
+        var _this212;
 
         _classCallCheck(this, DefaultIfEmptySubscriber);
 
-        _this195 = _super86.call(this, destination);
-        _this195.defaultValue = defaultValue;
-        _this195.isEmpty = true;
-        return _this195;
+        _this212 = _super89.call(this, destination);
+        _this212.defaultValue = defaultValue;
+        _this212.isEmpty = true;
+        return _this212;
       }
 
       _createClass2(DefaultIfEmptySubscriber, [{
@@ -108506,20 +111310,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DelaySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_12) {
       _inherits(DelaySubscriber, _Subscriber__WEBPACK_12);
 
-      var _super87 = _createSuper(DelaySubscriber);
+      var _super90 = _createSuper(DelaySubscriber);
 
       function DelaySubscriber(destination, delay, scheduler) {
-        var _this196;
+        var _this213;
 
         _classCallCheck(this, DelaySubscriber);
 
-        _this196 = _super87.call(this, destination);
-        _this196.delay = delay;
-        _this196.scheduler = scheduler;
-        _this196.queue = [];
-        _this196.active = false;
-        _this196.errored = false;
-        return _this196;
+        _this213 = _super90.call(this, destination);
+        _this213.delay = delay;
+        _this213.scheduler = scheduler;
+        _this213.queue = [];
+        _this213.active = false;
+        _this213.errored = false;
+        return _this213;
       }
 
       _createClass2(DelaySubscriber, [{
@@ -108680,19 +111484,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DelayWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB10) {
       _inherits(DelayWhenSubscriber, _OuterSubscriber__WEB10);
 
-      var _super88 = _createSuper(DelayWhenSubscriber);
+      var _super91 = _createSuper(DelayWhenSubscriber);
 
       function DelayWhenSubscriber(destination, delayDurationSelector) {
-        var _this197;
+        var _this214;
 
         _classCallCheck(this, DelayWhenSubscriber);
 
-        _this197 = _super88.call(this, destination);
-        _this197.delayDurationSelector = delayDurationSelector;
-        _this197.completed = false;
-        _this197.delayNotifierSubscriptions = [];
-        _this197.index = 0;
-        return _this197;
+        _this214 = _super91.call(this, destination);
+        _this214.delayDurationSelector = delayDurationSelector;
+        _this214.completed = false;
+        _this214.delayNotifierSubscriptions = [];
+        _this214.index = 0;
+        return _this214;
       }
 
       _createClass2(DelayWhenSubscriber, [{
@@ -108778,17 +111582,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SubscriptionDelayObservable = /*#__PURE__*/function (_Observable__WEBPACK_4) {
       _inherits(SubscriptionDelayObservable, _Observable__WEBPACK_4);
 
-      var _super89 = _createSuper(SubscriptionDelayObservable);
+      var _super92 = _createSuper(SubscriptionDelayObservable);
 
       function SubscriptionDelayObservable(source, subscriptionDelay) {
-        var _this198;
+        var _this215;
 
         _classCallCheck(this, SubscriptionDelayObservable);
 
-        _this198 = _super89.call(this);
-        _this198.source = source;
-        _this198.subscriptionDelay = subscriptionDelay;
-        return _this198;
+        _this215 = _super92.call(this);
+        _this215.source = source;
+        _this215.subscriptionDelay = subscriptionDelay;
+        return _this215;
       }
 
       _createClass2(SubscriptionDelayObservable, [{
@@ -108804,18 +111608,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SubscriptionDelaySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_13) {
       _inherits(SubscriptionDelaySubscriber, _Subscriber__WEBPACK_13);
 
-      var _super90 = _createSuper(SubscriptionDelaySubscriber);
+      var _super93 = _createSuper(SubscriptionDelaySubscriber);
 
       function SubscriptionDelaySubscriber(parent, source) {
-        var _this199;
+        var _this216;
 
         _classCallCheck(this, SubscriptionDelaySubscriber);
 
-        _this199 = _super90.call(this);
-        _this199.parent = parent;
-        _this199.source = source;
-        _this199.sourceSubscribed = false;
-        return _this199;
+        _this216 = _super93.call(this);
+        _this216.parent = parent;
+        _this216.source = source;
+        _this216.sourceSubscribed = false;
+        return _this216;
       }
 
       _createClass2(SubscriptionDelaySubscriber, [{
@@ -108903,12 +111707,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DeMaterializeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_14) {
       _inherits(DeMaterializeSubscriber, _Subscriber__WEBPACK_14);
 
-      var _super91 = _createSuper(DeMaterializeSubscriber);
+      var _super94 = _createSuper(DeMaterializeSubscriber);
 
       function DeMaterializeSubscriber(destination) {
         _classCallCheck(this, DeMaterializeSubscriber);
 
-        return _super91.call(this, destination);
+        return _super94.call(this, destination);
       }
 
       _createClass2(DeMaterializeSubscriber, [{
@@ -108990,22 +111794,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DistinctSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB11) {
       _inherits(DistinctSubscriber, _OuterSubscriber__WEB11);
 
-      var _super92 = _createSuper(DistinctSubscriber);
+      var _super95 = _createSuper(DistinctSubscriber);
 
       function DistinctSubscriber(destination, keySelector, flushes) {
-        var _this200;
+        var _this217;
 
         _classCallCheck(this, DistinctSubscriber);
 
-        _this200 = _super92.call(this, destination);
-        _this200.keySelector = keySelector;
-        _this200.values = new Set();
+        _this217 = _super95.call(this, destination);
+        _this217.keySelector = keySelector;
+        _this217.values = new Set();
 
         if (flushes) {
-          _this200.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this200), flushes));
+          _this217.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this217), flushes));
         }
 
-        return _this200;
+        return _this217;
       }
 
       _createClass2(DistinctSubscriber, [{
@@ -109114,22 +111918,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var DistinctUntilChangedSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_15) {
       _inherits(DistinctUntilChangedSubscriber, _Subscriber__WEBPACK_15);
 
-      var _super93 = _createSuper(DistinctUntilChangedSubscriber);
+      var _super96 = _createSuper(DistinctUntilChangedSubscriber);
 
       function DistinctUntilChangedSubscriber(destination, compare, keySelector) {
-        var _this201;
+        var _this218;
 
         _classCallCheck(this, DistinctUntilChangedSubscriber);
 
-        _this201 = _super93.call(this, destination);
-        _this201.keySelector = keySelector;
-        _this201.hasKey = false;
+        _this218 = _super96.call(this, destination);
+        _this218.keySelector = keySelector;
+        _this218.hasKey = false;
 
         if (typeof compare === 'function') {
-          _this201.compare = compare;
+          _this218.compare = compare;
         }
 
-        return _this201;
+        return _this218;
       }
 
       _createClass2(DistinctUntilChangedSubscriber, [{
@@ -109381,20 +112185,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var EverySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_16) {
       _inherits(EverySubscriber, _Subscriber__WEBPACK_16);
 
-      var _super94 = _createSuper(EverySubscriber);
+      var _super97 = _createSuper(EverySubscriber);
 
       function EverySubscriber(destination, predicate, thisArg, source) {
-        var _this202;
+        var _this219;
 
         _classCallCheck(this, EverySubscriber);
 
-        _this202 = _super94.call(this, destination);
-        _this202.predicate = predicate;
-        _this202.thisArg = thisArg;
-        _this202.source = source;
-        _this202.index = 0;
-        _this202.thisArg = thisArg || _assertThisInitialized(_this202);
-        return _this202;
+        _this219 = _super97.call(this, destination);
+        _this219.predicate = predicate;
+        _this219.thisArg = thisArg;
+        _this219.source = source;
+        _this219.index = 0;
+        _this219.thisArg = thisArg || _assertThisInitialized(_this219);
+        return _this219;
       }
 
       _createClass2(EverySubscriber, [{
@@ -109489,17 +112293,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SwitchFirstSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB12) {
       _inherits(SwitchFirstSubscriber, _OuterSubscriber__WEB12);
 
-      var _super95 = _createSuper(SwitchFirstSubscriber);
+      var _super98 = _createSuper(SwitchFirstSubscriber);
 
       function SwitchFirstSubscriber(destination) {
-        var _this203;
+        var _this220;
 
         _classCallCheck(this, SwitchFirstSubscriber);
 
-        _this203 = _super95.call(this, destination);
-        _this203.hasCompleted = false;
-        _this203.hasSubscription = false;
-        return _this203;
+        _this220 = _super98.call(this, destination);
+        _this220.hasCompleted = false;
+        _this220.hasSubscription = false;
+        return _this220;
       }
 
       _createClass2(SwitchFirstSubscriber, [{
@@ -109624,19 +112428,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ExhaustMapSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB13) {
       _inherits(ExhaustMapSubscriber, _OuterSubscriber__WEB13);
 
-      var _super96 = _createSuper(ExhaustMapSubscriber);
+      var _super99 = _createSuper(ExhaustMapSubscriber);
 
       function ExhaustMapSubscriber(destination, project) {
-        var _this204;
+        var _this221;
 
         _classCallCheck(this, ExhaustMapSubscriber);
 
-        _this204 = _super96.call(this, destination);
-        _this204.project = project;
-        _this204.hasSubscription = false;
-        _this204.hasCompleted = false;
-        _this204.index = 0;
-        return _this204;
+        _this221 = _super99.call(this, destination);
+        _this221.project = project;
+        _this221.hasSubscription = false;
+        _this221.hasCompleted = false;
+        _this221.index = 0;
+        return _this221;
       }
 
       _createClass2(ExhaustMapSubscriber, [{
@@ -109791,26 +112595,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ExpandSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB14) {
       _inherits(ExpandSubscriber, _OuterSubscriber__WEB14);
 
-      var _super97 = _createSuper(ExpandSubscriber);
+      var _super100 = _createSuper(ExpandSubscriber);
 
       function ExpandSubscriber(destination, project, concurrent, scheduler) {
-        var _this205;
+        var _this222;
 
         _classCallCheck(this, ExpandSubscriber);
 
-        _this205 = _super97.call(this, destination);
-        _this205.project = project;
-        _this205.concurrent = concurrent;
-        _this205.scheduler = scheduler;
-        _this205.index = 0;
-        _this205.active = 0;
-        _this205.hasCompleted = false;
+        _this222 = _super100.call(this, destination);
+        _this222.project = project;
+        _this222.concurrent = concurrent;
+        _this222.scheduler = scheduler;
+        _this222.index = 0;
+        _this222.active = 0;
+        _this222.hasCompleted = false;
 
         if (concurrent < Number.POSITIVE_INFINITY) {
-          _this205.buffer = [];
+          _this222.buffer = [];
         }
 
-        return _this205;
+        return _this222;
       }
 
       _createClass2(ExpandSubscriber, [{
@@ -109963,18 +112767,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var FilterSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_17) {
       _inherits(FilterSubscriber, _Subscriber__WEBPACK_17);
 
-      var _super98 = _createSuper(FilterSubscriber);
+      var _super101 = _createSuper(FilterSubscriber);
 
       function FilterSubscriber(destination, predicate, thisArg) {
-        var _this206;
+        var _this223;
 
         _classCallCheck(this, FilterSubscriber);
 
-        _this206 = _super98.call(this, destination);
-        _this206.predicate = predicate;
-        _this206.thisArg = thisArg;
-        _this206.count = 0;
-        return _this206;
+        _this223 = _super101.call(this, destination);
+        _this223.predicate = predicate;
+        _this223.thisArg = thisArg;
+        _this223.count = 0;
+        return _this223;
       }
 
       _createClass2(FilterSubscriber, [{
@@ -110060,18 +112864,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var FinallySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_18) {
       _inherits(FinallySubscriber, _Subscriber__WEBPACK_18);
 
-      var _super99 = _createSuper(FinallySubscriber);
+      var _super102 = _createSuper(FinallySubscriber);
 
       function FinallySubscriber(destination, callback) {
-        var _this207;
+        var _this224;
 
         _classCallCheck(this, FinallySubscriber);
 
-        _this207 = _super99.call(this, destination);
+        _this224 = _super102.call(this, destination);
 
-        _this207.add(new _Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"](callback));
+        _this224.add(new _Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"](callback));
 
-        return _this207;
+        return _this224;
       }
 
       return FinallySubscriber;
@@ -110152,20 +112956,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var FindValueSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_19) {
       _inherits(FindValueSubscriber, _Subscriber__WEBPACK_19);
 
-      var _super100 = _createSuper(FindValueSubscriber);
+      var _super103 = _createSuper(FindValueSubscriber);
 
       function FindValueSubscriber(destination, predicate, source, yieldIndex, thisArg) {
-        var _this208;
+        var _this225;
 
         _classCallCheck(this, FindValueSubscriber);
 
-        _this208 = _super100.call(this, destination);
-        _this208.predicate = predicate;
-        _this208.source = source;
-        _this208.yieldIndex = yieldIndex;
-        _this208.thisArg = thisArg;
-        _this208.index = 0;
-        return _this208;
+        _this225 = _super103.call(this, destination);
+        _this225.predicate = predicate;
+        _this225.source = source;
+        _this225.yieldIndex = yieldIndex;
+        _this225.thisArg = thisArg;
+        _this225.index = 0;
+        return _this225;
       }
 
       _createClass2(FindValueSubscriber, [{
@@ -110393,22 +113197,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var GroupBySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_20) {
       _inherits(GroupBySubscriber, _Subscriber__WEBPACK_20);
 
-      var _super101 = _createSuper(GroupBySubscriber);
+      var _super104 = _createSuper(GroupBySubscriber);
 
       function GroupBySubscriber(destination, keySelector, elementSelector, durationSelector, subjectSelector) {
-        var _this209;
+        var _this226;
 
         _classCallCheck(this, GroupBySubscriber);
 
-        _this209 = _super101.call(this, destination);
-        _this209.keySelector = keySelector;
-        _this209.elementSelector = elementSelector;
-        _this209.durationSelector = durationSelector;
-        _this209.subjectSelector = subjectSelector;
-        _this209.groups = null;
-        _this209.attemptedToUnsubscribe = false;
-        _this209.count = 0;
-        return _this209;
+        _this226 = _super104.call(this, destination);
+        _this226.keySelector = keySelector;
+        _this226.elementSelector = elementSelector;
+        _this226.durationSelector = durationSelector;
+        _this226.subjectSelector = subjectSelector;
+        _this226.groups = null;
+        _this226.attemptedToUnsubscribe = false;
+        _this226.count = 0;
+        return _this226;
       }
 
       _createClass2(GroupBySubscriber, [{
@@ -110523,18 +113327,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var GroupDurationSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_21) {
       _inherits(GroupDurationSubscriber, _Subscriber__WEBPACK_21);
 
-      var _super102 = _createSuper(GroupDurationSubscriber);
+      var _super105 = _createSuper(GroupDurationSubscriber);
 
       function GroupDurationSubscriber(key, group, parent) {
-        var _this210;
+        var _this227;
 
         _classCallCheck(this, GroupDurationSubscriber);
 
-        _this210 = _super102.call(this, group);
-        _this210.key = key;
-        _this210.group = group;
-        _this210.parent = parent;
-        return _this210;
+        _this227 = _super105.call(this, group);
+        _this227.key = key;
+        _this227.group = group;
+        _this227.parent = parent;
+        return _this227;
       }
 
       _createClass2(GroupDurationSubscriber, [{
@@ -110561,18 +113365,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var GroupedObservable = /*#__PURE__*/function (_Observable__WEBPACK_5) {
       _inherits(GroupedObservable, _Observable__WEBPACK_5);
 
-      var _super103 = _createSuper(GroupedObservable);
+      var _super106 = _createSuper(GroupedObservable);
 
       function GroupedObservable(key, groupSubject, refCountSubscription) {
-        var _this211;
+        var _this228;
 
         _classCallCheck(this, GroupedObservable);
 
-        _this211 = _super103.call(this);
-        _this211.key = key;
-        _this211.groupSubject = groupSubject;
-        _this211.refCountSubscription = refCountSubscription;
-        return _this211;
+        _this228 = _super106.call(this);
+        _this228.key = key;
+        _this228.groupSubject = groupSubject;
+        _this228.refCountSubscription = refCountSubscription;
+        return _this228;
       }
 
       _createClass2(GroupedObservable, [{
@@ -110597,17 +113401,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var InnerRefCountSubscription = /*#__PURE__*/function (_Subscription__WEBPAC3) {
       _inherits(InnerRefCountSubscription, _Subscription__WEBPAC3);
 
-      var _super104 = _createSuper(InnerRefCountSubscription);
+      var _super107 = _createSuper(InnerRefCountSubscription);
 
       function InnerRefCountSubscription(parent) {
-        var _this212;
+        var _this229;
 
         _classCallCheck(this, InnerRefCountSubscription);
 
-        _this212 = _super104.call(this);
-        _this212.parent = parent;
+        _this229 = _super107.call(this);
+        _this229.parent = parent;
         parent.count++;
-        return _this212;
+        return _this229;
       }
 
       _createClass2(InnerRefCountSubscription, [{
@@ -110684,12 +113488,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var IgnoreElementsSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_22) {
       _inherits(IgnoreElementsSubscriber, _Subscriber__WEBPACK_22);
 
-      var _super105 = _createSuper(IgnoreElementsSubscriber);
+      var _super108 = _createSuper(IgnoreElementsSubscriber);
 
       function IgnoreElementsSubscriber() {
         _classCallCheck(this, IgnoreElementsSubscriber);
 
-        return _super105.apply(this, arguments);
+        return _super108.apply(this, arguments);
       }
 
       _createClass2(IgnoreElementsSubscriber, [{
@@ -110754,12 +113558,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var IsEmptySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_23) {
       _inherits(IsEmptySubscriber, _Subscriber__WEBPACK_23);
 
-      var _super106 = _createSuper(IsEmptySubscriber);
+      var _super109 = _createSuper(IsEmptySubscriber);
 
       function IsEmptySubscriber(destination) {
         _classCallCheck(this, IsEmptySubscriber);
 
-        return _super106.call(this, destination);
+        return _super109.call(this, destination);
       }
 
       _createClass2(IsEmptySubscriber, [{
@@ -110922,18 +113726,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var MapSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_24) {
       _inherits(MapSubscriber, _Subscriber__WEBPACK_24);
 
-      var _super107 = _createSuper(MapSubscriber);
+      var _super110 = _createSuper(MapSubscriber);
 
       function MapSubscriber(destination, project, thisArg) {
-        var _this213;
+        var _this230;
 
         _classCallCheck(this, MapSubscriber);
 
-        _this213 = _super107.call(this, destination);
-        _this213.project = project;
-        _this213.count = 0;
-        _this213.thisArg = thisArg || _assertThisInitialized(_this213);
-        return _this213;
+        _this230 = _super110.call(this, destination);
+        _this230.project = project;
+        _this230.count = 0;
+        _this230.thisArg = thisArg || _assertThisInitialized(_this230);
+        return _this230;
       }
 
       _createClass2(MapSubscriber, [{
@@ -111011,16 +113815,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var MapToSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_25) {
       _inherits(MapToSubscriber, _Subscriber__WEBPACK_25);
 
-      var _super108 = _createSuper(MapToSubscriber);
+      var _super111 = _createSuper(MapToSubscriber);
 
       function MapToSubscriber(destination, value) {
-        var _this214;
+        var _this231;
 
         _classCallCheck(this, MapToSubscriber);
 
-        _this214 = _super108.call(this, destination);
-        _this214.value = value;
-        return _this214;
+        _this231 = _super111.call(this, destination);
+        _this231.value = value;
+        return _this231;
       }
 
       _createClass2(MapToSubscriber, [{
@@ -111093,12 +113897,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var MaterializeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_26) {
       _inherits(MaterializeSubscriber, _Subscriber__WEBPACK_26);
 
-      var _super109 = _createSuper(MaterializeSubscriber);
+      var _super112 = _createSuper(MaterializeSubscriber);
 
       function MaterializeSubscriber(destination) {
         _classCallCheck(this, MaterializeSubscriber);
 
-        return _super109.call(this, destination);
+        return _super112.call(this, destination);
       }
 
       _createClass2(MaterializeSubscriber, [{
@@ -111354,23 +114158,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var MergeMapSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB15) {
       _inherits(MergeMapSubscriber, _OuterSubscriber__WEB15);
 
-      var _super110 = _createSuper(MergeMapSubscriber);
+      var _super113 = _createSuper(MergeMapSubscriber);
 
       function MergeMapSubscriber(destination, project) {
-        var _this215;
+        var _this232;
 
         var concurrent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : Number.POSITIVE_INFINITY;
 
         _classCallCheck(this, MergeMapSubscriber);
 
-        _this215 = _super110.call(this, destination);
-        _this215.project = project;
-        _this215.concurrent = concurrent;
-        _this215.hasCompleted = false;
-        _this215.buffer = [];
-        _this215.active = 0;
-        _this215.index = 0;
-        return _this215;
+        _this232 = _super113.call(this, destination);
+        _this232.project = project;
+        _this232.concurrent = concurrent;
+        _this232.hasCompleted = false;
+        _this232.buffer = [];
+        _this232.active = 0;
+        _this232.index = 0;
+        return _this232;
       }
 
       _createClass2(MergeMapSubscriber, [{
@@ -111576,23 +114380,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var MergeScanSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB16) {
       _inherits(MergeScanSubscriber, _OuterSubscriber__WEB16);
 
-      var _super111 = _createSuper(MergeScanSubscriber);
+      var _super114 = _createSuper(MergeScanSubscriber);
 
       function MergeScanSubscriber(destination, accumulator, acc, concurrent) {
-        var _this216;
+        var _this233;
 
         _classCallCheck(this, MergeScanSubscriber);
 
-        _this216 = _super111.call(this, destination);
-        _this216.accumulator = accumulator;
-        _this216.acc = acc;
-        _this216.concurrent = concurrent;
-        _this216.hasValue = false;
-        _this216.hasCompleted = false;
-        _this216.buffer = [];
-        _this216.active = 0;
-        _this216.index = 0;
-        return _this216;
+        _this233 = _super114.call(this, destination);
+        _this233.accumulator = accumulator;
+        _this233.acc = acc;
+        _this233.concurrent = concurrent;
+        _this233.hasValue = false;
+        _this233.hasCompleted = false;
+        _this233.buffer = [];
+        _this233.active = 0;
+        _this233.index = 0;
+        return _this233;
       }
 
       _createClass2(MergeScanSubscriber, [{
@@ -111879,19 +114683,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ObserveOnSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_27) {
       _inherits(ObserveOnSubscriber, _Subscriber__WEBPACK_27);
 
-      var _super112 = _createSuper(ObserveOnSubscriber);
+      var _super115 = _createSuper(ObserveOnSubscriber);
 
       function ObserveOnSubscriber(destination, scheduler) {
-        var _this217;
+        var _this234;
 
         var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
 
         _classCallCheck(this, ObserveOnSubscriber);
 
-        _this217 = _super112.call(this, destination);
-        _this217.scheduler = scheduler;
-        _this217.delay = delay;
-        return _this217;
+        _this234 = _super115.call(this, destination);
+        _this234.scheduler = scheduler;
+        _this234.delay = delay;
+        return _this234;
       }
 
       _createClass2(ObserveOnSubscriber, [{
@@ -112046,17 +114850,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var OnErrorResumeNextSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB17) {
       _inherits(OnErrorResumeNextSubscriber, _OuterSubscriber__WEB17);
 
-      var _super113 = _createSuper(OnErrorResumeNextSubscriber);
+      var _super116 = _createSuper(OnErrorResumeNextSubscriber);
 
       function OnErrorResumeNextSubscriber(destination, nextSources) {
-        var _this218;
+        var _this235;
 
         _classCallCheck(this, OnErrorResumeNextSubscriber);
 
-        _this218 = _super113.call(this, destination);
-        _this218.destination = destination;
-        _this218.nextSources = nextSources;
-        return _this218;
+        _this235 = _super116.call(this, destination);
+        _this235.destination = destination;
+        _this235.nextSources = nextSources;
+        return _this235;
       }
 
       _createClass2(OnErrorResumeNextSubscriber, [{
@@ -112158,16 +114962,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var PairwiseSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_28) {
       _inherits(PairwiseSubscriber, _Subscriber__WEBPACK_28);
 
-      var _super114 = _createSuper(PairwiseSubscriber);
+      var _super117 = _createSuper(PairwiseSubscriber);
 
       function PairwiseSubscriber(destination) {
-        var _this219;
+        var _this236;
 
         _classCallCheck(this, PairwiseSubscriber);
 
-        _this219 = _super114.call(this, destination);
-        _this219.hasPrev = false;
-        return _this219;
+        _this236 = _super117.call(this, destination);
+        _this236.hasPrev = false;
+        return _this236;
       }
 
       _createClass2(PairwiseSubscriber, [{
@@ -112653,16 +115457,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RefCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_29) {
       _inherits(RefCountSubscriber, _Subscriber__WEBPACK_29);
 
-      var _super115 = _createSuper(RefCountSubscriber);
+      var _super118 = _createSuper(RefCountSubscriber);
 
       function RefCountSubscriber(destination, connectable) {
-        var _this220;
+        var _this237;
 
         _classCallCheck(this, RefCountSubscriber);
 
-        _this220 = _super115.call(this, destination);
-        _this220.connectable = connectable;
-        return _this220;
+        _this237 = _super118.call(this, destination);
+        _this237.connectable = connectable;
+        return _this237;
       }
 
       _createClass2(RefCountSubscriber, [{
@@ -112773,17 +115577,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RepeatSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_30) {
       _inherits(RepeatSubscriber, _Subscriber__WEBPACK_30);
 
-      var _super116 = _createSuper(RepeatSubscriber);
+      var _super119 = _createSuper(RepeatSubscriber);
 
       function RepeatSubscriber(destination, count, source) {
-        var _this221;
+        var _this238;
 
         _classCallCheck(this, RepeatSubscriber);
 
-        _this221 = _super116.call(this, destination);
-        _this221.count = count;
-        _this221.source = source;
-        return _this221;
+        _this238 = _super119.call(this, destination);
+        _this238.count = count;
+        _this238.source = source;
+        return _this238;
       }
 
       _createClass2(RepeatSubscriber, [{
@@ -112875,18 +115679,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RepeatWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB18) {
       _inherits(RepeatWhenSubscriber, _OuterSubscriber__WEB18);
 
-      var _super117 = _createSuper(RepeatWhenSubscriber);
+      var _super120 = _createSuper(RepeatWhenSubscriber);
 
       function RepeatWhenSubscriber(destination, notifier, source) {
-        var _this222;
+        var _this239;
 
         _classCallCheck(this, RepeatWhenSubscriber);
 
-        _this222 = _super117.call(this, destination);
-        _this222.notifier = notifier;
-        _this222.source = source;
-        _this222.sourceIsBeingSubscribedTo = true;
-        return _this222;
+        _this239 = _super120.call(this, destination);
+        _this239.notifier = notifier;
+        _this239.source = source;
+        _this239.sourceIsBeingSubscribedTo = true;
+        return _this239;
       }
 
       _createClass2(RepeatWhenSubscriber, [{
@@ -113029,17 +115833,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RetrySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_31) {
       _inherits(RetrySubscriber, _Subscriber__WEBPACK_31);
 
-      var _super118 = _createSuper(RetrySubscriber);
+      var _super121 = _createSuper(RetrySubscriber);
 
       function RetrySubscriber(destination, count, source) {
-        var _this223;
+        var _this240;
 
         _classCallCheck(this, RetrySubscriber);
 
-        _this223 = _super118.call(this, destination);
-        _this223.count = count;
-        _this223.source = source;
-        return _this223;
+        _this240 = _super121.call(this, destination);
+        _this240.count = count;
+        _this240.source = source;
+        return _this240;
       }
 
       _createClass2(RetrySubscriber, [{
@@ -113132,17 +115936,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var RetryWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB19) {
       _inherits(RetryWhenSubscriber, _OuterSubscriber__WEB19);
 
-      var _super119 = _createSuper(RetryWhenSubscriber);
+      var _super122 = _createSuper(RetryWhenSubscriber);
 
       function RetryWhenSubscriber(destination, notifier, source) {
-        var _this224;
+        var _this241;
 
         _classCallCheck(this, RetryWhenSubscriber);
 
-        _this224 = _super119.call(this, destination);
-        _this224.notifier = notifier;
-        _this224.source = source;
-        return _this224;
+        _this241 = _super122.call(this, destination);
+        _this241.notifier = notifier;
+        _this241.source = source;
+        return _this241;
       }
 
       _createClass2(RetryWhenSubscriber, [{
@@ -113276,16 +116080,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SampleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB20) {
       _inherits(SampleSubscriber, _OuterSubscriber__WEB20);
 
-      var _super120 = _createSuper(SampleSubscriber);
+      var _super123 = _createSuper(SampleSubscriber);
 
       function SampleSubscriber() {
-        var _this225;
+        var _this242;
 
         _classCallCheck(this, SampleSubscriber);
 
-        _this225 = _super120.apply(this, arguments);
-        _this225.hasValue = false;
-        return _this225;
+        _this242 = _super123.apply(this, arguments);
+        _this242.hasValue = false;
+        return _this242;
       }
 
       _createClass2(SampleSubscriber, [{
@@ -113381,24 +116185,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SampleTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_32) {
       _inherits(SampleTimeSubscriber, _Subscriber__WEBPACK_32);
 
-      var _super121 = _createSuper(SampleTimeSubscriber);
+      var _super124 = _createSuper(SampleTimeSubscriber);
 
       function SampleTimeSubscriber(destination, period, scheduler) {
-        var _this226;
+        var _this243;
 
         _classCallCheck(this, SampleTimeSubscriber);
 
-        _this226 = _super121.call(this, destination);
-        _this226.period = period;
-        _this226.scheduler = scheduler;
-        _this226.hasValue = false;
+        _this243 = _super124.call(this, destination);
+        _this243.period = period;
+        _this243.scheduler = scheduler;
+        _this243.hasValue = false;
 
-        _this226.add(scheduler.schedule(dispatchNotification, period, {
-          subscriber: _assertThisInitialized(_this226),
+        _this243.add(scheduler.schedule(dispatchNotification, period, {
+          subscriber: _assertThisInitialized(_this243),
           period: period
         }));
 
-        return _this226;
+        return _this243;
       }
 
       _createClass2(SampleTimeSubscriber, [{
@@ -113493,19 +116297,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ScanSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_33) {
       _inherits(ScanSubscriber, _Subscriber__WEBPACK_33);
 
-      var _super122 = _createSuper(ScanSubscriber);
+      var _super125 = _createSuper(ScanSubscriber);
 
       function ScanSubscriber(destination, accumulator, _seed, hasSeed) {
-        var _this227;
+        var _this244;
 
         _classCallCheck(this, ScanSubscriber);
 
-        _this227 = _super122.call(this, destination);
-        _this227.accumulator = accumulator;
-        _this227._seed = _seed;
-        _this227.hasSeed = hasSeed;
-        _this227.index = 0;
-        return _this227;
+        _this244 = _super125.call(this, destination);
+        _this244.accumulator = accumulator;
+        _this244._seed = _seed;
+        _this244.hasSeed = hasSeed;
+        _this244.index = 0;
+        return _this244;
       }
 
       _createClass2(ScanSubscriber, [{
@@ -113616,23 +116420,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SequenceEqualSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_34) {
       _inherits(SequenceEqualSubscriber, _Subscriber__WEBPACK_34);
 
-      var _super123 = _createSuper(SequenceEqualSubscriber);
+      var _super126 = _createSuper(SequenceEqualSubscriber);
 
       function SequenceEqualSubscriber(destination, compareTo, comparator) {
-        var _this228;
+        var _this245;
 
         _classCallCheck(this, SequenceEqualSubscriber);
 
-        _this228 = _super123.call(this, destination);
-        _this228.compareTo = compareTo;
-        _this228.comparator = comparator;
-        _this228._a = [];
-        _this228._b = [];
-        _this228._oneComplete = false;
+        _this245 = _super126.call(this, destination);
+        _this245.compareTo = compareTo;
+        _this245.comparator = comparator;
+        _this245._a = [];
+        _this245._b = [];
+        _this245._oneComplete = false;
 
-        _this228.destination.add(compareTo.subscribe(new SequenceEqualCompareToSubscriber(destination, _assertThisInitialized(_this228))));
+        _this245.destination.add(compareTo.subscribe(new SequenceEqualCompareToSubscriber(destination, _assertThisInitialized(_this245))));
 
-        return _this228;
+        return _this245;
       }
 
       _createClass2(SequenceEqualSubscriber, [{
@@ -113717,16 +116521,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SequenceEqualCompareToSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_35) {
       _inherits(SequenceEqualCompareToSubscriber, _Subscriber__WEBPACK_35);
 
-      var _super124 = _createSuper(SequenceEqualCompareToSubscriber);
+      var _super127 = _createSuper(SequenceEqualCompareToSubscriber);
 
       function SequenceEqualCompareToSubscriber(destination, parent) {
-        var _this229;
+        var _this246;
 
         _classCallCheck(this, SequenceEqualCompareToSubscriber);
 
-        _this229 = _super124.call(this, destination);
-        _this229.parent = parent;
-        return _this229;
+        _this246 = _super127.call(this, destination);
+        _this246.parent = parent;
+        return _this246;
       }
 
       _createClass2(SequenceEqualCompareToSubscriber, [{
@@ -113852,13 +116656,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    function shareReplayOperator(_ref13) {
-      var _ref13$bufferSize = _ref13.bufferSize,
-          bufferSize = _ref13$bufferSize === void 0 ? Number.POSITIVE_INFINITY : _ref13$bufferSize,
-          _ref13$windowTime = _ref13.windowTime,
-          windowTime = _ref13$windowTime === void 0 ? Number.POSITIVE_INFINITY : _ref13$windowTime,
-          useRefCount = _ref13.refCount,
-          scheduler = _ref13.scheduler;
+    function shareReplayOperator(_ref15) {
+      var _ref15$bufferSize = _ref15.bufferSize,
+          bufferSize = _ref15$bufferSize === void 0 ? Number.POSITIVE_INFINITY : _ref15$bufferSize,
+          _ref15$windowTime = _ref15.windowTime,
+          windowTime = _ref15$windowTime === void 0 ? Number.POSITIVE_INFINITY : _ref15$windowTime,
+          useRefCount = _ref15.refCount,
+          scheduler = _ref15.scheduler;
       var subject;
       var refCount = 0;
       var subscription;
@@ -113963,19 +116767,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SingleSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_36) {
       _inherits(SingleSubscriber, _Subscriber__WEBPACK_36);
 
-      var _super125 = _createSuper(SingleSubscriber);
+      var _super128 = _createSuper(SingleSubscriber);
 
       function SingleSubscriber(destination, predicate, source) {
-        var _this230;
+        var _this247;
 
         _classCallCheck(this, SingleSubscriber);
 
-        _this230 = _super125.call(this, destination);
-        _this230.predicate = predicate;
-        _this230.source = source;
-        _this230.seenValue = false;
-        _this230.index = 0;
-        return _this230;
+        _this247 = _super128.call(this, destination);
+        _this247.predicate = predicate;
+        _this247.source = source;
+        _this247.seenValue = false;
+        _this247.index = 0;
+        return _this247;
       }
 
       _createClass2(SingleSubscriber, [{
@@ -114083,17 +116887,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SkipSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_37) {
       _inherits(SkipSubscriber, _Subscriber__WEBPACK_37);
 
-      var _super126 = _createSuper(SkipSubscriber);
+      var _super129 = _createSuper(SkipSubscriber);
 
       function SkipSubscriber(destination, total) {
-        var _this231;
+        var _this248;
 
         _classCallCheck(this, SkipSubscriber);
 
-        _this231 = _super126.call(this, destination);
-        _this231.total = total;
-        _this231.count = 0;
-        return _this231;
+        _this248 = _super129.call(this, destination);
+        _this248.total = total;
+        _this248.count = 0;
+        return _this248;
       }
 
       _createClass2(SkipSubscriber, [{
@@ -114178,18 +116982,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SkipLastSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_38) {
       _inherits(SkipLastSubscriber, _Subscriber__WEBPACK_38);
 
-      var _super127 = _createSuper(SkipLastSubscriber);
+      var _super130 = _createSuper(SkipLastSubscriber);
 
       function SkipLastSubscriber(destination, _skipCount) {
-        var _this232;
+        var _this249;
 
         _classCallCheck(this, SkipLastSubscriber);
 
-        _this232 = _super127.call(this, destination);
-        _this232._skipCount = _skipCount;
-        _this232._count = 0;
-        _this232._ring = new Array(_skipCount);
-        return _this232;
+        _this249 = _super130.call(this, destination);
+        _this249._skipCount = _skipCount;
+        _this249._count = 0;
+        _this249._ring = new Array(_skipCount);
+        return _this249;
       }
 
       _createClass2(SkipLastSubscriber, [{
@@ -114281,29 +117085,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SkipUntilSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB21) {
       _inherits(SkipUntilSubscriber, _OuterSubscriber__WEB21);
 
-      var _super128 = _createSuper(SkipUntilSubscriber);
+      var _super131 = _createSuper(SkipUntilSubscriber);
 
       function SkipUntilSubscriber(destination, notifier) {
-        var _this233;
+        var _this250;
 
         _classCallCheck(this, SkipUntilSubscriber);
 
-        _this233 = _super128.call(this, destination);
-        _this233.hasValue = false;
-        var innerSubscriber = new _InnerSubscriber__WEBPACK_IMPORTED_MODULE_1__["InnerSubscriber"](_assertThisInitialized(_this233), undefined, undefined);
+        _this250 = _super131.call(this, destination);
+        _this250.hasValue = false;
+        var innerSubscriber = new _InnerSubscriber__WEBPACK_IMPORTED_MODULE_1__["InnerSubscriber"](_assertThisInitialized(_this250), undefined, undefined);
 
-        _this233.add(innerSubscriber);
+        _this250.add(innerSubscriber);
 
-        _this233.innerSubscription = innerSubscriber;
-        var innerSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_2__["subscribeToResult"])(_assertThisInitialized(_this233), notifier, undefined, undefined, innerSubscriber);
+        _this250.innerSubscription = innerSubscriber;
+        var innerSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_2__["subscribeToResult"])(_assertThisInitialized(_this250), notifier, undefined, undefined, innerSubscriber);
 
         if (innerSubscription !== innerSubscriber) {
-          _this233.add(innerSubscription);
+          _this250.add(innerSubscription);
 
-          _this233.innerSubscription = innerSubscription;
+          _this250.innerSubscription = innerSubscription;
         }
 
-        return _this233;
+        return _this250;
       }
 
       _createClass2(SkipUntilSubscriber, [{
@@ -114386,18 +117190,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SkipWhileSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_39) {
       _inherits(SkipWhileSubscriber, _Subscriber__WEBPACK_39);
 
-      var _super129 = _createSuper(SkipWhileSubscriber);
+      var _super132 = _createSuper(SkipWhileSubscriber);
 
       function SkipWhileSubscriber(destination, predicate) {
-        var _this234;
+        var _this251;
 
         _classCallCheck(this, SkipWhileSubscriber);
 
-        _this234 = _super129.call(this, destination);
-        _this234.predicate = predicate;
-        _this234.skipping = true;
-        _this234.index = 0;
-        return _this234;
+        _this251 = _super132.call(this, destination);
+        _this251.predicate = predicate;
+        _this251.skipping = true;
+        _this251.index = 0;
+        return _this251;
       }
 
       _createClass2(SkipWhileSubscriber, [{
@@ -114668,17 +117472,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var SwitchMapSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB22) {
       _inherits(SwitchMapSubscriber, _OuterSubscriber__WEB22);
 
-      var _super130 = _createSuper(SwitchMapSubscriber);
+      var _super133 = _createSuper(SwitchMapSubscriber);
 
       function SwitchMapSubscriber(destination, project) {
-        var _this235;
+        var _this252;
 
         _classCallCheck(this, SwitchMapSubscriber);
 
-        _this235 = _super130.call(this, destination);
-        _this235.project = project;
-        _this235.index = 0;
-        return _this235;
+        _this252 = _super133.call(this, destination);
+        _this252.project = project;
+        _this252.index = 0;
+        return _this252;
       }
 
       _createClass2(SwitchMapSubscriber, [{
@@ -114865,17 +117669,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TakeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_40) {
       _inherits(TakeSubscriber, _Subscriber__WEBPACK_40);
 
-      var _super131 = _createSuper(TakeSubscriber);
+      var _super134 = _createSuper(TakeSubscriber);
 
       function TakeSubscriber(destination, total) {
-        var _this236;
+        var _this253;
 
         _classCallCheck(this, TakeSubscriber);
 
-        _this236 = _super131.call(this, destination);
-        _this236.total = total;
-        _this236.count = 0;
-        return _this236;
+        _this253 = _super134.call(this, destination);
+        _this253.total = total;
+        _this253.count = 0;
+        return _this253;
       }
 
       _createClass2(TakeSubscriber, [{
@@ -114974,18 +117778,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TakeLastSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_41) {
       _inherits(TakeLastSubscriber, _Subscriber__WEBPACK_41);
 
-      var _super132 = _createSuper(TakeLastSubscriber);
+      var _super135 = _createSuper(TakeLastSubscriber);
 
       function TakeLastSubscriber(destination, total) {
-        var _this237;
+        var _this254;
 
         _classCallCheck(this, TakeLastSubscriber);
 
-        _this237 = _super132.call(this, destination);
-        _this237.total = total;
-        _this237.ring = new Array();
-        _this237.count = 0;
-        return _this237;
+        _this254 = _super135.call(this, destination);
+        _this254.total = total;
+        _this254.ring = new Array();
+        _this254.count = 0;
+        return _this254;
       }
 
       _createClass2(TakeLastSubscriber, [{
@@ -115095,16 +117899,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TakeUntilSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB23) {
       _inherits(TakeUntilSubscriber, _OuterSubscriber__WEB23);
 
-      var _super133 = _createSuper(TakeUntilSubscriber);
+      var _super136 = _createSuper(TakeUntilSubscriber);
 
       function TakeUntilSubscriber(destination) {
-        var _this238;
+        var _this255;
 
         _classCallCheck(this, TakeUntilSubscriber);
 
-        _this238 = _super133.call(this, destination);
-        _this238.seenValue = false;
-        return _this238;
+        _this255 = _super136.call(this, destination);
+        _this255.seenValue = false;
+        return _this255;
       }
 
       _createClass2(TakeUntilSubscriber, [{
@@ -115179,18 +117983,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TakeWhileSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_42) {
       _inherits(TakeWhileSubscriber, _Subscriber__WEBPACK_42);
 
-      var _super134 = _createSuper(TakeWhileSubscriber);
+      var _super137 = _createSuper(TakeWhileSubscriber);
 
       function TakeWhileSubscriber(destination, predicate, inclusive) {
-        var _this239;
+        var _this256;
 
         _classCallCheck(this, TakeWhileSubscriber);
 
-        _this239 = _super134.call(this, destination);
-        _this239.predicate = predicate;
-        _this239.inclusive = inclusive;
-        _this239.index = 0;
-        return _this239;
+        _this256 = _super137.call(this, destination);
+        _this256.predicate = predicate;
+        _this256.inclusive = inclusive;
+        _this256.index = 0;
+        return _this256;
       }
 
       _createClass2(TakeWhileSubscriber, [{
@@ -115298,31 +118102,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TapSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_43) {
       _inherits(TapSubscriber, _Subscriber__WEBPACK_43);
 
-      var _super135 = _createSuper(TapSubscriber);
+      var _super138 = _createSuper(TapSubscriber);
 
       function TapSubscriber(destination, observerOrNext, error, complete) {
-        var _this240;
+        var _this257;
 
         _classCallCheck(this, TapSubscriber);
 
-        _this240 = _super135.call(this, destination);
-        _this240._tapNext = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this240._tapError = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this240._tapComplete = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this240._tapError = error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this240._tapComplete = complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this257 = _super138.call(this, destination);
+        _this257._tapNext = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this257._tapError = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this257._tapComplete = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this257._tapError = error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this257._tapComplete = complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
 
         if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_2__["isFunction"])(observerOrNext)) {
-          _this240._context = _assertThisInitialized(_this240);
-          _this240._tapNext = observerOrNext;
+          _this257._context = _assertThisInitialized(_this257);
+          _this257._tapNext = observerOrNext;
         } else if (observerOrNext) {
-          _this240._context = observerOrNext;
-          _this240._tapNext = observerOrNext.next || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-          _this240._tapError = observerOrNext.error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-          _this240._tapComplete = observerOrNext.complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this257._context = observerOrNext;
+          _this257._tapNext = observerOrNext.next || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this257._tapError = observerOrNext.error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this257._tapComplete = observerOrNext.complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
         }
 
-        return _this240;
+        return _this257;
       }
 
       _createClass2(TapSubscriber, [{
@@ -115442,20 +118246,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ThrottleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB24) {
       _inherits(ThrottleSubscriber, _OuterSubscriber__WEB24);
 
-      var _super136 = _createSuper(ThrottleSubscriber);
+      var _super139 = _createSuper(ThrottleSubscriber);
 
       function ThrottleSubscriber(destination, durationSelector, _leading, _trailing) {
-        var _this241;
+        var _this258;
 
         _classCallCheck(this, ThrottleSubscriber);
 
-        _this241 = _super136.call(this, destination);
-        _this241.destination = destination;
-        _this241.durationSelector = durationSelector;
-        _this241._leading = _leading;
-        _this241._trailing = _trailing;
-        _this241._hasValue = false;
-        return _this241;
+        _this258 = _super139.call(this, destination);
+        _this258.destination = destination;
+        _this258.durationSelector = durationSelector;
+        _this258._leading = _leading;
+        _this258._trailing = _trailing;
+        _this258._hasValue = false;
+        return _this258;
       }
 
       _createClass2(ThrottleSubscriber, [{
@@ -115609,21 +118413,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ThrottleTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_44) {
       _inherits(ThrottleTimeSubscriber, _Subscriber__WEBPACK_44);
 
-      var _super137 = _createSuper(ThrottleTimeSubscriber);
+      var _super140 = _createSuper(ThrottleTimeSubscriber);
 
       function ThrottleTimeSubscriber(destination, duration, scheduler, leading, trailing) {
-        var _this242;
+        var _this259;
 
         _classCallCheck(this, ThrottleTimeSubscriber);
 
-        _this242 = _super137.call(this, destination);
-        _this242.duration = duration;
-        _this242.scheduler = scheduler;
-        _this242.leading = leading;
-        _this242.trailing = trailing;
-        _this242._hasTrailingValue = false;
-        _this242._trailingValue = null;
-        return _this242;
+        _this259 = _super140.call(this, destination);
+        _this259.duration = duration;
+        _this259.scheduler = scheduler;
+        _this259.leading = leading;
+        _this259.trailing = trailing;
+        _this259._hasTrailingValue = false;
+        _this259._trailingValue = null;
+        return _this259;
       }
 
       _createClass2(ThrottleTimeSubscriber, [{
@@ -115747,17 +118551,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var ThrowIfEmptySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_45) {
       _inherits(ThrowIfEmptySubscriber, _Subscriber__WEBPACK_45);
 
-      var _super138 = _createSuper(ThrowIfEmptySubscriber);
+      var _super141 = _createSuper(ThrowIfEmptySubscriber);
 
       function ThrowIfEmptySubscriber(destination, errorFactory) {
-        var _this243;
+        var _this260;
 
         _classCallCheck(this, ThrowIfEmptySubscriber);
 
-        _this243 = _super138.call(this, destination);
-        _this243.errorFactory = errorFactory;
-        _this243.hasValue = false;
-        return _this243;
+        _this260 = _super141.call(this, destination);
+        _this260.errorFactory = errorFactory;
+        _this260.hasValue = false;
+        return _this260;
       }
 
       _createClass2(ThrowIfEmptySubscriber, [{
@@ -115850,8 +118654,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var scheduler = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _scheduler_async__WEBPACK_IMPORTED_MODULE_0__["async"];
       return function (source) {
         return Object(_observable_defer__WEBPACK_IMPORTED_MODULE_2__["defer"])(function () {
-          return source.pipe(Object(_scan__WEBPACK_IMPORTED_MODULE_1__["scan"])(function (_ref14, value) {
-            var current = _ref14.current;
+          return source.pipe(Object(_scan__WEBPACK_IMPORTED_MODULE_1__["scan"])(function (_ref16, value) {
+            var current = _ref16.current;
             return {
               value: value,
               current: scheduler.now(),
@@ -115861,10 +118665,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             current: scheduler.now(),
             value: undefined,
             last: undefined
-          }), Object(_map__WEBPACK_IMPORTED_MODULE_3__["map"])(function (_ref15) {
-            var current = _ref15.current,
-                last = _ref15.last,
-                value = _ref15.value;
+          }), Object(_map__WEBPACK_IMPORTED_MODULE_3__["map"])(function (_ref17) {
+            var current = _ref17.current,
+                last = _ref17.last,
+                value = _ref17.value;
             return new TimeInterval(value, current - last);
           }));
         });
@@ -116011,23 +118815,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var TimeoutWithSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB25) {
       _inherits(TimeoutWithSubscriber, _OuterSubscriber__WEB25);
 
-      var _super139 = _createSuper(TimeoutWithSubscriber);
+      var _super142 = _createSuper(TimeoutWithSubscriber);
 
       function TimeoutWithSubscriber(destination, absoluteTimeout, waitFor, withObservable, scheduler) {
-        var _this244;
+        var _this261;
 
         _classCallCheck(this, TimeoutWithSubscriber);
 
-        _this244 = _super139.call(this, destination);
-        _this244.absoluteTimeout = absoluteTimeout;
-        _this244.waitFor = waitFor;
-        _this244.withObservable = withObservable;
-        _this244.scheduler = scheduler;
-        _this244.action = null;
+        _this261 = _super142.call(this, destination);
+        _this261.absoluteTimeout = absoluteTimeout;
+        _this261.waitFor = waitFor;
+        _this261.withObservable = withObservable;
+        _this261.scheduler = scheduler;
+        _this261.action = null;
 
-        _this244.scheduleTimeout();
+        _this261.scheduleTimeout();
 
-        return _this244;
+        return _this261;
       }
 
       _createClass2(TimeoutWithSubscriber, [{
@@ -116245,17 +119049,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var WindowSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB26) {
       _inherits(WindowSubscriber, _OuterSubscriber__WEB26);
 
-      var _super140 = _createSuper(WindowSubscriber);
+      var _super143 = _createSuper(WindowSubscriber);
 
       function WindowSubscriber(destination) {
-        var _this245;
+        var _this262;
 
         _classCallCheck(this, WindowSubscriber);
 
-        _this245 = _super140.call(this, destination);
-        _this245.window = new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
-        destination.next(_this245.window);
-        return _this245;
+        _this262 = _super143.call(this, destination);
+        _this262.window = new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
+        destination.next(_this262.window);
+        return _this262;
       }
 
       _createClass2(WindowSubscriber, [{
@@ -116377,21 +119181,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var WindowCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_46) {
       _inherits(WindowCountSubscriber, _Subscriber__WEBPACK_46);
 
-      var _super141 = _createSuper(WindowCountSubscriber);
+      var _super144 = _createSuper(WindowCountSubscriber);
 
       function WindowCountSubscriber(destination, windowSize, startWindowEvery) {
-        var _this246;
+        var _this263;
 
         _classCallCheck(this, WindowCountSubscriber);
 
-        _this246 = _super141.call(this, destination);
-        _this246.destination = destination;
-        _this246.windowSize = windowSize;
-        _this246.startWindowEvery = startWindowEvery;
-        _this246.windows = [new _Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]()];
-        _this246.count = 0;
-        destination.next(_this246.windows[0]);
-        return _this246;
+        _this263 = _super144.call(this, destination);
+        _this263.destination = destination;
+        _this263.windowSize = windowSize;
+        _this263.startWindowEvery = startWindowEvery;
+        _this263.windows = [new _Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]()];
+        _this263.count = 0;
+        destination.next(_this263.windows[0]);
+        return _this263;
       }
 
       _createClass2(WindowCountSubscriber, [{
@@ -116560,16 +119364,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var CountedSubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP5) {
       _inherits(CountedSubject, _Subject__WEBPACK_IMP5);
 
-      var _super142 = _createSuper(CountedSubject);
+      var _super145 = _createSuper(CountedSubject);
 
       function CountedSubject() {
-        var _this247;
+        var _this264;
 
         _classCallCheck(this, CountedSubject);
 
-        _this247 = _super142.apply(this, arguments);
-        _this247._numberOfNextedValues = 0;
-        return _this247;
+        _this264 = _super145.apply(this, arguments);
+        _this264._numberOfNextedValues = 0;
+        return _this264;
       }
 
       _createClass2(CountedSubject, [{
@@ -116592,50 +119396,50 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var WindowTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_47) {
       _inherits(WindowTimeSubscriber, _Subscriber__WEBPACK_47);
 
-      var _super143 = _createSuper(WindowTimeSubscriber);
+      var _super146 = _createSuper(WindowTimeSubscriber);
 
       function WindowTimeSubscriber(destination, windowTimeSpan, windowCreationInterval, maxWindowSize, scheduler) {
-        var _this248;
+        var _this265;
 
         _classCallCheck(this, WindowTimeSubscriber);
 
-        _this248 = _super143.call(this, destination);
-        _this248.destination = destination;
-        _this248.windowTimeSpan = windowTimeSpan;
-        _this248.windowCreationInterval = windowCreationInterval;
-        _this248.maxWindowSize = maxWindowSize;
-        _this248.scheduler = scheduler;
-        _this248.windows = [];
+        _this265 = _super146.call(this, destination);
+        _this265.destination = destination;
+        _this265.windowTimeSpan = windowTimeSpan;
+        _this265.windowCreationInterval = windowCreationInterval;
+        _this265.maxWindowSize = maxWindowSize;
+        _this265.scheduler = scheduler;
+        _this265.windows = [];
 
-        var window = _this248.openWindow();
+        var window = _this265.openWindow();
 
         if (windowCreationInterval !== null && windowCreationInterval >= 0) {
           var closeState = {
-            subscriber: _assertThisInitialized(_this248),
+            subscriber: _assertThisInitialized(_this265),
             window: window,
             context: null
           };
           var creationState = {
             windowTimeSpan: windowTimeSpan,
             windowCreationInterval: windowCreationInterval,
-            subscriber: _assertThisInitialized(_this248),
+            subscriber: _assertThisInitialized(_this265),
             scheduler: scheduler
           };
 
-          _this248.add(scheduler.schedule(dispatchWindowClose, windowTimeSpan, closeState));
+          _this265.add(scheduler.schedule(dispatchWindowClose, windowTimeSpan, closeState));
 
-          _this248.add(scheduler.schedule(dispatchWindowCreation, windowCreationInterval, creationState));
+          _this265.add(scheduler.schedule(dispatchWindowCreation, windowCreationInterval, creationState));
         } else {
           var timeSpanOnlyState = {
-            subscriber: _assertThisInitialized(_this248),
+            subscriber: _assertThisInitialized(_this265),
             window: window,
             windowTimeSpan: windowTimeSpan
           };
 
-          _this248.add(scheduler.schedule(dispatchWindowTimeSpanOnly, windowTimeSpan, timeSpanOnlyState));
+          _this265.add(scheduler.schedule(dispatchWindowTimeSpanOnly, windowTimeSpan, timeSpanOnlyState));
         }
 
-        return _this248;
+        return _this265;
       }
 
       _createClass2(WindowTimeSubscriber, [{
@@ -116824,21 +119628,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var WindowToggleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB27) {
       _inherits(WindowToggleSubscriber, _OuterSubscriber__WEB27);
 
-      var _super144 = _createSuper(WindowToggleSubscriber);
+      var _super147 = _createSuper(WindowToggleSubscriber);
 
       function WindowToggleSubscriber(destination, openings, closingSelector) {
-        var _this249;
+        var _this266;
 
         _classCallCheck(this, WindowToggleSubscriber);
 
-        _this249 = _super144.call(this, destination);
-        _this249.openings = openings;
-        _this249.closingSelector = closingSelector;
-        _this249.contexts = [];
+        _this266 = _super147.call(this, destination);
+        _this266.openings = openings;
+        _this266.closingSelector = closingSelector;
+        _this266.contexts = [];
 
-        _this249.add(_this249.openSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this249), openings, openings));
+        _this266.add(_this266.openSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this266), openings, openings));
 
-        return _this249;
+        return _this266;
       }
 
       _createClass2(WindowToggleSubscriber, [{
@@ -117044,20 +119848,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var WindowSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB28) {
       _inherits(WindowSubscriber, _OuterSubscriber__WEB28);
 
-      var _super145 = _createSuper(WindowSubscriber);
+      var _super148 = _createSuper(WindowSubscriber);
 
       function WindowSubscriber(destination, closingSelector) {
-        var _this250;
+        var _this267;
 
         _classCallCheck(this, WindowSubscriber);
 
-        _this250 = _super145.call(this, destination);
-        _this250.destination = destination;
-        _this250.closingSelector = closingSelector;
+        _this267 = _super148.call(this, destination);
+        _this267.destination = destination;
+        _this267.closingSelector = closingSelector;
 
-        _this250.openWindow();
+        _this267.openWindow();
 
-        return _this250;
+        return _this267;
       }
 
       _createClass2(WindowSubscriber, [{
@@ -117211,31 +120015,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var WithLatestFromSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB29) {
       _inherits(WithLatestFromSubscriber, _OuterSubscriber__WEB29);
 
-      var _super146 = _createSuper(WithLatestFromSubscriber);
+      var _super149 = _createSuper(WithLatestFromSubscriber);
 
       function WithLatestFromSubscriber(destination, observables, project) {
-        var _this251;
+        var _this268;
 
         _classCallCheck(this, WithLatestFromSubscriber);
 
-        _this251 = _super146.call(this, destination);
-        _this251.observables = observables;
-        _this251.project = project;
-        _this251.toRespond = [];
+        _this268 = _super149.call(this, destination);
+        _this268.observables = observables;
+        _this268.project = project;
+        _this268.toRespond = [];
         var len = observables.length;
-        _this251.values = new Array(len);
+        _this268.values = new Array(len);
 
         for (var i = 0; i < len; i++) {
-          _this251.toRespond.push(i);
+          _this268.toRespond.push(i);
         }
 
         for (var _i28 = 0; _i28 < len; _i28++) {
           var observable = observables[_i28];
 
-          _this251.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this251), observable, observable, _i28));
+          _this268.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this268), observable, observable, _i28));
         }
 
-        return _this251;
+        return _this268;
       }
 
       _createClass2(WithLatestFromSubscriber, [{
@@ -117753,12 +120557,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var Action = /*#__PURE__*/function (_Subscription__WEBPAC4) {
       _inherits(Action, _Subscription__WEBPAC4);
 
-      var _super147 = _createSuper(Action);
+      var _super150 = _createSuper(Action);
 
       function Action(scheduler, work) {
         _classCallCheck(this, Action);
 
-        return _super147.call(this);
+        return _super150.call(this);
       }
 
       _createClass2(Action, [{
@@ -117805,17 +120609,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AnimationFrameAction = /*#__PURE__*/function (_AsyncAction__WEBPACK) {
       _inherits(AnimationFrameAction, _AsyncAction__WEBPACK);
 
-      var _super148 = _createSuper(AnimationFrameAction);
+      var _super151 = _createSuper(AnimationFrameAction);
 
       function AnimationFrameAction(scheduler, work) {
-        var _this252;
+        var _this269;
 
         _classCallCheck(this, AnimationFrameAction);
 
-        _this252 = _super148.call(this, scheduler, work);
-        _this252.scheduler = scheduler;
-        _this252.work = work;
-        return _this252;
+        _this269 = _super151.call(this, scheduler, work);
+        _this269.scheduler = scheduler;
+        _this269.work = work;
+        return _this269;
       }
 
       _createClass2(AnimationFrameAction, [{
@@ -117886,12 +120690,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AnimationFrameScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP) {
       _inherits(AnimationFrameScheduler, _AsyncScheduler__WEBP);
 
-      var _super149 = _createSuper(AnimationFrameScheduler);
+      var _super152 = _createSuper(AnimationFrameScheduler);
 
       function AnimationFrameScheduler() {
         _classCallCheck(this, AnimationFrameScheduler);
 
-        return _super149.apply(this, arguments);
+        return _super152.apply(this, arguments);
       }
 
       _createClass2(AnimationFrameScheduler, [{
@@ -117965,17 +120769,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AsapAction = /*#__PURE__*/function (_AsyncAction__WEBPACK2) {
       _inherits(AsapAction, _AsyncAction__WEBPACK2);
 
-      var _super150 = _createSuper(AsapAction);
+      var _super153 = _createSuper(AsapAction);
 
       function AsapAction(scheduler, work) {
-        var _this253;
+        var _this270;
 
         _classCallCheck(this, AsapAction);
 
-        _this253 = _super150.call(this, scheduler, work);
-        _this253.scheduler = scheduler;
-        _this253.work = work;
-        return _this253;
+        _this270 = _super153.call(this, scheduler, work);
+        _this270.scheduler = scheduler;
+        _this270.work = work;
+        return _this270;
       }
 
       _createClass2(AsapAction, [{
@@ -118045,12 +120849,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AsapScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP2) {
       _inherits(AsapScheduler, _AsyncScheduler__WEBP2);
 
-      var _super151 = _createSuper(AsapScheduler);
+      var _super154 = _createSuper(AsapScheduler);
 
       function AsapScheduler() {
         _classCallCheck(this, AsapScheduler);
 
-        return _super151.apply(this, arguments);
+        return _super154.apply(this, arguments);
       }
 
       _createClass2(AsapScheduler, [{
@@ -118118,18 +120922,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AsyncAction = /*#__PURE__*/function (_Action__WEBPACK_IMPO) {
       _inherits(AsyncAction, _Action__WEBPACK_IMPO);
 
-      var _super152 = _createSuper(AsyncAction);
+      var _super155 = _createSuper(AsyncAction);
 
       function AsyncAction(scheduler, work) {
-        var _this254;
+        var _this271;
 
         _classCallCheck(this, AsyncAction);
 
-        _this254 = _super152.call(this, scheduler, work);
-        _this254.scheduler = scheduler;
-        _this254.work = work;
-        _this254.pending = false;
-        return _this254;
+        _this271 = _super155.call(this, scheduler, work);
+        _this271.scheduler = scheduler;
+        _this271.work = work;
+        _this271.pending = false;
+        return _this271;
       }
 
       _createClass2(AsyncAction, [{
@@ -118267,26 +121071,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AsyncScheduler = /*#__PURE__*/function (_Scheduler__WEBPACK_I) {
       _inherits(AsyncScheduler, _Scheduler__WEBPACK_I);
 
-      var _super153 = _createSuper(AsyncScheduler);
+      var _super156 = _createSuper(AsyncScheduler);
 
       function AsyncScheduler(SchedulerAction) {
-        var _this255;
+        var _this272;
 
         var now = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _Scheduler__WEBPACK_IMPORTED_MODULE_0__["Scheduler"].now;
 
         _classCallCheck(this, AsyncScheduler);
 
-        _this255 = _super153.call(this, SchedulerAction, function () {
-          if (AsyncScheduler.delegate && AsyncScheduler.delegate !== _assertThisInitialized(_this255)) {
+        _this272 = _super156.call(this, SchedulerAction, function () {
+          if (AsyncScheduler.delegate && AsyncScheduler.delegate !== _assertThisInitialized(_this272)) {
             return AsyncScheduler.delegate.now();
           } else {
             return now();
           }
         });
-        _this255.actions = [];
-        _this255.active = false;
-        _this255.scheduled = undefined;
-        return _this255;
+        _this272.actions = [];
+        _this272.active = false;
+        _this272.scheduled = undefined;
+        return _this272;
       }
 
       _createClass2(AsyncScheduler, [{
@@ -118368,17 +121172,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var QueueAction = /*#__PURE__*/function (_AsyncAction__WEBPACK3) {
       _inherits(QueueAction, _AsyncAction__WEBPACK3);
 
-      var _super154 = _createSuper(QueueAction);
+      var _super157 = _createSuper(QueueAction);
 
       function QueueAction(scheduler, work) {
-        var _this256;
+        var _this273;
 
         _classCallCheck(this, QueueAction);
 
-        _this256 = _super154.call(this, scheduler, work);
-        _this256.scheduler = scheduler;
-        _this256.work = work;
-        return _this256;
+        _this273 = _super157.call(this, scheduler, work);
+        _this273.scheduler = scheduler;
+        _this273.work = work;
+        return _this273;
       }
 
       _createClass2(QueueAction, [{
@@ -118449,12 +121253,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var QueueScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP3) {
       _inherits(QueueScheduler, _AsyncScheduler__WEBP3);
 
-      var _super155 = _createSuper(QueueScheduler);
+      var _super158 = _createSuper(QueueScheduler);
 
       function QueueScheduler() {
         _classCallCheck(this, QueueScheduler);
 
-        return _super155.apply(this, arguments);
+        return _super158.apply(this, arguments);
       }
 
       return QueueScheduler;
@@ -118505,23 +121309,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var VirtualTimeScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP4) {
       _inherits(VirtualTimeScheduler, _AsyncScheduler__WEBP4);
 
-      var _super156 = _createSuper(VirtualTimeScheduler);
+      var _super159 = _createSuper(VirtualTimeScheduler);
 
       function VirtualTimeScheduler() {
-        var _this257;
+        var _this274;
 
         var SchedulerAction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : VirtualAction;
         var maxFrames = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
 
         _classCallCheck(this, VirtualTimeScheduler);
 
-        _this257 = _super156.call(this, SchedulerAction, function () {
-          return _this257.frame;
+        _this274 = _super159.call(this, SchedulerAction, function () {
+          return _this274.frame;
         });
-        _this257.maxFrames = maxFrames;
-        _this257.frame = 0;
-        _this257.index = -1;
-        return _this257;
+        _this274.maxFrames = maxFrames;
+        _this274.frame = 0;
+        _this274.index = -1;
+        return _this274;
       }
 
       _createClass2(VirtualTimeScheduler, [{
@@ -118558,22 +121362,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var VirtualAction = /*#__PURE__*/function (_AsyncAction__WEBPACK4) {
       _inherits(VirtualAction, _AsyncAction__WEBPACK4);
 
-      var _super157 = _createSuper(VirtualAction);
+      var _super160 = _createSuper(VirtualAction);
 
       function VirtualAction(scheduler, work) {
-        var _this258;
+        var _this275;
 
         var index = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : scheduler.index += 1;
 
         _classCallCheck(this, VirtualAction);
 
-        _this258 = _super157.call(this, scheduler, work);
-        _this258.scheduler = scheduler;
-        _this258.work = work;
-        _this258.index = index;
-        _this258.active = true;
-        _this258.index = scheduler.index = index;
-        return _this258;
+        _this275 = _super160.call(this, scheduler, work);
+        _this275.scheduler = scheduler;
+        _this275.work = work;
+        _this275.index = index;
+        _this275.active = true;
+        _this275.index = scheduler.index = index;
+        return _this275;
       }
 
       _createClass2(VirtualAction, [{

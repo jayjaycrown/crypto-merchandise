@@ -27,7 +27,7 @@ var knex = require('knex')({
 router.post('/signup', (req, res) => {
 	const gottenEmail = req.body.email
 	const tokenToSave = crypto.randomBytes(20).toString('hex');
-	const link = `https://${req.headers.host}/auth/verify_email/${tokenToSave}`
+	const link = `http://${req.headers.host}/auth/verify_email/${tokenToSave}`
 	knex .from('users').where({
 	  email: req.body.email
 	}).select('email')
@@ -60,14 +60,15 @@ router.post('/signup', (req, res) => {
 							.then(() => console.log('Mail sent'))
 							.catch((err) => console.log(err.response.body))
 					})
-					.catch((err) => res.json(err))
+						.catch((err) => res.status(500).json(err))
 				}
 			})
 		} else {
 			res.json('User already exists')
 		}
 	})
-	.catch((err) => console.log(err))
+	.catch((err) =>
+		res.status(409).json(err))
 })
 
 //route for user to verify link sent to mail
@@ -121,7 +122,8 @@ router.post('/login', (req, res) => {
 						res.status(200).json({
 							token,
 							status: __status,
-							userId: __userId
+							userId: __userId,
+							message: 'Login Successfull'
 						})
 					})
 				} else {
@@ -130,7 +132,7 @@ router.post('/login', (req, res) => {
 			})
 		}
 	})
-	.catch((err) => console.log('error'))
+	.catch((err) =>res.json(err))
 })
 
 

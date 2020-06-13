@@ -43,7 +43,7 @@ export class AuthService {
 
   login(authCredentials: any) {
     return this.http.post(apiUrl + '/login', authCredentials, httpOptions)
-      .pipe(tap(res => this.setSession(res)), shareReplay(),
+      .pipe(
         catchError(this.handleError('Login', authCredentials))
       );
   }
@@ -69,13 +69,14 @@ export class AuthService {
       return of(result as T);
     };
   }
-  setUser(user: string) {
+  setUser(user: string, status: string) {
     localStorage.setItem('user', user);
+    localStorage.setItem('status', status);
   }
-  // setToken(token: string) {
-  //   localStorage.setItem('token', token);
+  setToken(token: string) {
+    localStorage.setItem('token', token);
 
-  // }
+  }
 
   private log(message: string) {
 

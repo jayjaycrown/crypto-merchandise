@@ -23,7 +23,7 @@
                 <h3>Register</h3>
                 <br>
                  <div class="success" *ngIf="successMessage">
-                   {{ successMessage }}
+                   Registration successfull --- Please check your email for verification
                  </div>
 
                  <!-- Error message -->
@@ -63,9 +63,9 @@
                       <div class="input-group-text"><i class="fa fa-user-secret" aria-hidden="true"></i></div>
                     </div>
                     <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter your Phone Number"
-                      #phoneNo="ngModel" [(ngModel)]="model.phoneNo" name="phoneNo" required
-                      [ngClass]="{'invalid-textbox' :signUpForm.submitted && !phoneNo.valid }">
-                    <div *ngIf="signUpForm.submitted && !phoneNo.valid" class="alert alert-danger">
+                      #phoneNumber="ngModel" [(ngModel)]="model.phoneNumber" name="phoneNumber" required
+                      [ngClass]="{'invalid-textbox' :signUpForm.submitted && !phoneNumber.valid }">
+                    <div *ngIf="signUpForm.submitted && !phoneNumber.valid" class="alert alert-danger">
                       <label class="validation-message">This field is required.</label>
                     </div>
                   </div>

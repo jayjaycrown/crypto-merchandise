@@ -28,17 +28,16 @@ export class LoginComponent implements OnInit {
     this.userService.login(form.value).subscribe(
       res => {
         this.successMessage = res.message;
-        // this.userService.setToken(res.token);
-        // this.userService.expiresIn(res.expiresIn);
-        this.userService.setUser(res.user._id);
-        this.userDetail = res.user;
+        this.userService.setUser(res.userId, res.status);
+        this.userService.setToken(res.token);
+        // this.userDetail = res.user;
         // console.log(this.userDetail);
         alert(this.successMessage);
         this.loader.stop();
-        this.router.navigateByUrl('/event');
+        // .router.navigateByUrl('/event');
       },
       err => {
-        this.serverErrorMessages = err.error.message;
+        this.serverErrorMessages = err.error;
         alert(this.serverErrorMessages);
         console.log(err);
         this.loader.stop();

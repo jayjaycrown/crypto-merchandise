@@ -25,7 +25,7 @@ export class RegisterComponent implements OnInit {
     fullName: '',
     password: '',
     confirmPassword: '',
-    phoneNo: ''
+    phoneNumber: ''
   };
 
   onSubmit(form: NgForm) {
@@ -33,7 +33,7 @@ export class RegisterComponent implements OnInit {
     // console.log(form.value);
     this.userService.register(form.value).subscribe(
       res => {
-        this.successMessage = res.message;
+        this.successMessage = res;
         console.log(res);
         setTimeout(() => {
           this.router.navigate(['login']);

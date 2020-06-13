@@ -2,7 +2,7 @@ export interface UserModel {
   id: string;
   fullName: string;
   email: string;
-  phoneNo: string;
+  phoneNumber: string;
   password: string;
   confirmPassword: string;
   // status: string;

@@ -1,6 +1,6 @@
 import express from 'express';
 import sgMail from '@sendgrid/mail';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
 var router = express.Router();
 var dotenv = require('dotenv').config();
@@ -77,7 +77,7 @@ router.post('/password_reset/:token', (req, res) => {
 			} else {
 				knex('users')
 				.where({ token: mailLink })
-				.update({ 
+				.update({
 					password: hash,
 					token: ''
 				})
