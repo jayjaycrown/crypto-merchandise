@@ -9,6 +9,7 @@ import { LoadingBarModule } from '@ngx-loading-bar/core';
 import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { VerifyMailComponent } from './verify-mail/verify-mail.component';
 
 
 
@@ -16,6 +17,7 @@ import { RegisterComponent } from './register/register.component';
   declarations: [
     LoginComponent,
     RegisterComponent,
+    VerifyMailComponent,
   ],
   imports: [
     CommonModule,
