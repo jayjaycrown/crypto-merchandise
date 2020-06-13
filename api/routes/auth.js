@@ -1,22 +1,27 @@
 import express from 'express';
 import sgMail from '@sendgrid/mail';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
+var dotenv = require('dotenv').config();
 var router = express.Router();
-sgMail.setApiKey('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');
+sgMail.setApiKey(process.env.API_Key);
 var knex = require('knex')({
   client: 'mysql',
   version: '5.7',
   connection: {
-    host : '127.0.0.1',
-    user : 'root',
-    password : '',
-    database : 'crypto_merchantile'
+    host : process.env.HOST,
+    user : process.env.USER,
+    password : process.env.PASSWORD,
+    database : process.env.DB
   },
   useNullAsDefault: true
 });
 
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////
+-------------------------------- Users authentication -----------------------------------------
+/////////////////////////////////////////////////////////////////////////////////////////////*/
 
 //route for user sign up
 router.post('/signup', (req, res) => {
@@ -97,6 +102,8 @@ router.post('/login', (req, res) => {
 	.then((result) => {
 		if (result <= 0) {
 			res.json("User details doesn't exist")
+		} else if (result[0].verified === 'No') {
+			res.json("You can not login, your account hasn't been verified")
 		} else {
 			const __userId = result[0].id
 			const __status = result[0].status
@@ -105,10 +112,11 @@ router.post('/login', (req, res) => {
 				id: __userId,
 				status: __status
 			}
-			bcrypt.compare(req.body.password, __password, (err, result) => {
-				if (result ===  false) {
-					res.json('Invalid login credentials')
-				} else {
+			bcrypt.compare(req.body.password, __password, (err, info) => {
+				if (err) {
+					console.log(err)
+				}
+				if (info) {
 					jwt.sign({user}, 'secretKey', {expiresIn: '1h'}, (err, token) => {
 						res.status(200).json({
 							token,
@@ -116,6 +124,8 @@ router.post('/login', (req, res) => {
 							userId: __userId
 						})
 					})
+				} else {
+					res.json('Invalid login credentials')
 				}
 			})
 		}
@@ -133,6 +143,8 @@ router.post('/login_admin', (req, res) => {
 	.then((result) => {
 		if (result <= 0) {
 			res.json("User details doesn't exist")
+		} else if (result[0].verified === 'No') {
+			res.json("You can not login, your account hasn't been verified")
 		} else {
 			const __userId = result[0].id
 			const __status = result[0].status
